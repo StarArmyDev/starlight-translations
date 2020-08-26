@@ -1,0 +1,78 @@
+{
+    "fchallenge":{
+        "cargando":"🔃 Cargando...",
+        "title":"Desafíos Semanales Fortnite",
+        "footer":"# Total: ${length}",
+        "field":"Misiones Totales: ${quests}"
+    },
+    "fstats":{
+        "pc":"computadora",
+        "xbox":"xboxone",
+        "ps4":"playstation4",
+        "solo":"solitario",
+        "duo":"dobles",
+        "squad":"escuadron",
+        "all":"todo",
+        "help":"Usa `${prefix}fstats <usuario> | <solo, duo, squad> | [pc, xbl, psn]`",
+        "noUserError":"Usuario no encontrado o ha ocurrido un error inesperado."
+    },
+    "fstore":{
+        "cargando":"🔃 Cargando...",
+        "pocoComun":"Poco Común",
+        "raro":"Raro",
+        "mitico":"Mítico",
+        "legendario":"Legendario",
+        "embedAuthor":" | Tienda Fortnite",
+        "title":"Objetos del Día",
+        "rareza":"Rareza:",
+        "precio":"Precio",
+        "items":"Articulo ${item} de"
+    },
+    "h5emblema":{
+        "emblema":"Emblema de ",
+        "noUser":"El gamertag no existe, por favor verifiquelo."
+    },
+    "h5spartan":{
+        "spartan":"Spartan de ",
+        "noUser":"El gamertag no existe, por favor verifiquelo."
+    },
+    "lolchamps":{
+        "footer":"ID del campeón: ${id}",
+        "noCamp":"Parece que no existe ese campeón."
+    },
+    "lolcr":{
+        "title":"Campeón aleatorio: ",
+        "footer":"ID del campeón: ${id}",
+        "error":"❌ Lo siento, parece que hubo un error. estamos trabajando en repararlo."
+    },
+    "wotstats":{
+        "xbox":"xboxone",
+        "ps4":"playstation4",
+        "noConsola":"Pon una consola válida `xbox` o `ps4`",
+        "noTag":"No diste un gamertag o nick para buscar.",
+        "noOk":"Tu Búsqueda es invalida. Verifica el comando.",
+        "noUser":"No se encontró ninguna coincidencia para: ",
+        "embedAuthor":"World of Tasks Mercenarios",
+        "title":"Estadísticas de",
+        "creada":"Cuenta Creada:",
+        "ultima":"Último Inicio:",
+        "rank":"Rank Global:",
+        "xp":"Experiencia",
+        "xpTotal":"Total:",
+        "xpMax":"Máxima:",
+        "totalBat":"Total de Batallas",
+        "victorias":"Victorias",
+        "derrotas":"Derrotas",
+        "sobreviveBat":"Batallas Sobrevividas",
+        "banderas":"Banderas Ganadas",
+        "dañoCausado":"Total Daño Causado",
+        "dañoRecibido":"Total Daño Recibido",
+        "dañoMax":"Daño Máximo Causado",
+        "perfo":"Perforaciones",
+        "tankDañoMax":"Tanque Mayor Daño",
+        "tankXp":"Tanque Mayor XP",
+        "tier":"Tier:",
+        "tipo":"Tipo:",
+        "error":"❌ Lo siento, parece que hubo un error. estamos trabajando en repararlo."
+    }
+}

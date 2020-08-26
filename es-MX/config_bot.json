@@ -1,0 +1,38 @@
+{
+    "help":"ayuda",
+    "defecto":"defecto",
+    "noCanal":"Canal No válido. Revisa que sea un canal de texto.",
+    "canal":"Canal:",
+    "noModoDisable":"❌ Modo no válido, solamente categoria y comando.",
+    "enable":{
+        "enable":"categoria",
+        "DHelp":"Usa `${prefix}disable category <Nombre de la categoría>`\nCategorías: \n`-All\n-Config\n-Diversión\n-Economía\n-Juegos\n-Info\n-Interacción\n-Música\n-Perfil\n-Staff\n-Util`",
+        "EHelp":"Usa `${prefix}enable category <Nombre de la categoría>`\nCategorías: \n`-All\n-Config\n-Diversión\n-Economía\n-Juegos\n-Info\n-Interacción\n-Música\n-Perfil\n-Staff\n-Util`",
+        "all":"all",
+        "config":"configuración",
+        "diver":"diversión",
+        "econ":"economía",
+        "games":"juegos",
+        "info":"información",
+        "inter":"interacción",
+        "music":"música",
+        "perfil":"perfil",
+        "staff":"personal",
+        "mod":"moderacion",
+        "util":"utilidades",
+        "noModulo":"Esta categoría no existe o la escribiste de manera incorrecta. Consulta el help para saber los disponibles.",
+        "ETitle":"Categoría Habilitada en este Servidor",
+        "DTitle":"Categoría Deshabilitada en este Servidor",
+        "modulo":"Categoría:"
+    },
+    "command":{
+        "command":"comando",
+        "DHelp":"Usa `${prefix}disable command <Nombre del comando>`",
+        "EHelp":"Usa `${prefix}enable command <Nombre del comando>`",
+        "noCommand":"❌ Comando no encontrado. Solo se acepta el nombre del comando, no sus alias.",
+        "commandImport":"⚠ Este comando pertenece a una categoría importante.",
+        "ETitle":"Comando Habilitado en este Servidor",
+        "DTitle":"Comando Deshabilitado en este Servidor",
+        "field":"Comando:"
+    }
+}

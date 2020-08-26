@@ -1,0 +1,113 @@
+{
+    "avatar":{
+        "title":"Avatar de"
+    },
+    "emoji":{
+        "noEmoji":"Emoji no encontrado o no disponible.",
+        "id":"🆔 Identificador Único",
+        "animado":"Animado/Gif",
+        "server":"Servidor",
+        "autor":"Subido Por",
+        "creado":"🗓️ Fecha de Creación",
+        "si":"Si",
+        "no":"No"
+    },
+    "game":{
+        "game":"Está ${tipo}: ",
+        "noGame":"No está jugando en este momento.",
+        "tipo":{
+            "PLAYING":"🎮Jugando",
+            "STREAMING":"📡Transmitiendo en vivo",
+            "LISTENING":"🎶Escuchando",
+            "WATCHING":"📺Viendo",
+            "CUSTOM_STATUS":"con un Estado personalizado",
+            "undefined":"[Actividad Desconocida]"
+        }
+    },
+    "roleinfo":{
+        "noRol":"Rol no encontrado o inválido",
+        "title":"Información de Rol",
+        "nombre":"Nombre",
+        "id":"🆔 Identificador Único",
+        "color":"🌈 Color",
+        "separado":"↕ Separado",
+        "mensionable":"@ Mencionable",
+        "posicion":"🔢 Posición",
+        "miembros":"👥 Miembros",
+        "permisosImport":"⛔ Permisos Importantes",
+        "tiempo":"⌛ Rol Creado",
+        "si":"Si",
+        "no":"No",
+        "sinPerm":"Sin Permisos.",
+        "sinInfo":"Sin Información."
+    },
+    "serverinfo":{
+        "seguridad":{
+            "0":"Ninguno",
+            "1":"Bajo",
+            "2":"Medio",
+            "3":"Alto",
+            "4":"Máximo"
+        },
+        "id":"🆔 Identificador Único",
+        "region":"🗺️ Región",
+        "creado":"🗓️ Fecha de Creación",
+        "creadoHace":"🕑 Creado hace",
+        "dueño":"👑 Dueño del Servidor",
+        "miembros":"👥 Miembros",
+        "linea":"En Línea:",
+        "noMolestar":"No Molestar:",
+        "ausente":"Ausentes:",
+        "desconectado":"Desconectados:",
+        "nivelVer":"🚨 Nivel de Verificación",
+        "usuarios":"👤 Humanos",
+        "bots":"🤖 Bots",
+        "canales":"💬 Canales",
+        "texto":"De Texto:",
+        "voz":"De Voz:",
+        "afk":"AFK:",
+        "noAfk":"Sin Canal",
+        "roles":"🔁 Roles",
+        "emojis":"😂 Emojis"
+    },
+    "translate":{
+        "embed":"embed",
+        "error":"❌ Parece que ocurrió un error inesperado, reporta el bug para solucionarlo.",
+        "idioma":"Idioma:",
+        "original":"Original:",
+        "traductor":" Traductor"
+    },
+    "user":{
+        "estados":{
+            "online": "En Linea",
+            "dnd": "No Molestar",
+            "idle": "Ausente",
+            "offline": "Desconectado"
+        },
+        "jugando":"🎮 Actividad",
+        "tipo":{
+            "0":"🎮Jugando a",
+            "1":"📡Transmitiendo en vivo",
+            "2":"🎶Escuchando",
+            "3":"📺Viendo a",
+            "4":"Con un Estado personalizado",
+            "5":"[Actividad Desconocida]"
+        },
+        "estado":"🔘🔴 Estado",
+        "id":"🆔 Identificador Único",
+        "conecWeb":"💻 Conectado en Web",
+        "conecCel":"📱 Conectado en Celular",
+        "apodo":"👤 Apodo",
+        "creada":"📅 Cuenta Creada",
+        "ingreso":"📆 Ingreso",
+        "creadaHace":"🕑 Cuenta Creada hace",
+        "ingresoHace":"🕑 Ingresado hace",
+        "roles":"🔁 Roles",
+        "noJugando":"Nada",
+        "noApodo":"Ninguno",
+        "sd":"S/D"
+    },
+    "userrandom":{
+        "title":"Usuario afortunado:"
+    }
+}

@@ -1,0 +1,90 @@
+{
+    "afk":{
+        "mencionE":"(Mention:everyone)",
+        "mencionH":"(Mention:here)",
+        "mensaje":"You have established your afk status with the reason: `${razon}`"
+    },
+    "poll":{
+        "noPregunta":"Add a question for the survey.",
+        "help":"Incorrect, add at least two options. `${prefix}poll <question> | <option 1> | <option 2> | [option 3] | [option 4] | [option 5] | [option 6] | [option 7] | [option 8]`",
+        "encuesta":"Poll",
+        "op":"Option"
+    },
+    "remember":{
+        "años":"years",
+        "año":"year",
+        "meses":"months",
+        "mes":"month",
+        "dias":"days",
+        "dia":"day",
+        "horas":"hours",
+        "hora":"hour",
+        "minutos":"minutes",
+        "minuto":"minute",
+        "segundos":"seconds",
+        "segundo":"second",
+        "lista":"list",
+        "titleL":"Lost of Reminders",
+        "noRemember":"❌ You have No reminders scheduled",
+        "en":"In",
+        "tipo":"Type:",
+        "servidor":"Guild",
+        "dm":"DM",
+        "recordatorio":"Reminder:",
+        "eliminar":"delete",
+        "titleR":"Place the corresponding number",
+        "true":"✅ Reminder Successfully Removed.",
+        "noNumber":"❌ That reminder doesn't exist.",
+        "noEscribir":"You cannot write on the mentioned channel.",
+        "noTiempo":"Invalid time. Examples: 1d, 10h, 20m",
+        "mencionE":"(Mention:everyone)",
+        "mencionH":"(Mention:here)",
+        "title":"Reminder Set",
+        "mensaje":"Over time: `${tiempo}`\nModality: `${modo}`",
+        "mCanal":"\nChannel:"
+    },
+    "report":{
+        "noMencion":"Mention someone or enter their ID",
+        "autoMencion":"No ... no ... that ... that is not ... possible!",
+        "noReporte":"You must provide something to report.",
+        "noActivo":"The reporting channel is not established on this server.",
+        "noCanal":"The configured channel was deleted or I don't have access to it",
+        "title":"New Report",
+        "reporte":"Report:",
+        "byReport":"Reported by:",
+        "canal":"Sent from:",
+        "reportado":"Reported User",
+        "ok":"✅ Reported successfully.",
+        "error":"❌ It seems that an unexpected error occurred, report the bug to fix it."
+    },
+    "say":{
+        "help":"Use `${prefix}say [embed] [#channel] <Message to be repeated>`",
+        "mencionE":"(Mention:everyone)",
+        "mencionH":"(Mention:here)",
+        "noEscribir":"You cannot write on the mentioned channel."
+    },
+    "selfrole":{
+        "noConfig":"❌ | There are no auto-assignable roles configured.\n\n⚙ You can configure an admin with the command `addautorole`",
+        "title":"Enter the corresponding number",
+        "rolesColores":"[1] Color Roles",
+        "rolesPerson1":"[1] Custom Roles",
+        "rolesPerson2":"[2] Custom Roles",
+        "noOpcion":"❌ | Invalid option..",
+        "cancel":"annul",
+        "cancelMessage":"✅ Operation Cancelled",
+        "grupos":"Group",
+        "noGrupo":"❌ | Role group not found.",
+        "noRoles":"\"Group without roles\"",
+        "tieneRol":"❌ | You already have this role.",
+        "limite":"❌ | You reached the limit of roles in this group.",
+        "colocado":"✅ Role ${rol} Placed.",
+        "error":"❌ An error occurred, you may not have access to the role or an invalid role."
+    },
+    "suggestion":{
+        "noActivo":"The suggestion channel is not established on this server.",
+        "noCanal":"The configured channel was deleted or I don't have access to it.",
+        "ok":"✅ Suggestion Sent",
+        "title":"New Suggestion",
+        "canal":"Sent from:"
+    }
+}

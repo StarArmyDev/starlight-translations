@@ -1,0 +1,416 @@
+{
+    "add":{
+        "xp": {
+            "xp":"experiencia",
+            "noUser": "El usuario no está en la base de datos",
+            "noCantidad": "No colocaste un número de xp válido.",
+            "correcto": "✅ ${cantidad}xp añadida Correctamenete de: ${miembro}",
+            "error": "Ocurrió un error al intentar añadir el xp al usuario."
+        },
+        "dinero":{
+            "dinero":"dinero",
+            "noModo":"Modo no válido, solamente se acepta <cartera/banco/c/b>",
+            "noUser": "El usuario no está en la base de datos",
+            "noCantidad": "No colocaste un número válido.",
+            "correcto": "✅ ${cantidad} de dinero añadida Correctamente de: ${miembro}",
+            "error": "Ocurrió un error al intentar añadir el dinero al usuario."
+        },
+        "cartera":"cartera",
+        "banco":"banco",
+        "rol":{
+            "rol":"rolnivel",
+            "noBot":"No tengo permisos para manejar roles en este servidor.",
+            "noRol":"Rol no encontrado o no existe. Por favor verificalo.",
+            "noNumber":"No colocaste un número de nivel válido.",
+            "noPalabra":"Palabra no valida, solamente si o no",
+            "rolMensaje":"¡Has Subido de Nivel y Tienes Un Rol para presumirlo!",
+            "rolTrue":"Rol ya asignado",
+            "nivelTrue":"Nivel ya asignado",
+            "embedTitle":"✅ Rol Por Nivel Añadido.",
+            "embedFooter":"Recuerda activar el xp del servidor con `${prefix}set xp` | ${guild_name}",
+            "embedField":{
+                "title":"Rol",
+                "descripcion":"[${rolid}] Nivel: ${lvl}\nMensaje: ${rolmensaje}\nQuitar Rol Pasado: ${rolquitar}"
+            },
+            "si":"si",
+            "no":"no",
+            "rolYes":"Si",
+            "rolNo":"No"
+        },
+        "exclude":{
+            "exclude":"excluir",
+            "noCanal":"Canal No válido. Revisa que sea un canal de texto.",
+            "title":"Canal Excluido de Comandos",
+            "canal":"Agregado:",
+            "title2":"Canales Excluidos de Comandos",
+            "canales":"Agregados:"
+        },
+        "el":{
+            "excludeLogs":"excludelogs",
+            "noCanal":"Canal No válido. Revisa que sea un canal de texto.",
+            "title":"Canal Excluído de Registros",
+            "canal":"Agregado:",
+            "title2":"Canales Excluidos de Registros",
+            "canales":"Agregados:"
+        },
+        "group":{
+            "group":"grupo",
+            "multi":"múltiple",
+            "solo":"sólo",
+            "noModo":"❌ | Ese modo no existe solamente **sólo** y **múltiple**.",
+            "noMaximo":"❌ | No colocaste un número máximo de roles múltiples o es inválido.",
+            "existe":"❌ | Este grupo ya está creado",
+            "title":"✅ Grupo de Roles Creados",
+            "nombre":"Nombre:",
+            "modo":"Modo:",
+            "maximo":"Roles Máximo:",
+            "multiple":"Múltiple",
+            "embedsolo":"Sólo",
+            "ninguno":"Ninguno"
+        },
+        "autorole":{
+            "autorole":"autorol",
+            "noGrupo":"❌ | Grupo no encontrado. Debes de usar primero el comando `${prefix}addgrupo` para crearlo.",
+            "noRol":"Rol no encontrado o rol no valido. Por favor verifica que exista y que esté por debajo de mi rol más alto.",
+            "existe":"❌ | Este Rol ya se encuentra en el grupo.",
+            "title":"✅ Rol agregado",
+            "grupo":"Grupo al que pertenece:",
+            "rol":"Rol:"
+        },
+        "noModo":"Ese modo no existe o pusiste un ` | ` mal. Verifica y solamente usa `xp/dinero/rollevelup/excludelogs/exclude`",
+        "noMember": "Usuario no encontrado, verificalo.",
+        "error":"❌ Parece que ocurrió un error inesperado, reporta el bug para solucionarlo."
+    },
+    "config":{
+        "noRol":"Rol No Encontrado",
+        "noCanal":"*Canal No disponible.* ",
+        "mensaje":"Mensaje:",
+        "canal":"Canal:",
+        "roles":"Rol/es:",
+        "sendLogs":"*Se manda al canal de Registros de Mensajes.*",
+        "default":"*Por Defecto:*",
+        "min":"Min:",
+        "max":"Max:",
+        "xplvl":"Xp LevelUp:",
+        "daily":"Dinero Diario:",
+        "canalEliminado":"*Canal Eliminado o No disponible.*",
+        "noConfig":"*No Configurado.*",
+        "embed":{
+            "author":"Configuración | ${guild_name}",
+            "title1":"Bienvenida/Despedida",
+            "bienvenida":"Bienvenida:",
+            "imgBienvenida":"Imagen Bienvenida:",
+            "rolEntrada":"Rol/es Entrada:",
+            "despedida":"Despedida:",
+            "imgDespedida":"Imagen Despedida:",
+            "logsEntrada":"Registro de Entrada de Seguridad (rWelcome):",
+            "title2":"Registros",
+            "logs":"Registros de Mensajes:",
+            "modLogs":"Registros Mod:",
+            "excludeLogs":"Canales Excluidos de los Registros:",
+            "memberCount":"Contador de Miembros:",
+            "title3":"Bot",
+            "prefix":"Prefijo:",
+            "exclude":"Canales Excluidos:",
+            "languageS":"Idioma del Servidor:",
+            "languageC":"Idioma en Canales:",
+            "title4":"Utilidades",
+            "reportes":"Reportes:",
+            "sugerencias":"Sugerencias:",
+            "count":"Contador:",
+            "xp":"Xp:",
+            "econ":"Economía:",
+            "title5":"`Beta:`",
+            "playing":"Playing:"
+        },
+        "error": "❌ Parece que ocurrió un error inesperado, reporta el bug para solucionarlo."
+    },
+    "delet":{
+        "help":"ayuda",
+        "defecto":"defecto",
+        "noCanal":"Canal No válido. Revisa que sea un canal de texto.",
+        "canal":"Canal:",
+        "quitado":"Quitado",
+        "noConfig":"*No Configurado.*",
+        "welcome":{
+            "welcome":"bienvenida",
+            "noConfig":"No tienes configurado ningún canal",
+            "title":"Canal Bienvenida Quitado"
+        },
+        "rol":{
+            "rol":"rol",
+            "help":"Usa `${prefix}delet rolwelcome <rol>`",
+            "noConfig":"No existen roles configurados en este server.",
+            "noRoles":"Parece que no existe ese rol en la base de datos",
+            "true":"✅ Rol Removido con éxito."
+        },
+        "iw":{
+            "imgWelcome":"imgbienvenida",
+            "noConfig":"No tienes configurado ningun canal para mandar la imagen de bienvenida.",
+            "title":"Canal Bienvenida con Imagen Quitado"
+        },
+        "il":{
+            "imgdespedida":"imgdespedida",
+            "noConfig":"No tienes configurado ningun canal para mandar la imagen de despedida.",
+            "title":"Canal Despedida con Imagen Quitado"
+        },
+        "leave":{
+            "leava":"salida",
+            "noConfig":"No tienes configurado ningún canal para mandar la despedida.",
+            "title":"Canal Despedida Quitado"
+        },
+        "lvl":{
+            "lvl":"nivel",
+            "title":"Redirección de subida de nivel Quitado"
+        },
+        "xp":{
+            "xp":"experiencia",
+            "all":"todo",
+            "noUser":"El usuario no está en la base de datos",
+            "noNumber":"No colocaste un número de xp válido.",
+            "true":"xp eliminada Correctamenete de:",
+            "error":"❌ Ocurrió un error al intentar eliminar el xp del usuario."
+        },
+        "money":{
+            "money":"dinero",
+            "banco":"banco",
+            "all":"todo",
+            "noNumber":"No colocaste un número de dinero válido.",
+            "true":"dinero eliminado Correctamenete de:",
+            "error":"❌ Ocurrió un error inesperado. Reportalo para que se pueda resolver lo mas pronto posible."
+        },
+        "report":{
+            "report":"reporte",
+            "title":"Canal Reportes Quitado"
+        },
+        "sug":{
+            "sug":"sugerencia",
+            "title":"Canal Sugerencias Quitado"
+        },
+        "count":{
+            "count":"contador",
+            "title":"Canal Count Quitado"
+        },
+        "prefix":{
+            "prefix":"prefijo",
+            "noConfig":"No tienes configurado ningún prefix",
+            "title":"Prefix Personalizado Quitado"
+        },
+        "lang":{
+            "language":"idioma",
+            "help":"Use `{prefix}delete idioma`\n\nTambíen  puedes usar `{prefix}delete idioma canal [#canal]`",
+            "noIdioma":"No tienes configurado idioma en este servidor.",
+            "noCanales":"No tienes configurado ningún idioma de canales.",
+            "noCanal":"Parece que este canal no está configurado.",
+            "title":"Idioma del Servidor Eliminado",
+            "titleC":"Idioma del Canal Eliminado",
+            "quitado":"Quitado"
+        },
+        "nick":{
+            "nick":"apodo",
+            "title":"Auto-Nick Desactivado"
+        },
+        "pinned":"anclar",
+        "module":{
+            "module":"categorias",
+            "noConfig":"No tienes desactivado ninguna categoría.",
+            "title":"Todas las categorías activadas"
+        },
+        "mc":{
+            "mc":"contadormiembros",
+            "title":"Contador de Miembros Quitado",
+            "descripcion":"*Se eliminarán los canales correspondientes.*",
+            "noCanal":"No pude eliminar el canal",
+            "c":"Canales Eliminados",
+            "e":"Canal Eliminados"
+        },
+        "logs":{
+            "logs":"registros",
+            "noCanal":"Canal Desconocido:",
+            "title":"Canal Logs Quitado"
+        },
+        "ml":{
+            "modlogs":"registrosmod",
+            "noCanal":"Canal Desconocido:",
+            "title":"Canal Mod Logs Quitado"
+        },
+        "lw":{
+            "rwelcome":"registroentrada",
+            "title":"Canal Registros de Entrada Quitado"
+        },
+        "el":{
+            "excludeLogs":"excluirlogs",
+            "title":"Canal Excluido Logs Quitado"
+        },
+        "e":{
+            "exclude":"excluir",
+            "title":"Canal Excluido Quitado"
+        },
+        "rollvl":{
+            "rollvl":"rolnivel",
+            "help":"Usa `${prefix}delete rolelvl <número del nivel/rol>`",
+            "noConfig":"No existen roles configurados en este server.",
+            "noRol":"Parece que no existe ese rol en la base de datos",
+            "true":"✅ Rol Removido con éxito."
+        },
+        "level":{
+            "level":"niveles",
+            "noConfig":"No tienes configurado el sistema de niveles/xp del servidor",
+            "title":"Sistema de XP del Servidor Eliminado."
+        },
+        "econ":{
+            "econ":"economía",
+            "title":"Sistema de Economía del Servidor Desactivada."
+        },
+        "group":{
+            "group":"grupo",
+            "help":"Usa `${prefix}delete grupo <Nombre>`",
+            "noGrupo":"❌ | Grupo no encontrado.",
+            "title":"Grupo de Auto-Roles Eliminado",
+            "nombre":"Nombre:",
+            "roles":"Cantidad de Roles que contenía:"
+        },
+        "autorole":{
+            "autorole":"autorol",
+            "help":"Usa `${prefix}delete <nombre del grupo> <@rol>`",
+            "noGrupo":"❌ | Grupo no encontrado.",
+            "noRol":"❌ | Rol No Encontrado",
+            "title":"Auto-Rol Eliminado del Grupo",
+            "rol":"Rol quitado:"
+        },
+        "jg":"jugando",
+        "noModo":"❌ Ese modo no existe.",
+        "error":"❌ Parece que ocurrió un error inesperado, reporta el bug para solucionarlo."
+    },
+    "set":{
+        "help":"ayuda",
+        "defecto":"defecto",
+        "noCanal":"Canal No válido. Revisa que sea un canal de texto.",
+        "canal":"Canal:",
+        "rol":{
+            "yaRol":"Rol ya asignado",
+            "noTime":"Tiempo no valido. Coloca el tiempo en segundos",
+            "title":"✅ Rol de Bienvenida Asignado",
+            "footer":"Puedes usar el comando nuevamente para agregar más roles.",
+            "mensaje":"Rol",
+            "time":"Tiempo de Espera Para Colocar Roles",
+            "defecto":"Por defecto"
+        },
+        "welcome":{
+            "noCanal":"Canal No válido. Revisa que pusiste bien todo. Verifica que usas con solo un espacio antes y después del ` | ` para separar los campos.",
+            "mensajeD":"¡Hola ${user} Nuevo Miembro!",
+            "mensajeEmbed":"Hola Bienvenid@",
+            "title":"Canal de Bienvenida Asignado",
+            "mensaje":"Con el mensaje",
+            "mensajeE":"Mensaje del Embed"
+        },
+        "iw":{
+            "noCanal":"Canal No válido. Revisa que pusiste bien todo. Verifica que usas con solo un espacio antes y después del ` | ` para separar los campos.",
+            "noMensaje":"No has colocado un mensaje",
+            "noColor":"No has puesto el color principal o el del texto. recuerda ponerlo en formato hexadecimal",
+            "title":"Canal de Imagen de Bienvenida Asignado",
+            "mensaje":"Con el mensaje",
+            "colores":"Colores",
+            "colorPrincipal":"Color Principal:",
+            "colorSecundario":"Color Secundario:",
+            "colorTexto":"Color de Texto:",
+            "defecto":"Por defecto"
+        },
+        "il":{
+            "noCanal":"Canal No válido. Revisa que pusiste bien todo. Verifica que usas con solo un espacio antes y después del ` | ` para separar los campos.",
+            "noMensaje":"No has colocado un mensaje",
+            "noColor":"No has puesto el color principal o el del texto. recuerda ponerlo en formato hexadecimal",
+            "title":"Canal de Imagen de Despedida Asignado",
+            "mensaje":"Con el mensaje",
+            "colores":"Colores",
+            "colorPrincipal":"Color Principal:",
+            "colorSecundario":"Color Secundario:",
+            "colorTexto":"Color de Texto:",
+            "defecto":"Por defecto"
+        },
+        "leave":{
+            "noCanal":"Canal No válido. Revisa que pusiste bien todo. Verifica que usas con solo un espacio antes y después del ` | ` para separar los campos.",
+            "noMensaje":"No has colocado un mensaje.",
+            "title":"Canal de Salida Asignado",
+            "mensaje":"Con el mensaje"
+        },
+        "logs":{
+            "title":"Canal de Registros Asignado"
+        },
+        "modLogs":{
+            "title":"Canal de Registros de Moderación Asignado"
+        },
+        "redirect":{
+            "mensajeD":"**Has subido de nivel *{user_name}***",
+            "title":"Canal de Mensaje por Subir de Nivel Asignado",
+            "mensaje":"Mensaje:"
+        },
+        "lw":{
+            "title":"Canal de Registro de Entradas Asignado"
+        },
+        "report":{
+            "title":"Canal de Reportes Asignado"
+        },
+        "sug":{
+            "title":"Canal de Sugerencias Asignado"
+        },
+        "count":{
+            "mensaje":"Siguiente Número:",
+            "empezar":"¡Ya pueden empezar a contar desde el número 1!",
+            "sigan":"¡Sigan contando desde el número",
+            "error":"❌ Ocurrió un error al asignar la descripción del canal, verifica que tengo los permisos suficientes.",
+            "title":"Canal para Contar Asignado",
+            "desde":"Desde el número:"
+        },
+        "prefix":{
+            "title":"Prefix Personalizado Asignado",
+            "cambio":"Cambiado a:"
+        },
+        "lang":{
+            "canal":"canal",
+            "noIdioma":"Este idioma no existe. Usa `${prefix}setidioma help` para conocer los idiomas disponibles.",
+            "noLang":"No colocaste el idioma a establecer para el canal",
+            "title":"Idioma del Servidor Asignado",
+            "titleC":"Idioma del Canal Asignado",
+            "cambio":"Cambiado a"
+        },
+        "nick":{
+            "title":"Auto-Nick Activado",
+            "cambio":"Cambiado a:"
+        },
+        "mc":{
+            "activo":"Primero desactiva el modo, usando `${prefix}delet memberCount`",
+            "canales":"canales",
+            "embed":"embed",
+            "helpC":"Usa `${prefix}setmc canales [nombre Canal Total], [canal miembros], [canal bots], [canal roles], [canal canales]`\n\nPara que un canal no esté activo coloque en su lugar del nombre **false**",
+            "noCrearCanal":"No tengo los permisos suficientes para crear canales.",
+            "total":"Total de Usuarios",
+            "miembros":"Miembros",
+            "bots":"Bots",
+            "roles":"Roles",
+            "channels":"Canales",
+            "categoria":"─── [Estadísticas] ───",
+            "title":"Contador de Miembros Asignado",
+            "desc":"Todos los canales serán creados:",
+            "cTotal":"Canal No. Total:",
+            "cMiembros":"Canal No. Miembros:",
+            "cBots":"Canal No. Bots:",
+            "cCanales":"Canal No. Canales:",
+            "cRoles":"Canal No. Roles:",
+            "noActivo":"Desactivado",
+            "descripcion":"Creando canal...",
+            "noModo":"Modo no encontrado. Solamente canales o embed"
+        },
+        "xp":{
+            "help":"Usa `${prefix}setxp <minima> <máxima> [xpLevelUp]` la xpLevelUp sigue la fórmula: xpLevelUp * (Nivel + 1)2 (Por Defecto:200)",
+            "noNumber":"No Has colocado números validos",
+            "noValido":"No Has colocado números validos o es menor a 10",
+            "title":"Sistema de Experiencia del Servidor Activado.",
+            "xpMin":"XP mínimo:",
+            "xpMax":"XP máximo:",
+            "lvl":"XP Lvl:"
+        },
+        "noModoDisable":"❌ Modo no válido, solamente categoria y comando.",
+        "error":"❌ Parece que ocurrió un error inesperado, reporta el bug para solucionarlo."
+    }
+}
