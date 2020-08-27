@@ -212,7 +212,7 @@
         },
         "pinned":"anclar",
         "module":{
-            "module":"categorias",
+            "module":"categorías",
             "noConfig":"No tienes desactivado ninguna categoría.",
             "title":"Todas las categorías activadas"
         },
