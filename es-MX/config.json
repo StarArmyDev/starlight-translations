@@ -139,7 +139,7 @@
         },
         "rol":{
             "rol":"rol",
-            "help":"Usa `${prefix}delet rolwelcome <rol>`",
+            "help":"Usa `${prefix}delete rolwelcome <rol>`",
             "noConfig":"No existen roles configurados en este server.",
             "noRoles":"Parece que no existe ese rol en la base de datos",
             "true":"✅ Rol removido con éxito."
@@ -379,7 +379,7 @@
             "cambio":"Cambiado a:"
         },
         "mc":{
-            "activo":"Primero desactiva el modo, usando `${prefix}delet memberCount`",
+            "activo":"Primero desactiva el modo, usando `${prefix}delete memberCount`",
             "canales":"canales",
             "embed":"embed",
             "helpC":"Usa `${prefix}setmc canales [canal Total], [canal miembros], [canal bots], [canal roles], [canal canales]`\n\nPara que un canal no esté activo coloque en su lugar del nombre **false**",
