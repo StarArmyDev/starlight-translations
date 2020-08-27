@@ -428,7 +428,7 @@
             "noModo":"Not found mode, only **channels** or **embed**"
         },
         "xp":{
-            "help":"Use `${prefix}setxp <minimum> <maximum> [xpLevelUp]` the xpLevelUp follows the formula: xpLevelUp * (Level + 1) 2 (Default: 200),
+            "help":"Use `${prefix}setxp <minimum> <maximum> [xpLevelUp]` the xpLevelUp follows the formula: xpLevelUp * (Level + 1) 2 (Default: 200)",
             "noNumber":"You haven't entered valid numbers",
             "noValido":"You haven't entered valid numbers or it is less than 10",
             "title":"Server experience system activated.",
