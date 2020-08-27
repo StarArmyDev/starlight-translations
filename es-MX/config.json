@@ -218,7 +218,7 @@
         },
         "mc":{
             "mc":"contadormiembros",
-            "title":"Contador de miembros Quitado",
+            "title":"Contador de miembros quitado",
             "descripcion":"*Se eliminarán los canales correspondientes.*",
             "noCanal":"No pude eliminar el canal",
             "c":"Canales eliminados",
@@ -240,7 +240,7 @@
         },
         "el":{
             "excludeLogs":"excluirlogs",
-            "title":"Canal excluido de registros quitado"
+            "title":"Canal de registros excluidos quitado"
         },
         "e":{
             "exclude":"excluir",
