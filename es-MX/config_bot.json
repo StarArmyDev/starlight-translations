@@ -3,9 +3,9 @@
     "defecto":"defecto",
     "noCanal":"Canal No válido. Revisa que sea un canal de texto.",
     "canal":"Canal:",
-    "noModoDisable":"❌ Modo no válido, solamente categoria y comando.",
+    "noModoDisable":"❌ Modo no válido, solamente categoría y comando.",
     "enable":{
-        "enable":"categoria",
+        "enable":"categoría",
         "DHelp":"Usa `${prefix}disable category <Nombre de la categoría>`\nCategorías: \n`-All\n-Config\n-Diversión\n-Economía\n-Juegos\n-Info\n-Interacción\n-Música\n-Perfil\n-Staff\n-Util`",
         "EHelp":"Usa `${prefix}enable category <Nombre de la categoría>`\nCategorías: \n`-All\n-Config\n-Diversión\n-Economía\n-Juegos\n-Info\n-Interacción\n-Música\n-Perfil\n-Staff\n-Util`",
         "all":"all",
