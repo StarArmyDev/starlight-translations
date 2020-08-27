@@ -198,7 +198,7 @@
         },
         "lang":{
             "language":"idioma",
-            "help":"Use `{prefix}delete idioma`\n\nTambién  puedes usar `{prefix}delete idioma canal [#canal]`",
+            "help":"Use `{prefix}delete idioma`\n\nTambién puedes usar `{prefix}delete idioma canal [#canal]`",
             "noIdioma":"No tienes configurado idioma en este servidor.",
             "noCanales":"No tienes configurado ningún idioma de canales.",
             "noCanal":"Parece que este canal no está configurado.",
