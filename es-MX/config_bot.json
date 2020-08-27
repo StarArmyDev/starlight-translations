@@ -20,19 +20,19 @@
         "staff":"personal",
         "mod":"moderacion",
         "util":"utilidades",
-        "noModulo":"Esta categoría no existe o la escribiste de manera incorrecta. Consulta el help para saber los disponibles.",
-        "ETitle":"Categoría Habilitada en este Servidor",
-        "DTitle":"Categoría Deshabilitada en este Servidor",
+        "noModulo":"Esta categoría no existe o la escribiste de manera incorrecta, consulte `help <enable | disable>` para saber los disponibles.",
+        "ETitle":"Categoría habilitada en este servidor",
+        "DTitle":"Categoría deshabilitada en este servidor",
         "modulo":"Categoría:"
     },
     "command":{
         "command":"comando",
         "DHelp":"Usa `${prefix}disable command <Nombre del comando>`",
         "EHelp":"Usa `${prefix}enable command <Nombre del comando>`",
-        "noCommand":"❌ Comando no encontrado. Solo se acepta el nombre del comando, no sus alias.",
+        "noCommand":"❌ Comando no encontrado, sólo se acepta el nombre del comando, no sus alias.",
         "commandImport":"⚠ Este comando pertenece a una categoría importante.",
-        "ETitle":"Comando Habilitado en este Servidor",
-        "DTitle":"Comando Deshabilitado en este Servidor",
+        "ETitle":"Comando habilitado en este servidor",
+        "DTitle":"Comando deshabilitado en este servidor",
         "field":"Comando:"
     }
 }
