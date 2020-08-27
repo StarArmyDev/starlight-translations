@@ -1,1 +1,416 @@
-'use strict';
+{
+    "add":{
+        "xp": {
+            "xp":"experiência",
+            "noUser": "O usuário não está no banco de dados",
+            "noCantidad": "Você não inseriu um número XP válido.",
+            "correcto": "✅ ${cantidad}xp adicionado corretamente de: ${miembro}",
+            "error": "Ocorreu um erro ao tentar adicionar o xp ao usuário."
+        },
+        "dinero":{
+            "dinero":"dinheiro",
+            "noModo":"Modo inválido, apenas <carteira/banco/c/b> é aceito",
+            "noUser": "O usuário não está no banco de dados",
+            "noCantidad": "Você não digitou um número válido.",
+            "correcto": "✅ ${cantidad} de dinheiro adicionado corretamente de: ${miembro}",
+            "error": "Ocorreu um erro ao tentar adicionar o dinheiro ao usuário."
+        },
+        "cartera":"bolsa",
+        "banco":"banco",
+        "rol":{
+            "rol":"cargonivel",
+            "noBot":"Não tenho permissão para lidar com cargos neste servidor.",
+            "noRol":"Cargo não encontrado ou não existe, verifique-a.",
+            "noNumber":"Você não inseriu um número de nível válido.",
+            "noPalabra":"Palavra inválida, apenas sim ou não",
+            "rolMensaje":"Você subiu de nível e tem um cargo a mostrar!",
+            "rolTrue":"Cargo já atribuído",
+            "nivelTrue":"Nível já atribuído",
+            "embedTitle":"✅ Cargo por nível adicionado.",
+            "embedFooter":"Lembre-se de ativar o servidor xp com `${prefix}activexp` | ${guild_name}",
+            "embedField":{
+                "title":"Cargo",
+                "descripcion":"[${rolid}] Nível: ${lvl}\nMensagem: ${rolmensaje}\nRemover cargo anterior: ${rolquitar}"
+            },
+            "si":"sim",
+            "no":"não",
+            "rolYes":"Sim",
+            "rolNo":"Não"
+        },
+        "exclude":{
+            "exclude":"excluir",
+            "noCanal":"Canal inválido, verifique se é um canal de texto.",
+            "title":"Canal excluído do comandos",
+            "canal":"Agregado:",
+            "title2":"Canais excluídos dos comandos",
+            "canales":"Agregados:"
+        },
+        "el":{
+            "excludeLogs":"excludelogs",
+            "noCanal":"Canal inválido, verifique se é um canal de texto.",
+            "title":"Canal excluído do registros",
+            "canal":"Agregado:",
+            "title2":"Canais excluídos dos registros",
+            "canales":"Agregados:"
+        },
+        "group":{
+            "group":"grupo",
+            "multi":"múltiplo",
+            "solo":"sozinho",
+            "noModo":"❌ | Esse modo não existe, apenas **sólo** e **múltiplo**.",
+            "noMaximo":"❌ | Você não definiu um número máximo de cargos múltiplas ou é inválido.",
+            "existe":"❌ | Este grupo já foi criado",
+            "title":"✅ Grupo de cargos criado",
+            "nombre":"Nome:",
+            "modo":"Modo:",
+            "maximo":"Cargos máximos:",
+            "multiple":"Múltiplo",
+            "embedsolo":"Sozinho",
+            "ninguno":"Nenhum"
+        },
+        "autorole":{
+            "autorole":"autocargo",
+            "noGrupo":"❌ | Grupo não encontrado, você deve primeiro usar o comando `${prefix}addgroup` para criá-lo.",
+            "noRol":"Cargo não encontrado ou cargo inválido, verifique se existe e se está abaixo da minha cargo principal.",
+            "existe":"❌ | Esta cargo já está no grupo.",
+            "title":"✅ Cargo adicionado",
+            "grupo":"Grupo ao qual pertence:",
+            "rol":"Cargo:"
+        },
+        "noModo":"Esse modo não existe ou você colocou um ` | ` errado, verifique e use apenas `xp/money/rollevelup/excludelogs/exclude`",
+        "noMember": "Usuário não encontrado, verifique.",
+        "error":"❌ Parece que ocorreu um erro inesperado, relate o bug para corrigi-lo."
+    },
+    "config":{
+        "noRol":"Cargo não encontrado",
+        "noCanal":"*Canal não disponível.* ",
+        "mensaje":"Mensagem:",
+        "canal":"Canal:",
+        "roles":"Cargo/s:",
+        "sendLogs":"*Ele é enviado para o canal de registro de mensagens.*",
+        "default":"*Padrão:*",
+        "min":"Mín:",
+        "max":"Máx:",
+        "xplvl":"Xp LevelUp:",
+        "daily":"Dinheiro diário:",
+        "canalEliminado":"*Canal removido ou indisponível.*",
+        "noConfig":"*Não configurado.*",
+        "embed":{
+            "author":"Configuração | ${guild_name}",
+            "title1":"Bem-vindo/Adeus",
+            "bienvenida":"Bem-vinda:",
+            "imgBienvenida":"Imagem de boas-vindas:",
+            "rolEntrada":"Cargo/s de entrada:",
+            "despedida":"Despedida:",
+            "imgDespedida":"Imagem de despedida:",
+            "logsEntrada":"Check-in de segurança (rWelcome):",
+            "title2":"Registros",
+            "logs":"Registros de mensagens:",
+            "modLogs":"Registros de moderação:",
+            "excludeLogs":"Canais excluídos dos registros:",
+            "memberCount":"Contador de membros:",
+            "title3":"Bot",
+            "prefix":"Prefixo:",
+            "exclude":"Canais excluídos:",
+            "languageS":"Linguagem do servidor:",
+            "languageC":"Idioma nos canais:",
+            "title4":"Utilidade",
+            "reportes":"Relatórios:",
+            "sugerencias":"Sugestões:",
+            "count":"Contador:",
+            "xp":"Xp:",
+            "econ":"Economia:",
+            "title5":"`Beta:`",
+            "playing":"Jogando:"
+        },
+        "error": "❌ Parece que ocorreu um erro inesperado, relate o bug para corrigi-lo."
+    },
+    "delet":{
+        "help":"ajuda",
+        "defecto":"padrão",
+        "noCanal":"Canal inválido, verifique se é um canal de texto.",
+        "canal":"Canal:",
+        "quitado":"Removido",
+        "noConfig":"*Não configurado.*",
+        "welcome":{
+            "welcome":"bem-vinda",
+            "noConfig":"Você não tem nenhum canal configurado",
+            "title":"Canal de boas-vindas removido"
+        },
+        "rol":{
+            "rol":"cargo",
+            "help":"Use `${prefix}delete rolwelcome <cargo>`",
+            "noConfig":"Não há cargos configurados neste servidor.",
+            "noRoles":"Parece que tal cargo não existe no banco de dados",
+            "true":"✅ Cargo removido com sucesso."
+        },
+        "iw":{
+            "imgWelcome":"imgboasvindas",
+            "noConfig":"Você não tem nenhum canal configurado para enviar a imagem de boas-vindas.",
+            "title":"Canal de boas-vindas com imagem removida"
+        },
+        "il":{
+            "imgdespedida":"imgdespedida",
+            "noConfig":"Você não tem nenhum canal configurado para enviar a imagem de despedida.",
+            "title":"Canal de despedida com imagem removida"
+        },
+        "leave":{
+            "leava":"salida",
+            "noConfig":"Você não tem nenhum canal configurado para enviar a despedida.",
+            "title":"Canal de despedida removido"
+        },
+        "lvl":{
+            "lvl":"nível",
+            "title":"Redirecionamento de subida de nível removido"
+        },
+        "xp":{
+            "xp":"experiência",
+            "all":"tudo",
+            "noUser":"O usuário não está no banco de dados",
+            "noNumber":"Você não inseriu um número XP válido.",
+            "true":"xp removido com sucesso de:",
+            "error":"❌ Ocorreu um erro ao tentar remover o XP do usuário."
+        },
+        "money":{
+            "money":"dinheiro",
+            "banco":"banco",
+            "all":"tudo",
+            "noNumber":"Você não inseriu um número monetário válido.",
+            "true":"dinheiro corretamente removido de:",
+            "error":"❌ Ocorreu um erro inesperado, informe-o para que possa ser resolvido o mais rápido possível."
+        },
+        "report":{
+            "report":"reporte",
+            "title":"Denunciar canal removido"
+        },
+        "sug":{
+            "sug":"sugerencia",
+            "title":"Canal de sugestão removido"
+        },
+        "count":{
+            "count":"contador",
+            "title":"Canal de contagem removido"
+        },
+        "prefix":{
+            "prefix":"prefixo",
+            "noConfig":"Você não tem nenhum prefixo configurado",
+            "title":"Prefixo personalizado removido"
+        },
+        "lang":{
+            "language":"língua",
+            "help":"Use `{prefix}delete language`\n\nVocê também pode usar `{prefix}delete language channel [#canal]`",
+            "noIdioma":"Você não tem idioma configurado neste servidor.",
+            "noCanales":"Você não tem nenhum canal de idioma configurado.",
+            "noCanal":"Parece que este canal não está configurado.",
+            "title":"Idioma do servidor removido",
+            "titleC":"Idioma do canal removido",
+            "quitado":"Removido"
+        },
+        "nick":{
+            "nick":"apodo",
+            "title":"Autoapodo desativado"
+        },
+        "pinned":"âncora",
+        "module":{
+            "module":"categorias",
+            "noConfig":"Você não tem nenhuma categoria desativada.",
+            "title":"Todas as categorias ativadas"
+        },
+        "mc":{
+            "mc":"contadormembros",
+            "title":"Contador de membros removido",
+            "descripcion":"*Os canais correspondentes serão excluídos.*",
+            "noCanal":"Não consegui deletar o canal",
+            "c":"Canais removidos",
+            "e":"Canal removido"
+        },
+        "logs":{
+            "logs":"registros",
+            "noCanal":"Canal desconhecido:",
+            "title":"Canal de registros removido"
+        },
+        "ml":{
+            "modlogs":"registrosmod",
+            "noCanal":"Canal desconhecido:",
+            "title":"Canal de registros de moderação removido"
+        },
+        "lw":{
+            "rwelcome":"registroentrada",
+            "title":"Canal de registros de entrada removido"
+        },
+        "el":{
+            "excludeLogs":"excluirlogs",
+            "title":"Canal de registros excluídos removidos"
+        },
+        "e":{
+            "exclude":"excluir",
+            "title":"Canal excluído removido"
+        },
+        "rollvl":{
+            "rollvl":"cargonivel",
+            "help":"Use `${prefix}delete rolelvl <número do nível/cargo>`",
+            "noConfig":"Não há cargos configurados neste servidor.",
+            "noRol":"Parece que tal cargo não existe no banco de dados",
+            "true":"✅ Cargo removido com sucesso."
+        },
+        "level":{
+            "level":"níveis",
+            "noConfig":"Você não configurou o nível de sistema/xp do servidor",
+            "title":"Sistema de XP del servidor eliminado."
+        },
+        "econ":{
+            "econ":"economia",
+            "title":"Sistema de economia de servidor desativado."
+        },
+        "group":{
+            "group":"grupo",
+            "help":"Use `${prefix}delete group <Nome>`",
+            "noGrupo":"❌ | Grupo não encontrado.",
+            "title":"Grupo de autocargos removido",
+            "nombre":"Nombre:",
+            "roles":"Número de cargos que continha:"
+        },
+        "autorole":{
+            "autorole":"autocargo",
+            "help":"Use `${prefix}delete <nome do grupo> <@rol>`",
+            "noGrupo":"❌ | Grupo não encontrado.",
+            "noRol":"❌ | Cargo não encontrado",
+            "title":"Autocargo removido do grupo",
+            "rol":"Cargo removido:"
+        },
+        "jg":"jugando",
+        "noModo":"❌ Esse modo não existe.",
+        "error":"❌ Parece que ocorreu um erro inesperado, relate o bug para corrigi-lo."
+    },
+    "set":{
+        "help":"ayuda",
+        "defecto":"padrão",
+        "noCanal":"Canal inválido, verifique se é um canal de texto.",
+        "canal":"Canal:",
+        "rol":{
+            "yaRol":"Cargo já atribuído",
+            "noTime":"A hora não é válida, insira a hora em segundos",
+            "title":"✅ Cargo de boas-vindas atribuída",
+            "footer":"Você pode usar o comando novamente para adicionar mais cargos.",
+            "mensaje":"Cargo",
+            "time":"Tempo de espera para abandonar cargos",
+            "defecto":"Padrão"
+        },
+        "welcome":{
+            "noCanal":"Canal no válido, revisa que pusiste bien todo o verifica que usas con solo un espacio antes y después del ` | ` para separar los campos.",
+            "mensajeD":"¡Hola ${user} nuevo miembro!",
+            "mensajeEmbed":"Hola, bienvenid@",
+            "title":"Canal de bienvenida asignado",
+            "mensaje":"Con el mensaje",
+            "mensajeE":"Mensagem embed"
+        },
+        "iw":{
+            "noCanal":"Canal inválido, verifique se colocou tudo corretamente ou verifique se você usa com apenas um espaço antes e depois do ` | `para separar os campos.",
+            "noMensaje":"Você não postou uma mensagem",
+            "noColor":"Você não colocou a cor principal ou do texto, lembre-se de colocá-la no formato hexadecimal",
+            "title":"Canal de imagem de despedida atribuído",
+            "mensaje":"Com a mensagem",
+            "colores":"Cores",
+            "colorPrincipal":"Cor principal:",
+            "colorSecundario":"Cor secundária:",
+            "colorTexto":"Cor do texto:",
+            "defecto":"Padrão"
+        },
+        "il":{
+            "noCanal":"Canal inválido, verifique se colocou tudo corretamente ou verifique se você usa com apenas um espaço antes e depois do ` | `para separar os campos.",
+            "noMensaje":"Você não postou uma mensagem",
+            "noColor":"Você não colocou a cor principal ou do texto, lembre-se de colocá-la no formato hexadecimal",
+            "title":"Canal de imagem de despedida atribuído",
+            "mensaje":"Com a mensagem",
+            "colores":"Cores",
+            "colorPrincipal":"Cor principal:",
+            "colorSecundario":"Cor secundária:",
+            "colorTexto":"Cor do texto:",
+            "defecto":"Padrão"
+        },
+        "leave":{
+            "noCanal":"Canal inválido, verifique se colocou tudo corretamente ou verifique se você usa com apenas um espaço antes e depois do ` | `para separar os campos.",
+            "noMensaje":"Você não postou uma mensagem.",
+            "title":"Canal de despedida atribuído",
+            "mensaje":"Com a mensagem"
+        },
+        "logs":{
+            "title":"Canal de registros atribuído"
+        },
+        "modLogs":{
+            "title":"Canal de registros de moderação atribuído"
+        },
+        "redirect":{
+            "mensajeD":"**Você subiu de nível *{user_name}***",
+            "title":"Canal de mensagem para o nível atribuído",
+            "mensaje":"Mensagem:"
+        },
+        "lw":{
+            "title":"Canal de check-in atribuído"
+        },
+        "report":{
+            "title":"Canal de relatório atribuído"
+        },
+        "sug":{
+            "title":"Canal de sugestão atribuído"
+        },
+        "count":{
+            "mensaje":"Próximo número:",
+            "empezar":"Agora você pode começar a contar a partir do número 1!",
+            "sigan":"Continue contando a partir do número",
+            "error":"❌ Ocorreu um erro ao atribuir a descrição do canal, verifique se tenho permissões suficientes.",
+            "title":"Canal para contar atribuído",
+            "desde":"Do número:"
+        },
+        "prefix":{
+            "title":"Prefixo personalizado atribuído",
+            "cambio":"Alterado a:"
+        },
+        "lang":{
+            "canal":"canal",
+            "noIdioma":"Este idioma não existe, use `${prefix}setidioma help` para saber os idiomas disponíveis.",
+            "noLang":"Você não definiu o idioma a ser definido para o canal",
+            "title":"Idioma do servidor atribuído",
+            "titleC":"Idioma do canal atribuído",
+            "cambio":"Alterado a"
+        },
+        "nick":{
+            "title":"Autoapodo ativado",
+            "cambio":"Alterado a:"
+        },
+        "mc":{
+            "activo":"Primeiro desative o modo, usando `${prefix}delete memberCount`",
+            "canales":"canais",
+            "embed":"embed",
+            "helpC":"Use `${prefix}setmc channels [canal Total], [canal membros], [canal bots], [canal cargos], [canal canais]`\n\nPara um canal não estar ativo, coloque o nome em seu lugar **false**",
+            "noCrearCanal":"Não tenho permissões suficientes para criar canais.",
+            "total":"Total de usuários",
+            "miembros":"Membros",
+            "bots":"Bots",
+            "roles":"Cargos",
+            "channels":"Canais",
+            "categoria":"─── [Estatisticas] ───",
+            "title":"Contador de membros atribuídos",
+            "desc":"Todos os canais serão criados:",
+            "cTotal":"Canal nº Total:",
+            "cMiembros":"Canal nº Membros:",
+            "cBots":"Canal nº Bots:",
+            "cCanales":"Canal nº Canais:",
+            "cRoles":"Canal nº Cargos:",
+            "noActivo":"Desativado",
+            "descripcion":"Criando canal...",
+            "noModo":"Modo não encontrado, apenas **canais** ou **embed**"
+        },
+        "xp":{
+            "help":"Use `${prefix}setxp <minimum> <maximum> [xpLevelUp]` o xpLevelUp segue a fórmula: xpLevelUp * (Level + 1) 2 (Padrão: 200)",
+            "noNumber":"Você não inseriu números válidos",
+            "noValido":"Você não inseriu números válidos ou é menor que 10",
+            "title":"Sistema de experiência do servidor ativado.",
+            "xpMin":"XP mínimo:",
+            "xpMax":"XP máximo:",
+            "lvl":"XP Lvl:"
+        },
+        "noModoDisable":"❌ Modo no válido, solamente categoría y comando.",
+        "error":"❌ Parece que ocurrió un error inesperado, reporta el bug para solucionarlo."
+    }
+}
