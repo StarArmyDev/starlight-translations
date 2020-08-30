@@ -1,16 +1,16 @@
 {
     "bugreport":{
-        "correcto":"**Su error ha sido reportado correctamente.**\nSerá revisado así que por favor sea paciente.\n*Para mayor asistencia o ayuda puedes entrar al servidor de soporte o escríbeme al DM.*",
+        "correcto":"**Su error ha sido reportado correctamente.**\nSerá revisado, así que, por favor, sea paciente.\n*Para mayor asistencia o ayuda puedes entrar al servidor de soporte o escribirle al MD al creador.*",
         "error":"Ocurrió un problema al enviar el mensaje, puedes enviarme mensaje al privado como alternativa."
     },
     "donate":{
         "title":"Apoya a",
-        "desc":"**Donaciones directas.** Puede donar a nuestro [PayPal](https://www.paypal.me/czemtb) o tendrá que ponerse en contacto con nosotros en el servidor de soporte.\n**Promocionando al bot.**  Hay que darnos a conocer por todas partes.\n**Realizando...** guías, vídeos, redactando textos, etc de como utilizar el bot. StarLight necesita ayuda de todos.\n**Escribiendo Código.** Si sabes de programación, tal vez te interese compartir código para seguir implementando cosas nuevas."
+        "desc":"**Donaciones directas.** Puede donar a nuestro [PayPal](https://www.paypal.me/czemtb) o tendrá que ponerse en contacto con nosotros en el servidor de soporte.\n**Promocionando al bot.**  Hay que darnos a conocer por todas partes.\n**Realizando...** guías, vídeos, redactando textos, etc. de cómo utilizar el bot. StarLight necesita ayuda de todos.\n**Escribiendo Código.** Si sabes de programación, tal vez te interese compartir código para seguir implementando cosas nuevas."
     },
     "help":{
         "titulo":"Lista de Comandos",
         "version":" | Versión ",
-        "descripcion":"Hola, Soy ${client_name} y vengo a ayudar. Esta es mi lista de comandos que puedes ocupar.\n\nPing: `${ping}` ms\nComandos En Total: `${commands}`",
+        "descripcion":"Hola, soy ${client_name} y vengo a ayudar. Esta es mi lista de comandos que puedes ocupar.\n\nPing: `${ping}` ms\nComandos En Total: `${commands}`",
         "core":"🌠 Bot",
         "diver":"🎉 Diversión",
         "info":"📃 Información",
@@ -24,17 +24,17 @@
         "econ":"💵 Economía",
         "profile":"👥 Perfil",
         "masInfo":{
-            "title":"¿Mas información?",
-            "desc":"Usa: `${prefix}<comando\nhelp` para obtener su información individual del comando y sus parámetros esperados."
+            "title":"¿Más información?",
+            "desc":"Usa: `${prefix}<comando\nhelp` para obtener la información individual del comando y sus parámetros esperados."
         },
         "links":{
             "title":"Links Útiles",
-            "desc":"[Invitame](${invite} \"Invitame a tu servidor\") | [Servidor De Soporte](https://discord.gg/MZN8Yf6 \"StarArmy Soporte\") | [Apoya con tu Voto](https://top.gg/bot/517786947171909643 \"Top.gg\")"
+            "desc":"[Invítame](${invite} \"Invítame a tu servidor\") | [Servidor De Soporte](https://discord.gg/MZN8Yf6 \"StarArmy Soporte\") | [Apóyanos con tu Voto](https://top.gg/bot/517786947171909643 \"Top.gg\")"
         },
-        "private":"✅ **| Revisa tu DMs.** 👌",
+        "private":"✅ **| Revisa tu MD.** 👌",
         "noPrivate":"❌ | Parece que tienes desactivado los mensajes privados.",
-        "noUso":"No Tienes que Agregar Parámetros",
-        "embedFooter":"[] = opcional | <\n= obligatorio | / = dos o más opciones: Opción1/Opción2\nNo coloques estos simbolos cuando ejecutes el comando.",
+        "noUso":"No tienes que agregar parámetros",
+        "embedFooter":"[] = opcional | <\n= obligatorio | / = dos o más opciones: Opción1/Opción2\nNo coloques estos símbolos cuando ejecutes el comando.",
         "embedTitle":"Ayuda de: ${command}",
         "embedDescripcion":"**Descripción:**",
         "embedUso":"Usa el comando de la siguente manera:",
@@ -43,39 +43,39 @@
     },
     "invite":{
         "title":"Mi Invitación | ${client_name}",
-        "descripcion":"Este hermoso bot puede ayudarte mucho en tu servidor, tiene mucha variedad de comandos para administradores o usuarios normales. Pero te aseguro que te divertirás y te ayudará en todo lo que necesites.",
+        "descripcion":"Este hermoso bot puede ayudarte mucho en tu servidor, tiene mucha variedad de comandos para administradores o usuarios normales. Te aseguro que te divertirás y te ayudará en todo lo que necesites.",
         "version":"| Versión",
         "invitacion":"🌠 Invitación",
         "link":"[Invita a ${client_name} a tu servidor](${link})",
         "soporteTitle":"📥 Servidor de Soporte",
         "soporte":"[Entra Al Servidor](https://discord.gg/MZN8Yf6 'StarArmy') Para obtener ayuda y estar enterado de toda la información siempre.",
         "webTitle":"🖥 Página Web",
-        "web":"Para mas información acerca del bot como sus comandos entra al [Sitio Oficial](https://starbot-oficial.herokuapp.com/ 'StarBot Discord - Inicio')",
-        "apoyoTitle":"💎 Apoyanos",
-        "apoyo":"Apoya en el crecimiento del bot donando lo que puedas a travez de [PayPal](https://www.paypal.me/czemtb 'CZEMTB')"
+        "web":"Para más información acerca del bot, como sus comandos, entra al [Sitio Oficial](https://starbot-oficial.herokuapp.com/ 'StarBot Discord - Inicio')",
+        "apoyoTitle":"💎 Apóyanos",
+        "apoyo":"Apoya en el crecimiento del bot donando lo que puedas a través de [PayPal](https://www.paypal.me/czemtb 'CZEMTB')"
     },
     "ping":{
         "footer":"DigitalOcean",
         "espera":"*Calculando...*",
-        "descripcion":"Pong!\n📡 API: **${ping}ms.**\n⏳ Puerta de Enlace: ${gateway} ms"
+        "descripcion":"Pong!\n📡 API: **${ping}ms.**\n⏳ Puerta de Enlace: ${gateway} ms."
     },
     "release":{
         "title":"Novedades de",
-        "descripcion":"**__Nuevo__**\n-Multiplicador: Se agregó la posibilidad de poder adquirir multiplicador para el ingreso de dinero, esto se adquiere en el servidor de soporte por realizar ciertos méritos\n-Categoría Expresión e Interacción: Ahora estarán separadas estas categorías y cuentan con unos comandos nuevos, además de mejoras de apariencia\n-Comando vote: Aquí se muestra la página para votar por el bot y otras listas de bots donde se encuentra el bot\n-Comando roleinfo: Te da información detallada acerca de un rol\n-Comando deactivatexp: Para facilitar su uso, se creó ese comando. Aunque ya estaba en el comando `delete`\n-Comando trade: Nuevo comando para obtener dinero\n-Comando medals: Podrás ver todas tus medallas. recuerda que puedes ponertelas con `sb!profile edit medals`\n\n**__Cambios__**\n-Ayuda de comandos: Se agregó información útil a la ayuda de los comandos.\n-Comandos que Desaparecen: cat, drake, gru, trash, trump, google, letra. Por problemas de la API pero futuramente volverán y muchos más!\n-Comando meme: Se ha puesto un arreglo temporal, próximamente todos podrán enviar sus propios memes para integrarlo al comando\n-Comando help: Se dividió y mejoró el comando de ayuda para mejorar un poco su presentación\n-Comando achievement: Se cambió la apariencia del logro a la versión de xbox one\n-Comando minas: Se cambió el nombre a `minesweeper` y de alias `buscaminas`\n-Comando remember: Se arregló el tiempo que no decía cuánto faltaba para que mandara el recordatorio\n-Comando slut: Se cambió el nombre a `dirty` siendo más apropiado y aclarando que no es un comando nsfw\n-Comando rob: Se eliminó ya que es incoherente tu existencia en una economía global\n-Comando trans: se aumentó la comisión del 10% al 15%\n\n**__Arreglos__**\n-Optimización: Se hizo una mejora en el código y actualización para mejorar su desempeño\n-Bugs: Se arreglaron errores y se mejoró la apariencia de varios comandos",
+        "descripcion":"**__Nuevo__**\n-Multiplicador: Se agregó la posibilidad de poder adquirir multiplicador para el ingreso de dinero, esto se adquiere en el servidor de soporte por realizar ciertos méritos\n-Categoría Expresión e Interacción: ahora estarán separadas estas categorías y cuentan con unos comandos nuevos, además de mejoras de apariencia\n-Comando vote: Aquí se muestra la página para votar por el bot y otras listas de bots donde se encuentra el bot\n-Comando roleinfo: Te da información detallada acerca de un rol\n-Comando deactivatexp: Para facilitar su uso, se creó este comando, aunque ya estaba en el comando `delete`\n-Comando trade: Nuevo comando para obtener dinero\n-Comando medals: Podrás ver todas tus medallas. Recuerda que puedes ponertelas con `sb!profile edit medals`\n\n**__Cambios__**\n-Ayuda de comandos: Se agregó información útil a la ayuda de los comandos.\n-Comandos que Desaparecen: cat, drake, gru, trash, trump, google, letra. Por problemas de la API pero futuramente volverán, ¡y muchos más!\n-Comando meme: Se ha puesto un arreglo temporal, próximamente todos podrán enviar sus propios memes para integrarlo al comando\n-Comando help: Se dividió y mejoró el comando de ayuda para mejorar un poco su presentación\n-Comando achievement: Se cambió la apariencia del logro a la versión de Xbox One\n-Comando minas: Se cambió el nombre a `minesweeper` y de alias `buscaminas`\n-Comando remember: Se arregló el tiempo que no decía cuánto faltaba para que mandara el recordatorio\n-Comando slut: Se cambió el nombre a `dirty` siendo más apropiado y aclarando que no es un comando NSFW\n-Comando rob: Se eliminó, ya que es incoherente su existencia en una economía global\n-Comando trans: se aumentó la comisión del 10% al 15%\n\n**__Arreglos__**\n-Optimización: Se hizo una mejora en el código y actualización para mejorar su desempeño\n-Bugs: Se arreglaron errores y se mejoró la apariencia de varios comandos.",
         "footer":"Estos son los cambios de la versión ${version} cualquier problema puedes ingresar al servidor de soporte. | Desarrollado por ${dev}."
     },
     "stats":{
         "bot":"🤖 Bot Info",
         "owner":"👑 Creador",
         "version":"📊 Versión",
-        "libreria":"📚 Libreria",
+        "libreria":"📚 Librería",
         "discordjs":"Discord 12.2.0 (Js)",
         "memoria":"🗂 Memoria",
         "tiempo":"🕒 Tiempo Encendido",
         "servers":"💬 Servidores",
         "users":"👥 Usuarios",
         "canales":"#️⃣ Canales",
-        "voz":"🔊 Conexiones a voz",
+        "voz":"🔊 Conexiones a Voz",
         "commands":"📄 Comandos",
         "os":"🖥️ Sistema Operativo",
         "sistema":"Linux CentOS 8.2",
@@ -83,6 +83,6 @@
     },
     "vote":{
         "title":"Lista de Bots donde puedes votar",
-        "desc":"Puedes votar cada 12 horas, con fin de semana de voto doble en [Top.gg](https://discordbots.org/bot/517786947171909643/vote)\n\nEstas son otras listas en dónde encontrarás el bot pero aún no tienen sistema de votos.\n1- [Discord Bots](https://discord.bots.gg/bots/517786947171909643) 2- [Bots On Discord](https://bots.ondiscord.xyz/bots/517786947171909643) 3- [MyBot List](https://portalmybot.com/mybotlist/bot/517786947171909643)"
+        "desc":"Puedes votar cada 12 horas, y los fin de semana tienes voto doble en [Top.gg](https://discordbots.org/bot/517786947171909643/vote)\n\nEstas son otras listas en donde encontrarás el bot, pero aún no tienen sistema de votos.\n1- [Discord Bots](https://discord.bots.gg/bots/517786947171909643) 2- [Bots On Discord](https://bots.ondiscord.xyz/bots/517786947171909643) 3- [MyBot List](https://portalmybot.com/mybotlist/bot/517786947171909643)"
     }
 }
