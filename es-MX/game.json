@@ -2,8 +2,8 @@
     "fchallenge":{
         "cargando":"🔃 Cargando...",
         "title":"Desafíos Semanales Fortnite",
-        "footer":"# Total: ${length}",
-        "field":"Misiones Totales: ${quests}"
+        "footer":"# Total: ${length}.",
+        "field":"Misiones Totales: ${quests}."
     },
     "fstats":{
         "pc":"computadora",
@@ -13,7 +13,7 @@
         "duo":"dobles",
         "squad":"escuadron",
         "all":"todo",
-        "help":"Usa `${prefix}fstats <usuario> | <solo, duo, squad> | [pc, xbl, psn]`",
+        "help":"Usa `${prefix}fstats <usuario> | <solo, duo, squad> | [pc, xbl, psn]`.",
         "noUserError":"Usuario no encontrado o ha ocurrido un error inesperado."
     },
     "fstore":{
@@ -26,15 +26,15 @@
         "title":"Objetos del Día",
         "rareza":"Rareza:",
         "precio":"Precio",
-        "items":"Articulo ${item} de"
+        "items":"Artículo ${item} de"
     },
     "h5emblema":{
         "emblema":"Emblema de ",
-        "noUser":"El gamertag no existe, por favor verifiquelo."
+        "noUser":"El gamertag no existe, por favor, verifíquelo."
     },
     "h5spartan":{
         "spartan":"Spartan de ",
-        "noUser":"El gamertag no existe, por favor verifiquelo."
+        "noUser":"El gamertag no existe, por favor, verifíquelo."
     },
     "lolchamps":{
         "footer":"ID del campeón: ${id}",
@@ -43,14 +43,14 @@
     "lolcr":{
         "title":"Campeón aleatorio: ",
         "footer":"ID del campeón: ${id}",
-        "error":"❌ Lo siento, parece que hubo un error. estamos trabajando en repararlo."
+        "error":"❌ Lo siento, parece que hubo un error. Estamos trabajando en repararlo."
     },
     "wotstats":{
         "xbox":"xboxone",
         "ps4":"playstation4",
-        "noConsola":"Pon una consola válida `xbox` o `ps4`",
+        "noConsola":"Pon una consola válida: `xbox` o `ps4`.",
         "noTag":"No diste un gamertag o nick para buscar.",
-        "noOk":"Tu Búsqueda es invalida. Verifica el comando.",
+        "noOk":"Tu búsqueda es inválida. Verifica el comando.",
         "noUser":"No se encontró ninguna coincidencia para: ",
         "embedAuthor":"World of Tasks Mercenarios",
         "title":"Estadísticas de",
@@ -73,6 +73,6 @@
         "tankXp":"Tanque Mayor XP",
         "tier":"Tier:",
         "tipo":"Tipo:",
-        "error":"❌ Lo siento, parece que hubo un error. estamos trabajando en repararlo."
+        "error":"❌ Lo siento, parece que hubo un error. Estamos trabajando en repararlo."
     }
 }
