@@ -9,23 +9,23 @@
         "server":"Servidor",
         "autor":"Subido Por",
         "creado":"🗓️ Fecha de Creación",
-        "si":"Si",
+        "si":"Sí",
         "no":"No"
     },
     "game":{
         "game":"Está ${tipo}: ",
         "noGame":"No está jugando en este momento.",
         "tipo":{
-            "PLAYING":"🎮Jugando",
-            "STREAMING":"📡Transmitiendo en vivo",
-            "LISTENING":"🎶Escuchando",
-            "WATCHING":"📺Viendo",
-            "CUSTOM_STATUS":"con un Estado personalizado",
+            "PLAYING":"🎮 Jugando",
+            "STREAMING":"📡 Transmitiendo en vivo",
+            "LISTENING":"🎶 Escuchando",
+            "WATCHING":"📺 Viendo",
+            "CUSTOM_STATUS":"con un estado personalizado",
             "undefined":"[Actividad Desconocida]"
         }
     },
     "roleinfo":{
-        "noRol":"Rol no encontrado o inválido",
+        "noRol":"Rol no encontrado o inválido.",
         "title":"Información de Rol",
         "nombre":"Nombre",
         "id":"🆔 Identificador Único",
@@ -36,7 +36,7 @@
         "miembros":"👥 Miembros",
         "permisosImport":"⛔ Permisos Importantes",
         "tiempo":"⌛ Rol Creado",
-        "si":"Si",
+        "si":"Sí",
         "no":"No",
         "sinPerm":"Sin Permisos.",
         "sinInfo":"Sin Información."
@@ -79,18 +79,18 @@
     },
     "user":{
         "estados":{
-            "online": "En Linea",
+            "online": "En Línea",
             "dnd": "No Molestar",
             "idle": "Ausente",
             "offline": "Desconectado"
         },
         "jugando":"🎮 Actividad",
         "tipo":{
-            "0":"🎮Jugando a",
-            "1":"📡Transmitiendo en vivo",
-            "2":"🎶Escuchando",
-            "3":"📺Viendo a",
-            "4":"Con un Estado personalizado",
+            "0":"🎮 Jugando a",
+            "1":"📡 Transmitiendo en vivo",
+            "2":"🎶 Escuchando",
+            "3":"📺 Viendo a",
+            "4":"Con un estado personalizado",
             "5":"[Actividad Desconocida]"
         },
         "estado":"🔘🔴 Estado",
