@@ -2,8 +2,8 @@
     "8ball":{
         "title":"🎱 Pregunta\n${pregunta}",
         "descripcion":"A lo que respondo: ${respuesta}",
-        "rpts": ["Sí", "No", "Tal vez Si", "Tal vez No", "¡Claro!",  "Claro que No", "Estoy seguro de que sí",
-            "Estoy seguro de que no", "Por supuesto", "Podría ser", "Lamentablemente no", "Lamentablemente Si",
+        "rpts": ["Sí", "No", "Tal vez sí", "Tal vez no", "¡Claro!",  "Claro que no", "Estoy seguro de que sí",
+            "Estoy seguro de que no", "Por supuesto", "Podría ser", "Lamentablemente no", "Lamentablemente sí",
             "Desafortunadamente sí", "Desafortunadamente no", "No lo sé Rick"]
     },
     "cat":{
@@ -21,12 +21,12 @@
         "noTexto":"Tienes que poner algo. `${prefix}gru <texto 1> | <texto 2> | <texto 3>`"
     },
     "love":{
-        "noMencion":"Menciona a dos usuarios para calcular",
-        "rand20":"Uff parece que no existe la posibilidad de amigos. Lo siento ;-;",
+        "noMencion":"Menciona a dos usuarios para calcular.",
+        "rand20":"Uff, parece que no existe la posibilidad de amigos. Lo siento ;-;",
         "rand50":"Parece que no existe mucho amor, pero pueden ser buenos amigos c:",
         "rand80":"Esto tiene posibilidad, muy probable que terminen siendo novios :3",
-        "rand100":"No hay duda de que aqui hay amor cx ¡No se qué esperas! <3",
-        "randInf":"El Amor que te tienes que tener debe de ser el mayor de todos, aprecialo com el mayor de los tesoros.",
+        "rand100":"No hay duda de que aquí hay amor cx, ¡no sé qué esperas! <3",
+        "randInf":"El amor que te tienes tiene que tener debe de ser el mayor de todos, aprecialo com el mayor de los tesoros.",
         "author":"El porcentaje de amor entre ${user1} y ${user2} es de:"
     },
     "meme":{
