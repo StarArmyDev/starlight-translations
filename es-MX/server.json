@@ -1,7 +1,7 @@
 {
     "errores":{
-        "title":"❌ No tienes el permiso para usar este comando.",
-        "perm":"Permiso Requerido:",
+        "title":"❌ No tienes permiso para usar este comando.",
+        "perm":"Permiso requerido:",
         "permisos":{
             "ADMINISTRATOR":"Administrador",
             "CREATE_INSTANT_INVITE":"Crear Invitaciones",
@@ -11,15 +11,15 @@
             "MANAGE_GUILD":"Gestionar Servidor",
             "ADD_REACTIONS":"Agregar Reacciones",
             "VIEW_AUDIT_LOG":"Ver el Registro de Auditoría",
-            "PRIORITY_SPEAKER":"Prioridad Al Hablar",
+            "PRIORITY_SPEAKER":"Prioridad al Hablar",
             "VIEW_CHANNEL":"Ver Canal",
-            "SEND_MESSAGES":"Mandar Mensajes",
-            "SEND_TTS_MESSAGES":"Mandar Mensajes Tts",
+            "SEND_MESSAGES":"Enviar Mensajes",
+            "SEND_TTS_MESSAGES":"Enviar Mensajes TTS",
             "MANAGE_MESSAGES":"Gestionar Mensajes",
-            "EMBED_LINKS":"Mandar Links en Embed",
-            "ATTACH_FILES":"Mandar Archivos",
+            "EMBED_LINKS":"Insertar Enlaces",
+            "ATTACH_FILES":"Adjuntar Archivos",
             "READ_MESSAGE_HISTORY":"Leer el Historial de Mensajes",
-            "MENTION_EVERYONE":"Mencionar a Todos",
+            "MENTION_EVERYONE":"Mencionar Everyone",
             "USE_EXTERNAL_EMOJIS":"Usar Emojis Externos",
             "CONNECT":"Conectar a Voz",
             "SPEAK":"Hablar en Voz",
@@ -30,19 +30,19 @@
             "CHANGE_NICKNAME":"Cambiar Apodo",
             "MANAGE_NICKNAMES":"Gestionar Apodos",
             "MANAGE_ROLES":"Gestionar Roles",
-            "MANAGE_WEBHOOKS":"Gestionar WebHooks",
+            "MANAGE_WEBHOOKS":"Gestionar Webhooks",
             "MANAGE_EMOJIS":"Gestionar Emojis"
         }
     },
     "afk":{
-        "activo":"está afk por la razón de:",
-        "desactivado":"¡Bienvenido de vuelta!, Ya eliminé tu estado de ausencia."
+        "activo":"está AFK por la razón de:",
+        "desactivado":"¡Bienvenido de vuelta! Ya eliminé tu estado de ausencia."
     },
     "remember":{
         "title":"Recordatorio",
         "footer":"Establecido el"
     },
-    "contador":"Siguiente Número:",
+    "contador":"Siguiente número:",
     "botMencion":{
         "help":"ayuda",
         "prefix":"prefijo",
@@ -57,111 +57,111 @@
         "agregado":"Agregado"
     },
     "commandHandling":{
-        "noComand":"❌ No se ha encontrado el comando",
-        "talvez":"no existe. Tal vez quisiste decir:",
+        "noComand":"❌ No se ha encontrado el comando.",
+        "talvez":"No existe. Tal vez quisiste decir:",
         "noPermCanal":"No tengo permitido enviar mensajes en:",
         "noPermComandoCanal":"No tengo permitido enviar el comando `${commandName}` en:",
         "categoriaDeshabilitado":"*⛔ | Categoría deshabilitada en este servidor.*",
         "comandoDeshabilitado":"*⛔ | Comando deshabilitado en este servidor.*",
         "comandoApagado":"Este comando se encuentra apagado por alguna actualización o suspensión temporal.",
-        "noDesarrollador":"Perdón, este comando sólo puede ser ejecutado por un Desarrollador.",
-        "noUso":"No Tienes que Agregar Parámetros",
-        "simbologia":"Los '[]' se refiere a que es opcional.\nLos '<>' se refiere a que es obligatorio.\nEl '/' se refiere a dos opciones: Opción1/Opción2\n***Ninguno de estos simbolos se debe de colocar a la hora de ejecutar el comando.***",
+        "noDesarrollador":"Perdón, este comando solo puede ser ejecutado por un desarrollador.",
+        "noUso":"No tienes que agregar parámetros.",
+        "simbologia":"Los '[]' representan que es opcional.\nLos '<>' representan que es obligatorio.\nEl '/' representa dos opciones: Opción1/Opción2\n***Ninguno de estos símbolos se debe de colocar a la hora de ejecutar el comando.***",
         "ayudade":"Ayuda de:",
         "descripcion":"**Descripción:**",
         "usa":"Usa el comando de la siguiente manera:",
         "alias":"Alias",
-        "noAlias":"Sin Alias",
-        "cooldown":"¡Alto! Esperese `${time}` para usar nuevamente el comando `${commandName}` sea paciente.",
-        "error":"❌ Hubo un error al intentar ejecutar el comando. Puedes reportarlo con `${prefix}bugreport` o escríbeme al DM."
+        "noAlias":"Sin alias",
+        "cooldown":"¡Alto! Espere `${time}` para usar nuevamente el comando `${commandName}`. Sea paciente.",
+        "error":"❌ Hubo un error al intentar ejecutar el comando. Puedes reportarlo con `${prefix}bugreport` o escríbele por MD al creador."
     },
     "subidaDeNivel":{
-        "levelUp":"¡Subiste de Nivel!",
+        "levelUp":"¡Subiste de nivel!",
         "nivel":"Nivel",
-        "mensaje":"**Has subido de nivel *{user_name}***"
+        "mensaje":"**Has subido de nivel, *{user_name}*.**"
     },
     "terminamute":"**${usuario} terminó tu tiempo silenciado.**",
     "welcome":{
-        "autoRolesRazon":"Auto-roles Bienvenida",
+        "autoRolesRazon":"Autoroles bienvenida.",
         "embed":{
-            "mensaje":"¡Nuevo Miembro!",
-            "mensajeEmbed":"Hola Bienvenid@",
+            "mensaje":"¡Nuevo miembro!",
+            "mensajeEmbed":"Hola, bienvenid@.",
             "si":"Sí.",
             "no":"No.",
             "bienvenido":"¡Bienvenido!",
             "nombre":"Nombre:",
-            "bot":"¡Tenemos A Un Bot Nuevo!",
-            "id":"Identificador Único:",
+            "bot":"¡Tenemos a un nuevo bot!",
+            "id":"ID:",
             "esBot":"¿Bot?",
             "server":"Servidor:",
-            "miembro":"Eres el Miembro:",
+            "miembro":"Eres el miembro:",
             "botMiembro":"Suplantó el lugar:",
-            "creado":"⏳ Bot Creado Desde Hace"
+            "creado":"⏳ Bot creado hace"
         },
         "imgWelcomeWoman":"Bienvenida a",
         "imgWelcomeMan":"Bienvenido a",
         "imgWelcomeDefault":"Bienvenid@ a",
-        "reTitle":"Comprobación de Seguridad",
+        "reTitle":"Comprobación de seguridad",
         "rePrecaucion":"⚠[PRECAUCIÓN]⚠ Cuenta recién creada:",
         "reCreado":"⏳ Creó su cuenta hace:",
         "terminamute":"**${usuario} terminó tu tiempo silenciado.**"
     },
     "leave":{
-        "botFuera":"Un Bot Fué Sacado:",
-        "fuera":"Se fué",
-        "id":"Identificador Único:",
-        "creado":"⏳ Bot Creado Desde Hace:",
-        "leaveImg":"Adios..."
+        "botFuera":"Un bot fue expulsado:",
+        "fuera":"Se fue",
+        "id":"ID:",
+        "creado":"⏳ Bot creado desde hace:",
+        "leaveImg":"Adiós..."
     },
     "eliminar":{
-        "embed":"Embed Eliminado:",
-        "title":"Mensaje Eliminado",
+        "embed":"Embed eliminado:",
+        "title":"Mensaje eliminado",
         "elimino":"**eliminó un mensaje**",
         "de":"**de:**",
         "decia":"Decía:",
-        "continua":"Continuación (Mensaje Largo)",
-        "canal":"Canal Origen:"
+        "continua":"Continuación (mensaje largo)",
+        "canal":"Canal origen:"
     },
     "edit":{
-        "title":"Mensaje Editado:",
+        "title":"Mensaje editado:",
         "edito":"**editó un mensaje:**",
         "decia":"Decía:",
-        "ahoraDice":"Ahora Díce:",
-        "continua":"Continuación (Mensaje Largo)",
-        "canal":"Canal Origen:"
+        "ahoraDice":"Ahora díce:",
+        "continua":"Continuación (mensaje largo)",
+        "canal":"Canal origen:"
     },
     "ban":{
-        "noAudit":"Sin Permiso Para Leer el Registro de Auditoría.",
-        "title":"Miembro Baneado",
-        "mensaje":"fué baneado del servidor.",
+        "noAudit":"Sin permiso para leer el registro de auditoría.",
+        "title":"Miembro baneado",
+        "mensaje":"fue baneado del servidor.",
         "razon":"Razón",
         "noRazon":"Sin razón.",
-        "mod":"Fué baneado por:"
+        "mod":"Fue baneado por:"
     },
     "unban":{
-        "noAudit":"Sin Permiso Para Leer el Registro de Auditoría.",
-        "title":"Miembro Desbaneado",
-        "mensaje":"fué desbaneado del servidor.",
+        "noAudit":"Sin permiso para leer el registro de auditoría.",
+        "title":"Miembro desbaneado",
+        "mensaje":"fue desbaneado del servidor.",
         "razon":"Razón",
         "noRazon":"Sin razón.",
-        "mod":"Fué desbaneado por:"
+        "mod":"Fue desbaneado por:"
     },
     "canal":{
-        "noAudit":"Sin Permiso Para Leer el Registro de Auditoría.",
+        "noAudit":"Sin permiso para leer el registro de auditoría.",
         "desconocido":"Desconocido.",
-        "title":"Canal Nuevo",
+        "title":"Canal nuevo",
         "mensaje":"fue creado.",
         "razon":"Razón",
         "noRazon":"Sin razón.",
-        "mod":"Fué creado por:"
+        "mod":"Fue creado por:"
     },
     "eliminarCanal":{
-        "noAudit":"Sin Permiso Para Leer el Registro de Auditoría.",
+        "noAudit":"Sin permiso para leer el registro de auditoría.",
         "desconocido":"Desconocido.",
-        "title":"Canal Eliminado",
+        "title":"Canal eliminado",
         "mensaje":"fue eliminado.",
         "razon":"Razón",
         "noRazon":"Sin razón.",
-        "mod":"Fué eliminado por:"
+        "mod":"Fue eliminado por:"
     }
 }
