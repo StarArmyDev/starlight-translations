@@ -1,4 +1,7 @@
 {
+    "botsuggestion":{
+        "ok":"✅ Sugerencia enviada al servidor de soporte.\n*Cualquier abuso de este u otro comando será sancionado.*"
+    },
     "bugreport":{
         "correcto":"**Su error ha sido reportado correctamente.**\nSerá revisado, así que, por favor, sea paciente.\n*Para mayor asistencia o ayuda puedes entrar al servidor de soporte o escribirle al MD al creador.*",
         "error":"Ocurrió un problema al enviar el mensaje, puedes enviarme mensaje al privado como alternativa."
@@ -8,14 +11,17 @@
         "desc":"**Donaciones directas.** Puede donar a nuestro [PayPal](https://www.paypal.me/czemtb) o tendrá que ponerse en contacto con nosotros en el servidor de soporte.\n**Promocionando al bot.**  Hay que darnos a conocer por todas partes.\n**Realizando...** guías, vídeos, redactando textos, etc. de cómo utilizar el bot. StarLight necesita ayuda de todos.\n**Escribiendo Código.** Si sabes de programación, tal vez te interese compartir código para seguir implementando cosas nuevas."
     },
     "help":{
+        "si":"Si",
+        "no":"No",
         "titulo":"Lista de Comandos",
         "version":" | Versión ",
-        "descripcion":"Hola, soy ${client_name} y vengo a ayudar. Esta es mi lista de comandos que puedes ocupar.\n\nPing: `${ping}` ms\nComandos En Total: `${commands}`",
+        "descripcion":"Hola, soy {client_name} y vengo a ayudar. Esta es mi lista de comandos que puedes ocupar.\n\nPing: `{ping}` ms\nCategorías en total: `{categorias}`\nComandos en total: `{commands}`",
         "core":"🌠 Bot",
         "diver":"🎉 Diversión",
         "info":"📃 Información",
         "util":"🛡 Utilidades",
         "config":"⚙ Configuración",
+        "config-bot":"⚙ Configuración Bot",
         "staff":"👮 Staff",
         "inter":"🎁 Interacción",
         "expre":"🎭 Expresión",
@@ -23,23 +29,32 @@
         "games":"🎮 Videojuegos",
         "econ":"💵 Economía",
         "profile":"👥 Perfil",
+        "desarrollador":"👨‍💻 Desarrollador",
+        "manager":"⚙ Administrador del bot",
         "masInfo":{
             "title":"¿Más información?",
-            "desc":"Usa: `${prefix}<comando\nhelp` para obtener la información individual del comando y sus parámetros esperados."
+            "desc":"Usa: `{prefix}<comando> help` para obtener la información individual del comando y sus parámetros esperados."
         },
         "links":{
-            "title":"Links Útiles",
-            "desc":"[Invítame](${invite} \"Invítame a tu servidor\") | [Servidor De Soporte](https://discord.gg/MZN8Yf6 \"StarArmy Soporte\") | [Apóyanos con tu Voto](https://top.gg/bot/517786947171909643 \"Top.gg\")"
+            "title":"Links útiles",
+            "desc":"[Invítame]({invite} \"Invítame a tu servidor\") | [Servidor De Soporte](https://discord.gg/MZN8Yf6 \"StarArmy Soporte\") | [Apóyanos con tu Voto](https://top.gg/bot/517786947171909643 \"Vota en Top.gg cada 12 hrs.\")"
         },
         "private":"✅ **| Revisa tu MD.** 👌",
         "noPrivate":"❌ | Parece que tienes desactivado los mensajes privados.",
-        "noUso":"No tienes que agregar parámetros",
-        "embedFooter":"[] = opcional | <\n= obligatorio | / = dos o más opciones: Opción1/Opción2\nNo coloques estos símbolos cuando ejecutes el comando.",
-        "embedTitle":"Ayuda de: ${command}",
-        "embedDescripcion":"**Descripción:**",
-        "embedUso":"Usa el comando de la siguente manera:",
-        "embedAlias":"Alias",
-        "embedNoAlias":"Sin Alias"
+        "noUso":"[No espera parámetros]",
+        "embedHelp":{
+            "title":"Ayuda de: {command}",
+            "descripcion":"**Descripción:**",
+            "uso":"Usa el comando de la siguiente manera:",
+            "alias":"Alias",
+            "noAlias":"Sin alias",
+            "categoria":"Categoría",
+            "permiso": "Permiso",
+            "cooldown":"Cooldown",
+            "args":"Espera argumentos",
+            "apagado":"Apagado global",
+            "sinPermisos":"Sin permisos requeridos"
+        }
     },
     "invite":{
         "title":"Mi Invitación | ${client_name}",
@@ -55,7 +70,7 @@
         "apoyo":"Apoya en el crecimiento del bot donando lo que puedas a través de [PayPal](https://www.paypal.me/czemtb 'CZEMTB')"
     },
     "ping":{
-        "footer":"DigitalOcean",
+        "footer":"Virtual Private Machine",
         "espera":"*Calculando...*",
         "descripcion":"Pong!\n📡 API: **${ping}ms.**\n⏳ Puerta de Enlace: ${gateway} ms."
     },
@@ -78,7 +93,7 @@
         "voz":"🔊 Conexiones a Voz",
         "commands":"📄 Comandos",
         "os":"🖥️ Sistema Operativo",
-        "sistema":"Linux CentOS 8.2",
+        "sistema":"Linux ******",
         "horaServer":"⏳ Hora en el Servidor"
     },
     "vote":{

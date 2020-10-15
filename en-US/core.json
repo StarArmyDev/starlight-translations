@@ -1,4 +1,7 @@
 {
+    "botsuggestion":{
+        "ok":"✅ Suggestion sent to support server.\n*Any abuse of this or any other command will be penalized.*"
+    },
     "bugreport": {
         "correcto": "**Your error has been reported correctly.**\nIt will be reviewed so please be patient.\n *For further assistance or help you can go to the support server or write to DM.*",
         "error": "There was a problem sending the message, you can send me a private message as an alternative."
@@ -8,14 +11,17 @@
         "desc":"**Direct donations.** You can donate to our [PayPal](https://www.paypal.me/czemtb) or you will have to contact us on the support server.\n**Promoting the bot.** There is to be known everywhere.\n**Making ...** guides, videos, writing texts, etc. on how to use the bot. StarLight needs everyone's help.\n**Writing Code.** If you know programming, you may want to share code to continue implementing new things."
     },
     "help": {
+        "si":"Yes",
+        "no":"No",
         "titulo": "Command List",
         "version": " | Version",
-        "descripcion": "Hello, I'm ${client_name} and I come to help. This is my list of commands you can use.\n\nPing: `${ping}` ms\n Commands In Total: `${commands}`",
+        "descripcion": "Hello, I'm {client_name} and I come to help. This is my list of commands you can use.\n\nPing: `{ping}` ms\nCategories in total: `{categorias}`\n Commands In Total: `{commands}`",
         "core": "🌠 Bot",
         "diver": "🎉 Fun",
         "info": "📃 Information",
         "util":"🛡 Utilities",
         "config":"⚙ Configuration",
+        "config-bot":"⚙ Bot Configuration",
         "staff": "👮 Staff",
         "inter": "🎁 Interaction",
         "expre":"🎭 Expresión",
@@ -23,29 +29,39 @@
         "games": "🎮 Videogames",
         "econ": "💵 Economy",
         "profile": "👥 Profile",
+        "desarrollador":"👨‍💻 Developer",
+        "manager":"⚙ Bot Manager",
         "masInfo":{
             "title": "More information?",
-            "desc": "Use: `${prefix} <command> help` to get your individual command information and expected parameters."
+            "desc": "Use: `{prefix} <command> help` to get your individual command information and expected parameters."
         },
         "links": {
             "title": "Useful Links",
-            "desc": "[Invite me](${invite} \"Invite me to your server \") | [Support Server](https://discord.gg/MZN8Yf6 \"StarArmy Support\") | [Support with your Vote](https://top.gg/bot/517786947171909643 \"Top.gg\")"
+            "desc": "[Invite me]({invite} \"Invite me to your server \") | [Support Server](https://discord.gg/MZN8Yf6 \"StarArmy Support\") | [Support with your Vote](https://top.gg/bot/517786947171909643 \"Vote on Top.gg every 12 hours.\")"
         },
         "private": "✅  **| Check your DMs.**  👌",
         "noPrivate": "❌ | It seems you have deactivated private messages.",
         "noUso":"You do not have to add parameters",
-        "embedFooter": "The '[]' refers to what is optional.\nThe '<>' refers to that it is mandatory.\nThe '/' refers to two options: Option1/Option2\n  ***None of these symbols must be placed when executing the command.***",
-        "embedTitle": "Help of: ${command}",
-        "embedDescripcion": "**Description:**",
-        "embedAlias": "Alias",
-        "embedNoAlias": "Without Alias"
+        "embedHelp":{
+            "title":"Help of: {command}",
+            "descripcion":"**Description:**",
+            "uso":"Use the command as follows:",
+            "alias":"Alias",
+            "noAlias":"Without alias",
+            "categoria":"Category",
+            "permiso": "Permission",
+            "cooldown":"Cooldown",
+            "args":"Wait arguments",
+            "apagado":"Global shutdown",
+            "sinPermisos":"No permissions required"
+        }
     },
     "invite":{
-        "title":"My invitation | ${client_name}",
+        "title":"My invitation | {client_name}",
         "descripcion":"This beautiful bot can help you a lot on your server, it has a lot of commands for administrators or normal users. But I assure you that you will have fun and help you in everything you need.",
         "version":"| Version",
         "invitacion":"🌠 Invitation",
-        "link":"[Invite ${client_name} to your server](${link})",
+        "link":"[Invite {client_name} to your server]({link})",
         "soporteTitle":"📥 Support Server",
         "soporte":"[Login to the Server](https://discord.gg/MZN8Yf6 'StarArmy') To get help and be aware of all the information always.",
         "webTitle":"🖥 Web page",
@@ -54,14 +70,14 @@
         "apoyo":"Support bot growth by donating what you can through [PayPal](https://www.paypal.me/czemtb 'CZEMTB')"
     },
     "ping":{
-        "footer":"DigitalOcean",
+        "footer":"Virtual Private Machine",
         "espera":"*Calculated...*",
-        "descripcion":"Pong!\n📡 API: **${ping}ms.**\n⏳ Gateway: ${gateway} ms"
+        "descripcion":"Pong!\n📡 API: **{ping}ms.**\n⏳ Gateway: {gateway} ms"
     },
     "release":{
         "title":"News from",
         "descripcion":"**__New__** \n-Multiplier: The possibility of acquiring a multiplier for the income of money was added, this is acquired in the support server for performing certain merits \n-Category Expression and Interaction: These categories will now be separated and They have new commands, in addition to appearance improvements \n-Vote command: Here is the page to vote for the bot and other lists of bots where the button is found. \n-Roleinfo command: It gives you detailed information about a role \n-deactivatexp command: For ease of use, this command was created. Although I was already in the `delete` command \n-Trade command: New command to obtain money \n-Medals command: You will be able to see all your medals. remember you can put them on with `sb! profile edit medals` \n\n**__Changes__** \n-Command Help: Added useful information to command help. \n-Disappearing Commands: cat, drake, gru, trash, trump, google, lyrics. Due to API problems but in the future they will return and many more! \n-Meme command: A temporary fix has been put, soon everyone will be able to send their own memes to integrate it to the command \n-Help command: The help command has been divided and improved to improve its presentation a bit \n-Achievement command: The appearance of the achievement was changed to the xbox one version \n-Mine command: It was renamed to `minesweeper` and from aliases` minesweeper` \n-Remember command: Fixed the time that it did not say how long it was until it sent the reminder \n-Slut command: The name was changed to `dirty` being more appropriate and clarifying that it is not an nsfw command \n-Rob command: It was eliminated since it is inconsistent your existence in a global economy \n-Trans command: commission increased from 10% to 15% \n\n**__Fixes__** \n-Optimization: An improvement was made in the code and update to improve its performance \n-Bugs: Bug fixes and appearance of various commands improved",
-        "footer":"These are the changes of the version ${version} any problem you can enter the support server. | Developed by ${dev}."
+        "footer":"These are the changes of the version {version} any problem you can enter the support server. | Developed by {dev}."
     },
     "stats":{
         "bot":"🤖 Bot Info",
@@ -77,7 +93,7 @@
         "voz":"🔊 Voice connections",
         "commands":"📄 Commands",
         "os":"🖥️ OS",
-        "sistema":"Linux CentOS 8.2",
+        "sistema":"Linux ******",
         "horaServer":"⏳ Server Time"
     },
     "vote":{
