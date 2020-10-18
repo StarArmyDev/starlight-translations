@@ -13,7 +13,7 @@
         "no":"No"
     },
     "game":{
-        "game":"Está ${tipo}: ",
+        "game":"Está {tipo}: ",
         "noGame":"No está jugando en este momento.",
         "tipo":{
             "PLAYING":"🎮 Jugando",
@@ -78,6 +78,7 @@
         "traductor":" Traductor"
     },
     "user":{
+        "noUser":"Usuario no encontrado o inválido",
         "estados":{
             "online": "En Línea",
             "dnd": "No Molestar",
@@ -86,16 +87,16 @@
         },
         "jugando":"🎮 Actividad",
         "tipo":{
-            "0":"🎮 Jugando a",
-            "1":"📡 Transmitiendo en vivo",
-            "2":"🎶 Escuchando",
-            "3":"📺 Viendo a",
-            "4":"Con un estado personalizado",
-            "5":"[Actividad Desconocida]"
+            "PLAYING":"🎮 Jugando a",
+            "STREAMING":"📡 Transmitiendo en vivo",
+            "LISTENING":"🎶 Escuchando",
+            "WATCHING":"📺 Viendo a",
+            "CUSTOM_STATUS":"Estado personalizado"
         },
         "estado":"🔘🔴 Estado",
-        "id":"🆔 Identificador Único",
+        "id":"🆔 Identificador único",
         "conecWeb":"💻 Conectado en Web",
+        "conecDesk":"💻 Conectado en Escritorio",
         "conecCel":"📱 Conectado en Celular",
         "apodo":"👤 Apodo",
         "creada":"📅 Cuenta Creada",
@@ -103,6 +104,7 @@
         "creadaHace":"🕑 Cuenta Creada hace",
         "ingresoHace":"🕑 Ingresado hace",
         "roles":"🔁 Roles",
+        "permisos":"Permisos Importantes",
         "noJugando":"Nada",
         "noApodo":"Ninguno",
         "sd":"S/D"

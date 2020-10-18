@@ -57,11 +57,11 @@
         }
     },
     "invite":{
-        "title":"Mi Invitación | ${client_name}",
+        "title":"Mi Invitación | {client_name}",
         "descripcion":"Este hermoso bot puede ayudarte mucho en tu servidor, tiene mucha variedad de comandos para administradores o usuarios normales. Te aseguro que te divertirás y te ayudará en todo lo que necesites.",
         "version":"| Versión",
         "invitacion":"🌠 Invitación",
-        "link":"[Invita a ${client_name} a tu servidor](${link})",
+        "link":"[Invita a {client_name} a tu servidor]({link})",
         "soporteTitle":"📥 Servidor de Soporte",
         "soporte":"[Entra Al Servidor](https://discord.gg/MZN8Yf6 'StarArmy') Para obtener ayuda y estar enterado de toda la información siempre.",
         "webTitle":"🖥 Página Web",
@@ -72,12 +72,12 @@
     "ping":{
         "footer":"Virtual Private Machine",
         "espera":"*Calculando...*",
-        "descripcion":"Pong!\n📡 API: **${ping}ms.**\n⏳ Puerta de Enlace: ${gateway} ms."
+        "descripcion":"Pong!\n📡 API: **{ping}ms.**\n⏳ Puerta de Enlace: {gateway} ms."
     },
     "release":{
         "title":"Novedades de",
         "descripcion":"**__Nuevo__**\n-Multiplicador: Se agregó la posibilidad de poder adquirir multiplicador para el ingreso de dinero, esto se adquiere en el servidor de soporte por realizar ciertos méritos\n-Categoría Expresión e Interacción: ahora estarán separadas estas categorías y cuentan con unos comandos nuevos, además de mejoras de apariencia\n-Comando vote: Aquí se muestra la página para votar por el bot y otras listas de bots donde se encuentra el bot\n-Comando roleinfo: Te da información detallada acerca de un rol\n-Comando deactivatexp: Para facilitar su uso, se creó este comando, aunque ya estaba en el comando `delete`\n-Comando trade: Nuevo comando para obtener dinero\n-Comando medals: Podrás ver todas tus medallas. Recuerda que puedes ponertelas con `sb!profile edit medals`\n\n**__Cambios__**\n-Ayuda de comandos: Se agregó información útil a la ayuda de los comandos.\n-Comandos que Desaparecen: cat, drake, gru, trash, trump, google, letra. Por problemas de la API pero futuramente volverán, ¡y muchos más!\n-Comando meme: Se ha puesto un arreglo temporal, próximamente todos podrán enviar sus propios memes para integrarlo al comando\n-Comando help: Se dividió y mejoró el comando de ayuda para mejorar un poco su presentación\n-Comando achievement: Se cambió la apariencia del logro a la versión de Xbox One\n-Comando minas: Se cambió el nombre a `minesweeper` y de alias `buscaminas`\n-Comando remember: Se arregló el tiempo que no decía cuánto faltaba para que mandara el recordatorio\n-Comando slut: Se cambió el nombre a `dirty` siendo más apropiado y aclarando que no es un comando NSFW\n-Comando rob: Se eliminó, ya que es incoherente su existencia en una economía global\n-Comando trans: se aumentó la comisión del 10% al 15%\n\n**__Arreglos__**\n-Optimización: Se hizo una mejora en el código y actualización para mejorar su desempeño\n-Bugs: Se arreglaron errores y se mejoró la apariencia de varios comandos.",
-        "footer":"Estos son los cambios de la versión ${version} cualquier problema puedes ingresar al servidor de soporte. | Desarrollado por ${dev}."
+        "footer":"Estos son los cambios de la versión {version} cualquier problema puedes ingresar al servidor de soporte. | Desarrollado por {dev}."
     },
     "stats":{
         "bot":"🤖 Bot Info",

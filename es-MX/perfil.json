@@ -45,19 +45,24 @@
         "noPerfil":"Este usuario no tiene un perfil.",
         "edit":"editar",
         "hep":"help",
-        "helpMensaje":"Usa `${prefix}perfil editar <modo>`\n\nModos:\n-Título\n-Info o Descripción\n-Fondos\n-Tema\n-Género",
-        "titulo":"título",
-        "noTitulo":"Necesitas poner una sola palabra para el nuevo título.",
-        "siTitulo":"✅ Se actulizó el título `${nuevoTitulo}` correctamente.",
-        "info":"info",
-        "noInfo":"Necesitas poner algo para la nueva información.",
-        "siInfo":"✅ Se actulizó la información correctamente por",
+        "helpMensaje":"Usa `{prefix}perfil editar <modo>`\n\nModos:\n-Título\n-Info o Descripción\n-Fondo\n-Tema\n-Género\n-País\n-Cumpleaños\n-Medalla\n-Insignia",
+        "noModo":"❌ | Modo no encontrado.",
+        "titulo":{
+            "titulo":"título",
+            "noTitulo":"Necesitas poner una sola palabra para el nuevo título.",
+            "siTitulo":"✅ | Se actulizó el título `{nuevoTitulo}` correctamente."
+        },
+        "info":{
+            "info":"info",
+            "noInfo":"Necesitas poner algo para la nueva información.",
+            "siInfo":"✅ | Se actulizó la información correctamente por"
+        },
         "fondos":{
             "fondos":"fondos",
             "principal":"principal",
             "secundario":"secundario",
             "default":"defecto",
-            "noModo":"Modo no válido, solamente 1/main o 2/secundary.\nUsa `${prefix}perfil editar fondos <1/principal o 2/secundario>`.",
+            "noModo":"Modo no válido, solamente 1/main o 2/secundary.\nUsa `{prefix}perfil editar fondos <1/principal o 2/secundario>`.",
             "noFondos":"❌ No cuentas con fondos, ¡compra uno!",
             "colocarDefecto":"✅ Fondo predeterminado colocado.",
             "footer":"Fondos disponibles:",
@@ -69,31 +74,54 @@
             "cancelado":"✅ Operación cancelada.",
             "error":"❌ Ocurrió un error al modificar tu perfil. Reporta el error si crees que tu comando está bien hecho."
         },
-        "tema":"tema",
-        "claro":"claro",
-        "oscuro":"oscuro",
-        "noTema":"Solamente se puede tema Claro o Oscuro (1 o 2).",
-        "temaClaro":"✅ Tema claro establecido.",
-        "temaOscuro":"✅ Tema oscuro establecido.",
-        "genero":"género",
-        "hombre":"chico",
-        "mujer":"chica",
-        "noGenero":"Género inválido. Solamente \"hombre\" o \"mujer\".",
-        "siGenero":"✅ Se actulizó el género correctamente por",
+        "tema":{
+            "tema":"tema",
+            "claro":"claro",
+            "oscuro":"oscuro",
+            "noTema":"Solamente se puede tema Claro o Oscuro (1 o 2).",
+            "temaClaro":"✅ | Tema claro establecido.",
+            "temaOscuro":"✅ | Tema oscuro establecido."
+        },
+        "genero": {
+            "genero":"género",
+            "hombre":"chico",
+            "mujer":"chica",
+            "noGenero":"Género inválido. Solamente \"hombre\" o \"mujer\".",
+            "siGenero":"✅ | Se actulizó el género correctamente por"
+        },
+        "pais":{
+            "pais":"pais",
+            "noPais":"País inválido o no disponible.",
+            "siPais":"✅ | País establecido"
+        },
+        "birthday":{
+            "birthday":"cumple",
+            "noValido":"Fecha muy larga. Ejemplo: 08-12",
+            "siCumple":"✅ | Cumpleaños establecido"
+        },
         "medalla":{
             "medalla":"medallas",
-            "help":"Usa `${prefix}perfil editar medallas <posición> <# medalla>` ambos esperan un número.",
-            "noNum":"❌ Este dato no es un número o es un número inválido.",
-            "noLugar":"❌ Lugar inválido, solamente puedes colocar \"1\", \"2\" o \"3\".",
-            "noMedalla":"❌ Medalla no encontrada o inválida.",
-            "siMedalla":"✅ Medalla colocada correctamente."
+            "help":"Usa `{prefix}perfil editar medallas <posición> <# medalla>` ambos esperan un número.",
+            "noNum":"❌ | Este dato no es un número o es un número inválido.",
+            "noLugar":"❌ | Lugar inválido, solamente puedes colocar \"1\", \"2\" o \"3\".",
+            "noMedalla":"❌ | Medalla no encontrada o inválida.",
+            "siMedalla":"✅ | Medalla colocada correctamente."
+        },
+        "insignia":{
+            "insignia":"insignias",
+            "help":"Usa `{prefix}perfil editar insignia <posición> <nombre>`",
+            "noNum":"❌ | Este dato no es un número o es un número inválido.",
+            "noLugar":"❌ | Lugar inválido. Solamente puedes colocar del \"1\" al \"10\".",
+            "noLugarE":"❌ | Lugar inválido para insignia especial. Solamente puedes colocar \"1\" o \"2\".",
+            "noIngsinia":"❌ | Ingsinia no encontrada o inválida.",
+            "siIngsinia":"✅ | Ingsinia colocada correctamente."
         },
         "nvl":"Nvl",
         "noInformacion":"Sin información",
         "casadoDes":"Casad@ con:",
         "casado":"Casado con:",
         "casada":"Casada con:",
-        "errorEdit":"❌ Ocurrió un error al modificar tu perfil. Verifica que todo esté correctamente colocado, si es así, reporta el error."
+        "errorEdit":"❌ | Ocurrió un error al modificar tu perfil. Verifica que todo esté correctamente colocado, si es así, reporta el error."
     },
     "rep":{
         "noUser":"Usuario no válido. Utiliza una mención o ID.",

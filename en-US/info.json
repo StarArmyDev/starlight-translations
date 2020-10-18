@@ -13,7 +13,7 @@
         "no":"Not"
     },
     "game":{
-        "game":"This ${tipo}: ",
+        "game":"This {tipo}: ",
         "noGame":"He is not playing right now.",
         "tipo":{
             "PLAYING":"🎮Playing",
@@ -78,6 +78,7 @@
         "traductor":" Translator"
     },
     "user":{
+        "noUser":"User not found or invalid",
         "estados":{
             "online": "Online",
             "dnd": "Do not bother",
@@ -86,16 +87,16 @@
         },
         "jugando":"🎮 Activity",
         "tipo":{
-            "0":"🎮Playing",
-            "1":"📡Transmitting",
-            "2":"🎶Listening",
-            "3":"📺Watch",
-            "4":"with a custom state",
-            "5":"[Unknown Activity]"
+            "PLAYING":"🎮Playing",
+            "STREAMING":"📡Transmitting",
+            "LISTENING":"🎶Listening",
+            "WATCHING":"📺Watch",
+            "CUSTOM_STATUS":"custom state"
         },
         "estado":"🔘🔴 State",
-        "id":"🆔 Unique Identifier",
+        "id":"🆔 Unique identifier",
         "conecWeb":"💻 Web Connected",
+        "conecDesk":"💻 Connected on Desktop",
         "conecCel":"📱 Connected in Cellular",
         "apodo":"👤 Nickname",
         "creada":"📅 Account Created",
@@ -103,6 +104,7 @@
         "creadaHace":"🕑 Account Created ago",
         "ingresoHace":"🕑 Logged in ago",
         "roles":"🔁 Roles",
+        "permisos":"Important Permissions",
         "noJugando":"Nothing",
         "noApodo":"None",
         "sd":"S/D"
