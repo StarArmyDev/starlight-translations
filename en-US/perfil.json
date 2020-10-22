@@ -1,21 +1,5 @@
 {
-    "casarse":{
-        "autoMencion":"Hey, we don't do that here",
-        "noPerfil":"The user mentioned does not have a profile, tell him to use a command to start it.",
-        "casadoUser":"Hey hey ... this user is already married.",
-        "casado":"You are already married!",
-        "mensaje":"¿${miembro} you accept ${author} like you ${genero} in health and disease, in wealth and poverty, with internet and without internet until the wifi separates them?\n__*You have 60 seconds to answer yes or no*__",
-        "hombre":"legitimate husband",
-        "mujer":"legitimate wife",
-        "otro":"legitimate spouse",
-        "si":"yes",
-        "no":"no",
-        "maridos":"I declare them. Husband and wife <3",
-        "casados":"For the power granted to me by Discord and with all the testite server",
-        "noCasados":"Unfortunately, the ${miembro} marriage has declined and has run away from the server.",
-        "noTiempo":"It took a long time to respond ... that doesn't seem to be a good sign."
-    },
-    "divorcio":{
+    "divorce":{
         "autoMencion":"Hey, we don't do that here",
         "noUser":"The person with whom you are married is not on the server.",
         "noPerfil":"The user mentioned does not have a profile, tell him to use a command to start it.",
@@ -26,80 +10,133 @@
         "no":"no",
         "helpForce":"you must place the person's id.",
         "siUser":"The person you married is on the server, you cannot force a divorce, you must mention",
-        "mensajeForce":"${author} you agree to force separation forever from (${miembro})?\n__*You have 60 seconds to answer yes or no*__",
+        "mensajeForce":"{author} you agree to force separation forever from ({miembro})?\n__*You have 60 seconds to answer yes or no*__",
         "divorcioForce":"Now you are separated, without compromises ... without love </3",
         "noDivorcioForce":"Unfortunately *(or fortunately)* you have regretted the divorce.",
         "noTiempoForce":"It took you a while to respond ... take your time to think about it",
-        "mensaje":"${miembro} you agree to separate forever from ${author} and destroy what since `${fecha}` was his unconditional love declared to all?\n__*You have 60 seconds to answer yes or no*__",
+        "mensaje":"{miembro} you agree to separate forever from {author} and destroy what since `{fecha}` was his unconditional love declared to all?\n__*You have 60 seconds to answer yes or no*__",
         "divorcio":"Now they are separated, without compromises ... without love </3",
-        "noDivorcio":"Regrettably *(or fortunately)* ${miembro} Don't accept this decision, you should talk to him first and make this work :3",
+        "noDivorcio":"Regrettably *(or fortunately)* {miembro} Don't accept this decision, you should talk to him first and make this work :3",
         "noTiempo":"It took a while to respond ... maybe he got angry *- Run -*."
     },
-    "nivel":{
+    "marry":{
+        "autoMencion":"Hey, we don't do that here",
+        "noPerfil":"The user mentioned does not have a profile, tell him to use a command to start it.",
+        "casadoUser":"Hey hey ... this user is already married.",
+        "casado":"You are already married!",
+        "mensaje":"¿{miembro} you accept {author} like you {genero} in health and disease, in wealth and poverty, with internet and without internet until the wifi separates them?\n__*You have 60 seconds to answer yes or no*__",
+        "hombre":"legitimate husband",
+        "mujer":"legitimate wife",
+        "otro":"legitimate spouse",
+        "si":"yes",
+        "no":"no",
+        "maridos":"I declare them. Husband and wife <3",
+        "casados":"For the power granted to me by Discord and with all the testite server",
+        "noCasados":"Unfortunately, the {miembro} marriage has declined and has run away from the server.",
+        "noTiempo":"It took a long time to respond ... that doesn't seem to be a good sign."
+    },
+    "rank":{
         "global":"Global",
         "server":"Guild",
         "s":"guild",
         "noPerfil":"This User does not have a profile or the server does not have the XP system activated"
     },
-    "perfil":{
+    "medals":{
+        "noPerfil":"❌ | This user does not have a profile.",
+        "noMedalla":"❌ | This user does not have medals.",
+        "nombre":"Name:",
+        "nivel":"Level:",
+        "categoria":"Category:",
+        "title":"Medals Earned",
+        "obtenido":"Obtained on:"
+    },
+    "profile":{
         "noPerfil":"This User does not have a profile.",
         "edit":"edit",
         "hep":"help",
-        "helpMensaje":"Use `${prefix}profile edit <mode>\n\nModes:\n-Title\n-Info\n-Backgrounds\nTheme\n-Gender`",
-        "titulo":"title",
-        "noTitulo":"You need to put a single word for the new title",
-        "siTitulo":"✅ The title was updated `${nuevoTitulo}` correctly.",
-        "info":"info",
-        "noInfo":"You need to put something for the new information",
-        "siInfo":"✅ The information was updated correctly by",
+        "helpMensaje":"Use `{prefix}profile edit <mode>\n\nModes:\n-Title\n-Info\n-Backgrounds\nTheme\n-Gender`",
+        "noModo":"❌ | Mode not found.",
+        "titulo":{
+            "titulo":"title",
+            "noTitulo":"You need to put a single word for the new title",
+            "siTitulo":"✅ | The title was updated `{nuevoTitulo}` correctly."
+        },
+        "info":{
+            "info":"info",
+            "noInfo":"You need to put something for the new information",
+            "siInfo":"✅ | The information was updated correctly by"
+        },
         "fondos":{
             "fondos":"backdrop",
             "principal":"head",
             "secundario":"side",
             "default":"defect",
-            "noModo":"Invalid mode, only 1/main or 2/secundary.\nUse `${prefix}profile edit background <1/main or 2/secundary>`",
-            "noFondos":"❌ You don't have funds, buy one!",
-            "colocarDefecto":"✅ Default background placed.",
+            "noModo":"Invalid mode, only 1/main or 2/secundary.\nUse `{prefix}profile edit background <1/main or 2/secundary>`",
+            "noFondos":"❌ | You don't have funds, buy one!",
+            "colocarDefecto":"✅ | Default background placed.",
             "footer":"Funds available:",
             "title":"Choose your profile background",
             "titleN":"Choose your level fund",
             "descripcion":"React to the emoji ✅ to assign it",
             "fondoYa":"This fund is already placed.",
-            "titleSelec":"✅ Properly Assigned Background",
-            "cancelado":"✅ Operation cancelled.",
-            "error":"❌ There was an error modifying your profile. Report the error if you think everything is correct."
+            "titleSelec":"✅ | Properly Assigned Background",
+            "cancelado":"✅ | Operation cancelled.",
+            "error":"❌ | There was an error modifying your profile. Report the error if you think everything is correct."
         },
-        "tema":"theme",
-        "claro":"light",
-        "oscuro":"dark",
-        "noTema":"Only Light or Dark (1 or 2) can be subject",
-        "temaClaro":"✅ Clear Issue Established",
-        "temaOscuro":"✅ Dark Theme Established",
-        "genero":"genre",
-        "hombre":"boy",
-        "mujer":"girl",
-        "noGenero":"Invalid gender. Only boy or girl",
-        "siGenero":"✅ The gender was correctly updated by",
+        "tema":{
+            "tema":"theme",
+            "claro":"light",
+            "oscuro":"dark",
+            "noTema":"Only Light or Dark (1 or 2) can be subject",
+            "temaClaro":"✅ | Clear Issue Established",
+            "temaOscuro":"✅ | Dark Theme Established"
+        },
+        "genero": {
+            "genero":"genre",
+            "hombre":"boy",
+            "mujer":"girl",
+            "noGenero":"Invalid gender. Only boy or girl",
+            "siGenero":"✅ | The gender was correctly updated by"
+        },
+        "pais":{
+            "pais":"land",
+            "noPais":"Invalid or unavailable country.",
+            "siPais":"✅ | Established country"
+        },
+        "birthday":{
+            "birthday":"birthday",
+            "noValido":"Very long date. Example: 08-12",
+            "siCumple":"✅ | Birthday set"
+        },
         "medalla":{
             "medalla":"badge",
-            "help":"Use `${prefix}profile edit badge <posición> <badge>` they both expect a number.",
-            "noNum":"❌ This data is not a number or it is an invalid number",
-            "noLugar":"❌ Invalid place, you can only place 1, 2 or 3",
-            "noMedalla":"❌ Badge not found or invalid.",
-            "siMedalla":"✅ Correctly placed badge."
+            "help":"Use `{prefix}profile edit badge <posición> <badge>` they both expect a number.",
+            "noNum":"❌ | This data is not a number or it is an invalid number",
+            "noLugar":"❌ | Invalid place, you can only place 1, 2 or 3",
+            "noMedalla":"❌ | Badge not found or invalid.",
+            "siMedalla":"✅ | Correctly placed badge."
+        },
+        "insignia":{
+            "insignia":"ensign",
+            "help":"Use `{prefix}profile edit insignia <position> <name>`",
+            "noNum":"❌ | This data is not a number or it is an invalid number.",
+            "noLugar":"❌ | Invalid place. You can only place from \"1\" to \"10\".",
+            "noLugarE":"❌ | Invalid place for special badge. You can only place \"1\" or \"2\".",
+            "noIngsinia":"❌ | Insignia not found or invalid.",
+            "siIngsinia":"✅ | Insignia placed correctly."
         },
         "nvl":"Lvl",
         "noInformacion":"No information",
         "casadoDes":"Married to:",
         "casado":"Married to:",
         "casada":"Married with:",
-        "errorEdit":"❌ There was an error modifying your profile. Verify that everything is correctly placed, if yes, report the error."
+        "errorEdit":"❌ | There was an error modifying your profile. Verify that everything is correctly placed, if yes, report the error."
     },
     "rep":{
         "noUser":"Invalid user only mention or ID.",
-        "autoMencion":"You just gave yourself a reputation ${miembro}. *Now you have 1 rep of punishment* \nReturn in 12 days. To continue giving you reputation.",
+        "autoMencion":"You just gave yourself a reputation {miembro}. *Now you have 1 rep of punishment* \nReturn in 12 days. To continue giving you reputation.",
         "noPerfil":"Este Usuario No tiene Un perfil global. Tiene que usar un comando primero.",
-        "mensaje":"You just gave reputation to ${miembro}. *Now you have ${reputacion} rep*\nCome back in 12 hours. to give someone else."
+        "mensaje":"You just gave reputation to {miembro}. *Now you have {reputacion} rep*\nCome back in 12 hours. to give someone else."
     },
     "top":{
         "money":"money",

@@ -103,6 +103,8 @@
         "ingreso":"📆 Entry",
         "creadaHace":"🕑 Account Created ago",
         "ingresoHace":"🕑 Logged in ago",
+        "insignias":"🔶 Flags ",
+        "noInsig":"No badges",
         "roles":"🔁 Roles",
         "permisos":"Important Permissions",
         "noJugando":"Nothing",
