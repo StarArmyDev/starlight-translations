@@ -30,9 +30,9 @@
         "otro":"legítim@ espos@",
         "si":"si",
         "no":"no",
-        "maridos":"los declaro: marido y mujer <3",
+        "maridos":"Los declaro marido y mujer <3",
         "casados":"Por el poder que se me fue otorgado por Discord y con todo el servidor de testigo, ",
-        "noCasados":"Lamentablemente, ha rechazado el matrimonio, {miembro}, y ha huído del servidor.",
+        "noCasados":"Lamentablemente {miembro} ha rechazado la propuesta de matrimonio y ha huido del servidor.",
         "noTiempo":"Se ha tardado en responder... eso no parece ser una buena señal."
     },
     "rank":{
