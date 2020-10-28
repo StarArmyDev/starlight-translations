@@ -36,6 +36,7 @@
     "waifu":{
         "descripcion":"Description:",
         "popular":"Popularity",
-        "votos":"Positive Votes:"
+        "votos":"Positive Votes:",
+        "confirmacion":"✅ Point added to {waifu}."
     }
 }

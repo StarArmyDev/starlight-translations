@@ -287,15 +287,6 @@
         "defecto":"defecto",
         "noCanal":"Canal no válido, revisa que sea un canal de texto.",
         "canal":"Canal:",
-        "rol":{
-            "yaRol":"Rol ya asignado.",
-            "noTime":"Tiempo no válido, coloca el tiempo en segundos.",
-            "title":"✅ Rol de bienvenida asignado.",
-            "footer":"Puedes usar el comando nuevamente para agregar más roles.",
-            "mensaje":"Rol",
-            "time":"Tiempo de espera para colocar roles.",
-            "defecto":"Por defecto."
-        },
         "welcome":{
             "noCanal":"Canal no válido, revisa que pusiste bien todo y que hayas puesto solo un espacio antes y después del ` | ` para separar los campos.",
             "mensajeD":"¡Hola, ${user}! ¡Nuevo miembro!",
@@ -478,5 +469,16 @@
             {"nombre": "Blanco", "color": "#fffefe"},
             {"nombre": "Negro", "color": "#040100"}
         ]
+    },
+    "setrole":{
+        "noRol":"❌ | Rol no encontrado o rol no válido.",
+        "noPosicion":"❌ | Rol no válido. Este rol está mas arriba que mi rol actual.",
+        "yaRol":"❌ | Rol ya asignado.",
+        "noTime":"❌ | Tiempo no válido, coloca el tiempo en segundos.",
+        "title":"✅ | Rol de bienvenida asignado.",
+        "footer":"Puedes usar el comando nuevamente para agregar más roles.",
+        "mensaje":"Rol",
+        "time":"Tiempo de espera para colocar roles.",
+        "defecto":"Por defecto."
     }
 }

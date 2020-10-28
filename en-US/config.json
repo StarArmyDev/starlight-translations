@@ -287,15 +287,6 @@
         "defecto":"default",
         "noCanal":"Invalid channel, verify it is a text channel.",
         "canal":"Channel:",
-        "rol":{
-            "yaRol":"Role already assigned",
-            "noTime":"Invalid time, enter the time in seconds",
-            "title":"✅ Welcome role assigned",
-            "footer":"You can use the command again to add more roles.",
-            "mensaje":"Role",
-            "time":"Waiting time to drop roles",
-            "defecto":"Default"
-        },
         "welcome":{
             "noCanal":"Invalid channel, verify that you put everything correctly or that you use with only a space before and after the ` | `to separate the fields.",
             "mensajeD":"Hello ${user} new member!",
@@ -504,5 +495,16 @@
             {"nombre": "White", "color": "#fffefe"},
             {"nombre": "Black", "color": "#040100"}
         ]
+    },
+    "setrole":{
+        "noRol":"❌ | Role not found or invalid role.",
+        "noPosicion":"❌ | Invalid role. This role is higher than my current role.",
+        "yaRol":"❌ | Role already assigned",
+        "noTime":"❌ | Invalid time, enter the time in seconds",
+        "title":"✅ Welcome role assigned",
+        "footer":"You can use the command again to add more roles.",
+        "mensaje":"Role",
+        "time":"Waiting time to drop roles",
+        "defecto":"Default"
     }
 }

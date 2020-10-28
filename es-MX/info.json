@@ -43,11 +43,11 @@
     },
     "serverinfo":{
         "seguridad":{
-            "0":"Ninguno",
-            "1":"Bajo",
-            "2":"Medio",
-            "3":"Alto",
-            "4":"Máximo"
+            "NONE":"Ninguno",
+            "LOW":"Bajo",
+            "MEDIUM":"Medio",
+            "HIGH":"Alto",
+            "VERY_HIGH":"Máximo"
         },
         "id":"🆔 Identificador Único",
         "region":"🗺️ Región",
