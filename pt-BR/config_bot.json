@@ -34,4 +34,10 @@
         "ETitle":"Comando habilitado neste servidor",
         "DTitle":"Comando desativado neste servidor",
         "field":"Comando:"
+    },
+    "setcolor":{
+        "noValido":"❌ | Cor inválida.",
+        "title":"Cor personalizada atribuída",
+        "cambio":"Transferido para:"
     }
+}

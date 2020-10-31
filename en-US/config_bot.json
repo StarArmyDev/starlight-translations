@@ -34,5 +34,10 @@
         "ETitle":"Enabled command on this server",
         "DTitle":"Disabled command on this server",
         "field":"Command:"
+    },
+    "setcolor":{
+        "noValido":"❌ | Invalid color.",
+        "title":"Assigned custom color",
+        "cambio":"Switched to:"
     }
 }
