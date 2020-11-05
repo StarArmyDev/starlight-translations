@@ -87,7 +87,7 @@
             "tema":"tema",
             "claro":"claro",
             "oscuro":"oscuro",
-            "noTema":"Solamente se puede tema Claro o Oscuro (1 o 2).",
+            "noTema":"Solamente se puede tema claro y oscuro (1 o 2).",
             "temaClaro":"✅ | Tema claro establecido.",
             "temaOscuro":"✅ | Tema oscuro establecido."
         },
@@ -99,18 +99,18 @@
             "siGenero":"✅ | Se actulizó el género correctamente por"
         },
         "pais":{
-            "pais":"pais",
+            "pais":"país",
             "noPais":"País inválido o no disponible.",
-            "siPais":"✅ | País establecido"
+            "siPais":"✅ | País establecido."
         },
         "birthday":{
-            "birthday":"cumple",
+            "birthday":"cumpleaños",
             "noValido":"Fecha muy larga. Ejemplo: 08-12",
-            "siCumple":"✅ | Cumpleaños establecido"
+            "siCumple":"✅ | Cumpleaños establecido."
         },
         "medalla":{
             "medalla":"medallas",
-            "help":"Usa `{prefix}perfil editar medallas <posición> <# medalla>` ambos esperan un número.",
+            "help":"Usa `{prefix}perfil editar medallas <posición> <# medalla>`. Ambos esperan un número.",
             "noNum":"❌ | Este dato no es un número o es un número inválido.",
             "noLugar":"❌ | Lugar inválido, solamente puedes colocar \"1\", \"2\" o \"3\".",
             "noMedalla":"❌ | Medalla no encontrada o inválida.",
