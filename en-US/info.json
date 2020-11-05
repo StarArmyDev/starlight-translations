@@ -4,7 +4,7 @@
     },
     "emoji":{
         "noEmoji":"Emoji not found or not available.",
-        "id":"🆔 Unique Identifier",
+        "id":"🆔 Unique identifier",
         "animado":"Animated/Gif",
         "server":"Guild",
         "autor":"Uploaded by",
@@ -14,19 +14,19 @@
     },
     "game":{
         "game":"This {tipo}: ",
-        "noGame":"He is not playing right now.",
+        "noGame":"Is not playing right now.",
         "tipo":{
             "PLAYING":"🎮Playing",
             "STREAMING":"📡Transmitting",
             "LISTENING":"🎶Listening",
             "WATCHING":"📺Watch",
             "CUSTOM_STATUS":"with a custom state",
-            "undefined":"[Unknown Activity]"
+            "undefined":"[Unknown activity]"
         }
     },
     "roleinfo":{
         "noRol":"Role not found or invalid",
-        "title":"Role Information",
+        "title":"Role information",
         "nombre":"Name",
         "id":"🆔 Unique identifier",
         "color":"🌈 Color",
@@ -34,11 +34,11 @@
         "mensionable":"@ Mentionable",
         "posicion":"🔢 Position",
         "miembros":"👥 Members",
-        "permisosImport":"⛔ Important Permissions",
-        "tiempo":"⌛ Role Created",
+        "permisosImport":"⛔ Important perms",
+        "tiempo":"⌛ Role created",
         "si":"Yes",
         "no":"No",
-        "sinPerm":"No Permissions.",
+        "sinPerm":"No perms.",
         "sinInfo":"No information."
     },
     "serverinfo":{
@@ -53,13 +53,13 @@
         "region":"🗺️ Region",
         "creado":"🗓️ Creation date",
         "creadoHace":"🕑 Created ago",
-        "dueño":"👑 Guild Owner",
+        "dueño":"👑 Guild owner",
         "miembros":"👥 Members",
         "linea":"Online:",
         "noMolestar":"Do not bother:",
         "ausente":"Missing:",
         "desconectado":"Disconnected:",
-        "nivelVer":"🚨 Verification Level",
+        "nivelVer":"🚨 Verification level",
         "usuarios":"👤 Humans",
         "bots":"🤖 Bots",
         "canales":"💬 Channels",
@@ -95,23 +95,23 @@
         },
         "estado":"🔘🔴 State",
         "id":"🆔 Unique identifier",
-        "conecWeb":"💻 Web Connected",
-        "conecDesk":"💻 Connected on Desktop",
-        "conecCel":"📱 Connected in Cellular",
+        "conecWeb":"💻 Web connected",
+        "conecDesk":"💻 Connected on desktop",
+        "conecCel":"📱 Connected on mobile",
         "apodo":"👤 Nickname",
-        "creada":"📅 Account Created",
+        "creada":"📅 Account created",
         "ingreso":"📆 Entry",
-        "creadaHace":"🕑 Account Created ago",
-        "ingresoHace":"🕑 Logged in ago",
+        "creadaHace":"🕑 Account created ago",
+        "ingresoHace":"🕑 Login ago",
         "insignias":"🔶 Flags ",
         "noInsig":"No badges",
         "roles":"🔁 Roles",
-        "permisos":"Important Permissions",
+        "permisos":"Important perms",
         "noJugando":"Nothing",
         "noApodo":"None",
         "sd":"S/D"
     },
     "userrandom":{
-        "title":"Lucky User:"
+        "title":"Lucky user:"
     }
 }
