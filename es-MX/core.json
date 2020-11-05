@@ -11,7 +11,7 @@
         "desc":"**Donaciones directas.** Puede donar a nuestro [PayPal](https://www.paypal.me/czemtb) o tendrá que ponerse en contacto con nosotros en el servidor de soporte.\n**Promocionando al bot.**  Hay que darnos a conocer por todas partes.\n**Realizando...** guías, vídeos, redactando textos, etc. de cómo utilizar el bot. StarLight necesita ayuda de todos.\n**Escribiendo Código.** Si sabes de programación, tal vez te interese compartir código para seguir implementando cosas nuevas."
     },
     "help":{
-        "si":"Si",
+        "si":"Sí",
         "no":"No",
         "titulo":"Lista de Comandos",
         "version":" | Versión ",
@@ -37,7 +37,7 @@
         },
         "links":{
             "title":"Links útiles",
-            "desc":"[Invítame]({invite} \"Invítame a tu servidor\") | [Servidor De Soporte](https://discord.gg/MZN8Yf6 \"StarArmy Soporte\") | [Apóyanos con tu Voto](https://top.gg/bot/517786947171909643 \"Vota en Top.gg cada 12 hrs.\")"
+            "desc":"[Invítame]({invite} \"Invítame a tu servidor\") | [Servidor De Soporte](https://discord.gg/MZN8Yf6 \"StarArmy Soporte\") | [Apóyanos con tu Voto](https://top.gg/bot/517786947171909643 \"Vota en Top.gg cada 12 horas.\")"
         },
         "private":"✅ **| Revisa tu MD.** 👌",
         "noPrivate":"❌ | Parece que tienes desactivado los mensajes privados.",
@@ -50,7 +50,7 @@
             "noAlias":"Sin alias",
             "categoria":"Categoría",
             "permiso": "Permiso",
-            "cooldown":"Cooldown",
+            "cooldown":"Tiempo de espera",
             "args":"Espera argumentos",
             "apagado":"Apagado global",
             "sinPermisos":"Sin permisos requeridos"
