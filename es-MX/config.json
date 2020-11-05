@@ -407,14 +407,14 @@
     "createcolors":{
         "noBot":"❌ No tengo permiso de crear roles en este servidor.",
         "modos":"Está a punto de crear ${roles} roles de colores. Coloca `Si` para continuar, `Eliminar` para quitarlos o `Cancelar` para cancelar la operación.\n\n**Puedes colocar mi rol más alto desde donde quieres que empiece a crear los roles hacia abajo.**",
-        "detectado":"Se a detectado que existen roles de color que no están en la db. Coloca `asignar` para agregarlos al comando *selfrole*.\n",
+        "detectado":"Se ha detectado que existen roles de color que no están en la base de datos. Coloca `asignar` para agregarlos al comando *selfrole*.\n",
         "asignar":"asignar",
         "si":"si",
         "no":"eliminar",
-        "asignado":"✅ Roles asignados correctamente",
+        "asignado":"✅ Roles asignados correctamente.",
         "creando":"Creando",
-        "mensaje":"✅ Roles de colores creados:`${creados}` exitosamente. *Si los roles se crearon pero no están disponibles en el comando* `selfrole` *usa nuevamente este comando y sigue la indigaciones*",
-        "mensajeDelete":"Roles de colores eliminados:`${contador}` exitosamente.",
+        "mensaje":"✅ Roles de colores creados:`${creados}` exitosamente. *Si los roles se crearon pero no están disponibles en el comando* `selfrole` *, usa nuevamente este comando y sigue la indicaciones*",
+        "mensajeDelete":"✅ Roles de colores eliminados:`${contador}` exitosamente.",
         "error":"❌ Lo siento, parece que hubo un error. Estamos trabajando en repararlo.",
         "tiempoExpirado":"Tiempo de espera acabado.",
         "rolesN": [
