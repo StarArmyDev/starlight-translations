@@ -74,7 +74,7 @@
             "noAlias":"Sin alias",
             "categoria":"Categoría",
             "permiso": "Permiso",
-            "cooldown":"Cooldown",
+            "cooldown":"Tiempo de espera",
             "args":"Espera argumentos",
             "apagado":"Apagado global",
             "sinPermisos":"Sin permisos requeridos"
