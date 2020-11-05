@@ -472,7 +472,7 @@
     },
     "setrole":{
         "noRol":"❌ | Rol no encontrado o rol no válido.",
-        "noPosicion":"❌ | Rol no válido. Este rol está mas arriba que mi rol actual.",
+        "noPosicion":"❌ | Rol no válido. Este rol está mas arriba de mi rol más alto.",
         "yaRol":"❌ | Rol ya asignado.",
         "noTime":"❌ | Tiempo no válido, coloca el tiempo en segundos.",
         "title":"✅ | Rol de bienvenida asignado.",
