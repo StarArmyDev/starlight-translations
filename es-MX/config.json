@@ -1,42 +1,15 @@
 {
     "add":{
-        "xp": {
-            "xp":"experiencia",
-            "noUser": "El usuario no está en la base de datos.",
-            "noCantidad": "No colocaste un número de XP válido.",
-            "correcto": "✅ ${cantidad}XP correctamente añadida de: ${miembro}.",
-            "error": "Ocurrió un error al intentar añadir el XP al usuario."
-        },
         "dinero":{
             "dinero":"dinero",
             "noModo":"Modo no válido, solamente se acepta <cartera/banco/c/b>.",
             "noUser": "El usuario no está en la base de datos.",
             "noCantidad": "No colocaste un número válido.",
-            "correcto": "✅ ${cantidad} de dinero añadida correctamente de: ${miembro}.",
+            "correcto": "✅ {cantidad} de dinero añadida correctamente de: {miembro}.",
             "error": "Ocurrió un error al intentar añadir el dinero al usuario."
         },
         "cartera":"cartera",
         "banco":"banco",
-        "rol":{
-            "rol":"rolnivel",
-            "noBot":"No tengo permisos para gestionar roles en este servidor.",
-            "noRol":"Rol no encontrado o no existe, por favor, verifícalo.",
-            "noNumber":"No colocaste un número de nivel válido.",
-            "noPalabra":"Palabra no válida, solamente \"sí\" o \"no\"",
-            "rolMensaje":"¡Has subido de nivel y tienes un rol para presumirlo!",
-            "rolTrue":"Rol ya asignado.",
-            "nivelTrue":"Nivel ya asignado.",
-            "embedTitle":"✅ Rol por nivel añadido.",
-            "embedFooter":"Recuerda activar el XP del servidor con `${prefix}set xp` | ${guild_name}.",
-            "embedField":{
-                "title":"Rol",
-                "descripcion":"[${rolid}] Nivel: ${lvl}\nMensaje: ${rolmensaje}\nQuitar rol pasado: ${rolquitar}."
-            },
-            "si":"sí",
-            "no":"no",
-            "rolYes":"Sí",
-            "rolNo":"No"
-        },
         "exclude":{
             "exclude":"excluir",
             "noCanal":"Canal no válido, revisa que sea un canal de texto.",
@@ -70,7 +43,7 @@
         },
         "autorole":{
             "autorole":"autorol",
-            "noGrupo":"❌ | Grupo no encontrado, primero debes de usar el comando `${prefix}addgrupo` para crearlo.",
+            "noGrupo":"❌ | Grupo no encontrado, primero debes de usar el comando `{prefix}addgrupo` para crearlo.",
             "noRol":"Rol no encontrado o rol no válido, por favor, verifica que exista y que esté por debajo de mi rol más alto.",
             "existe":"❌ | Este rol ya se encuentra en el grupo.",
             "title":"✅ Rol agregado.",
@@ -78,8 +51,8 @@
             "rol":"Rol:"
         },
         "noModo":"Ese modo no existe o pusiste un ` | ` mal. Verifica y solamente usa `xp/dinero/rollevelup/excludelogs/exclude`.",
-        "noMember": "Usuario no encontrado, verifícalo.",
-        "error":"❌ Parece que ocurrió un error inesperado, reporta el bug para solucionarlo."
+        "noMember": "❌ | Usuario no encontrado, verifícalo.",
+        "error":"❌ | Parece que ocurrió un error inesperado, reporta el bug para solucionarlo."
     },
     "config":{
         "noRol":"Rol no encontrado.",
@@ -92,11 +65,12 @@
         "min":"Mín.:",
         "max":"Máx.:",
         "xplvl":"XP LevelUp:",
+        "cooldown":"XP Cooldown:",
         "daily":"Dinero diario:",
         "canalEliminado":"*Canal eliminado o no disponible.*",
         "noConfig":"*No configurado.*",
         "embed":{
-            "author":"Configuración | ${guild_name}.",
+            "author":"Configuración | {guild_name}.",
             "title1":"Bienvenida/Despedida",
             "bienvenida":"Bienvenida:",
             "imgBienvenida":"Imagen de bienvenida:",
@@ -139,7 +113,7 @@
         },
         "rol":{
             "rol":"rol",
-            "help":"Usa `${prefix}delete rolwelcome <rol>`.",
+            "help":"Usa `{prefix}delete rolwelcome <rol>`.",
             "noConfig":"No existen roles configurados en este servidor.",
             "noRoles":"Parece que no existe ese rol en la base de datos.",
             "true":"✅ Rol removido con éxito."
@@ -162,14 +136,6 @@
         "lvl":{
             "lvl":"nivel",
             "title":"Redirección de subida de nivel quitado."
-        },
-        "xp":{
-            "xp":"experiencia",
-            "all":"todo",
-            "noUser":"El usuario no está en la base de datos.",
-            "noNumber":"No colocaste un número de XP válido.",
-            "true":"XP eliminada correctamente de:",
-            "error":"❌ Ocurrió un error al intentar eliminar el XP del usuario."
         },
         "money":{
             "money":"dinero",
@@ -210,12 +176,6 @@
             "nick":"apodo",
             "title":"Autoapodo desactivado."
         },
-        "pinned":"anclar",
-        "module":{
-            "module":"categorías",
-            "noConfig":"No tienes desactivada ninguna categoría.",
-            "title":"Todas las categorías activadas."
-        },
         "mc":{
             "mc":"contadormiembros",
             "title":"Contador de miembros quitado.",
@@ -246,13 +206,6 @@
             "exclude":"excluir",
             "title":"Canal excluido quitado."
         },
-        "rollvl":{
-            "rollvl":"rolnivel",
-            "help":"Usa `${prefix}delete rolelvl <número del nivel/rol>`.",
-            "noConfig":"No existen roles configurados en este servidor.",
-            "noRol":"Parece que no existe ese rol en la base de datos.",
-            "true":"✅ Rol removido con éxito."
-        },
         "level":{
             "level":"niveles",
             "noConfig":"No tienes configurado el sistema de niveles/XP del servidor.",
@@ -264,7 +217,7 @@
         },
         "group":{
             "group":"grupo",
-            "help":"Usa `${prefix}delete grupo <Nombre>`.",
+            "help":"Usa `{prefix}delete grupo <Nombre>`.",
             "noGrupo":"❌ | Grupo no encontrado.",
             "title":"Grupo de autoroles eliminado.",
             "nombre":"Nombre:",
@@ -272,13 +225,12 @@
         },
         "autorole":{
             "autorole":"autorol",
-            "help":"Usa `${prefix}delete <nombre del grupo> <@rol>`.",
+            "help":"Usa `{prefix}delete <nombre del grupo> <@rol>`.",
             "noGrupo":"❌ | Grupo no encontrado.",
             "noRol":"❌ | Rol no encontrado.",
             "title":"Autorol eliminado del grupo.",
             "rol":"Rol quitado:"
         },
-        "jg":"jugando",
         "noModo":"❌ Ese modo no existe.",
         "error":"❌ Parece que ocurrió un error inesperado, reporta el bug para solucionarlo."
     },
@@ -289,7 +241,7 @@
         "canal":"Canal:",
         "welcome":{
             "noCanal":"Canal no válido, revisa que pusiste bien todo y que hayas puesto solo un espacio antes y después del ` | ` para separar los campos.",
-            "mensajeD":"¡Hola, ${user}! ¡Nuevo miembro!",
+            "mensajeD":"¡Hola, {user}! ¡Nuevo miembro!",
             "mensajeEmbed":"Hola, bienvenid@.",
             "title":"Canal de bienvenida asignado.",
             "mensaje":"Con el mensaje.",
@@ -359,7 +311,7 @@
         },
         "lang":{
             "canal":"canal",
-            "noIdioma":"Este idioma no existe, usa `${prefix}setidioma help` para conocer los idiomas disponibles.",
+            "noIdioma":"Este idioma no existe, usa `{prefix}setidioma help` para conocer los idiomas disponibles.",
             "noLang":"No colocaste el idioma a establecer para el canal.",
             "title":"Idioma del servidor asignado.",
             "titleC":"Idioma del canal asignado.",
@@ -370,10 +322,10 @@
             "cambio":"Cambiado a:"
         },
         "mc":{
-            "activo":"Primero desactiva el modo usando `${prefix}delete memberCount`.",
+            "activo":"Primero desactiva el modo usando `{prefix}delete memberCount`.",
             "canales":"canales",
             "embed":"embed",
-            "helpC":"Usa `${prefix}setmc canales [canal Total], [canal miembros], [canal bots], [canal roles], [canal canales]`\n\nPara que un canal no esté activo coloque en su lugar del nombre **false**.",
+            "helpC":"Usa `{prefix}setmc canales [canal Total], [canal miembros], [canal bots], [canal roles], [canal canales]`\n\nPara que un canal no esté activo coloque en su lugar del nombre **false**.",
             "noCrearCanal":"No tengo los permisos suficientes para crear canales.",
             "total":"Total de usuarios",
             "miembros":"Miembros",
@@ -392,29 +344,20 @@
             "descripcion":"Creando canal...",
             "noModo":"Modo no encontrado, solamente **canales** o **embed**."
         },
-        "xp":{
-            "help":"Usa `${prefix}setxp <mínima> <máxima> [xpLevelUp]` la xpLevelUp sigue la fórmula: xpLevelUp * (Nivel + 1)2 (Por defecto: 200).",
-            "noNumber":"No has colocado números válidos.",
-            "noValido":"No has colocado números válidos o es menor a 10.",
-            "title":"Sistema de experiencia del servidor activado.",
-            "xpMin":"XP mínimo:",
-            "xpMax":"XP máximo:",
-            "lvl":"XP Lvl:"
-        },
         "noModoDisable":"❌ Modo no válido, solamente categoría y comando.",
         "error":"❌ Parece que ocurrió un error inesperado, reporta el bug para solucionarlo."
     },
     "createcolors":{
         "noBot":"❌ No tengo permiso de crear roles en este servidor.",
-        "modos":"Está a punto de crear ${roles} roles de colores. Coloca `Si` para continuar, `Eliminar` para quitarlos o `Cancelar` para cancelar la operación.\n\n**Puedes colocar mi rol más alto desde donde quieres que empiece a crear los roles hacia abajo.**",
+        "modos":"Está a punto de crear {roles} roles de colores. Coloca `Si` para continuar, `Eliminar` para quitarlos o `Cancelar` para cancelar la operación.\n\n**Puedes colocar mi rol más alto desde donde quieres que empiece a crear los roles hacia abajo.**",
         "detectado":"Se ha detectado que existen roles de color que no están en la base de datos. Coloca `asignar` para agregarlos al comando *selfrole*.\n",
         "asignar":"asignar",
         "si":"si",
         "no":"eliminar",
         "asignado":"✅ Roles asignados correctamente.",
         "creando":"Creando",
-        "mensaje":"✅ Roles de colores creados:`${creados}` exitosamente. *Si los roles se crearon pero no están disponibles en el comando* `selfrole` *, usa nuevamente este comando y sigue la indicaciones*",
-        "mensajeDelete":"✅ Roles de colores eliminados:`${contador}` exitosamente.",
+        "mensaje":"✅ Roles de colores creados:`{creados}` exitosamente. *Si los roles se crearon pero no están disponibles en el comando* `selfrole` *, usa nuevamente este comando y sigue la indicaciones*",
+        "mensajeDelete":"✅ Roles de colores eliminados:`{contador}` exitosamente.",
         "error":"❌ Lo siento, parece que hubo un error. Estamos trabajando en repararlo.",
         "tiempoExpirado":"Tiempo de espera acabado.",
         "rolesN": [
@@ -469,6 +412,75 @@
             {"nombre": "Blanco", "color": "#fffefe"},
             {"nombre": "Negro", "color": "#040100"}
         ]
+    },
+    "activexp":{
+        "help":"ayuda",
+        "helpDesc":"📑 | Usa `{prefix}setxp <Xp mínima> <Xp máxima> [XpLevelUp]` la variable **XpLevelUp** sigue la fórmula: **XpLevelUp** * (**Nivel** + 1)2 (Por defecto: 200).",
+        "noNumber":"❌ | No has colocado números válidos.",
+        "noValido":"❌ | No has colocado números válidos o es menor a 10.",
+        "noTiempo":"❌ | No has colocado tiempo válido o es menor a 10.",
+        "title":"✅ | Sistema de experiencia del servidor activado.",
+        "xpMin":"XP Mínima:",
+        "xpMax":"XP Máxima:",
+        "lvl":"XP Lvl:",
+        "cooldown":"XP Cooldown:"
+    },
+    "addexcludexp":{
+        "noCanal":"❌ | Canal no válido, revisa que sea un canal de texto o categoría.",
+        "yaCanal":"❌ | Canal ya excluido.",
+        "title":"✅ | Canal excluido de experiencia",
+        "canal":"Agregado:",
+        "title2":"✅ | Canales excluidos de experiencia.",
+        "canales":"Agregados:"
+    },
+    "addrollevelup":{
+        "noBot":"❌ | No tengo permisos para gestionar roles en este servidor.",
+        "noRol":"❌ | Rol no encontrado o no existe, por favor, verifícalo.",
+        "noNumber":"❌ | No colocaste un número de nivel válido.",
+        "rolMensaje":"¡Has subido de nivel y tienes un rol para presumir!",
+        "rolTrue":"❌ | Rol ya asignado.",
+        "nivelTrue":"❌ | Nivel ya asignado.",
+        "embed": {
+            "title":"✅ | Rol por nivel añadido.",
+            "footer":"Recuerda activar el XP del servidor con `{prefix}activexp` | {guild_name}.",
+            "field":{
+                "title":"Rol",
+                "descripcion":"[{rolid}] Nivel: {lvl}\nMensaje: {rolmensaje}"
+            }
+        }
+    },
+    "addxp":{
+        "noMember": "❌ | Usuario no encontrado, verifícalo.",
+        "noCantidad": "❌ | No colocaste un número de XP válido.",
+        "correcto": "✅ | {cantidad}XP correctamente añadida a {miembro}."
+    },
+    "deleteexcludexp":{
+        "noConfig":"*No configurado.*",
+        "quitado":"Quitado.",
+        "noCanal":"❌ | Canal no válido, revisa que sea un canal de texto o de categoría.",
+        "title":"✅ | Canal excluido de experiencia quitado"
+    },
+    "deleterollevelup":{
+        "noConfig":"❌ | No existen roles configurados en este servidor.",
+        "noRol":"❌ | Parece que no existe ese rol en la base de datos.",
+        "true":"✅ Rol removido con éxito."
+    },
+    "deletexp":{
+        "all":"todo",
+        "noMember": "❌ | Usuario no encontrado, verifícalo.",
+        "noUser":"❌ | El usuario no está en la base de datos.",
+        "noNumber":"❌ | No colocaste un número de XP válido.",
+        "true":"✅ | {cantidad}XP correctamente eliminada a {miembro}"
+    },
+    "resetxp":{
+        "noMember":"❌ | Usuario no encontrado, verifícalo.",
+        "noMemverDB":"❌ | Este usuario no tiene experiencial.",
+        "mensajeMiembro":"Está a punto de resetear la experiencia de {member} ¿Realmente desea continuar? Escribe `si`. *Tienes 60 segundos para contestar.*",
+        "mensajeServidor":"Está a punto de resetear la experiencia de todo el servidor  ¿Realmente desea continuar? Escribe `si`. *Tienes 60 segundos para contestar.*",
+        "si":"si",
+        "tiempo":"❌ | El tiempo para contestar se acabó. Si creés que es un error, favor de reportarlo.",
+        "ok":"✅ | Experiencia de {sujeto} reiniciada.",
+        "server":"todo el servidor"
     },
     "setrole":{
         "noRol":"❌ | Rol no encontrado o rol no válido.",

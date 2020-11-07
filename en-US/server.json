@@ -57,12 +57,19 @@
         "agregado":"Aggregate"
     },
     "commandHandling":{
-        "noComand":"❌ Command not found",
-        "talvez":"does not exist. Maybe you wanted to say:",
+        "noCommand": {
+            "title":"❌ Command not found",
+            "description":"The **{command}** command does not exist",
+            "similitudes":"Similar commands:"
+        },
         "noPermCanal":"I am not allowed to send messages in:",
-        "noPermComandoCanal":"I am not allowed to send the command `${commandName}` in:",
-        "categoriaDeshabilitado":"*⛔ | Category disabled on this server.*",
-        "comandoDeshabilitado":"*⛔ | Command disabled on this server.*",
+        "noPermComandoCanal":"I am not allowed to send the command `{commandName}` in:",
+        "disable":{
+            "miembro":"*⛔ | This command is disabled on this server.*",
+            "rol":"*⛔ | Command disabled for your role on this server.*",
+            "canal":"*⛔ | Command disabled on this channel.*",
+            "server":"*⛔ | Command disabled on this server.*"
+        },
         "comandoApagado":"This command is turned off by some update or temporary suspension.",
         "noDesarrollador":"Sorry, this command can only be executed by a Developer.",
         "noUso":"You do not have to add parameters",
@@ -79,15 +86,15 @@
             "apagado":"Global shutdown",
             "sinPermisos":"No permits required"
         },
-        "cooldown":"High! Wait `${time}` to use the command again `${commandName}` be patient.",
-        "error":"❌ There was an error trying to execute the command. You can report it with `${prefix}bugreport` or write me to DM."
+        "cooldown":"High! Wait `{time}` to use the command again `{commandName}` be patient.",
+        "error":"❌ There was an error trying to execute the command. You can report it with `{prefix}bugreport` or write me to DM."
     },
     "subidaDeNivel":{
         "levelUp":"You Level Up!",
         "nivel":"level",
         "mensaje":"**You have level up *{user_name}***"
     },
-    "terminamute":"**${usuario} Your time is silenced.**",
+    "terminamute":"**{usuario} Your time is silenced.**",
     "welcome":{
         "autoRolesRazon":"Auto-roles Welcome",
         "embed":{
@@ -111,7 +118,7 @@
         "reTitle":"Security Check",
         "rePrecaucion":"⚠[CAUTION] ⚠ Newly created account:",
         "reCreado":"⏳ He created his account ago:",
-        "terminamute":"**${usuario} Your time is silenced.**"
+        "terminamute":"**{usuario} Your time is silenced.**"
     },
     "leave":{
         "botFuera":"A Bot Was Taken Out:",

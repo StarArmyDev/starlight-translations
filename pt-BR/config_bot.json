@@ -6,8 +6,8 @@
     "noModoDisable":"❌ Modo inválido, categoria e comando apenas.",
     "enable":{
         "enable":"categoria",
-        "DHelp":"Use `${prefix}disable categoria <nome da categoria>`\nCategorias:\n`-tudo\n-configuração\n-diversão\n-economia\n-jogos\n-informação\n-interação\n-música\n-perfil\n-staff \n-utilida`",
-        "EHelp":"Usa `${prefix}enable categoria <nome da categoria>`\nCategorias:\n`-tudo\n-configuração\n-diversão\n-economia\n-jogos\n-informação\n-interação\n-música\n-perfil\n-staff\n-utilida`",
+        "DHelp":"Use `{prefix}disable categoria <nome da categoria>`\nCategorias:\n`-tudo\n-configuração\n-diversão\n-economia\n-jogos\n-informação\n-interação\n-música\n-perfil\n-staff \n-utilida`",
+        "EHelp":"Usa `{prefix}enable categoria <nome da categoria>`\nCategorias:\n`-tudo\n-configuração\n-diversão\n-economia\n-jogos\n-informação\n-interação\n-música\n-perfil\n-staff\n-utilida`",
         "all":"tudo",
         "config":"configuração",
         "diver":"diversão",
@@ -27,8 +27,8 @@
     },
     "command":{
         "command":"comando",
-        "DHelp":"Use `${prefix}disable comando <nome do comando>`",
-        "EHelp":"Usa `${prefix}enable comando <nome do comando>`",
+        "DHelp":"Use `{prefix}disable comando <nome do comando>`",
+        "EHelp":"Usa `{prefix}enable comando <nome do comando>`",
         "noCommand":"❌ Comando não encontrado, apenas o nome do comando é aceito, não seus aliases.",
         "commandImport":"⚠ Este comando pertence a uma categoria importante.",
         "ETitle":"Comando habilitado neste servidor",

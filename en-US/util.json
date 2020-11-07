@@ -2,11 +2,11 @@
     "afk":{
         "mencionE":"(Mention:everyone)",
         "mencionH":"(Mention:here)",
-        "mensaje":"You have established your afk status with the reason: `${razon}`"
+        "mensaje":"You have established your afk status with the reason: `{razon}`"
     },
     "poll":{
         "noPregunta":"Add a question for the survey.",
-        "help":"Incorrect, add at least two options. `${prefix}poll <question> | <option 1> | <option 2> | [option 3] | [option 4] | [option 5] | [option 6] | [option 7] | [option 8]`",
+        "help":"Incorrect, add at least two options. `{prefix}poll <question> | <option 1> | <option 2> | [option 3] | [option 4] | [option 5] | [option 6] | [option 7] | [option 8]`",
         "encuesta":"Poll",
         "op":"Option"
     },
@@ -40,7 +40,7 @@
         "mencionE":"(Mention:everyone)",
         "mencionH":"(Mention:here)",
         "title":"Reminder Set",
-        "mensaje":"Over time: `${tiempo}`\nModality: `${modo}`",
+        "mensaje":"Over time: `{tiempo}`\nModality: `{modo}`",
         "mCanal":"\nChannel:"
     },
     "report":{
@@ -58,7 +58,7 @@
         "error":"❌ It seems that an unexpected error occurred, report the bug to fix it."
     },
     "say":{
-        "help":"Use `${prefix}say [embed] [#channel] <Message to be repeated>`",
+        "help":"Use `{prefix}say [embed] [#channel] <Message to be repeated>`",
         "mencionE":"(Mention:everyone)",
         "mencionH":"(Mention:here)",
         "noEscribir":"You cannot write on the mentioned channel."
@@ -77,7 +77,7 @@
         "noRoles":"\"Group without roles\"",
         "tieneRol":"❌ | You already have this role.",
         "limite":"❌ | You reached the limit of roles in this group.",
-        "colocado":"✅ Role ${rol} Placed.",
+        "colocado":"✅ Role {rol} Placed.",
         "error":"❌ An error occurred, you may not have access to the role or an invalid role."
     },
     "suggestion":{

@@ -6,8 +6,8 @@
     "noModoDisable":"❌ Invalid mode, category and command only.",
     "enable":{
         "enable":"category",
-        "DHelp":"Use `${prefix}disable category <category name>`\nCategories:\n`-all\n-setting\n-fun\n-economy\n-games\n-information\n-interaction\n-music\n-profile\n-staff\n-utilities`",
-        "EHelp":"Use `${prefix}enable category <category name>`\nCategories:\n`-all\n-setting\n-fun\n-economy\n-games\n-information\n-interaction\n-music\n-profile\n-staff\n-utilities`",
+        "DHelp":"Use `{prefix}disable category <category name>`\nCategories:\n`-all\n-setting\n-fun\n-economy\n-games\n-information\n-interaction\n-music\n-profile\n-staff\n-utilities`",
+        "EHelp":"Use `{prefix}enable category <category name>`\nCategories:\n`-all\n-setting\n-fun\n-economy\n-games\n-information\n-interaction\n-music\n-profile\n-staff\n-utilities`",
         "all":"all",
         "config":"setting",
         "diver":"fun",
@@ -28,8 +28,8 @@
     },
     "command":{
         "command":"command",
-        "DHelp":"Use `${prefix}disable command <command name>`",
-        "EHelp":"Use `${prefix}enable command <command name>`",
+        "DHelp":"Use `{prefix}disable command <command name>`",
+        "EHelp":"Use `{prefix}enable command <command name>`",
         "noCommand":"❌ Command not found, only command name is accepted, not its aliases.",
         "commandImport":"⚠ This command belongs to an important category.",
         "ETitle":"Enabled command on this server",

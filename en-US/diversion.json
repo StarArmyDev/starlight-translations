@@ -1,7 +1,7 @@
 {
     "8ball":{
-        "title":"🎱 Question\n${pregunta}",
-        "descripcion":"To which I respond: ${respuesta}",
+        "title":"🎱 Question\n{pregunta}",
+        "descripcion":"To which I respond: {respuesta}",
         "rpts": ["Yes", "No", "May be", "Maybe not", "Sure!",  "Of course not", "Estoy seguro de que sí",
             "I'm sure not", "Of course", "Could be", "Unfortunately not", "Unfortunately yes",
             "Unfortunally Yes", "Unfortunately not", "I don't know Rick"]
@@ -12,13 +12,13 @@
     "cookie":{
         "noUser":"Mention a user.",
         "noRazon":"Any",
-        "cookie":"**${user},** you have a {cookie} from **${author}**\n\n**Reason:** ${razon}\n(づ｡◕‿‿◕｡)づ:･ﾟ✧ {cookie}"
+        "cookie":"**{user},** you have a {cookie} from **{author}**\n\n**Reason:** {razon}\n(づ｡◕‿‿◕｡)づ:･ﾟ✧ {cookie}"
     },
     "dog":{
         "title":"Random dog 🐶"
     },
     "gru":{
-        "noTexto":"You have to put something. `${prefix}gru <text 1> | <text 2> | <text 3>`"
+        "noTexto":"You have to put something. `{prefix}gru <text 1> | <text 2> | <text 3>`"
     },
     "love":{
         "noMencion":"Mention two users to calculate",
@@ -27,7 +27,7 @@
         "rand80":"This has a chance, very likely to end up being boyfriends :3",
         "rand100":"There is no doubt that there is love here cx I don't know what you expect! <3",
         "randInf":"The Love that you have to have must be the greatest of all, appreciate it with the greatest of treasures.",
-        "author":"The percentage of love between ${user1} and ${user2} it is:"
+        "author":"The percentage of love between {user1} and {user2} it is:"
     },
     "meme":{
         "title":"Have your meme",

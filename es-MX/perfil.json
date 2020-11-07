@@ -19,6 +19,11 @@
         "noDivorcio":"Lamentablemente *(o afortunadamente)*, {miembro} no acepta esta decisión. Deberías hablarle primero y hacer que esto funcione. :3",
         "noTiempo":"Se ha tardado en responder... tal vez se enojó *- corre -*."
     },
+    "levels":{
+        "nivel":"Nivel:",
+        "title":"Niveles de",
+        "paginas":"Página {count} de {countDB}"
+    },
     "marry":{
         "autoMencion":"Oye, aquí no hacemos eso.",
         "noPerfil":"El usuario mencionado no cuenta con un perfil, dile que use un comando para crearlo.",
@@ -139,18 +144,18 @@
         "mensaje":"Acabas de dar reputación a {miembro}. *Ahora tiene {reputacion} rep*\nVuelve en 12 horas para darle a alguien más."
     },
     "top":{
+        "reputacion":"reputacion",
         "money":"dinero",
-        "titleDiner":"TOP DINERO | ",
-        "desconocido":"Usuario Desconocido",
+        "tu":"Tu Posición:",
+        "rep":"Rep:",
         "dinero":"Dinero:",
         "banco":"Banco:",
-        "tu":"Tu Posición:",
-        "reputacion":"reputacion",
-        "titleRep":"TOP REPUTACIÓN | ",
-        "rep":"Rep:",
-        "titleXp":"TOP NIVEL | ",
         "nivel":"Nivel:",
         "xp":"XP:",
-        "server":"servidor"
+        "titleRep":"TOP REPUTACIÓN  | **{database}**",
+        "titleDiner":"TOP DINERO  | **{database}**",
+        "titleXp":"TOP NIVEL | **{database}**",
+        "global":"Global",
+        "paginas":"Página {count} de {countDB}"
     }
 }

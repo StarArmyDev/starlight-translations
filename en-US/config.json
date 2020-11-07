@@ -1,41 +1,22 @@
 {
     "add":{
-        "xp": {
-            "xp":"experience",
-            "noUser": "This user isn't in the database",
-            "noCantidad": "You haven't entered a valid xp number",
-            "correcto": "✅ ${cantidad}xp correctly added from: ${miembro}",
-            "error": "An error occurred while trying to add the xp to the user."
-        },
         "dinero":{
             "dinero":"cash",
             "noModo":"Invalid mode, only <wallet/bank/w/b> is accepted",
             "noUser": "The user isn't in the database",
             "noCantidad": "You haven't entered a valid number.",
-            "correcto": "✅ ${cantidad} of money correctly added from: ${miembro}",
+            "correcto": "✅ {cantidad} of money correctly added from: {miembro}",
             "error": "An error occurred while trying to add money to the user."
         },
         "cartera":"wallet",
         "banco":"bank",
-        "rol":{
-            "rol":"levelrole",
-            "noBot":"I don't have permissions to manage roles in this guild.",
-            "noRol":"Role not found or doesn't exist, please verify it.",
-            "noNumber":"You haven't entered a valid level number.",
-            "noPalabra":"Invalid word, only yes or no",
-            "rolMensaje":"You've leveled up and have a role to show off!",
-            "rolTrue":"Role already assigned",
-            "nivelTrue":"Level already assigned",
-            "embedTitle":"✅ Role per level added.",
-            "embedFooter":"Remember to activate the server xp with `${prefix}set xp` | ${guild_name}",
-            "embedField":{
-                "title":"Role",
-                "descripcion":"[${rolid}] Level: ${lvl}\nMessage: ${rolmensaje}\nRemove past role: ${rolquitar}"
-            },
-            "si":"yes",
-            "no":"not",
-            "rolYes":"Yes",
-            "rolNo":"No"
+        "exclude":{
+            "exclude":"excluir",
+            "noCanal":"Invalid channel, verify that it is a text channel.",
+            "title":"Excluded commands channel",
+            "canal":"Aggregate:",
+            "title2":"Excluded commands channels",
+            "canales":"Aggregates:"
         },
         "el":{
             "excludeLogs":"logsexclude",
@@ -43,14 +24,6 @@
             "title":"Excluded channel to logs",
             "canal":"Aggregate:",
             "title2":"Excluded channels to log",
-            "canales":"Aggregates:"
-        },
-        "exclude":{
-            "exclude":"excluir",
-            "noCanal":"Invalid channel, verify that it is a text channel.",
-            "title":"Excluded commands channel",
-            "canal":"Aggregate:",
-            "title2":"Excluded commands channels",
             "canales":"Aggregates:"
         },
         "group":{
@@ -70,7 +43,7 @@
         },
         "autorole":{
             "autorole":"autorol",
-            "noGrupo":"❌ | Group not found, you must first use the command `${prefix}addgroup` to create it.",
+            "noGrupo":"❌ | Group not found, you must first use the command `{prefix}addgroup` to create it.",
             "noRol":"Role not found or invalid role, please verify that it exists and that it is below my highest role.",
             "existe":"❌ | This role is already in the group.",
             "title":"✅ Role added",
@@ -92,11 +65,12 @@
         "min":"Min:",
         "max":"Max:",
         "xplvl":"Xp LevelUp:",
+        "cooldown":"XP Cooldown:",
         "daily":"Daily money:",
         "canalEliminado":"*Not available or deleted channel.*",
         "noConfig":"*Not configured*",
         "embed":{
-            "author":"Setting | ${guild_name}",
+            "author":"Setting | {guild_name}",
             "title1":"Welcome/Goodbye",
             "bienvenida":"Welcome:",
             "imgBienvenida":"Welcome image:",
@@ -139,7 +113,7 @@
         },
         "rol":{
             "rol":"role",
-            "help":"Use `${prefix}delete rolwelcome <role>`",
+            "help":"Use `{prefix}delete rolwelcome <role>`",
             "noConfig":"There aren't configured roles on this server.",
             "noRoles":"It seems that there is no such role in the database",
             "true":"✅ Role successfully removed."
@@ -162,14 +136,6 @@
         "lvl":{
             "lvl":"level",
             "title":"Level redirection removed"
-        },
-        "xp":{
-            "xp":"experience",
-            "all":"everything",
-            "noUser":"The user isn't in the database",
-            "noNumber":"You haven't entered a valid xp number.",
-            "true":"xp correctly deleted from:",
-            "error":"❌ An error occurred while trying to delete the user's xp."
         },
         "money":{
             "money":"money",
@@ -210,12 +176,6 @@
             "nick":"nickname",
             "title":"Autonickname off"
         },
-        "pinned":"pin it",
-        "module":{
-            "module":"categories",
-            "noConfig":"You don't have any category disabled.",
-            "title":"All activated categories"
-        },
         "mc":{
             "mc":"memberscounter",
             "title":"Member counter removed",
@@ -246,13 +206,6 @@
             "exclude":"exclude",
             "title":"Excluded channel removed"
         },
-        "rollvl":{
-            "rollvl":"levelrole",
-            "help":"Use `${prefix}delete rolelvl <level number/role>`",
-            "noConfig":"There are no roles configured on this server.",
-            "noRol":"It seems that no such role exists in the database",
-            "true":"✅ Role successfully removed."
-        },
         "level":{
             "level":"levels",
             "noConfig":"You do not have configured the level system/xp of the server",
@@ -264,7 +217,7 @@
         },
         "group":{
             "group":"group",
-            "help":"Use `${prefix}delete group <Name>`",
+            "help":"Use `{prefix}delete group <Name>`",
             "noGrupo":"❌ | Group not found.",
             "title":"Autorole group removed",
             "nombre":"Name:",
@@ -272,13 +225,12 @@
         },
         "autorole":{
             "autorole":"autoroles",
-            "help":"Use `${prefix}delete <group name> <@role>`",
+            "help":"Use `{prefix}delete <group name> <@role>`",
             "noGrupo":"❌ | Group not found.",
             "noRol":"❌ | Role not Found",
             "title":"Autorole removed from group",
             "rol":"Role removed:"
         },
-        "jg":"playing",
         "noModo":"❌ That mode does not exist.",
         "error":"❌ It seems that an unexpected error occurred, report the bug to fix it."
     },
@@ -289,7 +241,7 @@
         "canal":"Channel:",
         "welcome":{
             "noCanal":"Invalid channel, verify that you put everything correctly or that you use with only a space before and after the ` | `to separate the fields.",
-            "mensajeD":"Hello ${user} new member!",
+            "mensajeD":"Hello {user} new member!",
             "mensajeEmbed":"Hi, welcome",
             "title":"Welcome channel assigned",
             "mensaje":"With the message",
@@ -359,7 +311,7 @@
         },
         "lang":{
             "canal":"channels",
-            "noIdioma":"This language does not exist, use `${prefix}setidioma help` to know the available languages.",
+            "noIdioma":"This language does not exist, use `{prefix}setidioma help` to know the available languages.",
             "noLang":"You did not set the language to be set for the channel",
             "title":"Assigned server language",
             "titleC":"Assigned channel language",
@@ -369,37 +321,11 @@
             "title":"Autonickname on",
             "cambio":"Switched to:"
         },
-        "module":{
-            "module":"modules",
-            "help":"Use `${prefix}disable category <Category Name>`\nCategory: \n`-All\n-Fun\n-Economy\n-Games\n-Information\n-Interaction\n-Music\n-Profile\n-Staff\n-Utilities`",
-            "all":"all",
-            "diver":"fun",
-            "econ":"economy",
-            "games":"games",
-            "info":"information",
-            "inter":"interaction",
-            "music":"music",
-            "perfil":"profile",
-            "staff":"personal",
-            "mod":"moderation",
-            "util":"utilities",
-            "noModulo":"This category does not exist or you wrote it incorrectly.",
-            "title":"Category Off on this Server",
-            "modulo":"Category:"
-        },
-        "command":{
-            "command":"commands",
-            "help":"Usa `${prefix}disable command <Command name>`",
-            "noCommand":"❌ Command not found. Only the name of the command is accepted, not its aliases.",
-            "commandImport":"⚠ This command belongs to an important category.",
-            "title":"Command Disabled on this Server",
-            "field":"Command:"
-        },
         "mc":{
-            "activo":"First disable the mode, using `${prefix}delete memberCount`",
+            "activo":"First disable the mode, using `{prefix}delete memberCount`",
             "canales":"channels",
             "embed":"embed",
-            "helpC":"Use `${prefix}setmc channels [channel Total], [channel members], [channel bots], [channel roles], [channel channels]`\n\nFor a channel not to be active, put in its place the name **false**",
+            "helpC":"Use `{prefix}setmc channels [channel Total], [channel members], [channel bots], [channel roles], [channel channels]`\n\nFor a channel not to be active, put in its place the name **false**",
             "noCrearCanal":"I don't have sufficient permissions to create channels.",
             "total":"Total users",
             "miembros":"Members",
@@ -418,29 +344,20 @@
             "descripcion":"Creating channel...",
             "noModo":"Not found mode, only **channels** or **embed**"
         },
-        "xp":{
-            "help":"Use `${prefix}setxp <minimum> <maximum> [xpLevelUp]` the xpLevelUp follows the formula: xpLevelUp * (Level + 1) 2 (Default: 200)",
-            "noNumber":"You haven't entered valid numbers",
-            "noValido":"You haven't entered valid numbers or it is less than 10",
-            "title":"Server experience system activated.",
-            "xpMin":"Minimum XP:",
-            "xpMax":"Maximum XP:",
-            "lvl":"XP Lvl:"
-        },
         "noModoDisable":"❌ Invalid mode, category and command only.",
         "error":"❌ It seems that an unexpected error occurred, report the bug to fix it."
     },
     "createcolors":{
         "noBot":"❌ I haven't perms to manage roles in this server",
-        "modos":"You're nearly to create ${roles} color roles. Type `yes` to continue, `delete` to remove them or `cancel` to cancel the operation\n\n**You could place my highest role in the position you want the roles to be created**",
+        "modos":"You're nearly to create {roles} color roles. Type `yes` to continue, `delete` to remove them or `cancel` to cancel the operation\n\n**You could place my highest role in the position you want the roles to be created**",
         "detectado":"I have detected that there are non-existent color roles in the database. Type `assign` to add them to the command *selfrole*.\n",
         "asignar":"assign",
         "si":"yes",
         "no":"delete",
         "asignado":"✅ Correctly assigned roles",
         "creando":"Creating",
-        "mensaje":"✅ Created color roles: Successfully `${creados}`. *If the roles were created but aren't available in the command* `selfrole` *use this command again and check instructions*",
-        "mensajeDelete":"Eliminated color roles: Successfully `${contador}`",
+        "mensaje":"✅ Created color roles: Successfully `{creados}`. *If the roles were created but aren't available in the command* `selfrole` *use this command again and check instructions*",
+        "mensajeDelete":"Eliminated color roles: Successfully `{contador}`",
         "error":"❌ Sorry, it seems there was an error. We are working to repair it.",
         "tiempoExpirado":"Waiting time finished.",
         "rolesN": [
@@ -495,6 +412,75 @@
             {"nombre": "White", "color": "#fffefe"},
             {"nombre": "Black", "color": "#040100"}
         ]
+    },
+    "activexp":{
+        "help":"aid",
+        "helpDesc":"📑 | Use `{prefix}setxp <Minimum Xp> <Maximum Xp> [XpLevelUp]` The **XpLevelUp** variable follow the formula: **XpLevelUp** * (**Level** + 1)2 (Default: 200).",
+        "noNumber":"❌ | You have not entered valid numbers.",
+        "noValido":"❌ | You have not entered valid numbers or it is less than 10.",
+        "noTiempo":"❌ | You have not entered valid time or it is less than 10.",
+        "title":"✅ | Server experience system activated.",
+        "xpMin":"Minimum Xp:",
+        "xpMax":"Maximum Xp:",
+        "lvl":"XP Lvl:",
+        "cooldown":"XP Cooldown:"
+    },
+    "addexcludexp":{
+        "noCanal":"❌ | Invalid channel, check if it is a text channel or category.",
+        "yaCanal":"❌ | Channel already excluded.",
+        "title":"✅ | Channel excluded from experience",
+        "canal":"Aggregate:",
+        "title2":"✅ | Channels excluded from experience.",
+        "canales":"Aggregates:"
+    },
+    "addrollevelup":{
+        "noBot":"❌ | I don't have permissions to manage roles on this server.",
+        "noRol":"❌ | Role not found or does not exist, please check it.",
+        "noNumber":"❌ | You did not enter a valid level number.",
+        "rolMensaje":"You've leveled up and have a role to show off!",
+        "rolTrue":"❌ | Role already assigned.",
+        "nivelTrue":"❌ | Level already assigned.",
+        "embed": {
+            "title":"✅ | Role per level added.",
+            "footer":"Remember to activate the server XP with `{prefix}activexp` | {guild_name}.",
+            "field":{
+                "title":"Role",
+                "descripcion":"[{rolid}] Level: {lvl}\nMessage: {rolmensaje}"
+            }
+        }
+    },
+    "addxp":{
+        "noMember": "❌ | User not found, please verify.",
+        "noCantidad": "❌ | You did not enter a valid XP number.",
+        "correcto": "✅ | {cantidad}XP successfully added to {miembro}."
+    },
+    "deleteexcludexp":{
+        "noConfig":"*Not configured.*",
+        "quitado":"Taken away.",
+        "noCanal":"❌ | Invalid channel, check if it is a text or category channel.",
+        "title":"✅ | Channel excluded from experience removed"
+    },
+    "deleterollevelup":{
+        "noConfig":"❌ | There are no roles configured on this server.",
+        "noRol":"❌ | It seems that no such role exists in the database.",
+        "true":"✅ Role removed successfully."
+    },
+    "deletexp":{
+        "all":"todo",
+        "noMember": "❌ | User not found, please verify.",
+        "noUser":"❌ | The user is not in the database.",
+        "noNumber":"❌ | You did not enter a valid XP number.",
+        "true":"✅ | {cantidad}XP successfully removed at {miembro}"
+    },
+    "resetxp":{
+        "noMember":"❌ | User not found, verify it.",
+        "noMemverDB":"❌ | This user has no experiential.",
+        "mensajeMiembro":"You are about to reset the {member} experience. Do you really want to continue? Write `yes`. *You have 60 seconds to answer.*",
+        "mensajeServidor":"You are about to reset the whole server experience. Do you really want to continue? Write `yes`. *You have 60 seconds to answer.*",
+        "si":"yes",
+        "tiempo":"❌ | The time to answer is over. If you think it is an error, please report it.",
+        "ok":"✅ | {sujeto} experience reset.",
+        "server":"Whole server"
     },
     "setrole":{
         "noRol":"❌ | I can't found this role",

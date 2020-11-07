@@ -19,6 +19,11 @@
         "noDivorcio":"Regrettably *(or fortunately)* {miembro} Don't accept this decision, you should talk to him first and make this work :3",
         "noTiempo":"It took a while to respond ... maybe he got angry *- Run -*."
     },
+    "levels":{
+        "nivel":"Lvl:",
+        "title":"Levels of",
+        "paginas":"Page {count} from {countDB}"
+    },
     "marry":{
         "autoMencion":"Hey, we don't do that here",
         "noPerfil":"The user mentioned does not have a profile, tell him to use a command to start it.",
@@ -139,18 +144,18 @@
         "mensaje":"You just gave reputation to {miembro}. *Now you have {reputacion} rep*\nCome back in 12 hours. to give someone else."
     },
     "top":{
+        "reputacion":"reputation",
         "money":"money",
-        "titleDiner":"MONEY TOP | ",
-        "desconocido":"Unknown user",
+        "tu":"Your position:",
+        "rep":"Rep:",
         "dinero":"Money:",
         "banco":"Bank:",
-        "tu":"Your position:",
-        "reputacion":"reputation",
-        "titleRep":"TOP REPUTATION | ",
-        "rep":"Rep:",
-        "titleXp":"TOP LEVEL | ",
         "nivel":"level:",
         "xp":"XP:",
-        "server":"guild"
+        "titleDiner":"MONEY TOP  | **{database}**",
+        "titleRep":"TOP REPUTATION  | **{database}**",
+        "titleXp":"TOP LEVEL  | **{database}**",
+        "global":"Global",
+        "paginas":"Page {count} from {countDB}"
     }
 }

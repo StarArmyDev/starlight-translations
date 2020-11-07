@@ -57,14 +57,20 @@
         "agregado":"Agregado"
     },
     "commandHandling":{
-        "noComand":"❌ No se ha encontrado el comando.",
-        "talvez":"No existe. Tal vez quisiste decir:",
+        "noCommand": {
+            "title":"❌ No se ha encontrado el comando",
+            "description":"El comando **{command}** no existe",
+            "similitudes":"Comandos similares:"
+        },
         "noPermCanal":"No tengo permitido enviar mensajes en:",
-        "noPermComandoCanal":"No tengo permitido enviar el comando `${commandName}` en:",
-        "categoriaDeshabilitado":"*⛔ | Categoría deshabilitada en este servidor.*",
-        "comandoDeshabilitado":"*⛔ | Comando deshabilitado en este servidor.*",
+        "noPermComandoCanal":"No tengo permitido enviar el comando `{commandName}` en:",
+        "disable":{
+            "miembro":"*⛔ | Este comando lo tienes deshabilitado en este servidor.*",
+            "rol":"*⛔ | Comando deshabilitado para tu rol en este servidor.*",
+            "canal":"*⛔ | Comando deshabilitado en este canal.*",
+            "server":"*⛔ | Comando deshabilitado en este servidor.*"
+        },
         "comandoApagado":"Este comando se encuentra apagado por alguna actualización o suspensión temporal.",
-        "noDesarrollador":"Perdón, este comando solo puede ser ejecutado por un desarrollador.",
         "noUso":"No tienes que agregar parámetros.",
         "embedHelp":{
             "title":"Ayuda de: {command}",
@@ -79,15 +85,15 @@
             "apagado":"Apagado global",
             "sinPermisos":"Sin permisos requeridos"
         },
-        "cooldown":"¡Alto! Espere `${time}` para usar nuevamente el comando `${commandName}`. Sea paciente.",
-        "error":"❌ Hubo un error al intentar ejecutar el comando. Puedes reportarlo con `${prefix}bugreport` o escríbele por MD al creador."
+        "cooldown":"¡Alto! Espere `{time}` para usar nuevamente el comando `{commandName}`. Sea paciente.",
+        "error":"❌ Hubo un error al intentar ejecutar el comando. Puedes reportarlo con `{prefix}bugreport` o escríbele por MD al creador."
     },
     "subidaDeNivel":{
         "levelUp":"¡Subiste de nivel!",
         "nivel":"Nivel",
         "mensaje":"**Has subido de nivel, *{user_name}*.**"
     },
-    "terminamute":"**${usuario} terminó tu tiempo silenciado.**",
+    "terminamute":"**{usuario} terminó tu tiempo silenciado.**",
     "welcome":{
         "autoRolesRazon":"Autoroles bienvenida.",
         "embed":{
@@ -111,7 +117,7 @@
         "reTitle":"Comprobación de seguridad",
         "rePrecaucion":"⚠[PRECAUCIÓN]⚠ Cuenta recién creada:",
         "reCreado":"⏳ Creó su cuenta hace:",
-        "terminamute":"**${usuario} terminó tu tiempo silenciado.**"
+        "terminamute":"**{usuario} terminó tu tiempo silenciado.**"
     },
     "leave":{
         "botFuera":"Un bot fue expulsado:",

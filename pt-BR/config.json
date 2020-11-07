@@ -1,42 +1,15 @@
 {
     "add":{
-        "xp": {
-            "xp":"experiência",
-            "noUser": "O usuário não está no banco de dados",
-            "noCantidad": "Você não inseriu um número XP válido.",
-            "correcto": "✅ ${cantidad}xp adicionado corretamente de: ${miembro}",
-            "error": "Ocorreu um erro ao tentar adicionar o xp ao usuário."
-        },
         "dinero":{
             "dinero":"dinheiro",
             "noModo":"Modo inválido, apenas <carteira/banco/c/b> é aceito",
             "noUser": "O usuário não está no banco de dados",
             "noCantidad": "Você não digitou um número válido.",
-            "correcto": "✅ ${cantidad} de dinheiro adicionado corretamente de: ${miembro}",
+            "correcto": "✅ {cantidad} de dinheiro adicionado corretamente de: {miembro}",
             "error": "Ocorreu um erro ao tentar adicionar o dinheiro ao usuário."
         },
         "cartera":"bolsa",
         "banco":"banco",
-        "rol":{
-            "rol":"cargonivel",
-            "noBot":"Não tenho permissão para lidar com cargos neste servidor.",
-            "noRol":"Cargo não encontrado ou não existe, verifique-a.",
-            "noNumber":"Você não inseriu um número de nível válido.",
-            "noPalabra":"Palavra inválida, apenas sim ou não",
-            "rolMensaje":"Você subiu de nível e tem um cargo a mostrar!",
-            "rolTrue":"Cargo já atribuído",
-            "nivelTrue":"Nível já atribuído",
-            "embedTitle":"✅ Cargo por nível adicionado.",
-            "embedFooter":"Lembre-se de ativar o servidor xp com `${prefix}activexp` | ${guild_name}",
-            "embedField":{
-                "title":"Cargo",
-                "descripcion":"[${rolid}] Nível: ${lvl}\nMensagem: ${rolmensaje}\nRemover cargo anterior: ${rolquitar}"
-            },
-            "si":"sim",
-            "no":"não",
-            "rolYes":"Sim",
-            "rolNo":"Não"
-        },
         "exclude":{
             "exclude":"excluir",
             "noCanal":"Canal inválido, verifique se é um canal de texto.",
@@ -70,7 +43,7 @@
         },
         "autorole":{
             "autorole":"autocargo",
-            "noGrupo":"❌ | Grupo não encontrado, você deve primeiro usar o comando `${prefix}addgroup` para criá-lo.",
+            "noGrupo":"❌ | Grupo não encontrado, você deve primeiro usar o comando `{prefix}addgroup` para criá-lo.",
             "noRol":"Cargo não encontrado ou cargo inválido, verifique se existe e se está abaixo da minha cargo principal.",
             "existe":"❌ | Esta cargo já está no grupo.",
             "title":"✅ Cargo adicionado",
@@ -92,11 +65,12 @@
         "min":"Mín:",
         "max":"Máx:",
         "xplvl":"Xp LevelUp:",
+        "cooldown":"XP Cooldown:",
         "daily":"Dinheiro diário:",
         "canalEliminado":"*Canal removido ou indisponível.*",
         "noConfig":"*Não configurado.*",
         "embed":{
-            "author":"Configuração | ${guild_name}",
+            "author":"Configuração | {guild_name}",
             "title1":"Bem-vindo/Adeus",
             "bienvenida":"Bem-vinda:",
             "imgBienvenida":"Imagem de boas-vindas:",
@@ -139,7 +113,7 @@
         },
         "rol":{
             "rol":"cargo",
-            "help":"Use `${prefix}delete rolwelcome <cargo>`",
+            "help":"Use `{prefix}delete rolwelcome <cargo>`",
             "noConfig":"Não há cargos configurados neste servidor.",
             "noRoles":"Parece que tal cargo não existe no banco de dados",
             "true":"✅ Cargo removido com sucesso."
@@ -162,14 +136,6 @@
         "lvl":{
             "lvl":"nível",
             "title":"Redirecionamento de subida de nível removido"
-        },
-        "xp":{
-            "xp":"experiência",
-            "all":"tudo",
-            "noUser":"O usuário não está no banco de dados",
-            "noNumber":"Você não inseriu um número XP válido.",
-            "true":"xp removido com sucesso de:",
-            "error":"❌ Ocorreu um erro ao tentar remover o XP do usuário."
         },
         "money":{
             "money":"dinheiro",
@@ -210,12 +176,6 @@
             "nick":"apodo",
             "title":"Autoapodo desativado"
         },
-        "pinned":"âncora",
-        "module":{
-            "module":"categorias",
-            "noConfig":"Você não tem nenhuma categoria desativada.",
-            "title":"Todas as categorias ativadas"
-        },
         "mc":{
             "mc":"contadormembros",
             "title":"Contador de membros removido",
@@ -246,13 +206,6 @@
             "exclude":"excluir",
             "title":"Canal excluído removido"
         },
-        "rollvl":{
-            "rollvl":"cargonivel",
-            "help":"Use `${prefix}delete rolelvl <número do nível/cargo>`",
-            "noConfig":"Não há cargos configurados neste servidor.",
-            "noRol":"Parece que tal cargo não existe no banco de dados",
-            "true":"✅ Cargo removido com sucesso."
-        },
         "level":{
             "level":"níveis",
             "noConfig":"Você não configurou o nível de sistema/xp do servidor",
@@ -264,7 +217,7 @@
         },
         "group":{
             "group":"grupo",
-            "help":"Use `${prefix}delete group <Nome>`",
+            "help":"Use `{prefix}delete group <Nome>`",
             "noGrupo":"❌ | Grupo não encontrado.",
             "title":"Grupo de autocargos removido",
             "nombre":"Nombre:",
@@ -272,13 +225,12 @@
         },
         "autorole":{
             "autorole":"autocargo",
-            "help":"Use `${prefix}delete <nome do grupo> <@rol>`",
+            "help":"Use `{prefix}delete <nome do grupo> <@rol>`",
             "noGrupo":"❌ | Grupo não encontrado.",
             "noRol":"❌ | Cargo não encontrado",
             "title":"Autocargo removido do grupo",
             "rol":"Cargo removido:"
         },
-        "jg":"jugando",
         "noModo":"❌ Esse modo não existe.",
         "error":"❌ Parece que ocorreu um erro inesperado, relate o bug para corrigi-lo."
     },
@@ -289,7 +241,7 @@
         "canal":"Canal:",
         "welcome":{
             "noCanal":"Canal no válido, revisa que pusiste bien todo o verifica que usas con solo un espacio antes y después del ` | ` para separar los campos.",
-            "mensajeD":"¡Hola ${user} nuevo miembro!",
+            "mensajeD":"¡Hola {user} nuevo miembro!",
             "mensajeEmbed":"Hola, bienvenid@",
             "title":"Canal de bienvenida asignado",
             "mensaje":"Con el mensaje",
@@ -359,7 +311,7 @@
         },
         "lang":{
             "canal":"canal",
-            "noIdioma":"Este idioma não existe, use `${prefix}setidioma help` para saber os idiomas disponíveis.",
+            "noIdioma":"Este idioma não existe, use `{prefix}setidioma help` para saber os idiomas disponíveis.",
             "noLang":"Você não definiu o idioma a ser definido para o canal",
             "title":"Idioma do servidor atribuído",
             "titleC":"Idioma do canal atribuído",
@@ -370,10 +322,10 @@
             "cambio":"Alterado a:"
         },
         "mc":{
-            "activo":"Primeiro desative o modo, usando `${prefix}delete memberCount`",
+            "activo":"Primeiro desative o modo, usando `{prefix}delete memberCount`",
             "canales":"canais",
             "embed":"embed",
-            "helpC":"Use `${prefix}setmc channels [canal Total], [canal membros], [canal bots], [canal cargos], [canal canais]`\n\nPara um canal não estar ativo, coloque o nome em seu lugar **false**",
+            "helpC":"Use `{prefix}setmc channels [canal Total], [canal membros], [canal bots], [canal cargos], [canal canais]`\n\nPara um canal não estar ativo, coloque o nome em seu lugar **false**",
             "noCrearCanal":"Não tenho permissões suficientes para criar canais.",
             "total":"Total de usuários",
             "miembros":"Membros",
@@ -392,29 +344,20 @@
             "descripcion":"Criando canal...",
             "noModo":"Modo não encontrado, apenas **canais** ou **embed**"
         },
-        "xp":{
-            "help":"Use `${prefix}setxp <minimum> <maximum> [xpLevelUp]` o xpLevelUp segue a fórmula: xpLevelUp * (Level + 1) 2 (Padrão: 200)",
-            "noNumber":"Você não inseriu números válidos",
-            "noValido":"Você não inseriu números válidos ou é menor que 10",
-            "title":"Sistema de experiência do servidor ativado.",
-            "xpMin":"XP mínimo:",
-            "xpMax":"XP máximo:",
-            "lvl":"XP Lvl:"
-        },
         "noModoDisable":"❌ Modo no válido, solamente categoría y comando.",
         "error":"❌ Parece que ocurrió un error inesperado, reporta el bug para solucionarlo."
     },
     "createcolors":{
         "noBot":"❌ Não tenho permissão para criar funções neste servidor.",
-        "modos":"Está prestes a criar ${roles} papéis coloridos. Lugar, colocar `Sim` para continuar, `Retirar` para removê-los ou `Cancelar` para cancelar a operação.\n\n**Você pode colocar meu papel mais alto de onde deseja que eu comece a criar os papéis.**",
+        "modos":"Está prestes a criar {roles} papéis coloridos. Lugar, colocar `Sim` para continuar, `Retirar` para removê-los ou `Cancelar` para cancelar a operação.\n\n**Você pode colocar meu papel mais alto de onde deseja que eu comece a criar os papéis.**",
         "detectado":"Foi detectado que existem funções de cores que não estão no banco de dados. Lugar, colocar `atribuir` para adicioná-los ao comando *selfrole*.\n",
         "asignar":"atribuir",
         "si":"sim",
         "no":"retirar",
         "asignado":"✅ Funções atribuídas corretamente",
         "creando":"Criando",
-        "mensaje":"✅ Papéis coloridos criados: `${creados}` com sucesso. *Se as funções foram criadas, mas não estão disponíveis no comando* `selfrole` *use este comando novamente e siga as instruções*",
-        "mensajeDelete":"Funções de cor removidas: `${contador}` com sucesso.",
+        "mensaje":"✅ Papéis coloridos criados: `{creados}` com sucesso. *Se as funções foram criadas, mas não estão disponíveis no comando* `selfrole` *use este comando novamente e siga as instruções*",
+        "mensajeDelete":"Funções de cor removidas: `{contador}` com sucesso.",
         "error":"❌ Parece que ocorreu um erro. Estamos trabalhando para consertá-lo.",
         "tiempoExpirado":"Tempo de espera acabou.",
         "rolesN": [
@@ -469,6 +412,75 @@
             {"nombre": "Blanco", "color": "#fffefe"},
             {"nombre": "Negro", "color": "#040100"}
         ]
+    },
+    "activexp":{
+        "help":"ajuda",
+        "helpDesc":"📑 | Usos `{prefix}setxp <XP mínimo> <Xp máximo> [XpLevelUp]` A variável **XpLevelUp** siga a fórmula: **XpLevelUp** * (**nível** + 1)2 (Por padrão: 200).",
+        "noNumber":"❌ | Você não inseriu números válidos.",
+        "noValido":"❌ | Você não inseriu números válidos ou é menor que 10.",
+        "noTiempo":"❌ | Você não inseriu uma hora válida ou é inferior a 10.",
+        "title":"✅ | Sistema de experiência do servidor ativado.",
+        "xpMin":"XP mínimo:",
+        "xpMax":"XP máximo:",
+        "lvl":"XP Lvl:",
+        "cooldown":"XP Cooldown:"
+    },
+    "addexcludexp":{
+        "noCanal":"❌ | Canal inválido, verifique se é um canal ou categoria de texto.",
+        "yaCanal":"❌ | Canal já excluído.",
+        "title":"✅ | Canal excluído da experiência",
+        "canal":"Agregar:",
+        "title2":"✅ | Canais excluídos da experiência.",
+        "canales":"Agregados:"
+    },
+    "addrollevelup":{
+        "noBot":"❌ | Não tenho permissão para gerenciar funções neste servidor.",
+        "noRol":"❌ | Função não encontrada ou não existe, verifique-a.",
+        "noNumber":"❌ | Você não inseriu um número de nível válido.",
+        "rolMensaje":"Você subiu de nível e tem um papel a exibir!",
+        "rolTrue":"❌ | Função já atribuída.",
+        "nivelTrue":"❌ | Nível já atribuído.",
+        "embed": {
+            "title":"✅ | Função por nível adicionado.",
+            "footer":"Lembre-se de ativar o servidor XP com `{prefix}activexp` | {guild_name}.",
+            "field":{
+                "title":"Função",
+                "descripcion":"[{rolid}] Nível: {lvl}\nMensagem: {rolmensaje}"
+            }
+        }
+    },
+    "addxp":{
+        "noMember": "❌ | Usuário não encontrado, verifique.",
+        "noCantidad": "❌ | Você não inseriu um número XP válido.",
+        "correcto": "✅ | {cantidad}XP adicionado com sucesso a {miembro}."
+    },
+    "deleteexcludexp":{
+        "noConfig":"*Não configurado.*",
+        "quitado":"Levado embora.",
+        "noCanal":"❌ | Canal inválido, verifique se é um canal de texto ou categoria.",
+        "title":"✅ | Canal excluído da experiência removido"
+    },
+    "deleterollevelup":{
+        "noConfig":"❌ | Não há funções configuradas neste servidor.",
+        "noRol":"❌ | Parece que esta função não existe no banco de dados.",
+        "true":"✅ Função removida com sucesso."
+    },
+    "deletexp":{
+        "all":"todo",
+        "noMember": "❌ | Usuário não encontrado, verifique.",
+        "noUser":"❌ | O usuário não está no banco de dados.",
+        "noNumber":"❌ | Você não inseriu um número XP válido.",
+        "true":"✅ | {cantidad}XP removido com sucesso em {miembro}"
+    },
+    "resetxp":{
+        "noMember":"❌ | Usuário não encontrado, verifique.",
+        "noMemverDB":"❌ | Este usuário não tem experiência.",
+        "mensajeMiembro":"Você está prestes a reiniciar a experiência de {member}. Você realmente deseja continuar? Escreva `sim`. *Você tem 60 segundos para responder.*",
+        "mensajeServidor":"Você está prestes a redefinir toda a experiência do servidor. Você realmente deseja continuar? Escreva `sim`. *Você tem 60 segundos para responder.*",
+        "si":"sim",
+        "tiempo":"❌ | A hora de responder acabou. Se você acha que é um erro, informe-o.",
+        "ok":"✅ | {sujeto} redefinição de experiência.",
+        "server":"Servidor inteiro"
     },
     "setrole":{
         "noRol":"❌ | Função não encontrada ou função inválida.",
