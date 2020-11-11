@@ -64,7 +64,7 @@
         "titulo":{
             "titulo":"título",
             "noTitulo":"Necesitas poner una sola palabra para el nuevo título.",
-            "siTitulo":"✅ | Se actulizó el título `{nuevoTitulo}` correctamente."
+            "siTitulo":"✅ | Se actulaizó el título `{nuevoTitulo}` correctamente."
         },
         "info":{
             "info":"info",
