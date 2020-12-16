@@ -1,0 +1,180 @@
+{
+    "errores":{
+        "title":"❌ No tienes permiso para usar este comando.",
+        "perm":"Permiso requerido:",
+        "permisos":{
+            "ADMINISTRATOR":"Administrador",
+            "CREATE_INSTANT_INVITE":"Crear Invitaciones",
+            "KICK_MEMBERS":"Expulsar Miembros",
+            "BAN_MEMBERS":"Banear Miembros",
+            "MANAGE_CHANNELS":"Gestionar Canales",
+            "MANAGE_GUILD":"Gestionar Servidor",
+            "ADD_REACTIONS":"Agregar Reacciones",
+            "VIEW_AUDIT_LOG":"Ver el Registro de Auditoría",
+            "PRIORITY_SPEAKER":"Prioridad al Hablar",
+            "VIEW_CHANNEL":"Ver Canal",
+            "SEND_MESSAGES":"Enviar Mensajes",
+            "SEND_TTS_MESSAGES":"Enviar Mensajes TTS",
+            "MANAGE_MESSAGES":"Gestionar Mensajes",
+            "EMBED_LINKS":"Insertar Enlaces",
+            "ATTACH_FILES":"Adjuntar Archivos",
+            "READ_MESSAGE_HISTORY":"Leer el Historial de Mensajes",
+            "MENTION_EVERYONE":"Mencionar Everyone",
+            "USE_EXTERNAL_EMOJIS":"Usar Emojis Externos",
+            "CONNECT":"Conectar a Voz",
+            "SPEAK":"Hablar en Voz",
+            "MUTE_MEMBERS":"Mutear a Miembros en Canales de Voz",
+            "DEAFEN_MEMBERS":"Ensordecer Miembros",
+            "MOVE_MEMBERS":"Mover Miembros de Canal",
+            "USE_VAD":"Usar Detección de Voz",
+            "CHANGE_NICKNAME":"Cambiar Apodo",
+            "MANAGE_NICKNAMES":"Gestionar Apodos",
+            "MANAGE_ROLES":"Gestionar Roles",
+            "MANAGE_WEBHOOKS":"Gestionar Webhooks",
+            "MANAGE_EMOJIS":"Gestionar Emojis"
+        }
+    },
+    "afk":{
+        "activo":"está AFK por la razón de:",
+        "desactivado":"¡Bienvenido de vuelta! Ya eliminé tu estado de ausencia."
+    },
+    "remember":{
+        "title":"Recordatorio",
+        "footer":"Establecido el"
+    },
+    "contador":"Siguiente número:",
+    "botMencion":{
+        "help":"ayuda",
+        "prefix":"prefijo",
+        "title":"Prefijo",
+        "comandHelp":"Comando de Ayuda",
+        "pregunta":"¿Necesitas cambiar el prefijo?",
+        "comand":"Usa @BotMención setprefix sb!"
+    },
+    "setprefix":{
+        "help":"Use `@MenciónBot prefix <nuevo prefijo>`",
+        "title":"Prefix Personalizado Asignado",
+        "agregado":"Agregado"
+    },
+    "commandHandling":{
+        "noCommand": {
+            "title":"❌ No se ha encontrado el comando",
+            "description":"El comando **{command}** no existe",
+            "similitudes":"Comandos similares:"
+        },
+        "noPermCanal":"No tengo permitido enviar mensajes en:",
+        "noPermComandoCanal":"No tengo permitido enviar el comando `{commandName}` en:",
+        "disable":{
+            "miembro":"*⛔ | Este comando lo tienes deshabilitado en este servidor.*",
+            "rol":"*⛔ | Comando deshabilitado para tu rol en este servidor.*",
+            "canal":"*⛔ | Comando deshabilitado en este canal.*",
+            "server":"*⛔ | Comando deshabilitado en este servidor.*"
+        },
+        "comandoApagado":"Este comando se encuentra apagado por alguna actualización o suspensión temporal.",
+        "noUso":"No tienes que agregar parámetros.",
+        "embedHelp":{
+            "title":"Ayuda de: {command}",
+            "descripcion":"**Descripción:**",
+            "uso":"Usa el comando de la siguiente manera:",
+            "alias":"Alias",
+            "noAlias":"Sin alias",
+            "categoria":"Categoría",
+            "permiso": "Permiso",
+            "cooldown":"Tiempo de espera",
+            "args":"Espera argumentos",
+            "apagado":"Apagado global",
+            "sinPermisos":"Sin permisos requeridos"
+        },
+        "cooldown":"¡Para! Espere `{time}` para usar nuevamente el comando `{commandName}`. Sea paciente.",
+        "error":"❌ Hubo un error al intentar ejecutar el comando. Puedes reportarlo con `{prefix}bugreport` o escríbele por MD al creador."
+    },
+    "subidaDeNivel":{
+        "levelUp":"¡Subiste de nivel!",
+        "nivel":"Nivel",
+        "mensaje":"**Has subido de nivel, *{user_name}*.**"
+    },
+    "terminamute":"**{usuario} terminó tu tiempo silenciado.**",
+    "welcome":{
+        "autoRolesRazon":"Autoroles bienvenida.",
+        "embed":{
+            "mensaje":"¡Nuevo miembro!",
+            "mensajeEmbed":"Hola, bienvenid@.",
+            "si":"Sí.",
+            "no":"No.",
+            "bienvenido":"¡Bienvenido!",
+            "nombre":"Nombre:",
+            "bot":"¡Tenemos a un nuevo bot!",
+            "id":"ID:",
+            "esBot":"¿Bot?",
+            "server":"Servidor:",
+            "miembro":"Eres el miembro:",
+            "botMiembro":"Suplantó el lugar:",
+            "creado":"⏳ Bot creado hace"
+        },
+        "imgWelcomeWoman":"Bienvenida a",
+        "imgWelcomeMan":"Bienvenido a",
+        "imgWelcomeDefault":"Bienvenid@ a",
+        "reTitle":"Comprobación de seguridad",
+        "rePrecaucion":"⚠[ATENCIÓN]⚠ Cuenta recién creada:",
+        "reCreado":"⏳ Creó su cuenta hace:",
+        "terminamute":"**{usuario} terminó tu tiempo silenciado.**"
+    },
+    "leave":{
+        "botFuera":"Un bot fue expulsado:",
+        "fuera":"Se fue",
+        "id":"ID:",
+        "creado":"⏳ Bot creado desde hace:",
+        "leaveImg":"Adiós..."
+    },
+    "eliminar":{
+        "embed":"Embed eliminado:",
+        "title":"Mensaje eliminado",
+        "elimino":"**eliminó un mensaje**",
+        "de":"**de:**",
+        "decia":"Decía:",
+        "continua":"Continuación (mensaje largo)",
+        "canal":"Canal origen:"
+    },
+    "edit":{
+        "title":"Mensaje editado:",
+        "edito":"**editó un mensaje:**",
+        "decia":"Decía:",
+        "ahoraDice":"Ahora díce:",
+        "continua":"Continuación (mensaje largo)",
+        "canal":"Canal origen:"
+    },
+    "ban":{
+        "noAudit":"Sin permiso para leer el registro de auditoría.",
+        "title":"Miembro baneado",
+        "mensaje":"fue baneado del servidor.",
+        "razon":"Razón",
+        "noRazon":"Sin razón.",
+        "mod":"Fue baneado por:"
+    },
+    "unban":{
+        "noAudit":"Sin permiso para leer el registro de auditoría.",
+        "title":"Miembro desbaneado",
+        "mensaje":"fue desbaneado del servidor.",
+        "razon":"Razón",
+        "noRazon":"Sin razón.",
+        "mod":"Fue desbaneado por:"
+    },
+    "canal":{
+        "noAudit":"Sin permiso para leer el registro de auditoría.",
+        "desconocido":"Desconocido.",
+        "title":"Canal nuevo",
+        "mensaje":"fue creado.",
+        "razon":"Razón",
+        "noRazon":"Sin razón.",
+        "mod":"Fue creado por:"
+    },
+    "eliminarCanal":{
+        "noAudit":"Sin permiso para leer el registro de auditoría.",
+        "desconocido":"Desconocido.",
+        "title":"Canal eliminado",
+        "mensaje":"fue eliminado.",
+        "razon":"Razón",
+        "noRazon":"Sin razón.",
+        "mod":"Fue eliminado por:"
+    }
+}

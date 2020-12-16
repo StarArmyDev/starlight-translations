@@ -1,0 +1,103 @@
+{
+    "botsuggestion":{
+        "ok":"✅ Sugerencia enviada al servidor de soporte.\n*Cualquier abuso de este u otro comando será sancionado.*"
+    },
+    "bugreport":{
+        "correcto":"**Su error ha sido reportado correctamente.**\nSerá revisado, así que, por favor, sea paciente.\n*Para mayor asistencia o ayuda puedes entrar al servidor de soporte o escribirle al MD al creador.*",
+        "error":"Ocurrió un problema al enviar el mensaje, puedes enviarme mensaje al privado como alternativa."
+    },
+    "donate":{
+        "title":"Apoya a",
+        "desc":"**Donaciones directas.** Puede donar a nuestro [PayPal](https://www.paypal.me/czemtb) o tendrá que ponerse en contacto con nosotros en el servidor de soporte.\n**Promocionando al bot.**  Hay que darnos a conocer por todas partes.\n**Realizando...** guías, vídeos, redactando textos, etc. de cómo utilizar el bot. StarLight necesita ayuda de todos.\n**Escribiendo Código.** Si sabes de programación, tal vez te interese compartir código para seguir implementando cosas nuevas."
+    },
+    "help":{
+        "si":"Sí",
+        "no":"No",
+        "titulo":"Lista de Comandos",
+        "version":" | Versión ",
+        "descripcion":"Hola, soy {client_name} y vengo a ayudar. Esta es mi lista de comandos que puedes ocupar.\n\nPing: `{ping}` ms\nCategorías en total: `{categorias}`\nComandos en total: `{commands}`",
+        "core":"🌠 Bot",
+        "diversion":"🎉 Diversión",
+        "info":"📃 Información",
+        "util":"🛡 Utilidades",
+        "config":"⚙ Configuración",
+        "config-bot":"⚙ Configuración Bot",
+        "staff":"👮 Staff",
+        "interaccion":"🎁 Interacción",
+        "expresion":"🎭 Expresión",
+        "music":"🎵  Música",
+        "game":"🎮 Videojuegos",
+        "economia":"💵 Economía",
+        "perfil":"👥 Perfil",
+        "desarrollador":"👨‍💻 Desarrollador",
+        "manager":"⚙ Administrador del bot",
+        "masInfo":{
+            "title":"¿Más información?",
+            "desc":"Usa: `{prefix}<comando\nhelp` para obtener la información individual del comando y sus parámetros esperados."
+        },
+        "links":{
+            "title":"Links útiles",
+            "desc":"[Invítame]({invite} \"Invítame a tu servidor\") | [Servidor De Soporte](https://discord.gg/MZN8Yf6 \"StarArmy Soporte\") | [Apóyanos con tu Voto](https://top.gg/bot/517786947171909643 \"Vota en Top.gg cada 12 horas.\")"
+        },
+        "private":"✅ **| Revisa tu MD.** 👌",
+        "noPrivate":"❌ | Parece que tienes desactivado los mensajes privados.",
+        "noUso":"[No espera parámetros]",
+        "embedHelp":{
+            "title":"Ayuda de: {command}",
+            "descripcion":"**Descripción:**",
+            "uso":"Usa el comando de la siguiente manera:",
+            "alias":"Alias",
+            "noAlias":"Sin alias",
+            "categoria":"Categoría",
+            "permiso": "Permiso",
+            "cooldown":"Tiempo de espera",
+            "args":"Espera argumentos",
+            "apagado":"Apagado global",
+            "sinPermisos":"Sin permisos requeridos"
+        }
+    },
+    "invite":{
+        "title":"Mi Invitación | {client_name}",
+        "descripcion":"Este hermoso bot puede ayudarte mucho en tu servidor, tiene mucha variedad de comandos para administradores o usuarios normales. Te aseguro que te divertirás y te ayudará en todo lo que necesites.",
+        "version":"| Versión",
+        "invitacion":"🌠 Invitación",
+        "link":"[Invita a {client_name} a tu servidor]({link})",
+        "soporteTitle":"📥 Servidor de Soporte",
+        "soporte":"[Entra Al Servidor](https://discord.gg/MZN8Yf6 'StarArmy') Para obtener ayuda y estar enterado de toda la información siempre.",
+        "webTitle":"🖥 Página Web",
+        "web":"Para más información acerca del bot, como sus comandos, entra al [sitio oficial](https://starbot-oficial.herokuapp.com/ 'StarBot Discord - Inicio')",
+        "apoyoTitle":"💎 Apóyanos",
+        "apoyo":"Apoya en el crecimiento del bot donando lo que puedas a través de [PayPal](https://www.paypal.me/czemtb 'CZEMTB')"
+    },
+    "ping":{
+        "footer":"Virtual Private Machine",
+        "espera":"*Calculando...*",
+        "descripcion":"Pong!\n📡 API: **{ping}ms.**\n⏳ Puerta de Enlace: {gateway} ms."
+    },
+    "release":{
+        "title":"Novedades de",
+        "descripcion":"__**Nuevo**__\n- Levels: Muestra la lista de roles por nivel del servidor previamente configurados.\n- AddBlackList: Nuevo comando que permite deshabilitar comandos para canales, categorías, roles, usuarios o todo el servidor.\n- AddWhiteList: Podrás agregar canales, categorías, roles o usuarios que no les afecta el BlackList de ciertos comandos igualmente.\n- DeleteBlackList y DeleteWhiteList: Comandos para quitar configuración de los comandos correspondientes.\n- AddExcludeXp: Ahora podrás especificar en qué canales o categorías no recibirán experiencia por escribir.\n- ResetXp: Ahora podrás reiniciar la experiencia de un usuario o de todo el servidor.\n\n__**Cambios**__\nEnable y Disable: Se reemplazaron dichos comandos por AddBlackList y AddWhiteList.\n- Rank: Ahora, si la experiencia del servidor está activada, mostrará dicho rank en vez del global. Para ver el global en dichos casos, se tendrá que poner sl!rank global.\n- Top: Lo mismo que el comando anterior, además de una reescritura del código mejorado y cambios notorios en el manejo de páginas.\n- DeleteRolLevelUp:  Se separó del comando `delete` para que sea fácil identificarlo y usarlo.\n- DeleteXp: Se separó igualmente y se mejoró arreglando algunos errores de asignación de nivel correspondiente con la xp añadida.\n- Config: Se agregaron los apartados correspondientes a lo nuevo.\n\n__**Arreglos**__\n- Xp: Arreglo que no daba los roles de manera correcta.\n- AddRolLevelUp: Se quitaron propiedades y se arreglaron algunos aspectos.\n- Cookie: Se arregló la función de mencionar a un usuario por su id.\n- Config: Se arregló un error ocasional del último embed.\n- Se mejoró la apariencia de algunos textos.\n- Bugs: Muchos pequeños errores corregidos en varios comandos y eventos.\n\n__**Avisos**__\nMúsica: Se deshabilitó toda la categoría de música para ser reparada en futuras actualizaciones.",
+        "footer":"Estos son los cambios de la versión {version}. Cualquier problema que tengas, puedes ingresar al servidor de soporte a pedir ayuda. | Desarrollado por {dev}."
+    },
+    "stats":{
+        "bot":"🤖 Bot Info",
+        "owner":"👑 Creador",
+        "version":"📊 Versión",
+        "libreria":"📚 Librería",
+        "discordjs":"Discord 12.2.0 (Js)",
+        "memoria":"🗂 Memoria",
+        "tiempo":"🕒 Tiempo Encendido",
+        "servers":"💬 Servidores",
+        "users":"👥 Usuarios",
+        "canales":"#️⃣ Canales",
+        "voz":"🔊 Conexiones a Voz",
+        "commands":"📄 Comandos",
+        "os":"🖥️ Sistema Operativo",
+        "sistema":"Linux ******",
+        "horaServer":"⏳ Hora en el Servidor"
+    },
+    "vote":{
+        "title":"Lista de Bots donde puedes votar",
+        "desc":"Puedes votar cada 12 horas y los fines de semana tienes voto doble en [Top.gg](https://discordbots.org/bot/517786947171909643/vote)\n\nEstas son otras listas en donde encontrarás al bot, pero aún no tienen sistema de votos.\n1- [Discord Bots](https://discord.bots.gg/bots/517786947171909643) 2- [Bots On Discord](https://bots.ondiscord.xyz/bots/517786947171909643) 3- [MyBot List](https://portalmybot.com/mybotlist/bot/517786947171909643)"
+    }
+}

@@ -1,0 +1,90 @@
+{
+    "afk":{
+        "mencionE":"(Mención:everyone)",
+        "mencionH":"(Mención:here)",
+        "mensaje":"Ha establecido su estado AFK con la razón: `{razon}`."
+    },
+    "poll":{
+        "noPregunta":"Agregue una pregunta para la encuesta.",
+        "help":"Incorrecto, agregue mínimo dos opciones. `{prefix}encuesta <pregunta> | <opción 1> | <opción 2> | [opción 3] | [opción 4] | [opción 5] | [opción 6] | [opción 7] | [opción 8]`",
+        "encuesta":"Encuesta",
+        "op":"Opción"
+    },
+    "remember":{
+        "años":"años",
+        "año":"año",
+        "meses":"meses",
+        "mes":"mes",
+        "dias":"días",
+        "dia":"día",
+        "horas":"horas",
+        "hora":"hora",
+        "minutos":"minutos",
+        "minuto":"minuto",
+        "segundos":"segundos",
+        "segundo":"segundo",
+        "lista":"lista",
+        "titleL":"Lista de recordatorios",
+        "noRemember":"❌ No tienes recordatorios programados.",
+        "en":"En",
+        "tipo":"Tipo:",
+        "servidor":"Servidor",
+        "dm":"Mensaje Directo",
+        "recordatorio":"Recordatorio:",
+        "eliminar":"eliminar",
+        "titleR":"Coloca el número correspondiente",
+        "true":"✅ Recordatorio eliminado exitosamente.",
+        "noNumber":"❌ Ese recordatorio no existe.",
+        "noEscribir":"No puedes escribir en el canal mencionado.",
+        "noTiempo":"Tiempo no válido. Ejemplos: 1d, 10h, 20m.",
+        "mencionE":"(mención:everyone)",
+        "mencionH":"(mención:here)",
+        "title":"Recordatorio establecido",
+        "mensaje":"Con el tiempo: `{tiempo}`\nModalidad: `{modo}`.",
+        "mCanal":"\nCanal:"
+    },
+    "report":{
+        "noMencion":"Menciona a alguien o coloca su ID.",
+        "autoMencion":"No... no... eso... ¡eso no es posible!",
+        "noReporte":"Debes de proporcionar algo que reportar.",
+        "noActivo":"No está establecido el canal de reportes en este servidor.",
+        "noCanal":"El canal configurado fue eliminado o no tengo acceso a él.",
+        "title":"Nuevo reporte",
+        "reporte":"Reporte:",
+        "byReport":"Reportado por:",
+        "canal":"Enviado desde:",
+        "reportado":"Usuario reportado",
+        "ok":"✅ Reportado con éxito.",
+        "error":"❌ Parece que ocurrió un error inesperado, reporta el bug para solucionarlo."
+    },
+    "say":{
+        "help":"Usa `{prefix}say [embed] [#canal] <Mensaje a repetir>`.",
+        "mencionE":"(mención:everyone)",
+        "mencionH":"(mención:here)",
+        "noEscribir":"No puedes escribir en el canal mencionado."
+    },
+    "selfrole":{
+        "noConfig":"❌ | No hay roles autoasignables configurados.\n\n⚙ Puede configurarlo un administrador con el comando `addautorol`.",
+        "title":"Coloca el número correspondiente",
+        "rolesColores":"[1] Roles de color",
+        "rolesPerson1":"[1] Roles personalizados",
+        "rolesPerson2":"[2] Roles personalizados",
+        "noOpcion":"❌ | Opción no válida.",
+        "cancel":"cancelar",
+        "cancelMessage":"✅ Operación cancelada.",
+        "grupos":"Grupos",
+        "noGrupo":"❌ | Grupo de roles no encontrado.",
+        "noRoles":"\"Grupo sin roles\"",
+        "tieneRol":"❌ | Ya tienes este rol.",
+        "limite":"❌ | Alcanzaste el límite de roles en este grupo.",
+        "colocado":"✅ Rol {rol} colocado.",
+        "error":"❌ Ocurrió un error, es posible que no tenga acceso al rol o sea un rol inválido."
+    },
+    "suggestion":{
+        "noActivo":"No está establecido el canal de sugerencias en este servidor.",
+        "noCanal":"El canal configurado fue eliminado o no tengo acceso a él.",
+        "ok":"✅ Sugerencia enviada.",
+        "title":"Nueva sugerencia",
+        "canal":"Enviado desde:"
+    }
+}
