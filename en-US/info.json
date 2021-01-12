@@ -1,117 +1,117 @@
 {
-    "avatar":{
-        "title":"Avatar of"
+    "avatar": {
+        "title": "Avatar of"
     },
-    "emoji":{
-        "noEmoji":"Emoji not found or not available.",
-        "id":"🆔 Unique identifier",
-        "animado":"Animated/Gif",
-        "server":"Guild",
-        "autor":"Uploaded by",
-        "creado":"🗓️ Creation date",
-        "si":"Yes",
-        "no":"Not"
+    "emoji": {
+        "noEmoji": "Emoji not found or not available.",
+        "id": "🆔 Unique identifier",
+        "animado": "Animated/Gif",
+        "server": "Guild",
+        "autor": "Uploaded by",
+        "creado": "🗓️ Creation date",
+        "si": "Yes",
+        "no": "Not"
     },
-    "game":{
-        "game":"This {tipo}: ",
-        "noGame":"Is not playing right now.",
-        "tipo":{
-            "PLAYING":"🎮Playing",
-            "STREAMING":"📡Transmitting",
-            "LISTENING":"🎶Listening",
-            "WATCHING":"📺Watch",
-            "CUSTOM_STATUS":"with a custom state",
-            "undefined":"[Unknown activity]"
+    "game": {
+        "game": "This {tipo}: ",
+        "noGame": "Is not playing right now.",
+        "tipo": {
+            "PLAYING": "🎮Playing",
+            "STREAMING": "📡Transmitting",
+            "LISTENING": "🎶Listening",
+            "WATCHING": "📺Watch",
+            "CUSTOM_STATUS": "with a custom state",
+            "undefined": "[Unknown activity]"
         }
     },
-    "roleinfo":{
-        "noRol":"Role not found or invalid",
-        "title":"Role information",
-        "nombre":"Name",
-        "id":"🆔 Unique identifier",
-        "color":"🌈 Color",
-        "separado":"↕ Separated",
-        "mensionable":"@ Mentionable",
-        "posicion":"🔢 Position",
-        "miembros":"👥 Members",
-        "permisosImport":"⛔ Important perms",
-        "tiempo":"⌛ Role created",
-        "si":"Yes",
-        "no":"No",
-        "sinPerm":"No perms.",
-        "sinInfo":"No information."
+    "roleinfo": {
+        "noRol": "Role not found or invalid",
+        "title": "Role information",
+        "nombre": "Name",
+        "id": "🆔 Unique identifier",
+        "color": "🌈 Color",
+        "separado": "↕ Separated",
+        "mensionable": "@ Mentionable",
+        "posicion": "🔢 Position",
+        "miembros": "👥 Members",
+        "permisosImport": "⛔ Important perms",
+        "tiempo": "⌛ Role created",
+        "si": "Yes",
+        "no": "No",
+        "sinPerm": "No perms.",
+        "sinInfo": "No information."
     },
-    "serverinfo":{
-        "seguridad":{
-            "NONE":"None",
-            "LOW":"Low",
-            "MEDIUM":"Medium",
-            "HIGH":"High",
-            "VERY_HIGH":"Maximum"
+    "serverinfo": {
+        "seguridad": {
+            "NONE": "None",
+            "LOW": "Low",
+            "MEDIUM": "Medium",
+            "HIGH": "High",
+            "VERY_HIGH": "Maximum"
         },
-        "id":"🆔 Unique Identifier",
-        "region":"🗺️ Region",
-        "creado":"🗓️ Creation date",
-        "creadoHace":"🕑 Created ago",
-        "dueño":"👑 Guild owner",
-        "miembros":"👥 Members",
-        "linea":"Online:",
-        "noMolestar":"Do not bother:",
-        "ausente":"Missing:",
-        "desconectado":"Disconnected:",
-        "nivelVer":"🚨 Verification level",
-        "usuarios":"👤 Humans",
-        "bots":"🤖 Bots",
-        "canales":"💬 Channels",
-        "texto":"Of text:",
-        "voz":"Voice:",
-        "afk":"AFK:",
-        "noAfk":"No channel",
-        "roles":"🔁 Roles",
-        "emojis":"😂 Emojis"
+        "id": "🆔 Unique Identifier",
+        "region": "🗺️ Region",
+        "creado": "🗓️ Creation date",
+        "creadoHace": "🕑 Created ago",
+        "dueño": "👑 Guild owner",
+        "miembros": "👥 Members",
+        "linea": "Online:",
+        "noMolestar": "Do not bother:",
+        "ausente": "Missing:",
+        "desconectado": "Disconnected:",
+        "nivelVer": "🚨 Verification level",
+        "usuarios": "👤 Humans",
+        "bots": "🤖 Bots",
+        "canales": "💬 Channels",
+        "texto": "Of text:",
+        "voz": "Voice:",
+        "afk": "AFK:",
+        "noAfk": "No channel",
+        "roles": "🔁 Roles",
+        "emojis": "😂 Emojis"
     },
-    "translate":{
-        "embed":"embed",
-        "error":"❌ It seems that an unexpected error occurred, report the bug to fix it.",
-        "idioma":"Language:",
-        "original":"Original:",
-        "traductor":" Translator"
+    "translate": {
+        "embed": "embed",
+        "error": "❌ It seems that an unexpected error occurred, report the bug to fix it.",
+        "idioma": "Language:",
+        "original": "Original:",
+        "traductor": " Translator"
     },
-    "user":{
-        "noUser":"User not found or invalid",
-        "estados":{
+    "user": {
+        "noUser": "User not found or invalid",
+        "estados": {
             "online": "Online",
             "dnd": "Do not bother",
             "idle": "Absent",
             "offline": "Disconnected"
         },
-        "jugando":"🎮 Activity",
-        "tipo":{
-            "PLAYING":"🎮Playing",
-            "STREAMING":"📡Transmitting",
-            "LISTENING":"🎶Listening",
-            "WATCHING":"📺Watch",
-            "CUSTOM_STATUS":"custom state"
+        "jugando": "🎮 Activity",
+        "tipo": {
+            "PLAYING": "🎮Playing",
+            "STREAMING": "📡Transmitting",
+            "LISTENING": "🎶Listening",
+            "WATCHING": "📺Watch",
+            "CUSTOM_STATUS": "custom state"
         },
-        "estado":"🔘🔴 State",
-        "id":"🆔 Unique identifier",
-        "conecWeb":"💻 Web connected",
-        "conecDesk":"💻 Connected on desktop",
-        "conecCel":"📱 Connected on mobile",
-        "apodo":"👤 Nickname",
-        "creada":"📅 Account created",
-        "ingreso":"📆 Entry",
-        "creadaHace":"🕑 Account created ago",
-        "ingresoHace":"🕑 Login ago",
-        "insignias":"🔶 Flags ",
-        "noInsig":"No badges",
-        "roles":"🔁 Roles",
-        "permisos":"Important perms",
-        "noJugando":"Nothing",
-        "noApodo":"None",
-        "sd":"S/D"
+        "estado": "🔘🔴 State",
+        "id": "🆔 Unique identifier",
+        "conecWeb": "💻 Web connected",
+        "conecDesk": "💻 Connected on desktop",
+        "conecCel": "📱 Connected on mobile",
+        "apodo": "👤 Nickname",
+        "creada": "📅 Account created",
+        "ingreso": "📆 Entry",
+        "creadaHace": "🕑 Account created ago",
+        "ingresoHace": "🕑 Login ago",
+        "insignias": "🔶 Flags ",
+        "noInsig": "No badges",
+        "roles": "🔁 Roles",
+        "permisos": "Important perms",
+        "noJugando": "Nothing",
+        "noApodo": "None",
+        "sd": "S/D"
     },
-    "userrandom":{
-        "title":"Lucky user:"
+    "userrandom": {
+        "title": "Lucky user:"
     }
 }

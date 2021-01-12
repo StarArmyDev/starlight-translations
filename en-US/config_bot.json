@@ -1,44 +1,22 @@
 {
-    "help":"help",
-    "defecto":"default",
-    "noCanal":"Invalid channel, verify that it is a text channel.",
-    "canal":"Channel:",
-    "noModoDisable":"❌ Invalid mode, category and command only.",
-    "enable":{
-        "enable":"category",
-        "DHelp":"Use `{prefix}disable category <category name>`\nCategories:\n`-all\n-setting\n-fun\n-economy\n-games\n-information\n-interaction\n-music\n-profile\n-staff\n-utilities`",
-        "EHelp":"Use `{prefix}enable category <category name>`\nCategories:\n`-all\n-setting\n-fun\n-economy\n-games\n-information\n-interaction\n-music\n-profile\n-staff\n-utilities`",
-        "all":"all",
-        "config":"setting",
-        "diver":"fun",
-        "econ":"economy",
-        "games":"games",
-        "info":"information",
-        "inter":"interaction",
-        "expresion": "expression"
-        "music":"music",
-        "perfil":"profile",
-        "staff":"staff",
-        "mod":"moderation",
-        "util":"utilities",
-        "noModulo":"This category does not exist or you typed it incorrectly, consult `help <enable | disable>` to know the available ones.",
-        "ETitle":"Enabled category on this server",
-        "DTitle":"Disabled category on this server",
-        "modulo":"Category:"
+    "help": "help",
+    "defecto": "default",
+    "noCanal": "Invalid channel, verify that it is a text channel.",
+    "canal": "Channel:",
+    "noModoDisable": "❌ Invalid mode, category and command only.",
+    "command": {
+        "command": "command",
+        "DHelp": "Use `{prefix}disable command <command name>`",
+        "EHelp": "Use `{prefix}enable command <command name>`",
+        "noCommand": "❌ Command not found, only command name is accepted, not its aliases.",
+        "commandImport": "⚠ This command belongs to an important category.",
+        "ETitle": "Enabled command on this server",
+        "DTitle": "Disabled command on this server",
+        "field": "Command:"
     },
-    "command":{
-        "command":"command",
-        "DHelp":"Use `{prefix}disable command <command name>`",
-        "EHelp":"Use `{prefix}enable command <command name>`",
-        "noCommand":"❌ Command not found, only command name is accepted, not its aliases.",
-        "commandImport":"⚠ This command belongs to an important category.",
-        "ETitle":"Enabled command on this server",
-        "DTitle":"Disabled command on this server",
-        "field":"Command:"
-    },
-    "setcolor":{
-        "noValido":"❌ | Invalid color.",
-        "title":"Assigned custom color",
-        "cambio":"Switched to:"
+    "setcolor": {
+        "noValido": "❌ | Invalid color.",
+        "title": "Assigned custom color",
+        "cambio": "Switched to:"
     }
 }

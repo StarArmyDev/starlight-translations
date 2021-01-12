@@ -1,496 +1,511 @@
 {
-    "add":{
-        "dinero":{
-            "dinero":"dinheiro",
-            "noModo":"Modo inválido, apenas <carteira/banco/c/b> é aceito",
+    "add": {
+        "dinero": {
+            "dinero": "dinheiro",
+            "noModo": "Modo inválido, apenas <carteira/banco/c/b> é aceito",
             "noUser": "O usuário não está no banco de dados",
             "noCantidad": "Você não digitou um número válido.",
             "correcto": "✅ {cantidad} de dinheiro adicionado corretamente de: {miembro}",
             "error": "Ocorreu um erro ao tentar adicionar o dinheiro ao usuário."
         },
-        "cartera":"bolsa",
-        "banco":"banco",
-        "exclude":{
-            "exclude":"excluir",
-            "noCanal":"Canal inválido, verifique se é um canal de texto.",
-            "title":"Canal excluído do comandos",
-            "canal":"Agregado:",
-            "title2":"Canais excluídos dos comandos",
-            "canales":"Agregados:"
+        "cartera": "bolsa",
+        "banco": "banco",
+        "exclude": {
+            "exclude": "excluir",
+            "noCanal": "Canal inválido, verifique se é um canal de texto.",
+            "title": "Canal excluído do comandos",
+            "canal": "Agregado:",
+            "title2": "Canais excluídos dos comandos",
+            "canales": "Agregados:"
         },
-        "el":{
-            "excludeLogs":"excludelogs",
-            "noCanal":"Canal inválido, verifique se é um canal de texto.",
-            "title":"Canal excluído do registros",
-            "canal":"Agregado:",
-            "title2":"Canais excluídos dos registros",
-            "canales":"Agregados:"
+        "el": {
+            "excludeLogs": "excludelogs",
+            "noCanal": "Canal inválido, verifique se é um canal de texto.",
+            "title": "Canal excluído do registros",
+            "canal": "Agregado:",
+            "title2": "Canais excluídos dos registros",
+            "canales": "Agregados:"
         },
-        "group":{
-            "group":"grupo",
-            "multi":"múltiplo",
-            "solo":"sozinho",
-            "noModo":"❌ | Esse modo não existe, apenas **sólo** e **múltiplo**.",
-            "noMaximo":"❌ | Você não definiu um número máximo de cargos múltiplas ou é inválido.",
-            "existe":"❌ | Este grupo já foi criado",
-            "title":"✅ Grupo de cargos criado",
-            "nombre":"Nome:",
-            "modo":"Modo:",
-            "maximo":"Cargos máximos:",
-            "multiple":"Múltiplo",
-            "embedsolo":"Sozinho",
-            "ninguno":"Nenhum"
+        "group": {
+            "group": "grupo",
+            "multi": "múltiplo",
+            "solo": "sozinho",
+            "noModo": "❌ | Esse modo não existe, apenas **sólo** e **múltiplo**.",
+            "noMaximo": "❌ | Você não definiu um número máximo de cargos múltiplas ou é inválido.",
+            "existe": "❌ | Este grupo já foi criado",
+            "title": "✅ Grupo de cargos criado",
+            "nombre": "Nome:",
+            "modo": "Modo:",
+            "maximo": "Cargos máximos:",
+            "multiple": "Múltiplo",
+            "embedsolo": "Sozinho",
+            "ninguno": "Nenhum"
         },
-        "autorole":{
-            "autorole":"autocargo",
-            "noGrupo":"❌ | Grupo não encontrado, você deve primeiro usar o comando `{prefix}addgroup` para criá-lo.",
-            "noRol":"Cargo não encontrado ou cargo inválido, verifique se existe e se está abaixo da minha cargo principal.",
-            "existe":"❌ | Esta cargo já está no grupo.",
-            "title":"✅ Cargo adicionado",
-            "grupo":"Grupo ao qual pertence:",
-            "rol":"Cargo:"
+        "autorole": {
+            "autorole": "autocargo",
+            "noGrupo": "❌ | Grupo não encontrado, você deve primeiro usar o comando `{prefix}addgroup` para criá-lo.",
+            "noRol": "Cargo não encontrado ou cargo inválido, verifique se existe e se está abaixo da minha cargo principal.",
+            "existe": "❌ | Esta cargo já está no grupo.",
+            "title": "✅ Cargo adicionado",
+            "grupo": "Grupo ao qual pertence:",
+            "rol": "Cargo:"
         },
-        "noModo":"Esse modo não existe ou você colocou um ` | ` errado, verifique e use apenas `xp/money/rollevelup/excludelogs/exclude`",
+        "noModo": "Esse modo não existe ou você colocou um ` | ` errado, verifique e use apenas `xp/money/rollevelup/excludelogs/exclude`",
         "noMember": "Usuário não encontrado, verifique.",
-        "error":"❌ Parece que ocorreu um erro inesperado, relate o bug para corrigi-lo."
+        "error": "❌ Parece que ocorreu um erro inesperado, relate o bug para corrigi-lo."
     },
-    "config":{
-        "noRol":"Cargo não encontrado",
-        "noCanal":"*Canal não disponível.* ",
-        "mensaje":"Mensagem:",
-        "canal":"Canal:",
-        "roles":"Cargo/s:",
-        "sendLogs":"*Ele é enviado para o canal de registro de mensagens.*",
-        "default":"*Padrão:*",
-        "min":"Mín:",
-        "max":"Máx:",
-        "xplvl":"Xp LevelUp:",
-        "cooldown":"XP Cooldown:",
-        "daily":"Dinheiro diário:",
-        "canalEliminado":"*Canal removido ou indisponível.*",
-        "noConfig":"*Não configurado.*",
-        "embed":{
-            "author":"Configuração | {guild_name}",
-            "title1":"Bem-vindo/Adeus",
-            "bienvenida":"Bem-vinda:",
-            "imgBienvenida":"Imagem de boas-vindas:",
-            "rolEntrada":"Cargo/s de entrada:",
-            "despedida":"Despedida:",
-            "imgDespedida":"Imagem de despedida:",
-            "logsEntrada":"Check-in de segurança (rWelcome):",
-            "title2":"Registros",
-            "logs":"Registros de mensagens:",
-            "modLogs":"Registros de moderação:",
-            "excludeLogs":"Canais excluídos dos registros:",
-            "memberCount":"Contador de membros:",
-            "title3":"Bot",
-            "prefix":"Prefixo:",
-            "exclude":"Canais excluídos:",
-            "languageS":"Linguagem do servidor:",
-            "languageC":"Idioma nos canais:",
-            "title4":"Utilidade",
-            "reportes":"Relatórios:",
-            "sugerencias":"Sugestões:",
-            "count":"Contador:",
-            "xp":"Xp:",
-            "econ":"Economia:",
-            "title5":"`Beta:`",
-            "playing":"Jogando:"
+    "config": {
+        "noRol": "Cargo não encontrado",
+        "noCanal": "*Canal não disponível.* ",
+        "mensaje": "Mensagem:",
+        "canal": "Canal:",
+        "roles": "Cargo/s:",
+        "sendLogs": "*Ele é enviado para o canal de registro de mensagens.*",
+        "default": "*Padrão:*",
+        "min": "Mín:",
+        "max": "Máx:",
+        "xplvl": "Xp LevelUp:",
+        "cooldown": "XP Cooldown:",
+        "daily": "Dinheiro diário:",
+        "canalEliminado": "*Canal removido ou indisponível.*",
+        "noConfig": "*Não configurado.*",
+        "embed": {
+            "author": "Configuração | {guild_name}",
+            "title1": "Bem-vindo/Adeus",
+            "bienvenida": "Bem-vinda:",
+            "imgBienvenida": "Imagem de boas-vindas:",
+            "rolEntrada": "Cargo/s de entrada:",
+            "despedida": "Despedida:",
+            "imgDespedida": "Imagem de despedida:",
+            "logsEntrada": "Check-in de segurança (rWelcome):",
+            "title2": "Registros",
+            "logs": "Registros de mensagens:",
+            "modLogs": "Registros de moderação:",
+            "excludeLogs": "Canais excluídos dos registros:",
+            "memberCount": "Contador de membros:",
+            "title3": "Bot",
+            "prefix": "Prefixo:",
+            "exclude": "Canais excluídos:",
+            "languageS": "Linguagem do servidor:",
+            "languageC": "Idioma nos canais:",
+            "title4": "Utilidade",
+            "reportes": "Relatórios:",
+            "sugerencias": "Sugestões:",
+            "count": "Contador:",
+            "xp": "Xp:",
+            "econ": "Economia:",
+            "title5": "`Beta:`",
+            "playing": "Jogando:"
         },
         "error": "❌ Parece que ocorreu um erro inesperado, relate o bug para corrigi-lo."
     },
-    "delet":{
-        "help":"ajuda",
-        "defecto":"padrão",
-        "noCanal":"Canal inválido, verifique se é um canal de texto.",
-        "canal":"Canal:",
-        "quitado":"Removido",
-        "noConfig":"*Não configurado.*",
-        "welcome":{
-            "welcome":"bem-vinda",
-            "noConfig":"Você não tem nenhum canal configurado",
-            "title":"Canal de boas-vindas removido"
+    "delet": {
+        "help": "ajuda",
+        "defecto": "padrão",
+        "noCanal": "Canal inválido, verifique se é um canal de texto.",
+        "canal": "Canal:",
+        "quitado": "Removido",
+        "noConfig": "*Não configurado.*",
+        "welcome": {
+            "welcome": "bem-vinda",
+            "noConfig": "Você não tem nenhum canal configurado",
+            "title": "Canal de boas-vindas removido"
         },
-        "rol":{
-            "rol":"cargo",
-            "help":"Use `{prefix}delete rolwelcome <cargo>`",
-            "noConfig":"Não há cargos configurados neste servidor.",
-            "noRoles":"Parece que tal cargo não existe no banco de dados",
-            "true":"✅ Cargo removido com sucesso."
+        "rol": {
+            "rol": "cargo",
+            "help": "Use `{prefix}delete rolwelcome <cargo>`",
+            "noConfig": "Não há cargos configurados neste servidor.",
+            "noRoles": "Parece que tal cargo não existe no banco de dados",
+            "true": "✅ Cargo removido com sucesso."
         },
-        "iw":{
-            "imgWelcome":"imgboasvindas",
-            "noConfig":"Você não tem nenhum canal configurado para enviar a imagem de boas-vindas.",
-            "title":"Canal de boas-vindas com imagem removida"
+        "iw": {
+            "imgWelcome": "imgboasvindas",
+            "noConfig": "Você não tem nenhum canal configurado para enviar a imagem de boas-vindas.",
+            "title": "Canal de boas-vindas com imagem removida"
         },
-        "il":{
-            "imgdespedida":"imgdespedida",
-            "noConfig":"Você não tem nenhum canal configurado para enviar a imagem de despedida.",
-            "title":"Canal de despedida com imagem removida"
+        "il": {
+            "imgdespedida": "imgdespedida",
+            "noConfig": "Você não tem nenhum canal configurado para enviar a imagem de despedida.",
+            "title": "Canal de despedida com imagem removida"
         },
-        "leave":{
-            "leava":"salida",
-            "noConfig":"Você não tem nenhum canal configurado para enviar a despedida.",
-            "title":"Canal de despedida removido"
+        "leave": {
+            "leava": "salida",
+            "noConfig": "Você não tem nenhum canal configurado para enviar a despedida.",
+            "title": "Canal de despedida removido"
         },
-        "lvl":{
-            "lvl":"nível",
-            "title":"Redirecionamento de subida de nível removido"
+        "lvl": {
+            "lvl": "nível",
+            "title": "Redirecionamento de subida de nível removido"
         },
-        "money":{
-            "money":"dinheiro",
-            "banco":"banco",
-            "all":"tudo",
-            "noNumber":"Você não inseriu um número monetário válido.",
-            "true":"dinheiro corretamente removido de:",
-            "error":"❌ Ocorreu um erro inesperado, informe-o para que possa ser resolvido o mais rápido possível."
+        "money": {
+            "money": "dinheiro",
+            "banco": "banco",
+            "all": "tudo",
+            "noNumber": "Você não inseriu um número monetário válido.",
+            "true": "dinheiro corretamente removido de:",
+            "error": "❌ Ocorreu um erro inesperado, informe-o para que possa ser resolvido o mais rápido possível."
         },
-        "report":{
-            "report":"reporte",
-            "title":"Denunciar canal removido"
+        "report": {
+            "report": "reporte",
+            "title": "Denunciar canal removido"
         },
-        "sug":{
-            "sug":"sugerencia",
-            "title":"Canal de sugestão removido"
+        "sug": {
+            "sug": "sugerencia",
+            "title": "Canal de sugestão removido"
         },
-        "count":{
-            "count":"contador",
-            "title":"Canal de contagem removido"
+        "count": {
+            "count": "contador",
+            "title": "Canal de contagem removido"
         },
-        "prefix":{
-            "prefix":"prefixo",
-            "noConfig":"Você não tem nenhum prefixo configurado",
-            "title":"Prefixo personalizado removido"
+        "prefix": {
+            "prefix": "prefixo",
+            "noConfig": "Você não tem nenhum prefixo configurado",
+            "title": "Prefixo personalizado removido"
         },
-        "lang":{
-            "language":"língua",
-            "help":"Use `{prefix}delete language`\n\nVocê também pode usar `{prefix}delete language channel [#canal]`",
-            "noIdioma":"Você não tem idioma configurado neste servidor.",
-            "noCanales":"Você não tem nenhum canal de idioma configurado.",
-            "noCanal":"Parece que este canal não está configurado.",
-            "title":"Idioma do servidor removido",
-            "titleC":"Idioma do canal removido",
-            "quitado":"Removido"
+        "lang": {
+            "language": "língua",
+            "help": "Use `{prefix}delete language`\n\nVocê também pode usar `{prefix}delete language channel [#canal]`",
+            "noIdioma": "Você não tem idioma configurado neste servidor.",
+            "noCanales": "Você não tem nenhum canal de idioma configurado.",
+            "noCanal": "Parece que este canal não está configurado.",
+            "title": "Idioma do servidor removido",
+            "titleC": "Idioma do canal removido",
+            "quitado": "Removido"
         },
-        "nick":{
-            "nick":"apodo",
-            "title":"Autoapodo desativado"
+        "nick": {
+            "nick": "apodo",
+            "title": "Autoapodo desativado"
         },
-        "mc":{
-            "mc":"contadormembros",
-            "title":"Contador de membros removido",
-            "descripcion":"*Os canais correspondentes serão excluídos.*",
-            "noCanal":"Não consegui deletar o canal",
-            "c":"Canais removidos",
-            "e":"Canal removido"
+        "mc": {
+            "mc": "contadormembros",
+            "title": "Contador de membros removido",
+            "descripcion": "*Os canais correspondentes serão excluídos.*",
+            "noCanal": "Não consegui deletar o canal",
+            "c": "Canais removidos",
+            "e": "Canal removido"
         },
-        "logs":{
-            "logs":"registros",
-            "noCanal":"Canal desconhecido:",
-            "title":"Canal de registros removido"
+        "logs": {
+            "logs": "registros",
+            "noCanal": "Canal desconhecido:",
+            "title": "Canal de registros removido"
         },
-        "ml":{
-            "modlogs":"registrosmod",
-            "noCanal":"Canal desconhecido:",
-            "title":"Canal de registros de moderação removido"
+        "ml": {
+            "modlogs": "registrosmod",
+            "noCanal": "Canal desconhecido:",
+            "title": "Canal de registros de moderação removido"
         },
-        "lw":{
-            "rwelcome":"registroentrada",
-            "title":"Canal de registros de entrada removido"
+        "lw": {
+            "rwelcome": "registroentrada",
+            "title": "Canal de registros de entrada removido"
         },
-        "el":{
-            "excludeLogs":"excluirlogs",
-            "title":"Canal de registros excluídos removidos"
+        "el": {
+            "excludeLogs": "excluirlogs",
+            "title": "Canal de registros excluídos removidos"
         },
-        "e":{
-            "exclude":"excluir",
-            "title":"Canal excluído removido"
+        "e": {
+            "exclude": "excluir",
+            "title": "Canal excluído removido"
         },
-        "level":{
-            "level":"níveis",
-            "noConfig":"Você não configurou o nível de sistema/xp do servidor",
-            "title":"Sistema de XP del servidor eliminado."
+        "level": {
+            "level": "níveis",
+            "noConfig": "Você não configurou o nível de sistema/xp do servidor",
+            "title": "Sistema de XP del servidor eliminado."
         },
-        "econ":{
-            "econ":"economia",
-            "title":"Sistema de economia de servidor desativado."
+        "econ": {
+            "econ": "economia",
+            "title": "Sistema de economia de servidor desativado."
         },
-        "group":{
-            "group":"grupo",
-            "help":"Use `{prefix}delete group <Nome>`",
-            "noGrupo":"❌ | Grupo não encontrado.",
-            "title":"Grupo de autocargos removido",
-            "nombre":"Nombre:",
-            "roles":"Número de cargos que continha:"
+        "group": {
+            "group": "grupo",
+            "help": "Use `{prefix}delete group <Nome>`",
+            "noGrupo": "❌ | Grupo não encontrado.",
+            "title": "Grupo de autocargos removido",
+            "nombre": "Nombre:",
+            "roles": "Número de cargos que continha:"
         },
-        "autorole":{
-            "autorole":"autocargo",
-            "help":"Use `{prefix}delete <nome do grupo> <@rol>`",
-            "noGrupo":"❌ | Grupo não encontrado.",
-            "noRol":"❌ | Cargo não encontrado",
-            "title":"Autocargo removido do grupo",
-            "rol":"Cargo removido:"
+        "autorole": {
+            "autorole": "autocargo",
+            "help": "Use `{prefix}delete <nome do grupo> <@rol>`",
+            "noGrupo": "❌ | Grupo não encontrado.",
+            "noRol": "❌ | Cargo não encontrado",
+            "title": "Autocargo removido do grupo",
+            "rol": "Cargo removido:"
         },
-        "noModo":"❌ Esse modo não existe.",
-        "error":"❌ Parece que ocorreu um erro inesperado, relate o bug para corrigi-lo."
+        "noModo": "❌ Esse modo não existe.",
+        "error": "❌ Parece que ocorreu um erro inesperado, relate o bug para corrigi-lo."
     },
-    "set":{
-        "help":"ayuda",
-        "defecto":"padrão",
-        "noCanal":"Canal inválido, verifique se é um canal de texto.",
-        "canal":"Canal:",
-        "welcome":{
-            "noCanal":"Canal no válido, revisa que pusiste bien todo o verifica que usas con solo un espacio antes y después del ` | ` para separar los campos.",
-            "mensajeD":"¡Hola {user} nuevo miembro!",
-            "mensajeEmbed":"Hola, bienvenid@",
-            "title":"Canal de bienvenida asignado",
-            "mensaje":"Con el mensaje",
-            "mensajeE":"Mensagem embed"
+    "set": {
+        "help": "ayuda",
+        "defecto": "padrão",
+        "noCanal": "Canal inválido, verifique se é um canal de texto.",
+        "canal": "Canal:",
+        "welcome": {
+            "noCanal": "Canal no válido, revisa que pusiste bien todo o verifica que usas con solo un espacio antes y después del ` | ` para separar los campos.",
+            "mensajeD": "¡Hola {user} nuevo miembro!",
+            "mensajeEmbed": "Hola, bienvenid@",
+            "title": "Canal de bienvenida asignado",
+            "mensaje": "Con el mensaje",
+            "mensajeE": "Mensagem embed"
         },
-        "iw":{
-            "noCanal":"Canal inválido, verifique se colocou tudo corretamente ou verifique se você usa com apenas um espaço antes e depois do ` | `para separar os campos.",
-            "noMensaje":"Você não postou uma mensagem",
-            "noColor":"Você não colocou a cor principal ou do texto, lembre-se de colocá-la no formato hexadecimal",
-            "title":"Canal de imagem de despedida atribuído",
-            "mensaje":"Com a mensagem",
-            "colores":"Cores",
-            "colorPrincipal":"Cor principal:",
-            "colorSecundario":"Cor secundária:",
-            "colorTexto":"Cor do texto:",
-            "defecto":"Padrão"
+        "iw": {
+            "noCanal": "Canal inválido, verifique se colocou tudo corretamente ou verifique se você usa com apenas um espaço antes e depois do ` | `para separar os campos.",
+            "noMensaje": "Você não postou uma mensagem",
+            "noColor": "Você não colocou a cor principal ou do texto, lembre-se de colocá-la no formato hexadecimal",
+            "title": "Canal de imagem de despedida atribuído",
+            "mensaje": "Com a mensagem",
+            "colores": "Cores",
+            "colorPrincipal": "Cor principal:",
+            "colorSecundario": "Cor secundária:",
+            "colorTexto": "Cor do texto:",
+            "defecto": "Padrão"
         },
-        "il":{
-            "noCanal":"Canal inválido, verifique se colocou tudo corretamente ou verifique se você usa com apenas um espaço antes e depois do ` | `para separar os campos.",
-            "noMensaje":"Você não postou uma mensagem",
-            "noColor":"Você não colocou a cor principal ou do texto, lembre-se de colocá-la no formato hexadecimal",
-            "title":"Canal de imagem de despedida atribuído",
-            "mensaje":"Com a mensagem",
-            "colores":"Cores",
-            "colorPrincipal":"Cor principal:",
-            "colorSecundario":"Cor secundária:",
-            "colorTexto":"Cor do texto:",
-            "defecto":"Padrão"
+        "il": {
+            "noCanal": "Canal inválido, verifique se colocou tudo corretamente ou verifique se você usa com apenas um espaço antes e depois do ` | `para separar os campos.",
+            "noMensaje": "Você não postou uma mensagem",
+            "noColor": "Você não colocou a cor principal ou do texto, lembre-se de colocá-la no formato hexadecimal",
+            "title": "Canal de imagem de despedida atribuído",
+            "mensaje": "Com a mensagem",
+            "colores": "Cores",
+            "colorPrincipal": "Cor principal:",
+            "colorSecundario": "Cor secundária:",
+            "colorTexto": "Cor do texto:",
+            "defecto": "Padrão"
         },
-        "leave":{
-            "noCanal":"Canal inválido, verifique se colocou tudo corretamente ou verifique se você usa com apenas um espaço antes e depois do ` | `para separar os campos.",
-            "noMensaje":"Você não postou uma mensagem.",
-            "title":"Canal de despedida atribuído",
-            "mensaje":"Com a mensagem"
+        "leave": {
+            "noCanal": "Canal inválido, verifique se colocou tudo corretamente ou verifique se você usa com apenas um espaço antes e depois do ` | `para separar os campos.",
+            "noMensaje": "Você não postou uma mensagem.",
+            "title": "Canal de despedida atribuído",
+            "mensaje": "Com a mensagem"
         },
-        "logs":{
-            "title":"Canal de registros atribuído"
+        "logs": {
+            "title": "Canal de registros atribuído"
         },
-        "modLogs":{
-            "title":"Canal de registros de moderação atribuído"
+        "modLogs": {
+            "title": "Canal de registros de moderação atribuído"
         },
-        "redirect":{
-            "mensajeD":"**Você subiu de nível *{user_name}***",
-            "title":"Canal de mensagem para o nível atribuído",
-            "mensaje":"Mensagem:"
+        "redirect": {
+            "mensajeD": "**Você subiu de nível *{user_name}***",
+            "title": "Canal de mensagem para o nível atribuído",
+            "mensaje": "Mensagem:"
         },
-        "lw":{
-            "title":"Canal de check-in atribuído"
+        "lw": {
+            "title": "Canal de check-in atribuído"
         },
-        "report":{
-            "title":"Canal de relatório atribuído"
+        "report": {
+            "title": "Canal de relatório atribuído"
         },
-        "sug":{
-            "title":"Canal de sugestão atribuído"
+        "sug": {
+            "title": "Canal de sugestão atribuído"
         },
-        "count":{
-            "mensaje":"Próximo número:",
-            "empezar":"Agora você pode começar a contar a partir do número 1!",
-            "sigan":"Continue contando a partir do número",
-            "error":"❌ Ocorreu um erro ao atribuir a descrição do canal, verifique se tenho permissões suficientes.",
-            "title":"Canal para contar atribuído",
-            "desde":"Do número:"
+        "count": {
+            "mensaje": "Próximo número:",
+            "empezar": "Agora você pode começar a contar a partir do número 1!",
+            "sigan": "Continue contando a partir do número",
+            "error": "❌ Ocorreu um erro ao atribuir a descrição do canal, verifique se tenho permissões suficientes.",
+            "title": "Canal para contar atribuído",
+            "desde": "Do número:"
         },
-        "prefix":{
-            "title":"Prefixo personalizado atribuído",
-            "cambio":"Alterado a:"
+        "prefix": {
+            "title": "Prefixo personalizado atribuído",
+            "cambio": "Alterado a:"
         },
-        "lang":{
-            "canal":"canal",
-            "noIdioma":"Este idioma não existe, use `{prefix}setidioma help` para saber os idiomas disponíveis.",
-            "noLang":"Você não definiu o idioma a ser definido para o canal",
-            "title":"Idioma do servidor atribuído",
-            "titleC":"Idioma do canal atribuído",
-            "cambio":"Alterado a"
+        "lang": {
+            "canal": "canal",
+            "noIdioma": "Este idioma não existe, use `{prefix}setidioma help` para saber os idiomas disponíveis.",
+            "noLang": "Você não definiu o idioma a ser definido para o canal",
+            "title": "Idioma do servidor atribuído",
+            "titleC": "Idioma do canal atribuído",
+            "cambio": "Alterado a"
         },
-        "nick":{
-            "title":"Autoapodo ativado",
-            "cambio":"Alterado a:"
+        "nick": {
+            "title": "Autoapodo ativado",
+            "cambio": "Alterado a:"
         },
-        "mc":{
-            "activo":"Primeiro desative o modo, usando `{prefix}delete memberCount`",
-            "canales":"canais",
-            "embed":"embed",
-            "helpC":"Use `{prefix}setmc channels [canal Total], [canal membros], [canal bots], [canal cargos], [canal canais]`\n\nPara um canal não estar ativo, coloque o nome em seu lugar **false**",
-            "noCrearCanal":"Não tenho permissões suficientes para criar canais.",
-            "total":"Total de usuários",
-            "miembros":"Membros",
-            "bots":"Bots",
-            "roles":"Cargos",
-            "channels":"Canais",
-            "categoria":"─── [Estatisticas] ───",
-            "title":"Contador de membros atribuídos",
-            "desc":"Todos os canais serão criados:",
-            "cTotal":"Canal nº Total:",
-            "cMiembros":"Canal nº Membros:",
-            "cBots":"Canal nº Bots:",
-            "cCanales":"Canal nº Canais:",
-            "cRoles":"Canal nº Cargos:",
-            "noActivo":"Desativado",
-            "descripcion":"Criando canal...",
-            "noModo":"Modo não encontrado, apenas **canais** ou **embed**"
+        "mc": {
+            "activo": "Primeiro desative o modo, usando `{prefix}delete memberCount`",
+            "canales": "canais",
+            "embed": "embed",
+            "helpC": "Use `{prefix}setmc channels [canal Total], [canal membros], [canal bots], [canal cargos], [canal canais]`\n\nPara um canal não estar ativo, coloque o nome em seu lugar **false**",
+            "noCrearCanal": "Não tenho permissões suficientes para criar canais.",
+            "total": "Total de usuários",
+            "miembros": "Membros",
+            "bots": "Bots",
+            "roles": "Cargos",
+            "channels": "Canais",
+            "categoria": "─── [Estatisticas] ───",
+            "title": "Contador de membros atribuídos",
+            "desc": "Todos os canais serão criados:",
+            "cTotal": "Canal nº Total:",
+            "cMiembros": "Canal nº Membros:",
+            "cBots": "Canal nº Bots:",
+            "cCanales": "Canal nº Canais:",
+            "cRoles": "Canal nº Cargos:",
+            "noActivo": "Desativado",
+            "descripcion": "Criando canal...",
+            "noModo": "Modo não encontrado, apenas **canais** ou **embed**"
         },
-        "noModoDisable":"❌ Modo no válido, solamente categoría y comando.",
-        "error":"❌ Parece que ocurrió un error inesperado, reporta el bug para solucionarlo."
+        "noModoDisable": "❌ Modo no válido, solamente categoría y comando.",
+        "error": "❌ Parece que ocurrió un error inesperado, reporta el bug para solucionarlo."
     },
-    "createcolors":{
-        "noBot":"❌ Não tenho permissão para criar funções neste servidor.",
-        "modos":"Está prestes a criar {roles} papéis coloridos. Lugar, colocar `Sim` para continuar, `Retirar` para removê-los ou `Cancelar` para cancelar a operação.\n\n**Você pode colocar meu papel mais alto de onde deseja que eu comece a criar os papéis.**",
-        "detectado":"Foi detectado que existem funções de cores que não estão no banco de dados. Lugar, colocar `atribuir` para adicioná-los ao comando *selfrole*.\n",
-        "asignar":"atribuir",
-        "si":"sim",
-        "no":"retirar",
-        "asignado":"✅ Funções atribuídas corretamente",
-        "creando":"Criando",
-        "mensaje":"✅ Papéis coloridos criados: `{creados}` com sucesso. *Se as funções foram criadas, mas não estão disponíveis no comando* `selfrole` *use este comando novamente e siga as instruções*",
-        "mensajeDelete":"Funções de cor removidas: `{contador}` com sucesso.",
-        "error":"❌ Parece que ocorreu um erro. Estamos trabalhando para consertá-lo.",
-        "tiempoExpirado":"Tempo de espera acabou.",
+    "createcolors": {
+        "noBot": "❌ Não tenho permissão para criar funções neste servidor.",
+        "modos": "Está prestes a criar {roles} papéis coloridos. Lugar, colocar `Sim` para continuar, `Retirar` para removê-los ou `Cancelar` para cancelar a operação.\n\n**Você pode colocar meu papel mais alto de onde deseja que eu comece a criar os papéis.**",
+        "detectado": "Foi detectado que existem funções de cores que não estão no banco de dados. Lugar, colocar `atribuir` para adicioná-los ao comando *selfrole*.\n",
+        "asignar": "atribuir",
+        "si": "sim",
+        "no": "retirar",
+        "asignado": "✅ Funções atribuídas corretamente",
+        "creando": "Criando",
+        "mensaje": "✅ Papéis coloridos criados: `{creados}` com sucesso. *Se as funções foram criadas, mas não estão disponíveis no comando* `selfrole` *use este comando novamente e siga as instruções*",
+        "mensajeDelete": "Funções de cor removidas: `{contador}` com sucesso.",
+        "error": "❌ Parece que ocorreu um erro. Estamos trabalhando para consertá-lo.",
+        "tiempoExpirado": "Tempo de espera acabou.",
         "rolesN": [
-            {"nombre": "Rojo indio", "color": "#cd5c5c"},
-            {"nombre": "Rojo", "color": "#ff0000"},
-            {"nombre": "Carmesí", "color": "#dc143c"},
-            {"nombre": "Rojo Fuego", "color": "#b22222"},
-            {"nombre": "Coral Claro", "color": "#f08080"},
-            {"nombre": "Naranja Rojizo", "color": "#ff4500"},
-            {"nombre": "Naranja Oscuro", "color": "#ff8c00"},
-            {"nombre": "Naranja", "color": "#ffa500"},
-            {"nombre": "Amarillo Oro", "color": "#ffd700"},
-            {"nombre": "Amarillo", "color": "#ffff00"},
-            {"nombre": "Amarillo Claro", "color": "#ffffe0"},
-            {"nombre": "Rosa Profundo", "color": "#ff1493"},
-            {"nombre": "Rosa Pastel", "color": "#e99bd4"},
-            {"nombre": "Violeta", "color": "#ee82ee"},
-            {"nombre": "Orquídea", "color": "#da70d6"},
-            {"nombre": "Fucsia", "color": "#ff00ff"},
-            {"nombre": "Amatista", "color": "#9966cc"},
-            {"nombre": "Violeta Oscuro", "color": "#9400d3"},
-            {"nombre": "Magenta Oscuro", "color": "#8b008b"},
-            {"nombre": "Púrpura", "color": "#800080"},
-            {"nombre": "Índigo", "color": "#4b0082"},
-            {"nombre": "Verde Amarillento", "color": "#adff2f"},
-            {"nombre": "Verde Césped", "color": "#7cfc00"},
-            {"nombre": "Verde Lima", "color": "#32cd32"},
-            {"nombre": "Verde Claro", "color": "#90ee90"},
-            {"nombre": "Verde Primavera", "color": "#00ff7f"},
-            {"nombre": "Verde", "color": "#008000"},
-            {"nombre": "Verde Oscuro", "color": "#003b00"},
-            {"nombre": "Amarillo Verdoso", "color": "#9acd32"},
-            {"nombre": "Oliva", "color": "#808000"},
-            {"nombre": "Verde Oliva", "color": "#556b2f"},
-            {"nombre": "Cian Oscuro", "color": "#008b8b"},
-            {"nombre": "Cian", "color": "#00ffff"},
-            {"nombre": "Turquesa Pastel", "color": "#afeeee"},
-            {"nombre": "Aguamarina", "color": "#7fffd4"},
-            {"nombre": "Turquesa", "color": "#40e0d0"},
-            {"nombre": "Turquesa Oscuro", "color": "#00ced1"},
-            {"nombre": "Azul Acero", "color": "#4682b4"},
-            {"nombre": "Azul Cielo", "color": "#00bfff"},
-            {"nombre": "Azul Capota", "color": "#1e90ff"},
-            {"nombre": "Azul Pizarra", "color": "#7b68ee"},
-            {"nombre": "Azul", "color": "#0000ff"},
-            {"nombre": "Azul Oscuro", "color": "#00008b"},
-            {"nombre": "Azul Noche", "color": "#191970"},
-            {"nombre": "Gainsboro", "color": "#dcdcdc"},
-            {"nombre": "Gris Plata", "color": "#c0c0c0"},
-            {"nombre": "Gris", "color": "#808080"},
-            {"nombre": "Gris Pizarra", "color": "#778899"},
-            {"nombre": "Blanco", "color": "#fffefe"},
-            {"nombre": "Negro", "color": "#040100"}
+            { "nombre": "Rojo indio", "color": "#cd5c5c" },
+            { "nombre": "Rojo", "color": "#ff0000" },
+            { "nombre": "Carmesí", "color": "#dc143c" },
+            { "nombre": "Rojo Fuego", "color": "#b22222" },
+            { "nombre": "Coral Claro", "color": "#f08080" },
+            { "nombre": "Naranja Rojizo", "color": "#ff4500" },
+            { "nombre": "Naranja Oscuro", "color": "#ff8c00" },
+            { "nombre": "Naranja", "color": "#ffa500" },
+            { "nombre": "Amarillo Oro", "color": "#ffd700" },
+            { "nombre": "Amarillo", "color": "#ffff00" },
+            { "nombre": "Amarillo Claro", "color": "#ffffe0" },
+            { "nombre": "Rosa Profundo", "color": "#ff1493" },
+            { "nombre": "Rosa Pastel", "color": "#e99bd4" },
+            { "nombre": "Violeta", "color": "#ee82ee" },
+            { "nombre": "Orquídea", "color": "#da70d6" },
+            { "nombre": "Fucsia", "color": "#ff00ff" },
+            { "nombre": "Amatista", "color": "#9966cc" },
+            { "nombre": "Violeta Oscuro", "color": "#9400d3" },
+            { "nombre": "Magenta Oscuro", "color": "#8b008b" },
+            { "nombre": "Púrpura", "color": "#800080" },
+            { "nombre": "Índigo", "color": "#4b0082" },
+            { "nombre": "Verde Amarillento", "color": "#adff2f" },
+            { "nombre": "Verde Césped", "color": "#7cfc00" },
+            { "nombre": "Verde Lima", "color": "#32cd32" },
+            { "nombre": "Verde Claro", "color": "#90ee90" },
+            { "nombre": "Verde Primavera", "color": "#00ff7f" },
+            { "nombre": "Verde", "color": "#008000" },
+            { "nombre": "Verde Oscuro", "color": "#003b00" },
+            { "nombre": "Amarillo Verdoso", "color": "#9acd32" },
+            { "nombre": "Oliva", "color": "#808000" },
+            { "nombre": "Verde Oliva", "color": "#556b2f" },
+            { "nombre": "Cian Oscuro", "color": "#008b8b" },
+            { "nombre": "Cian", "color": "#00ffff" },
+            { "nombre": "Turquesa Pastel", "color": "#afeeee" },
+            { "nombre": "Aguamarina", "color": "#7fffd4" },
+            { "nombre": "Turquesa", "color": "#40e0d0" },
+            { "nombre": "Turquesa Oscuro", "color": "#00ced1" },
+            { "nombre": "Azul Acero", "color": "#4682b4" },
+            { "nombre": "Azul Cielo", "color": "#00bfff" },
+            { "nombre": "Azul Capota", "color": "#1e90ff" },
+            { "nombre": "Azul Pizarra", "color": "#7b68ee" },
+            { "nombre": "Azul", "color": "#0000ff" },
+            { "nombre": "Azul Oscuro", "color": "#00008b" },
+            { "nombre": "Azul Noche", "color": "#191970" },
+            { "nombre": "Gainsboro", "color": "#dcdcdc" },
+            { "nombre": "Gris Plata", "color": "#c0c0c0" },
+            { "nombre": "Gris", "color": "#808080" },
+            { "nombre": "Gris Pizarra", "color": "#778899" },
+            { "nombre": "Blanco", "color": "#fffefe" },
+            { "nombre": "Negro", "color": "#040100" }
         ]
     },
-    "activexp":{
-        "help":"ajuda",
-        "helpDesc":"📑 | Usos `{prefix}setxp <XP mínimo> <Xp máximo> [XpLevelUp]` A variável **XpLevelUp** siga a fórmula: **XpLevelUp** * (**nível** + 1)2 (Por padrão: 200).",
-        "noNumber":"❌ | Você não inseriu números válidos.",
-        "noValido":"❌ | Você não inseriu números válidos ou é menor que 10.",
-        "noTiempo":"❌ | Você não inseriu uma hora válida ou é inferior a 10.",
-        "title":"✅ | Sistema de experiência do servidor ativado.",
-        "xpMin":"XP mínimo:",
-        "xpMax":"XP máximo:",
-        "lvl":"XP Lvl:",
-        "cooldown":"XP Cooldown:"
+    "activexp": {
+        "noNumber": "❌ | Você não inseriu números válidos.",
+        "noValido": "❌ | Você não inseriu números válidos ou é menor que 10.",
+        "noTiempo": "❌ | Você não inseriu uma hora válida ou é inferior a 10.",
+        "noMode": "❌ | Modo no válido. Solamente `remove` y `keep`",
+        "remove": "retirar",
+        "title": "✅ | Sistema de experiência do servidor ativado.",
+        "xpMin": "XP mínimo:",
+        "xpMax": "XP máximo:",
+        "lvl": "XP Lvl:",
+        "cooldown": "XP Cooldown:",
+        "mode": "Modo:",
+        "quitar": "Remover funções",
+        "conservar": "Preservar funções"
     },
-    "addexcludexp":{
-        "noCanal":"❌ | Canal inválido, verifique se é um canal ou categoria de texto.",
-        "yaCanal":"❌ | Canal já excluído.",
-        "title":"✅ | Canal excluído da experiência",
-        "canal":"Agregar:",
-        "title2":"✅ | Canais excluídos da experiência.",
-        "canales":"Agregados:"
+    "addexcludexp": {
+        "noCanal": "❌ | Canal inválido, verifique se é um canal ou categoria de texto.",
+        "yaCanal": "❌ | Canal já excluído.",
+        "title": "✅ | Canal excluído da experiência",
+        "canal": "Agregar:",
+        "title2": "✅ | Canais excluídos da experiência.",
+        "canales": "Agregados:"
     },
-    "addrollevelup":{
-        "noBot":"❌ | Não tenho permissão para gerenciar funções neste servidor.",
-        "noRol":"❌ | Função não encontrada ou não existe, verifique-a.",
-        "noNumber":"❌ | Você não inseriu um número de nível válido.",
-        "rolMensaje":"Você subiu de nível e tem um papel a exibir!",
-        "rolTrue":"❌ | Função já atribuída.",
-        "nivelTrue":"❌ | Nível já atribuído.",
+    "addrollevelup": {
+        "noBot": "❌ | Não tenho permissão para gerenciar funções neste servidor.",
+        "noRol": "❌ | Função não encontrada ou não existe, verifique-a.",
+        "noNumber": "❌ | Você não inseriu um número de nível válido.",
+        "rolMensaje": "Você subiu de nível e tem um papel a exibir!",
+        "rolTrue": "❌ | Função já atribuída.",
+        "nivelTrue": "❌ | Nível já atribuído.",
         "embed": {
-            "title":"✅ | Função por nível adicionado.",
-            "footer":"Lembre-se de ativar o servidor XP com `{prefix}activexp` | {guild_name}.",
-            "field":{
-                "title":"Função",
-                "descripcion":"[{rolid}] Nível: {lvl}\nMensagem: {rolmensaje}"
+            "title": "✅ | Função por nível adicionado.",
+            "footer": "Lembre-se de ativar o servidor XP com `{prefix}activexp` | {guild_name}.",
+            "field": {
+                "title": "Função",
+                "descripcion": "[{rolid}] Nível: {lvl}\nMensagem: {rolmensaje}"
             }
         }
     },
-    "addxp":{
+    "addxp": {
         "noMember": "❌ | Usuário não encontrado, verifique.",
         "noCantidad": "❌ | Você não inseriu um número XP válido.",
         "correcto": "✅ | {cantidad}XP adicionado com sucesso a {miembro}."
     },
-    "deleteexcludexp":{
-        "noConfig":"*Não configurado.*",
-        "quitado":"Levado embora.",
-        "noCanal":"❌ | Canal inválido, verifique se é um canal de texto ou categoria.",
-        "title":"✅ | Canal excluído da experiência removido"
+    "configxp": {
+        "noConfig": "❌ | Parece que a experiência não está ativada. Primeiro use o comando `activexp`",
+        "noNumber": "❌ | Número inválido.",
+        "min": "minimo",
+        "max": "maximo",
+        "xplevelup": "xpnivel",
+        "cooldown": "tempo",
+        "removerole": "descolar",
+        "noMode": "❌ | Modo inválido. Apenas `remove` e `keep`",
+        "noProperty": "❌ | Propriedade inválida.",
+        "message": "✅ | Propriedade `{property}` alterada para `{value}` com sucesso"
     },
-    "deleterollevelup":{
-        "noConfig":"❌ | Não há funções configuradas neste servidor.",
-        "noRol":"❌ | Parece que esta função não existe no banco de dados.",
-        "true":"✅ Função removida com sucesso."
+    "deleteexcludexp": {
+        "noConfig": "*Não configurado.*",
+        "quitado": "Levado embora.",
+        "noCanal": "❌ | Canal inválido, verifique se é um canal de texto ou categoria.",
+        "title": "✅ | Canal excluído da experiência removido"
     },
-    "deletexp":{
-        "all":"todo",
+    "deleterollevelup": {
+        "noConfig": "❌ | Não há funções configuradas neste servidor.",
+        "noRol": "❌ | Parece que esta função não existe no banco de dados.",
+        "true": "✅ Função removida com sucesso."
+    },
+    "deletexp": {
+        "all": "todo",
         "noMember": "❌ | Usuário não encontrado, verifique.",
-        "noUser":"❌ | O usuário não está no banco de dados.",
-        "noNumber":"❌ | Você não inseriu um número XP válido.",
-        "true":"✅ | {cantidad}XP removido com sucesso em {miembro}"
+        "noUser": "❌ | O usuário não está no banco de dados.",
+        "noNumber": "❌ | Você não inseriu um número XP válido.",
+        "true": "✅ | {cantidad}XP removido com sucesso em {miembro}"
     },
-    "resetxp":{
-        "noMember":"❌ | Usuário não encontrado, verifique.",
-        "noMemverDB":"❌ | Este usuário não tem experiência.",
-        "mensajeMiembro":"Você está prestes a reiniciar a experiência de {member}. Você realmente deseja continuar? Escreva `sim`. *Você tem 60 segundos para responder.*",
-        "mensajeServidor":"Você está prestes a redefinir toda a experiência do servidor. Você realmente deseja continuar? Escreva `sim`. *Você tem 60 segundos para responder.*",
-        "si":"sim",
-        "tiempo":"❌ | A hora de responder acabou. Se você acha que é um erro, informe-o.",
-        "ok":"✅ | {sujeto} redefinição de experiência.",
-        "server":"Servidor inteiro"
+    "resetxp": {
+        "noMember": "❌ | Usuário não encontrado, verifique.",
+        "noMemverDB": "❌ | Este usuário não tem experiência.",
+        "mensajeMiembro": "Você está prestes a reiniciar a experiência de {member}. Você realmente deseja continuar? Escreva `sim`. *Você tem 60 segundos para responder.*",
+        "mensajeServidor": "Você está prestes a redefinir toda a experiência do servidor. Você realmente deseja continuar? Escreva `sim`. *Você tem 60 segundos para responder.*",
+        "si": "sim",
+        "tiempo": "❌ | A hora de responder acabou. Se você acha que é um erro, informe-o.",
+        "ok": "✅ | {sujeto} redefinição de experiência.",
+        "server": "Servidor inteiro"
     },
-    "setrole":{
-        "noRol":"❌ | Função não encontrada ou função inválida.",
-        "noPosicion":"❌ | Função inválida. Esta função é superior à minha função atual.",
-        "yaRol":"❌ | Cargo já atribuído",
-        "noTime":"❌ | A hora não é válida, insira a hora em segundos",
-        "title":"✅ | Cargo de boas-vindas atribuída",
-        "footer":"Você pode usar o comando novamente para adicionar mais cargos.",
-        "mensaje":"Cargo",
-        "time":"Tempo de espera para abandonar cargos",
-        "defecto":"Padrão"
+    "setrole": {
+        "noRol": "❌ | Função não encontrada ou função inválida.",
+        "noPosicion": "❌ | Função inválida. Esta função é superior à minha função atual.",
+        "yaRol": "❌ | Cargo já atribuído",
+        "noTime": "❌ | A hora não é válida, insira a hora em segundos",
+        "title": "✅ | Cargo de boas-vindas atribuída",
+        "footer": "Você pode usar o comando novamente para adicionar mais cargos.",
+        "mensaje": "Cargo",
+        "time": "Tempo de espera para abandonar cargos",
+        "defecto": "Padrão"
     }
 }

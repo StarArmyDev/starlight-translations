@@ -1,78 +1,78 @@
 {
-    "fchallenge":{
-        "cargando":"🔃 Loading...",
-        "title":"Fortnite Weekly Challenges",
-        "footer":"# Total: {length}",
-        "field":"Total Missions: {quests}"
+    "fchallenge": {
+        "cargando": "🔃 Loading...",
+        "title": "Fortnite Weekly Challenges",
+        "footer": "# Total: {length}",
+        "field": "Total Missions: {quests}"
     },
-    "fstats":{
-        "pc":"computer",
-        "xbox":"xboxone",
-        "ps4":"playstation4",
-        "solo":"lonely",
-        "duo":"double",
-        "squad":"squadron",
-        "all":"everything",
-        "help":"Use `{prefix}fstats <user> | <lonely, double, squad> | [pc, xbl, psn]`",
-        "noUserError":"User not found or an unexpected error has occurred."
+    "fstats": {
+        "pc": "computer",
+        "xbox": "xboxone",
+        "ps4": "playstation4",
+        "solo": "lonely",
+        "duo": "double",
+        "squad": "squadron",
+        "all": "everything",
+        "help": "Use `{prefix}fstats <user> | <lonely, double, squad> | [pc, xbl, psn]`",
+        "noUserError": "User not found or an unexpected error has occurred."
     },
-    "fstore":{
-        "cargando":"🔃 Loading...",
-        "pocoComun":"Uncommon",
-        "raro":"Rare",
-        "mitico":"Mythic",
-        "legendario":"Legendary",
-        "embedAuthor":" | Fortnite store",
-        "title":"Objects of the Day",
-        "rareza":"Rarity:",
-        "precio":"Price",
-        "items":"Item {item} from"
+    "fstore": {
+        "cargando": "🔃 Loading...",
+        "pocoComun": "Uncommon",
+        "raro": "Rare",
+        "mitico": "Mythic",
+        "legendario": "Legendary",
+        "embedAuthor": " | Fortnite store",
+        "title": "Objects of the Day",
+        "rareza": "Rarity:",
+        "precio": "Price",
+        "items": "Item {item} from"
     },
-    "h5emblema":{
-        "emblema":"Emblem of ",
-        "noUser":"The gamertag does not exist, please verify it."
+    "h5emblema": {
+        "emblema": "Emblem of ",
+        "noUser": "The gamertag does not exist, please verify it."
     },
-    "h5spartan":{
-        "spartan":"Spartan of ",
-        "noUser":"The gamertag does not exist, please verify it."
+    "h5spartan": {
+        "spartan": "Spartan of ",
+        "noUser": "The gamertag does not exist, please verify it."
     },
-    "lolchamps":{
-        "footer":"Champion ID: {id}",
-        "noCamp":"It seems that there is no such champion."
+    "lolchamps": {
+        "footer": "Champion ID: {id}",
+        "noCamp": "It seems that there is no such champion."
     },
-    "lolcr":{
-        "title":"Random Champion: ",
-        "footer":"Champion ID: {id}",
-        "error":"❌ Sorry, it seems there was an error. We are working to repair it."
+    "lolcr": {
+        "title": "Random Champion: ",
+        "footer": "Champion ID: {id}",
+        "error": "❌ Sorry, it seems there was an error. We are working to repair it."
     },
-    "wotstats":{
-        "xbox":"xboxone",
-        "ps4":"playstation4",
-        "noConsola":"Put a valid console `xbox` or `ps4`",
-        "noTag":"You didn't give a gamertag or nick to search.",
-        "noOk":"Your search is invalid. Verify the command.",
-        "noUser":"No match was found for: ",
-        "embedAuthor":"World of Tasks Mercenaries",
-        "title":"Statistics of",
-        "creada":"Account Created:",
-        "ultima":"Last Start:",
-        "rank":"Global Rank:",
-        "xp":"Experience",
-        "xpTotal":"Total:",
-        "xpMax":"Maximum:",
-        "totalBat":"Total Battles",
-        "victorias":"Victories",
-        "derrotas":"Derrotas",
-        "sobreviveBat":"Survived Battles",
-        "banderas":"Won flags",
-        "dañoCausado":"Total Damage Caused",
-        "dañoRecibido":"Total Damage Received",
-        "dañoMax":"Maximum Damage Caused",
-        "perfo":"Perforations",
-        "tankDañoMax":"Major Damage Tank",
-        "tankXp":"Major Tank XP",
-        "tier":"Tier:",
-        "tipo":"Type:",
-        "error":"❌ Sorry, it seems there was an error. We are working to repair it."
+    "wotstats": {
+        "xbox": "xboxone",
+        "ps4": "playstation4",
+        "noConsola": "Put a valid console `xbox` or `ps4`",
+        "noTag": "You didn't give a gamertag or nick to search.",
+        "noOk": "Your search is invalid. Verify the command.",
+        "noUser": "No match was found for: ",
+        "embedAuthor": "World of Tasks Mercenaries",
+        "title": "Statistics of",
+        "creada": "Account Created:",
+        "ultima": "Last Start:",
+        "rank": "Global Rank:",
+        "xp": "Experience",
+        "xpTotal": "Total:",
+        "xpMax": "Maximum:",
+        "totalBat": "Total Battles",
+        "victorias": "Victories",
+        "derrotas": "Derrotas",
+        "sobreviveBat": "Survived Battles",
+        "banderas": "Won flags",
+        "dañoCausado": "Total Damage Caused",
+        "dañoRecibido": "Total Damage Received",
+        "dañoMax": "Maximum Damage Caused",
+        "perfo": "Perforations",
+        "tankDañoMax": "Major Damage Tank",
+        "tankXp": "Major Tank XP",
+        "tier": "Tier:",
+        "tipo": "Type:",
+        "error": "❌ Sorry, it seems there was an error. We are working to repair it."
     }
 }

@@ -1,37 +1,37 @@
 {
-    "botsuggestion":{
-        "ok":"✅ Suggestion sent to support server.\n*Any abuse of this or any other command will be penalized.*"
+    "botsuggestion": {
+        "ok": "✅ Suggestion sent to support server.\n*Any abuse of this or any other command will be penalized.*"
     },
     "bugreport": {
         "correcto": "**Your error has been reported correctly.**\nIt will be reviewed so please be patient.\n *For further assistance or help you can go to the support server or write to DM.*",
         "error": "There was a problem sending the message, you can send me a private message as an alternative."
     },
-    "donate":{
-        "title":"Supports",
-        "desc":"**Direct donations.** You can donate to our [PayPal](https://www.paypal.me/czemtb) or you will have to contact us on the support server.\n**Promoting the bot.** There is to be known everywhere.\n**Making ...** guides, videos, writing texts, etc. on how to use the bot. StarLight needs everyone's help.\n**Writing Code.** If you know programming, you may want to share code to continue implementing new things."
+    "donate": {
+        "title": "Supports",
+        "desc": "**Direct donations.** You can donate to our [PayPal](https://www.paypal.me/czemtb) or you will have to contact us on the support server.\n**Promoting the bot.** There is to be known everywhere.\n**Making ...** guides, videos, writing texts, etc. on how to use the bot. StarLight needs everyone's help.\n**Writing Code.** If you know programming, you may want to share code to continue implementing new things."
     },
     "help": {
-        "si":"Yes",
-        "no":"No",
+        "si": "Yes",
+        "no": "No",
         "titulo": "Command list",
         "version": " | Version",
         "descripcion": "Hello, I'm {client_name} and I come to help. This is my list of commands you can use.\n\nPing: `{ping}` ms\nTotal categories: `{categorias}`\n Total commands: `{commands}`",
         "core": "🌠 Bot",
-        "diversion": "🎉 Fun",
+        "fun": "🎉 Fun",
         "info": "📃 Information",
-        "util":"🛡 Utilities",
-        "config":"⚙ Configuration",
-        "config-bot":"⚙ Bot Configuration",
-        "staff": "👮 Staff",
-        "interaccion": "🎁 Interaction",
-        "expresion":"🎭 Expression",
+        "util": "🛡 Utilities",
+        "config": "⚙ Configuration",
+        "config-bot": "⚙ Bot Configuration",
+        "moderation": "👮 Moderation",
+        "interaction": "🎁 Interaction",
+        "expression": "🎭 Expression",
         "music": "🎵 Music",
         "game": "🎮 Videogames",
-        "economia": "💵 Economy",
-        "perfil": "👥 Profile",
-        "desarrollador":"👨‍💻 Developer",
-        "manager":"⚙ Bot Manager",
-        "masInfo":{
+        "economy": "💵 Economy",
+        "profile": "👥 Profile",
+        "developer": "👨‍💻 Developer",
+        "manager": "⚙ Bot Manager",
+        "masInfo": {
             "title": "More information?",
             "desc": "Use: `{prefix} <command> help` to get your individual command information and expected parameters."
         },
@@ -41,63 +41,63 @@
         },
         "private": "✅  **| Check your DMs.**  👌",
         "noPrivate": "❌ | It seems you have deactivated private messages.",
-        "noUso":"You do not have to add parameters",
-        "embedHelp":{
-            "title":"Help of: {command}",
-            "descripcion":"**Description:**",
-            "uso":"Use the command as follows:",
-            "alias":"Alias",
-            "noAlias":"Without alias",
-            "categoria":"Category",
+        "noUso": "You do not have to add parameters",
+        "embedHelp": {
+            "title": "Help of: {command}",
+            "descripcion": "**Description:**",
+            "uso": "Use the command as follows:",
+            "alias": "Alias",
+            "noAlias": "Without alias",
+            "categoria": "Category",
             "permiso": "Permission",
-            "cooldown":"Cooldown",
-            "args":"Wait arguments",
-            "apagado":"Global shutdown",
-            "sinPermisos":"No permissions required"
+            "cooldown": "Cooldown",
+            "args": "Wait arguments",
+            "apagado": "Global shutdown",
+            "sinPermisos": "No permissions required"
         }
     },
-    "invite":{
-        "title":"My invitation | {client_name}",
-        "descripcion":"This beautiful bot can help you a lot on your server, it has a lot of commands for administrators or normal users. But I assure you that you will have fun and help you in everything you need.",
-        "version":"| Version",
-        "invitacion":"🌠 Invitation",
-        "link":"[Invite {client_name} to your server]({link})",
-        "soporteTitle":"📥 Support Server",
-        "soporte":"[Login to the Server](https://discord.gg/MZN8Yf6 'StarArmy') To get help and be aware of all the information always.",
-        "webTitle":"🖥 Web page",
-        "web":"For more information about the bot as its commands go to the [Official Site](https://starbot-oficial.herokuapp.com/ 'StarBot Discord - Start')",
-        "apoyoTitle":"💎 Support us",
-        "apoyo":"Support bot growth by donating what you can through [PayPal](https://www.paypal.me/czemtb 'CZEMTB')"
+    "invite": {
+        "title": "My invitation | {client_name}",
+        "descripcion": "This beautiful bot can help you a lot on your server, it has a lot of commands for administrators or normal users. But I assure you that you will have fun and help you in everything you need.",
+        "version": "| Version",
+        "invitacion": "🌠 Invitation",
+        "link": "[Invite {client_name} to your server]({link})",
+        "soporteTitle": "📥 Support Server",
+        "soporte": "[Login to the Server](https://discord.gg/MZN8Yf6 'StarArmy') To get help and be aware of all the information always.",
+        "webTitle": "🖥 Web page",
+        "web": "For more information about the bot as its commands go to the [Official Site](https://starbot-oficial.herokuapp.com/ 'StarBot Discord - Start')",
+        "apoyoTitle": "💎 Support us",
+        "apoyo": "Support bot growth by donating what you can through [PayPal](https://www.paypal.me/czemtb 'CZEMTB')"
     },
-    "ping":{
-        "footer":"Virtual Private Machine",
-        "espera":"*Calculated...*",
-        "descripcion":"Pong!\n📡 API: **{ping}ms.**\n⏳ Gateway: {gateway} ms"
+    "ping": {
+        "footer": "Virtual Private Machine",
+        "espera": "*Calculated...*",
+        "descripcion": "Pong!\n📡 API: **{ping}ms.**\n⏳ Gateway: {gateway} ms"
     },
-    "release":{
-        "title":"News from",
-        "descripcion":"__**New**__\n- Levels: Shows the list of roles by server level previously configured.\n- AddBlackList: New command that allows disabling commands for channels, categories, roles, users or the entire server.\n - AddWhiteList: You can add channels, categories, roles or users that are not affected by the BlackList of certain commands as well.\n- DeleteBlackList and DeleteWhiteList: Commands to remove configuration from the corresponding commands.\n- AddExcludeXp: Now you can specify in which channels or categories will not receive experience for writing.\n- ResetXp: Now you can restart the experience of a user or the entire server.\n\n__**Changes**__\n- Enable and Disable: These commands were removed to be replaced by ʻAddBlackList` and ʻAddWhiteList`.\n- Rank: Now, if the server experience is activated, it will show said rank instead of global, to see the global in such cases, you will have to put `sl! rank global`.\n- Top: The same as the previous command, plus a rewrite of the code improving and the noticeable change will be the handling of pages.\n- DeleteRolLevelUp: It was separated from the `delete` command so that it is easy to identify and use it.\n- DeleteXp: It was also separated and improved by fixing some errors of assignment of corresponding level with the added xp.\n- Config : The sections corresponding to the new have been added.\n\n __**Fixes** __\n- Xp: Fix that did not give the roles correctly.\n- AddRolLevelUp: Properties were removed and some aspects were fixed.\n- Cookie: Fixed the function of mentioning a user by their id.\n- Config: Fixed an occasional error from the last imo embed.\n- The appearance of some texts has been improved.\n- Bugs: Many small bugs fixed in various commands and events.\n\n __**Notices**__\nMusic: The entire music category has been disabled for be fixed in future updates.",
-        "footer":"These are the changes of the version {version} any problem you can enter the support server. | Developed by {dev}."
+    "release": {
+        "title": "News from",
+        "descripcion": "**__New__**\n- ConfigXp: With this command you can edit the properties that are set with the **activexp** command.\n- ActiveXp: A new `mode` property has been added that will serve to indicate whether Roles are removed when they get another one or they will be kept.\n- Arguments: Now the empty spaces that exist between the properties of the commands will be eliminated, such as `sl! activexp  10   50 `\n\n**__Changes__**\n- ActiveXp: The way in which the optional properties are placed has been modified, now you have to place `--` such as `sl!activexp 10 25 --cooldown 5m`. *In the future all optional properties will be of this type.*\n.- Categories: The name of several categories that were in Spanish was changed, passing them in English to follow a better organization.\n- FlipCoin: The name of the command was changed from flicoin to **flipcoin** because it was a misspelling.\n\n**__Fixes__**\n- Code: Several internal changes were made to improve commands such as interaction and expression.",
+        "footer": "These are the changes of the version {version} any problem you can enter the support server. | Developed by {dev}."
     },
-    "stats":{
-        "bot":"🤖 Bot Info",
-        "owner":"👑 Creator",
-        "version":"📊 Version",
-        "libreria":"📚 Library",
-        "discordjs":"Discord 12.2.0 (Js)",
-        "memoria":"🗂 Memory",
-        "tiempo":"🕒 On Time",
-        "servers":"💬 Guilds",
-        "users":"👥 Users",
-        "canales":"#️⃣ Channels",
-        "voz":"🔊 Voice connections",
-        "commands":"📄 Commands",
-        "os":"🖥️ OS",
-        "sistema":"Linux ******",
-        "horaServer":"⏳ Server Time"
+    "stats": {
+        "bot": "🤖 Bot Info",
+        "owner": "👑 Creator",
+        "version": "📊 Version",
+        "libreria": "📚 Library",
+        "discordjs": "Discord 12.2.0 (Js)",
+        "memoria": "🗂 Memory",
+        "tiempo": "🕒 On Time",
+        "servers": "💬 Guilds",
+        "users": "👥 Users",
+        "canales": "#️⃣ Channels",
+        "voz": "🔊 Voice connections",
+        "commands": "📄 Commands",
+        "os": "🖥️ OS",
+        "sistema": "Linux ******",
+        "horaServer": "⏳ Server Time"
     },
-    "vote":{
-        "title":"List of bots where you can vote",
-        "desc":"You can vote every 12 hours, with a double voting weekend at [Top.gg](https://discordbots.org/bot/517786947171909643/vote)\n\nThese are other lists where you will find the bot but they do not have a voting system yet.\n1- [Discord Bots](https://discord.bots.gg/bots/517786947171909643) 2- [Bots On Discord](https://bots.ondiscord.xyz/bots/517786947171909643) 3- [MyBot List](https://portalmybot.com/mybotlist/bot/517786947171909643)"
+    "vote": {
+        "title": "List of bots where you can vote",
+        "desc": "You can vote every 12 hours, with a double voting weekend at [Top.gg](https://discordbots.org/bot/517786947171909643/vote)\n\nThese are other lists where you will find the bot but they do not have a voting system yet.\n1- [Discord Bots](https://discord.bots.gg/bots/517786947171909643) 2- [Bots On Discord](https://bots.ondiscord.xyz/bots/517786947171909643) 3- [MyBot List](https://portalmybot.com/mybotlist/bot/517786947171909643)"
     }
 }

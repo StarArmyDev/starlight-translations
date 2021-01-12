@@ -1,43 +1,22 @@
 {
-    "help":"ajuda",
-    "defecto":"padrão",
-    "noCanal":"Canal inválido, verifique se é um canal de texto.",
-    "canal":"Canal:",
-    "noModoDisable":"❌ Modo inválido, categoria e comando apenas.",
-    "enable":{
-        "enable":"categoria",
-        "DHelp":"Use `{prefix}disable categoria <nome da categoria>`\nCategorias:\n`-tudo\n-configuração\n-diversão\n-economia\n-jogos\n-informação\n-interação\n-música\n-perfil\n-staff \n-utilida`",
-        "EHelp":"Usa `{prefix}enable categoria <nome da categoria>`\nCategorias:\n`-tudo\n-configuração\n-diversão\n-economia\n-jogos\n-informação\n-interação\n-música\n-perfil\n-staff\n-utilida`",
-        "all":"tudo",
-        "config":"configuração",
-        "diver":"diversão",
-        "econ":"economia",
-        "games":"jogos",
-        "info":"informação",
-        "inter":"interação",
-        "music":"música",
-        "perfil":"perfil",
-        "staff":"staff",
-        "mod":"moderação",
-        "util":"utilidade",
-        "noModulo":"Esta categoria não existe ou você a digitou incorretamente, veja `help <enable | disable>` para saber os disponíveis.",
-        "ETitle":"Categoria habilitada neste servidor",
-        "DTitle":"Categoria desativada neste servidor",
-        "modulo":"Categoria:"
+    "help": "ajuda",
+    "defecto": "padrão",
+    "noCanal": "Canal inválido, verifique se é um canal de texto.",
+    "canal": "Canal:",
+    "noModoDisable": "❌ Modo inválido, categoria e comando apenas.",
+    "command": {
+        "command": "comando",
+        "DHelp": "Use `{prefix}disable comando <nome do comando>`",
+        "EHelp": "Usa `{prefix}enable comando <nome do comando>`",
+        "noCommand": "❌ Comando não encontrado, apenas o nome do comando é aceito, não seus aliases.",
+        "commandImport": "⚠ Este comando pertence a uma categoria importante.",
+        "ETitle": "Comando habilitado neste servidor",
+        "DTitle": "Comando desativado neste servidor",
+        "field": "Comando:"
     },
-    "command":{
-        "command":"comando",
-        "DHelp":"Use `{prefix}disable comando <nome do comando>`",
-        "EHelp":"Usa `{prefix}enable comando <nome do comando>`",
-        "noCommand":"❌ Comando não encontrado, apenas o nome do comando é aceito, não seus aliases.",
-        "commandImport":"⚠ Este comando pertence a uma categoria importante.",
-        "ETitle":"Comando habilitado neste servidor",
-        "DTitle":"Comando desativado neste servidor",
-        "field":"Comando:"
-    },
-    "setcolor":{
-        "noValido":"❌ | Cor inválida.",
-        "title":"Cor personalizada atribuída",
-        "cambio":"Transferido para:"
+    "setcolor": {
+        "noValido": "❌ | Cor inválida.",
+        "title": "Cor personalizada atribuída",
+        "cambio": "Transferido para:"
     }
 }

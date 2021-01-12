@@ -1,0 +1,56 @@
+{
+    "8ball": {
+        "title": "🎱 Question\n{pregunta}",
+        "descripcion": "To which I respond: {respuesta}",
+        "rpts": [
+            "Yes",
+            "No",
+            "May be",
+            "Maybe not",
+            "Sure!",
+            "Of course not",
+            "Estoy seguro de que sí",
+            "I'm sure not",
+            "Of course",
+            "Could be",
+            "Unfortunately not",
+            "Unfortunately yes",
+            "Unfortunally Yes",
+            "Unfortunately not",
+            "I don't know Rick"
+        ]
+    },
+    "cat": {
+        "title": "Random cat 🐱"
+    },
+    "cookie": {
+        "noUser": "Mention a user.",
+        "noRazon": "Any",
+        "cookie": "**{user},** you have a {cookie} from **{author}**\n\n**Reason:** {razon}\n(づ｡◕‿‿◕｡)づ:･ﾟ✧ {cookie}"
+    },
+    "dog": {
+        "title": "Random dog 🐶"
+    },
+    "gru": {
+        "noTexto": "You have to put something. `{prefix}gru <text 1> | <text 2> | <text 3>`"
+    },
+    "love": {
+        "noMencion": "Mention two users to calculate",
+        "rand20": "Uff it seems that there is no possibility of friends. I'm sorry ;-;",
+        "rand50": "It seems that there is not much love, but they can be good friends c:",
+        "rand80": "This has a chance, very likely to end up being boyfriends :3",
+        "rand100": "There is no doubt that there is love here cx I don't know what you expect! <3",
+        "randInf": "The Love that you have to have must be the greatest of all, appreciate it with the greatest of treasures.",
+        "author": "The percentage of love between {user1} and {user2} it is:"
+    },
+    "meme": {
+        "title": "Have your meme",
+        "creditos": "By MegaBot community"
+    },
+    "waifu": {
+        "descripcion": "Description:",
+        "popular": "Popularity",
+        "votos": "Positive Votes:",
+        "confirmacion": "✅ Point added to {waifu}."
+    }
+}

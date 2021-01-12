@@ -4,7 +4,6 @@ about: Crea un informe para ayudarnos a mejorar
 title: ''
 labels: bug
 assignees: ''
-
 ---
 
 **Descripción**
@@ -12,6 +11,7 @@ Una descripción clara y concisa de cuál es el error.
 
 **Ver el error**
 Pasos ha seguir para ver el error:
+
 1. Use el comando '...'
 2. Pase estos argumentos '....'
 3. Ver error

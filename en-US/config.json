@@ -1,496 +1,511 @@
 {
-    "add":{
-        "dinero":{
-            "dinero":"cash",
-            "noModo":"Invalid mode, only <wallet/bank/w/b> is accepted",
+    "add": {
+        "dinero": {
+            "dinero": "cash",
+            "noModo": "Invalid mode, only <wallet/bank/w/b> is accepted",
             "noUser": "The user isn't in the database",
             "noCantidad": "You haven't entered a valid number.",
             "correcto": "✅ {cantidad} of money correctly added from: {miembro}",
             "error": "An error occurred while trying to add money to the user."
         },
-        "cartera":"wallet",
-        "banco":"bank",
-        "exclude":{
-            "exclude":"excluir",
-            "noCanal":"Invalid channel, verify that it is a text channel.",
-            "title":"Excluded commands channel",
-            "canal":"Aggregate:",
-            "title2":"Excluded commands channels",
-            "canales":"Aggregates:"
+        "cartera": "wallet",
+        "banco": "bank",
+        "exclude": {
+            "exclude": "excluir",
+            "noCanal": "Invalid channel, verify that it is a text channel.",
+            "title": "Excluded commands channel",
+            "canal": "Aggregate:",
+            "title2": "Excluded commands channels",
+            "canales": "Aggregates:"
         },
-        "el":{
-            "excludeLogs":"logsexclude",
-            "noCanal":"Invalid channel, verify that it is a text channel.",
-            "title":"Excluded channel to logs",
-            "canal":"Aggregate:",
-            "title2":"Excluded channels to log",
-            "canales":"Aggregates:"
+        "el": {
+            "excludeLogs": "logsexclude",
+            "noCanal": "Invalid channel, verify that it is a text channel.",
+            "title": "Excluded channel to logs",
+            "canal": "Aggregate:",
+            "title2": "Excluded channels to log",
+            "canales": "Aggregates:"
         },
-        "group":{
-            "group":"team",
-            "multi":"multifold",
-            "solo":"unique",
-            "noModo":"❌ | That mode does not exist, only **single** and **multiple**.",
-            "noMaximo":"❌ | You did not place a maximum number of multiple roles or it is invalid.",
-            "existe":"❌ | This group is already created.",
-            "title":"✅ Created roles group",
-            "nombre":"Name:",
-            "modo":"Mode:",
-            "maximo":"Maximum roles:",
-            "multiple":"Multiple",
-            "embedsolo":"Single",
-            "ninguno":"None"
+        "group": {
+            "group": "team",
+            "multi": "multifold",
+            "solo": "unique",
+            "noModo": "❌ | That mode does not exist, only **single** and **multiple**.",
+            "noMaximo": "❌ | You did not place a maximum number of multiple roles or it is invalid.",
+            "existe": "❌ | This group is already created.",
+            "title": "✅ Created roles group",
+            "nombre": "Name:",
+            "modo": "Mode:",
+            "maximo": "Maximum roles:",
+            "multiple": "Multiple",
+            "embedsolo": "Single",
+            "ninguno": "None"
         },
-        "autorole":{
-            "autorole":"autorol",
-            "noGrupo":"❌ | Group not found, you must first use the command `{prefix}addgroup` to create it.",
-            "noRol":"Role not found or invalid role, please verify that it exists and that it is below my highest role.",
-            "existe":"❌ | This role is already in the group.",
-            "title":"✅ Role added",
-            "grupo":"Group to which it belongs:",
-            "rol":"Role:"
+        "autorole": {
+            "autorole": "autorol",
+            "noGrupo": "❌ | Group not found, you must first use the command `{prefix}addgroup` to create it.",
+            "noRol": "Role not found or invalid role, please verify that it exists and that it is below my highest role.",
+            "existe": "❌ | This role is already in the group.",
+            "title": "✅ Role added",
+            "grupo": "Group to which it belongs:",
+            "rol": "Role:"
         },
-        "noModo":"That mode doesn't exist or you put a ` | `wrong, check and only use `xp/money/rollevelup/excludelogs/exclude`",
+        "noModo": "That mode doesn't exist or you put a ` | `wrong, check and only use `xp/money/rollevelup/excludelogs/exclude`",
         "noMember": "User not found, please verify.",
-        "error":"❌ It seems that an unexpected error occurred, report the bug to fix it."
+        "error": "❌ It seems that an unexpected error occurred, report the bug to fix it."
     },
-    "config":{
-        "noRol":"Role Not Found",
-        "noCanal":"*Not available channel.* ",
-        "mensaje":"Message:",
-        "canal":"Channel:",
-        "roles":"Role/s:",
-        "sendLogs":"*Sent to the message logs channel.*",
-        "default":"*Default:*",
-        "min":"Min:",
-        "max":"Max:",
-        "xplvl":"Xp LevelUp:",
-        "cooldown":"XP Cooldown:",
-        "daily":"Daily money:",
-        "canalEliminado":"*Not available or deleted channel.*",
-        "noConfig":"*Not configured*",
-        "embed":{
-            "author":"Setting | {guild_name}",
-            "title1":"Welcome/Goodbye",
-            "bienvenida":"Welcome:",
-            "imgBienvenida":"Welcome image:",
-            "rolEntrada":"Entry role/s:",
-            "despedida":"Goodbye:",
-            "imgDespedida":"Goodbye image:",
-            "logsEntrada":"Security entries log (rWelcome):",
-            "title2":"Logs",
-            "logs":"Message logs:",
-            "modLogs":"Moderation logs:",
-            "excludeLogs":"Excluded logs channels:",
-            "memberCount":"Member counter:",
-            "title3":"Bot",
-            "prefix":"Prefix:",
-            "exclude":"Excluded channels:",
-            "languageS":"Guild language:",
-            "languageC":"Language in channels:",
-            "title4":"Utilities",
-            "reportes":"Reports:",
-            "sugerencias":"Suggestions:",
-            "count":"Accountant:",
-            "xp":"Xp:",
-            "econ":"Economy:",
-            "title5":"`Beta:`",
-            "playing":"Playing:"
+    "config": {
+        "noRol": "Role Not Found",
+        "noCanal": "*Not available channel.* ",
+        "mensaje": "Message:",
+        "canal": "Channel:",
+        "roles": "Role/s:",
+        "sendLogs": "*Sent to the message logs channel.*",
+        "default": "*Default:*",
+        "min": "Min:",
+        "max": "Max:",
+        "xplvl": "Xp LevelUp:",
+        "cooldown": "XP Cooldown:",
+        "daily": "Daily money:",
+        "canalEliminado": "*Not available or deleted channel.*",
+        "noConfig": "*Not configured*",
+        "embed": {
+            "author": "Setting | {guild_name}",
+            "title1": "Welcome/Goodbye",
+            "bienvenida": "Welcome:",
+            "imgBienvenida": "Welcome image:",
+            "rolEntrada": "Entry role/s:",
+            "despedida": "Goodbye:",
+            "imgDespedida": "Goodbye image:",
+            "logsEntrada": "Security entries log (rWelcome):",
+            "title2": "Logs",
+            "logs": "Message logs:",
+            "modLogs": "Moderation logs:",
+            "excludeLogs": "Excluded logs channels:",
+            "memberCount": "Member counter:",
+            "title3": "Bot",
+            "prefix": "Prefix:",
+            "exclude": "Excluded channels:",
+            "languageS": "Guild language:",
+            "languageC": "Language in channels:",
+            "title4": "Utilities",
+            "reportes": "Reports:",
+            "sugerencias": "Suggestions:",
+            "count": "Accountant:",
+            "xp": "Xp:",
+            "econ": "Economy:",
+            "title5": "`Beta:`",
+            "playing": "Playing:"
         },
         "error": "❌ It seems that an unexpected error occurred, report the bug to fix it."
     },
-    "delet":{
-        "help":"help",
-        "defecto":"default",
-        "noCanal":"Invalid channel, verify it is a text channel.",
-        "canal":"Channel:",
-        "quitado":"Taken",
-        "noConfig":"*Not configured*",
-        "welcome":{
-            "welcome":"bienvenida",
-            "noConfig":"You don't have any channel configured",
-            "title":"Welcome channel removed"
+    "delet": {
+        "help": "help",
+        "defecto": "default",
+        "noCanal": "Invalid channel, verify it is a text channel.",
+        "canal": "Channel:",
+        "quitado": "Taken",
+        "noConfig": "*Not configured*",
+        "welcome": {
+            "welcome": "bienvenida",
+            "noConfig": "You don't have any channel configured",
+            "title": "Welcome channel removed"
         },
-        "rol":{
-            "rol":"role",
-            "help":"Use `{prefix}delete rolwelcome <role>`",
-            "noConfig":"There aren't configured roles on this server.",
-            "noRoles":"It seems that there is no such role in the database",
-            "true":"✅ Role successfully removed."
+        "rol": {
+            "rol": "role",
+            "help": "Use `{prefix}delete rolwelcome <role>`",
+            "noConfig": "There aren't configured roles on this server.",
+            "noRoles": "It seems that there is no such role in the database",
+            "true": "✅ Role successfully removed."
         },
-        "iw":{
-            "imgWelcome":"imgwelcome",
-            "noConfig":"You don't have any channel configured to send the welcome image.",
-            "title":"Welcome channel with image removed"
+        "iw": {
+            "imgWelcome": "imgwelcome",
+            "noConfig": "You don't have any channel configured to send the welcome image.",
+            "title": "Welcome channel with image removed"
         },
-        "il":{
-            "imgdespedida":"imgexit",
-            "noConfig":"You don't have any channel configured to send the goodbye image.",
-            "title":"Goodbye channel with image removed"
+        "il": {
+            "imgdespedida": "imgexit",
+            "noConfig": "You don't have any channel configured to send the goodbye image.",
+            "title": "Goodbye channel with image removed"
         },
-        "leave":{
-            "leava":"goodbye",
-            "noConfig":"You have no set up channel to send the farewell.",
-            "title":"Goodbye channel removed"
+        "leave": {
+            "leava": "goodbye",
+            "noConfig": "You have no set up channel to send the farewell.",
+            "title": "Goodbye channel removed"
         },
-        "lvl":{
-            "lvl":"level",
-            "title":"Level redirection removed"
+        "lvl": {
+            "lvl": "level",
+            "title": "Level redirection removed"
         },
-        "money":{
-            "money":"money",
-            "banco":"bank",
-            "all":"everything",
-            "noNumber":"You haven't entered a valid money number.",
-            "true":"Money properly removed from:",
-            "error":"❌ An unexpected error occurred, please report it so that it can be resolved as soon as possible."
+        "money": {
+            "money": "money",
+            "banco": "bank",
+            "all": "everything",
+            "noNumber": "You haven't entered a valid money number.",
+            "true": "Money properly removed from:",
+            "error": "❌ An unexpected error occurred, please report it so that it can be resolved as soon as possible."
         },
-        "report":{
-            "report":"account",
-            "title":"Reports channel removed"
+        "report": {
+            "report": "account",
+            "title": "Reports channel removed"
         },
-        "sug":{
-            "sug":"prompt",
-            "title":"Suggestions channel removed"
+        "sug": {
+            "sug": "prompt",
+            "title": "Suggestions channel removed"
         },
-        "count":{
-            "count":"accountant",
-            "title":"Count channel removed"
+        "count": {
+            "count": "accountant",
+            "title": "Count channel removed"
         },
-        "prefix":{
-            "prefix":"prefix",
-            "noConfig":"You have no prefix configured",
-            "title":"Custom prefix removed"
+        "prefix": {
+            "prefix": "prefix",
+            "noConfig": "You have no prefix configured",
+            "title": "Custom prefix removed"
         },
-        "lang":{
-            "language":"language",
-            "help":"Use `{prefix}delete language`\n\nYou can also use `{prefix}delete language channel [#channel]`",
-            "noIdioma":"You do not have language configured on this server.",
-            "noCanales":"You don't have any language channels configured.",
-            "noCanal":"It seems that this channel is not configured.",
-            "title":"Server language deleted",
-            "titleC":"Channel language deleted",
-            "quitado":"Taken"
+        "lang": {
+            "language": "language",
+            "help": "Use `{prefix}delete language`\n\nYou can also use `{prefix}delete language channel [#channel]`",
+            "noIdioma": "You do not have language configured on this server.",
+            "noCanales": "You don't have any language channels configured.",
+            "noCanal": "It seems that this channel is not configured.",
+            "title": "Server language deleted",
+            "titleC": "Channel language deleted",
+            "quitado": "Taken"
         },
-        "nick":{
-            "nick":"nickname",
-            "title":"Autonickname off"
+        "nick": {
+            "nick": "nickname",
+            "title": "Autonickname off"
         },
-        "mc":{
-            "mc":"memberscounter",
-            "title":"Member counter removed",
-            "descripcion":"*Corresponding channels will be deleted.*",
-            "noCanal":"I couldn't delete the channel",
-            "c":"Channels eleted",
-            "e":"Channel deleted"
+        "mc": {
+            "mc": "memberscounter",
+            "title": "Member counter removed",
+            "descripcion": "*Corresponding channels will be deleted.*",
+            "noCanal": "I couldn't delete the channel",
+            "c": "Channels eleted",
+            "e": "Channel deleted"
         },
-        "logs":{
-            "logs":"logs",
-            "noCanal":"Unknown channel:",
-            "title":"Logs channel removed"
+        "logs": {
+            "logs": "logs",
+            "noCanal": "Unknown channel:",
+            "title": "Logs channel removed"
         },
-        "ml":{
-            "modlogs":"modlogs",
-            "noCanal":"Unknown channel:",
-            "title":"Moderation logs channel removed"
+        "ml": {
+            "modlogs": "modlogs",
+            "noCanal": "Unknown channel:",
+            "title": "Moderation logs channel removed"
         },
-        "lw":{
-            "rwelcome":"entryrecord",
-            "title":"Entries logs channel removed"
+        "lw": {
+            "rwelcome": "entryrecord",
+            "title": "Entries logs channel removed"
         },
-        "el":{
-            "excludeLogs":"excludelogs",
-            "title":"Excluded logs channel removed"
+        "el": {
+            "excludeLogs": "excludelogs",
+            "title": "Excluded logs channel removed"
         },
-        "e":{
-            "exclude":"exclude",
-            "title":"Excluded channel removed"
+        "e": {
+            "exclude": "exclude",
+            "title": "Excluded channel removed"
         },
-        "level":{
-            "level":"levels",
-            "noConfig":"You do not have configured the level system/xp of the server",
-            "title":"Server XP system removed."
+        "level": {
+            "level": "levels",
+            "noConfig": "You do not have configured the level system/xp of the server",
+            "title": "Server XP system removed."
         },
-        "econ":{
-            "econ":"husbandry",
-            "title":"Server economy system disabled."
+        "econ": {
+            "econ": "husbandry",
+            "title": "Server economy system disabled."
         },
-        "group":{
-            "group":"group",
-            "help":"Use `{prefix}delete group <Name>`",
-            "noGrupo":"❌ | Group not found.",
-            "title":"Autorole group removed",
-            "nombre":"Name:",
-            "roles":"Number of roles it contained:"
+        "group": {
+            "group": "group",
+            "help": "Use `{prefix}delete group <Name>`",
+            "noGrupo": "❌ | Group not found.",
+            "title": "Autorole group removed",
+            "nombre": "Name:",
+            "roles": "Number of roles it contained:"
         },
-        "autorole":{
-            "autorole":"autoroles",
-            "help":"Use `{prefix}delete <group name> <@role>`",
-            "noGrupo":"❌ | Group not found.",
-            "noRol":"❌ | Role not Found",
-            "title":"Autorole removed from group",
-            "rol":"Role removed:"
+        "autorole": {
+            "autorole": "autoroles",
+            "help": "Use `{prefix}delete <group name> <@role>`",
+            "noGrupo": "❌ | Group not found.",
+            "noRol": "❌ | Role not Found",
+            "title": "Autorole removed from group",
+            "rol": "Role removed:"
         },
-        "noModo":"❌ That mode does not exist.",
-        "error":"❌ It seems that an unexpected error occurred, report the bug to fix it."
+        "noModo": "❌ That mode does not exist.",
+        "error": "❌ It seems that an unexpected error occurred, report the bug to fix it."
     },
-    "set":{
-        "help":"help",
-        "defecto":"default",
-        "noCanal":"Invalid channel, verify it is a text channel.",
-        "canal":"Channel:",
-        "welcome":{
-            "noCanal":"Invalid channel, verify that you put everything correctly or that you use with only a space before and after the ` | `to separate the fields.",
-            "mensajeD":"Hello {user} new member!",
-            "mensajeEmbed":"Hi, welcome",
-            "title":"Welcome channel assigned",
-            "mensaje":"With the message",
-            "mensajeE":"Embed message"
+    "set": {
+        "help": "help",
+        "defecto": "default",
+        "noCanal": "Invalid channel, verify it is a text channel.",
+        "canal": "Channel:",
+        "welcome": {
+            "noCanal": "Invalid channel, verify that you put everything correctly or that you use with only a space before and after the ` | `to separate the fields.",
+            "mensajeD": "Hello {user} new member!",
+            "mensajeEmbed": "Hi, welcome",
+            "title": "Welcome channel assigned",
+            "mensaje": "With the message",
+            "mensajeE": "Embed message"
         },
-        "iw":{
-            "noCanal":"Invalid channel, verify that you put everything correctly or that you use with only a space before and after the ` | `to separate the fields.",
-            "noMensaje":"You have not posted a message",
-            "noColor":"You have not put the main color or that of the text, remember to put it in hexadecimal format",
-            "title":"Welcome image channel assigned",
-            "mensaje":"With the message",
-            "colores":"Colors",
-            "colorPrincipal":"Main color:",
-            "colorSecundario":"Secondary color:",
-            "colorTexto":"Text color:",
-            "defecto":"Default"
+        "iw": {
+            "noCanal": "Invalid channel, verify that you put everything correctly or that you use with only a space before and after the ` | `to separate the fields.",
+            "noMensaje": "You have not posted a message",
+            "noColor": "You have not put the main color or that of the text, remember to put it in hexadecimal format",
+            "title": "Welcome image channel assigned",
+            "mensaje": "With the message",
+            "colores": "Colors",
+            "colorPrincipal": "Main color:",
+            "colorSecundario": "Secondary color:",
+            "colorTexto": "Text color:",
+            "defecto": "Default"
         },
-        "il":{
-            "noCanal":"Invalid channel, verify that you put everything correctly or that you use with only a space before and after the ` | `to separate the fields.",
-            "noMensaje":"You have not posted a message",
-            "noColor":"You have not put the main color or that of the text, remember to put it in hexadecimal format",
-            "title":"Goodbye image channel assigned",
-            "mensaje":"With the message",
-            "colores":"Colors",
-            "colorPrincipal":"Main color:",
-            "colorSecundario":"Secondary color:",
-            "colorTexto":"Text color:",
-            "defecto":"Default"
+        "il": {
+            "noCanal": "Invalid channel, verify that you put everything correctly or that you use with only a space before and after the ` | `to separate the fields.",
+            "noMensaje": "You have not posted a message",
+            "noColor": "You have not put the main color or that of the text, remember to put it in hexadecimal format",
+            "title": "Goodbye image channel assigned",
+            "mensaje": "With the message",
+            "colores": "Colors",
+            "colorPrincipal": "Main color:",
+            "colorSecundario": "Secondary color:",
+            "colorTexto": "Text color:",
+            "defecto": "Default"
         },
-        "leave":{
-            "noCanal":"Invalid channel, verify that you put everything correctly or that you use with only a space before and after the ` | `to separate the fields.",
-            "noMensaje":"You have not posted a message",
-            "title":"Goodbye channel assigned",
-            "mensaje":"With the message"
+        "leave": {
+            "noCanal": "Invalid channel, verify that you put everything correctly or that you use with only a space before and after the ` | `to separate the fields.",
+            "noMensaje": "You have not posted a message",
+            "title": "Goodbye channel assigned",
+            "mensaje": "With the message"
         },
-        "logs":{
-            "title":"Logs channel assigned"
+        "logs": {
+            "title": "Logs channel assigned"
         },
-        "modLogs":{
-            "title":"Moderation logs channel assigned"
+        "modLogs": {
+            "title": "Moderation logs channel assigned"
         },
-        "redirect":{
-            "mensajeD":"**You have leveled up *{user_name}***",
-            "title":"Message channel for assigned level up",
-            "mensaje":"Message:"
+        "redirect": {
+            "mensajeD": "**You have leveled up *{user_name}***",
+            "title": "Message channel for assigned level up",
+            "mensaje": "Message:"
         },
-        "lw":{
-            "title":"Check-in channel assigned"
+        "lw": {
+            "title": "Check-in channel assigned"
         },
-        "report":{
-            "title":"Reporting channel assigned"
+        "report": {
+            "title": "Reporting channel assigned"
         },
-        "sug":{
-            "title":"Suggestion channel assigned"
+        "sug": {
+            "title": "Suggestion channel assigned"
         },
-        "count":{
-            "mensaje":"Next number:",
-            "empezar":"You can now start counting from number 1!",
-            "sigan":"Keep counting from the number",
-            "error":"❌ An error occurred while assigning the channel description, please verify that I have sufficient permissions.",
-            "title":"Channel to count assigned",
-            "desde":"From the number:"
+        "count": {
+            "mensaje": "Next number:",
+            "empezar": "You can now start counting from number 1!",
+            "sigan": "Keep counting from the number",
+            "error": "❌ An error occurred while assigning the channel description, please verify that I have sufficient permissions.",
+            "title": "Channel to count assigned",
+            "desde": "From the number:"
         },
-        "prefix":{
-            "title":"Custom prefix assigned",
-            "cambio":"Switched to:"
+        "prefix": {
+            "title": "Custom prefix assigned",
+            "cambio": "Switched to:"
         },
-        "lang":{
-            "canal":"channels",
-            "noIdioma":"This language does not exist, use `{prefix}setidioma help` to know the available languages.",
-            "noLang":"You did not set the language to be set for the channel",
-            "title":"Assigned server language",
-            "titleC":"Assigned channel language",
-            "cambio":"Switched to"
+        "lang": {
+            "canal": "channels",
+            "noIdioma": "This language does not exist, use `{prefix}setidioma help` to know the available languages.",
+            "noLang": "You did not set the language to be set for the channel",
+            "title": "Assigned server language",
+            "titleC": "Assigned channel language",
+            "cambio": "Switched to"
         },
-        "nick":{
-            "title":"Autonickname on",
-            "cambio":"Switched to:"
+        "nick": {
+            "title": "Autonickname on",
+            "cambio": "Switched to:"
         },
-        "mc":{
-            "activo":"First disable the mode, using `{prefix}delete memberCount`",
-            "canales":"channels",
-            "embed":"embed",
-            "helpC":"Use `{prefix}setmc channels [channel Total], [channel members], [channel bots], [channel roles], [channel channels]`\n\nFor a channel not to be active, put in its place the name **false**",
-            "noCrearCanal":"I don't have sufficient permissions to create channels.",
-            "total":"Total users",
-            "miembros":"Members",
-            "bots":"Bots",
-            "roles":"Roles",
-            "channels":"Channels",
-            "categoria":"─── [Statistics] ───",
-            "title":"Assigned member counter",
-            "desc":"All channels will be created:",
-            "cTotal":"Channel nº Total:",
-            "cMiembros":"Channel nº Members:",
-            "cBots":"Channel nº Bots:",
-            "cCanales":"Channel nº Channels:",
-            "cRoles":"Channel nº Roles:",
-            "noActivo":"Disabled",
-            "descripcion":"Creating channel...",
-            "noModo":"Not found mode, only **channels** or **embed**"
+        "mc": {
+            "activo": "First disable the mode, using `{prefix}delete memberCount`",
+            "canales": "channels",
+            "embed": "embed",
+            "helpC": "Use `{prefix}setmc channels [channel Total], [channel members], [channel bots], [channel roles], [channel channels]`\n\nFor a channel not to be active, put in its place the name **false**",
+            "noCrearCanal": "I don't have sufficient permissions to create channels.",
+            "total": "Total users",
+            "miembros": "Members",
+            "bots": "Bots",
+            "roles": "Roles",
+            "channels": "Channels",
+            "categoria": "─── [Statistics] ───",
+            "title": "Assigned member counter",
+            "desc": "All channels will be created:",
+            "cTotal": "Channel nº Total:",
+            "cMiembros": "Channel nº Members:",
+            "cBots": "Channel nº Bots:",
+            "cCanales": "Channel nº Channels:",
+            "cRoles": "Channel nº Roles:",
+            "noActivo": "Disabled",
+            "descripcion": "Creating channel...",
+            "noModo": "Not found mode, only **channels** or **embed**"
         },
-        "noModoDisable":"❌ Invalid mode, category and command only.",
-        "error":"❌ It seems that an unexpected error occurred, report the bug to fix it."
+        "noModoDisable": "❌ Invalid mode, category and command only.",
+        "error": "❌ It seems that an unexpected error occurred, report the bug to fix it."
     },
-    "createcolors":{
-        "noBot":"❌ I haven't perms to manage roles in this server",
-        "modos":"You're nearly to create {roles} color roles. Type `yes` to continue, `delete` to remove them or `cancel` to cancel the operation\n\n**You could place my highest role in the position you want the roles to be created**",
-        "detectado":"I have detected that there are non-existent color roles in the database. Type `assign` to add them to the command *selfrole*.\n",
-        "asignar":"assign",
-        "si":"yes",
-        "no":"delete",
-        "asignado":"✅ Correctly assigned roles",
-        "creando":"Creating",
-        "mensaje":"✅ Created color roles: Successfully `{creados}`. *If the roles were created but aren't available in the command* `selfrole` *use this command again and check instructions*",
-        "mensajeDelete":"Eliminated color roles: Successfully `{contador}`",
-        "error":"❌ Sorry, it seems there was an error. We are working to repair it.",
-        "tiempoExpirado":"Waiting time finished.",
+    "createcolors": {
+        "noBot": "❌ I haven't perms to manage roles in this server",
+        "modos": "You're nearly to create {roles} color roles. Type `yes` to continue, `delete` to remove them or `cancel` to cancel the operation\n\n**You could place my highest role in the position you want the roles to be created**",
+        "detectado": "I have detected that there are non-existent color roles in the database. Type `assign` to add them to the command *selfrole*.\n",
+        "asignar": "assign",
+        "si": "yes",
+        "no": "delete",
+        "asignado": "✅ Correctly assigned roles",
+        "creando": "Creating",
+        "mensaje": "✅ Created color roles: Successfully `{creados}`. *If the roles were created but aren't available in the command* `selfrole` *use this command again and check instructions*",
+        "mensajeDelete": "Eliminated color roles: Successfully `{contador}`",
+        "error": "❌ Sorry, it seems there was an error. We are working to repair it.",
+        "tiempoExpirado": "Waiting time finished.",
         "rolesN": [
-            {"nombre": "Indian red", "color": "#cd5c5c"},
-            {"nombre": "Red", "color": "#ff0000"},
-            {"nombre": "Crimson", "color": "#dc143c"},
-            {"nombre": "Fire red", "color": "#b22222"},
-            {"nombre": "Light coral", "color": "#f08080"},
-            {"nombre": "Reddish orange", "color": "#ff4500"},
-            {"nombre": "Dark orange", "color": "#ff8c00"},
-            {"nombre": "Orange", "color": "#ffa500"},
-            {"nombre": "Gold yellow", "color": "#ffd700"},
-            {"nombre": "Yellow", "color": "#ffff00"},
-            {"nombre": "Light yellow", "color": "#ffffe0"},
-            {"nombre": "Deep pink", "color": "#ff1493"},
-            {"nombre": "Pastel pink", "color": "#e99bd4"},
-            {"nombre": "Violet", "color": "#ee82ee"},
-            {"nombre": "Orchid", "color": "#da70d6"},
-            {"nombre": "Fuchsia", "color": "#ff00ff"},
-            {"nombre": "Amethyst", "color": "#9966cc"},
-            {"nombre": "Dark violet", "color": "#9400d3"},
-            {"nombre": "Dark magenta", "color": "#8b008b"},
-            {"nombre": "Purple", "color": "#800080"},
-            {"nombre": "Indigo", "color": "#4b0082"},
-            {"nombre": "Yellowish green", "color": "#adff2f"},
-            {"nombre": "Green grass", "color": "#7cfc00"},
-            {"nombre": "Green lime", "color": "#32cd32"},
-            {"nombre": "Light green", "color": "#90ee90"},
-            {"nombre": "Spring green", "color": "#00ff7f"},
-            {"nombre": "Green", "color": "#008000"},
-            {"nombre": "Dark green", "color": "#003b00"},
-            {"nombre": "Greenish yellow", "color": "#9acd32"},
-            {"nombre": "Olive", "color": "#808000"},
-            {"nombre": "Olive green", "color": "#556b2f"},
-            {"nombre": "Dark cyan", "color": "#008b8b"},
-            {"nombre": "Cyan", "color": "#00ffff"},
-            {"nombre": "Pastel turquoise", "color": "#afeeee"},
-            {"nombre": "Aquamarine", "color": "#7fffd4"},
-            {"nombre": "Turquoise", "color": "#40e0d0"},
-            {"nombre": "Dark turquoise", "color": "#00ced1"},
-            {"nombre": "Steel blue", "color": "#4682b4"},
-            {"nombre": "Sky blue", "color": "#00bfff"},
-            {"nombre": "Hood blue", "color": "#1e90ff"},
-            {"nombre": "Slate blue", "color": "#7b68ee"},
-            {"nombre": "Blue", "color": "#0000ff"},
-            {"nombre": "Dark blue", "color": "#00008b"},
-            {"nombre": "Night blue", "color": "#191970"},
-            {"nombre": "Gainsboro", "color": "#dcdcdc"},
-            {"nombre": "Silver grey", "color": "#c0c0c0"},
-            {"nombre": "Grey", "color": "#808080"},
-            {"nombre": "Slate Gray", "color": "#778899"},
-            {"nombre": "White", "color": "#fffefe"},
-            {"nombre": "Black", "color": "#040100"}
+            { "nombre": "Indian red", "color": "#cd5c5c" },
+            { "nombre": "Red", "color": "#ff0000" },
+            { "nombre": "Crimson", "color": "#dc143c" },
+            { "nombre": "Fire red", "color": "#b22222" },
+            { "nombre": "Light coral", "color": "#f08080" },
+            { "nombre": "Reddish orange", "color": "#ff4500" },
+            { "nombre": "Dark orange", "color": "#ff8c00" },
+            { "nombre": "Orange", "color": "#ffa500" },
+            { "nombre": "Gold yellow", "color": "#ffd700" },
+            { "nombre": "Yellow", "color": "#ffff00" },
+            { "nombre": "Light yellow", "color": "#ffffe0" },
+            { "nombre": "Deep pink", "color": "#ff1493" },
+            { "nombre": "Pastel pink", "color": "#e99bd4" },
+            { "nombre": "Violet", "color": "#ee82ee" },
+            { "nombre": "Orchid", "color": "#da70d6" },
+            { "nombre": "Fuchsia", "color": "#ff00ff" },
+            { "nombre": "Amethyst", "color": "#9966cc" },
+            { "nombre": "Dark violet", "color": "#9400d3" },
+            { "nombre": "Dark magenta", "color": "#8b008b" },
+            { "nombre": "Purple", "color": "#800080" },
+            { "nombre": "Indigo", "color": "#4b0082" },
+            { "nombre": "Yellowish green", "color": "#adff2f" },
+            { "nombre": "Green grass", "color": "#7cfc00" },
+            { "nombre": "Green lime", "color": "#32cd32" },
+            { "nombre": "Light green", "color": "#90ee90" },
+            { "nombre": "Spring green", "color": "#00ff7f" },
+            { "nombre": "Green", "color": "#008000" },
+            { "nombre": "Dark green", "color": "#003b00" },
+            { "nombre": "Greenish yellow", "color": "#9acd32" },
+            { "nombre": "Olive", "color": "#808000" },
+            { "nombre": "Olive green", "color": "#556b2f" },
+            { "nombre": "Dark cyan", "color": "#008b8b" },
+            { "nombre": "Cyan", "color": "#00ffff" },
+            { "nombre": "Pastel turquoise", "color": "#afeeee" },
+            { "nombre": "Aquamarine", "color": "#7fffd4" },
+            { "nombre": "Turquoise", "color": "#40e0d0" },
+            { "nombre": "Dark turquoise", "color": "#00ced1" },
+            { "nombre": "Steel blue", "color": "#4682b4" },
+            { "nombre": "Sky blue", "color": "#00bfff" },
+            { "nombre": "Hood blue", "color": "#1e90ff" },
+            { "nombre": "Slate blue", "color": "#7b68ee" },
+            { "nombre": "Blue", "color": "#0000ff" },
+            { "nombre": "Dark blue", "color": "#00008b" },
+            { "nombre": "Night blue", "color": "#191970" },
+            { "nombre": "Gainsboro", "color": "#dcdcdc" },
+            { "nombre": "Silver grey", "color": "#c0c0c0" },
+            { "nombre": "Grey", "color": "#808080" },
+            { "nombre": "Slate Gray", "color": "#778899" },
+            { "nombre": "White", "color": "#fffefe" },
+            { "nombre": "Black", "color": "#040100" }
         ]
     },
-    "activexp":{
-        "help":"aid",
-        "helpDesc":"📑 | Use `{prefix}setxp <Minimum Xp> <Maximum Xp> [XpLevelUp]` The **XpLevelUp** variable follow the formula: **XpLevelUp** * (**Level** + 1)2 (Default: 200).",
-        "noNumber":"❌ | You have not entered valid numbers.",
-        "noValido":"❌ | You have not entered valid numbers or it is less than 10.",
-        "noTiempo":"❌ | You have not entered valid time or it is less than 10.",
-        "title":"✅ | Server experience system activated.",
-        "xpMin":"Minimum Xp:",
-        "xpMax":"Maximum Xp:",
-        "lvl":"XP Lvl:",
-        "cooldown":"XP Cooldown:"
+    "activexp": {
+        "noNumber": "❌ | You have not entered valid numbers.",
+        "noValido": "❌ | You have not entered valid numbers or it is less than 10.",
+        "noTiempo": "❌ | You have not entered valid time or it is less than 10.",
+        "noMode": "❌ | Invalid mode. Only `remove` and `keep`",
+        "remove": "quit",
+        "title": "✅ | Server experience system activated.",
+        "xpMin": "Minimum Xp:",
+        "xpMax": "Maximum Xp:",
+        "lvl": "XP Lvl:",
+        "cooldown": "XP Cooldown:",
+        "mode": "Mode:",
+        "quitar": "Remove roles",
+        "conservar": "Preserve roles"
     },
-    "addexcludexp":{
-        "noCanal":"❌ | Invalid channel, check if it is a text channel or category.",
-        "yaCanal":"❌ | Channel already excluded.",
-        "title":"✅ | Channel excluded from experience",
-        "canal":"Aggregate:",
-        "title2":"✅ | Channels excluded from experience.",
-        "canales":"Aggregates:"
+    "addexcludexp": {
+        "noCanal": "❌ | Invalid channel, check if it is a text channel or category.",
+        "yaCanal": "❌ | Channel already excluded.",
+        "title": "✅ | Channel excluded from experience",
+        "canal": "Aggregate:",
+        "title2": "✅ | Channels excluded from experience.",
+        "canales": "Aggregates:"
     },
-    "addrollevelup":{
-        "noBot":"❌ | I don't have permissions to manage roles on this server.",
-        "noRol":"❌ | Role not found or does not exist, please check it.",
-        "noNumber":"❌ | You did not enter a valid level number.",
-        "rolMensaje":"You've leveled up and have a role to show off!",
-        "rolTrue":"❌ | Role already assigned.",
-        "nivelTrue":"❌ | Level already assigned.",
+    "addrollevelup": {
+        "noBot": "❌ | I don't have permissions to manage roles on this server.",
+        "noRol": "❌ | Role not found or does not exist, please check it.",
+        "noNumber": "❌ | You did not enter a valid level number.",
+        "rolMensaje": "You've leveled up and have a role to show off!",
+        "rolTrue": "❌ | Role already assigned.",
+        "nivelTrue": "❌ | Level already assigned.",
         "embed": {
-            "title":"✅ | Role per level added.",
-            "footer":"Remember to activate the server XP with `{prefix}activexp` | {guild_name}.",
-            "field":{
-                "title":"Role",
-                "descripcion":"[{rolid}] Level: {lvl}\nMessage: {rolmensaje}"
+            "title": "✅ | Role per level added.",
+            "footer": "Remember to activate the server XP with `{prefix}activexp` | {guild_name}.",
+            "field": {
+                "title": "Role",
+                "descripcion": "[{rolid}] Level: {lvl}\nMessage: {rolmensaje}"
             }
         }
     },
-    "addxp":{
+    "addxp": {
         "noMember": "❌ | User not found, please verify.",
         "noCantidad": "❌ | You did not enter a valid XP number.",
         "correcto": "✅ | {cantidad}XP successfully added to {miembro}."
     },
-    "deleteexcludexp":{
-        "noConfig":"*Not configured.*",
-        "quitado":"Taken away.",
-        "noCanal":"❌ | Invalid channel, check if it is a text or category channel.",
-        "title":"✅ | Channel excluded from experience removed"
+    "configxp": {
+        "noConfig": "❌ | It seems that the experience is not activated. First use the `activexp` command.",
+        "noNumber": "❌ | Invalid number.",
+        "min": "least",
+        "max": "full",
+        "xplevelup": "xplevel",
+        "cooldown": "waittime",
+        "removerole": "removeroles",
+        "noMode": "❌ | Invalid mode. Only `remove` and `keep`",
+        "noProperty": "❌ | Invalid property.",
+        "message": "✅ | Property `{property}` changed to `{value}` successfully."
     },
-    "deleterollevelup":{
-        "noConfig":"❌ | There are no roles configured on this server.",
-        "noRol":"❌ | It seems that no such role exists in the database.",
-        "true":"✅ Role removed successfully."
+    "deleteexcludexp": {
+        "noConfig": "*Not configured.*",
+        "quitado": "Taken away.",
+        "noCanal": "❌ | Invalid channel, check if it is a text or category channel.",
+        "title": "✅ | Channel excluded from experience removed"
     },
-    "deletexp":{
-        "all":"todo",
+    "deleterollevelup": {
+        "noConfig": "❌ | There are no roles configured on this server.",
+        "noRol": "❌ | It seems that no such role exists in the database.",
+        "true": "✅ Role removed successfully."
+    },
+    "deletexp": {
+        "all": "todo",
         "noMember": "❌ | User not found, please verify.",
-        "noUser":"❌ | The user is not in the database.",
-        "noNumber":"❌ | You did not enter a valid XP number.",
-        "true":"✅ | {cantidad}XP successfully removed at {miembro}"
+        "noUser": "❌ | The user is not in the database.",
+        "noNumber": "❌ | You did not enter a valid XP number.",
+        "true": "✅ | {cantidad}XP successfully removed at {miembro}"
     },
-    "resetxp":{
-        "noMember":"❌ | User not found, verify it.",
-        "noMemverDB":"❌ | This user has no experiential.",
-        "mensajeMiembro":"You are about to reset the {member} experience. Do you really want to continue? Write `yes`. *You have 60 seconds to answer.*",
-        "mensajeServidor":"You are about to reset the whole server experience. Do you really want to continue? Write `yes`. *You have 60 seconds to answer.*",
-        "si":"yes",
-        "tiempo":"❌ | The time to answer is over. If you think it is an error, please report it.",
-        "ok":"✅ | {sujeto} experience reset.",
-        "server":"Whole server"
+    "resetxp": {
+        "noMember": "❌ | User not found, verify it.",
+        "noMemverDB": "❌ | This user has no experiential.",
+        "mensajeMiembro": "You are about to reset the {member} experience. Do you really want to continue? Write `yes`. *You have 60 seconds to answer.*",
+        "mensajeServidor": "You are about to reset the whole server experience. Do you really want to continue? Write `yes`. *You have 60 seconds to answer.*",
+        "si": "yes",
+        "tiempo": "❌ | The time to answer is over. If you think it is an error, please report it.",
+        "ok": "✅ | {sujeto} experience reset.",
+        "server": "Whole server"
     },
-    "setrole":{
-        "noRol":"❌ | I can't found this role",
-        "noPosicion":"❌ | This role is higher than my current role",
-        "yaRol":"❌ | Role already assigned",
-        "noTime":"❌ | Invalid time, enter the time in seconds",
-        "title":"✅ Welcome role assigned",
-        "footer":"You can use the command again to add more roles",
-        "mensaje":"Role",
-        "time":"Waiting time to drop roles",
-        "defecto":"Default"
+    "setrole": {
+        "noRol": "❌ | I can't found this role",
+        "noPosicion": "❌ | This role is higher than my current role",
+        "yaRol": "❌ | Role already assigned",
+        "noTime": "❌ | Invalid time, enter the time in seconds",
+        "title": "✅ Welcome role assigned",
+        "footer": "You can use the command again to add more roles",
+        "mensaje": "Role",
+        "time": "Waiting time to drop roles",
+        "defecto": "Default"
     }
 }

@@ -1,0 +1,55 @@
+{
+    "8ball": {
+        "title": "🎱 Questão\n{pregunta}",
+        "descripcion": "Ao qual eu respondo: {respuesta}",
+        "rpts": [
+            "Sim",
+            "Não",
+            "Talvez sim",
+            "Talvez não",
+            "Claro!",
+            "Claro que não",
+            "Tenho certeza que sim",
+            "Tenho certeza que não",
+            "Claro",
+            "Pode ser",
+            "Infelizmente não",
+            "Infelizmente sim",
+            "Desafortunadamente sim",
+            "Desafortunadamente não",
+            "Não conheço Rick"
+        ]
+    },
+    "cat": {
+        "title": "Gato aleatório 🐱"
+    },
+    "cookie": {
+        "noUser": "Mencione um usuário.",
+        "noRazon": "Nenhum",
+        "cookie": "**{user},** você tem um {cookie} de **{author}**\n\n**Razão:** {reason}\n(づ ｡◕‿‿◕｡) づ: ･ ﾟ ✧ {cookie}"
+    },
+    "dog": {
+        "title": "Cachorro aleatório 🐶"
+    },
+    "gru": {
+        "noTexto": "Você tem que colocar algo. `{prefix}gru <texto 1> | <texto 2> | <texto 3>`"
+    },
+    "love": {
+        "noMencion": "Mencione dois usuários para calcular",
+        "rand20": "Uff, parece que não há possibilidade de amigos. Sinto muito ;-;",
+        "rand50": "Parece que não há muito amor, mas podem ser bons amigos c:",
+        "rand80": "Isso tem uma possibilidade, é muito provável que acabem sendo namorados: 3",
+        "rand100": "Não há dúvida de que existe amor aqui, não sei o que você espera! <3",
+        "randInf": "O amor que você deve ter deve ser o maior de todos, aprecie-o como o maior dos tesouros.",
+        "author": "A porcentagem de amor entre {user1} e {user2} é:"
+    },
+    "meme": {
+        "title": "Tenha seu meme",
+        "creditos": "Pela comunidade MegaBot"
+    },
+    "waifu": {
+        "descripcion": "Descrição:",
+        "popular": "Popularidade",
+        "votos": "Votos positivos:"
+    }
+}

@@ -1,134 +1,134 @@
 {
-    "angry":{
-        "bot": "¡¿{author}, por qué te enojas conmigo?! .-.",
-        "author": "{author} se enojó.",
-        "users": "{author} se enojó con ustedes, {users}.",
-        "user": "{user} enojó a {author}",
+    "angry": {
+        "bot": "¡¿{author}, por qué te enfadas conmigo?! .-.",
+        "author": "{author} se enfadó.",
+        "users": "{author} se enfadó con ustedes, {users}.",
+        "user": "{user} enfadó a {author}",
         "error": "❌ Parece que hubo un error, verifica la mención."
     },
-    "banghead":{},
-    "blush":{
-        "bot":"Yo no me sonrojé 0////0",
-        "author":"{author} se sonrojó 0////0",
-        "users":"{author} se sonrojó por culpa de {user} 0////0",
-        "user":"{user}, hiciste que {author} se sonrojara 0////0",
-        "error":"❌ Parece que hubo un error, verifica la mención."
+    "banghead": {},
+    "blush": {
+        "bot": "Yo no me sonrojé 0////0",
+        "author": "{author} se sonrojó 0////0",
+        "users": "{author} se sonrojó por culpa de {user} 0////0",
+        "user": "{user}, hiciste que {author} se sonrojara 0////0",
+        "error": "❌ Parece que hubo un error, verifica la mención."
     },
-    "boom":{
+    "boom": {
         "bot": "{author}, explota tú, mejor.",
         "author": "{author} explotó :0.",
         "users": "{author} explotó a {users}.",
         "user": "{user} hizo ¡boom! por {author}.",
         "error": "❌ Parece que hubo un error, verifica la mención."
     },
-    "bored":{
+    "bored": {
         "bot": "{author}, yo también estoy aburrido.",
         "author": "{author} está aburrido.",
         "users": "{author}, {users} están aburridos.",
         "user": "{author} está aburrido con {user} o por su culpa.",
         "error": "❌ Parece que hubo un error, verifica la mención."
     },
-    "confused":{
+    "confused": {
         "bot": "{author}, yo no estoy confundido.",
         "author": "{author} está confundido.",
         "users": "{author} está confundido por culpa de {users}.",
         "user": "{author} está confundido por culpa de {user}",
         "error": "❌ Parece que hubo un error, verifica la mención."
     },
-    "cry":{
-        "bot":"Nooo, v.v no estés triste, no se merecen tus lágrimas {author}.",
-        "author":"{author} está triste v.v",
-        "users":"¡{author} está triste por culpa de {users}! o... ¿era que está triste con ustedes?",
-        "user":"¡{author} está triste por tu culpa, {user}.",
-        "error":"❌ Parece que hubo un error, verifica la mención."
+    "cry": {
+        "bot": "Nooo, v.v no estés triste, no se merecen tus lágrimas {author}.",
+        "author": "{author} está triste v.v",
+        "users": "¡{author} está triste por culpa de {users}! o... ¿era que está triste con ustedes?",
+        "user": "¡{author} está triste por tu culpa, {user}.",
+        "error": "❌ Parece que hubo un error, verifica la mención."
     },
-    "dab":{},
-    "discouraged":{},
-    "disgust":{
+    "dab": {},
+    "discouraged": {},
+    "disgust": {
         "bot": "{author}, tu me disgustas más.",
         "author": "{author} está disgustado.",
         "users": "{author} está disgustado con {users}.",
         "user": "{author} está disgustado con {user}.",
         "error": "❌ Parece que hubo un error, verifica la mención."
     },
-    "facepalm":{
+    "facepalm": {
         "bot": "{author} yo también estoy decepcionado v.v",
         "author": "{author} está decepcionado.",
         "users": "{author} está decepcionado con {users}.",
         "user": "{author} está decepcionado con {user}.",
         "error": "❌ Parece que hubo un error, verifica la mención."
     },
-    "fbi":{
-        "bot":"¡Yo soy la ley aquí! >:c",
-        "author":"{author} es la ley.",
-        "users":"{author} dice que les cayó la ley, {users}.",
-        "user":"{user}, te cayó la ley prro.",
-        "error":"❌ Parece que hubo un error, verifica la mención."
+    "fbi": {
+        "bot": "¡Yo soy la ley aquí! >:c",
+        "author": "{author} es la ley.",
+        "users": "{author} dice que les cayó la ley, {users}.",
+        "user": "{user}, te cayó la ley.",
+        "error": "❌ Parece que hubo un error, verifica la mención."
     },
-    "game":{},
-    "happy":{
-        "bot":"c: Yo estoy feliz si tú lo estás, {author}.",
-        "author":"{author} está feliz n.n",
-        "users":"{author} está felíz por ustedes, {users} c:",
-        "user":"{author} está feliz por tí, {user} :D",
-        "error":"❌ Parece que hubo un error, verifica la mención."
+    "game": {},
+    "happy": {
+        "bot": "c: Yo estoy feliz si tú lo estás, {author}.",
+        "author": "{author} está feliz n.n",
+        "users": "{author} está felíz por ustedes, {users} c:",
+        "user": "{author} está feliz por tí, {user} :D",
+        "error": "❌ Parece que hubo un error, verifica la mención."
     },
-    "like":{},
-    "nope":{
-        "bot": "{author}, tú nel.",
+    "like": {},
+    "nope": {
+        "bot": "{author}, tú NO.",
         "author": "{author} niega rotundamente.",
         "users": "{author} les dice que NO, {users}.",
-        "user": "{author} le dice que no a {user}.",
+        "user": "{author} le dice que NO a {user}.",
         "error": "❌ Parece que hubo un error, verifica la mención."
     },
-    "pout":{
-        "bot": "{author}, ¡a mí nadie me hace pucheros!",
-        "author": "{author} hace puchero.",
-        "users": "{author} le hace puchero a ustedes, {users}.",
-        "user": "{user} te hace pucheros, {author}.",
+    "pout": {
+        "bot": "{author}, ¡a mí nadie me pone esa cara!",
+        "author": "{author} hace tiene una pataleta.",
+        "users": "{author} tiene una pataleta ustedes, {users}.",
+        "user": "{user} tiene una pataleta, {author}.",
         "error": "❌ Parece que hubo un error, verifica la mención."
     },
-    "shrug":{
+    "shrug": {
         "bot": "{author}, yo menos sé.",
         "author": "{author} no sabe, tal vez, quizás.",
         "users": "{author} les dice que no sabe {users}.",
         "user": "{author} te dice que no sabe, tal vez, {user}.",
         "error": "❌ Parece que hubo un error, verifica la mención."
     },
-    "sing":{
+    "sing": {
         "bot": "¡{author}, cantemos juntos!",
         "author": "{author} se puso a cantar.",
         "users": "{author} está cantando con {users}.",
         "user": "{author} está cantando con {user}.",
         "error": "❌ Parece que hubo un error, verifica la mención."
     },
-    "sip":{
+    "sip": {
         "bot": "{author}, totalmente de acuerdo.",
         "author": "{author} afirma que claramente sí.",
         "users": "{author} les dice que sí, {users}.",
         "user": "{author} te dice que sí, {user}.",
         "error": "❌ Parece que hubo un error, verifica la mención."
     },
-    "smug":{
+    "smug": {
         "bot": "{author}, cálmate, que el único que presume eres tú.",
         "author": "{author} está de presumido",
         "users": "{author} les llama bola de presumidos a {users}.",
         "user": "{author} te dice que eres un presumido, {user}.",
         "error": "❌ Parece que hubo un error, verifica la mención."
     },
-    "suicide":{
+    "suicide": {
         "bot": "¡Yo no me voy a hacer nada, {author}!",
         "author": "{author} se quiere suicidar, ¡deténgal@!",
-        "users":"{author} está loco y quiere hacer una tontería con {users} D:",
+        "users": "{author} está loco y quiere hacer una tontería con {users} D:",
         "user": "{author} se siete mal junto con {user}, ¿o él lo hizo sentir así? D:",
-        "error":"❌ Parece que hubo un error, verifica la mención."
+        "error": "❌ Parece que hubo un error, verifica la mención."
     },
-    "think":{
+    "think": {
         "bot": "{author}, yo también pienso lo mismo.",
         "author": "{author} está pensando.",
         "users": "{author} está pensando con {users}.",
         "user": "{author} está pensando con {user}.",
         "error": "❌ Parece que hubo un error, verifica la mención."
     },
-    "vomit":{}
+    "vomit": {}
 }
