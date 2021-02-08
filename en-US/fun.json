@@ -20,6 +20,10 @@
             "I don't know Rick"
         ]
     },
+    "achievement": {
+        "error": "❌ | An unexpected error occurred. Let us know with `bugreport` so we can fix it.",
+        "text": "Achievement unlocked"
+    },
     "cat": {
         "title": "Random cat 🐱"
     },
@@ -30,9 +34,6 @@
     },
     "dog": {
         "title": "Random dog 🐶"
-    },
-    "gru": {
-        "noTexto": "You have to put something. `{prefix}gru <text 1> | <text 2> | <text 3>`"
     },
     "love": {
         "noMencion": "Mention two users to calculate",
@@ -51,6 +52,9 @@
         "descripcion": "Description:",
         "popular": "Popularity",
         "votos": "Positive Votes:",
-        "confirmacion": "✅ Point added to {waifu}."
+        "confirmacion": "✅ Vote {vote} for {waifu} correctly.",
+        "positivo": "positive",
+        "negativo": "negative",
+        "footer": "You can vote every 24 hours."
     }
 }

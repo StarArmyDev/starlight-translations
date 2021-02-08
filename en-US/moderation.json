@@ -6,7 +6,7 @@
         "noEnviar": "You cannot write on the mentioned channel."
     },
     "aprobar": {
-        "noBot": "❌ I do not have permissions to manage messages on this server.",
+        "noBot": "`❌|`I do not have permissions to manage messages on this server.",
         "noSugerencias": "Suggestions channel not established",
         "noCanal": "Could not find the channel in the guild",
         "noValidaID": "You did not provide a valid ID.",
@@ -16,10 +16,10 @@
         "votos": "Votes:",
         "aprobadoPor": "Approved by",
         "siAprobada": "Suggestion Approved.",
-        "error": "❌ An unexpected error occurred, it is likely that the message does not exist or the ID is incorrect."
+        "error": "`❌|`An unexpected error occurred, it is likely that the message does not exist or the ID is incorrect."
     },
     "ban": {
-        "noBot": "❌ I don't have permission to ban on this server.",
+        "noBot": "`❌|`I don't have permission to ban on this server.",
         "noUser": "Could not find user",
         "autoMencion": "Why do you want to ban you?!",
         "owner": "Why do you want to ban the owner?! That's impossible",
@@ -38,22 +38,22 @@
         "title": "Guild Structure"
     },
     "clear": {
-        "noBot": "❌ I do not have permissions to delete messages on this server.",
+        "noBot": "`❌|`I do not have permissions to delete messages on this server.",
         "noValido": "Place a number between 1 to 100 messages to delete.",
         "mod": "👮‍♂️ Moderator",
         "mensaje": "👾 | I erased `{messages}` Successful messages | ⭐",
         "descripcion": "Have been deleted `{messages}` messages on the channel {channel}",
         "descripcionUser": "Have been deleted `{messages}` user messages {miembro} in the channel {channel}",
-        "error": "❌ | You cannot delete messages longer than 14 days."
+        "error": "`❌|` You cannot delete messages longer than 14 days."
     },
     "crearInvitacion": {
-        "noBot": "❌ I do not have permissions to create invitations on this server.",
+        "noBot": "`❌|`I do not have permissions to create invitations on this server.",
         "title": "A permanent invitation to my name has been created",
         "mod": "👮‍♂️ Moderator",
         "invite": "Invitation"
     },
     "hackban": {
-        "noBot": "❌ I don't have permission to ban on this server.",
+        "noBot": "`❌|`I don't have permission to ban on this server.",
         "textBan": "ID's banned: ",
         "textNoBan": "ID's not banned: ",
         "autoMencion": "Why do you want to ban you ?!",
@@ -62,10 +62,10 @@
         "mensaje": "The user with ID `{idUser}` He was banned from the server. [{userban}]",
         "userban": "User Banned",
         "mod": "👮‍♂️ Moderator",
-        "error": "❌ An unexpected error occurred, the ID is likely to be incorrect."
+        "error": "`❌|`An unexpected error occurred, the ID is likely to be incorrect."
     },
     "kick": {
-        "noBot": "❌ I do not have permission to eject on this server.",
+        "noBot": "`❌|`I do not have permission to eject on this server.",
         "noUser": "Could not find user",
         "autoMencion": "Why do you want to kick yourself out?!",
         "owner": "Why do you want to evict the owner?! That's impossible",
@@ -79,10 +79,10 @@
         "privado": "Private message sent successfully.",
         "noPrivado": "I cannot send a private message to the user.",
         "mod": "👮‍♂️ Moderator",
-        "error": "❌ It cannot be expelled, please check the mention."
+        "error": "`❌|`It cannot be expelled, please check the mention."
     },
     "mute": {
-        "noBot": "❌ I do not have permissions to handle Roles on this server.",
+        "noBot": "`❌|` I do not have permissions to handle Roles on this server.",
         "rolMute": "Silenced",
         "noRazon": "Any.",
         "noUser": "Could not find user",
@@ -92,6 +92,7 @@
         "razonRol": "Role AutoCreate to silence users",
         "creado": "✅ Role Created Successfully",
         "title": "🔇 Mutated",
+        "id": "🆔 Identifier:",
         "user": "👤 User",
         "razon": "📄 Reason",
         "tiempo": "Time",
@@ -99,26 +100,8 @@
         "mod": "👮‍♂️ Moderator",
         "error": "🚫 An error occurred while creating the role, verify that you have the necessary permissions."
     },
-    "nick": {
-        "noBot": "❌ I do not have permissions to manage nicknames on this server.",
-        "title": "Nickname",
-        "espera": "The process takes a while, be patient.",
-        "mensaje": "Nickname of all modified with:",
-        "setnick": "Do you want me to place `{emoji}` to the new members that enter?",
-        "si": "yes",
-        "no": "not",
-        "autonick": "Auto-Nick Activated:",
-        "noAutonick": "Auto-Nick not established",
-        "mod": "👮‍♂️ Moderator"
-    },
-    "nickdelete": {
-        "noBot": "❌ I do not have permissions to manage nicknames on this server.",
-        "title": "Nicknames Deleted",
-        "mensaje": "The nickname of everything is being eliminated, be patient.",
-        "mod": "👮‍♂️ Moderator"
-    },
     "potencial": {
-        "noBot": "❌ I do not have permissions to manage messages on this server.",
+        "noBot": "`❌|`I do not have permissions to manage messages on this server.",
         "noSugerencias": "Suggestions channel not established",
         "noCanal": "Could not find the channel in the guild",
         "noValidaID": "You did not provide a valid ID.",
@@ -128,10 +111,10 @@
         "votos": "Votes:",
         "calificadaPor": "Qualified by",
         "siPotencial": "Suggestion put in Potential.",
-        "error": "❌ An unexpected error occurred, it is likely that the message does not exist or the ID is incorrect."
+        "error": "`❌|`An unexpected error occurred, it is likely that the message does not exist or the ID is incorrect."
     },
     "rechazar": {
-        "noBot": "❌ I do not have permissions to manage messages on this server.",
+        "noBot": "`❌|`I do not have permissions to manage messages on this server.",
         "noSugerencias": "Suggestions channel not established",
         "noCanal": "Could not find the channel in the guild",
         "noValidaID": "You did not provide a valid ID.",
@@ -141,23 +124,23 @@
         "votos": "Votes:",
         "rechazadaPor": "Rejected by",
         "siRechazar": "Suggestion Rejected.",
-        "error": "❌ An unexpected error occurred, it is likely that the message does not exist or the ID is incorrect."
+        "error": "`❌|`An unexpected error occurred, it is likely that the message does not exist or the ID is incorrect."
     },
     "unban": {
-        "noBot": "❌ I don't have permission to ban on this server.",
+        "noBot": "`❌|`I don't have permission to ban on this server.",
         "autoMencion": "It cannot be undressed!",
         "noUser": "Could not find user",
         "noRazon": "Any.",
         "title": "He broke up at",
         "razon": "Reason",
         "server": "Guild",
-        "errorUnban": "❌ The user seems not to be banned. Make sure you have entered the id correctly.",
+        "errorUnban": "`❌|`The user seems not to be banned. Make sure you have entered the id correctly.",
         "privado": "Private message sent successfully.",
         "noPrivado": "I cannot send a private message to the user.",
         "mod": "👮‍♂️ Moderator"
     },
     "unmute": {
-        "noBot": "❌ I do not have permissions to handle Roles on this server.",
+        "noBot": "`❌|`I do not have permissions to handle Roles on this server.",
         "rolMute": "Silenced",
         "noRazon": "Any.",
         "noRol": "There is no `Silenced` role or no role has been assigned. First use the `mute` command with this bot to create it.",
@@ -165,6 +148,7 @@
         "noMuteado": "This user is not muted.",
         "title": "🔊 Unmuted",
         "user": "👤 User",
+        "reference": "🆔 Reference",
         "razon": "📄 Reason",
         "noUserRol": "Could not remove role from user.",
         "mod": "👮‍♂️ Moderator"
@@ -175,6 +159,7 @@
         "noWarns": "The user has no warnings.",
         "title": "Warning Removed",
         "user": "👤 User",
+        "reference": "🆔 Reference",
         "mod": "👮‍♂️ Moderator",
         "razon": "📄 Reason",
         "numAdver": "Number of warnings",
@@ -182,11 +167,12 @@
         "noPrivado": "I cannot send a private message to the user."
     },
     "warn": {
-        "noBot": "❌ I don't have administrator permission to on this server.",
+        "noBot": "`❌|`I don't have administrator permission to on this server.",
         "noRazon": "You did not provide a reason.",
         "noUser": "Could not find user",
         "autoMencion": "Why do you want to warn yourself ?!",
-        "title": "Warned",
+        "title": "⚠ Warned",
+        "id": "🆔 Identifier:",
         "user": "👤 User",
         "mod": "👮‍♂️ Moderator",
         "razon": "📄 Reason",
@@ -199,13 +185,13 @@
         "numAdver": "Number of warnings",
         "server": "Guild",
         "privado": "Private message sent successfully.",
-        "error": "❌ Sorry, it seems there was an error. We are working to repair it."
+        "error": "`❌|`Sorry, it seems there was an error. We are working to repair it."
     },
-    "warns": {
+    "warninfo": {
         "noUser": "Could not find user",
         "logs": "records",
         "noPerm": "You do not have enough permission to see the logs. You need permission to manage messages or server role mod.",
-        "noLogs": "❌ This user has no warnings.",
+        "noLogs": "`❌|`This user has no warnings.",
         "fecha": "Date:",
         "mod": "Moderator:",
         "desconocido": "Unknown user",

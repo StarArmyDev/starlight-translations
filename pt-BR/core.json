@@ -25,7 +25,7 @@
         "interaction": "🎁 Interação",
         "expression": "🎭 Expressão",
         "music": "🎵  Música",
-        "game": "🎮 Videogame",
+        "videogame": "🎮 Videogame",
         "economy": "💵 Economia",
         "profile": "👥 Perfil",
         "developer": "👨‍💻 Desenvolvedor",
@@ -71,7 +71,8 @@
     "ping": {
         "footer": "Virtual Private Machine",
         "espera": "*Calculado...*",
-        "descripcion": "Pong!\n📡 API: **{ping}ms.**\n⏳ Porta de ligação: {gateway} ms"
+        "description": "Pong!\n📡 API: {ping}.\n🗃 Base de dados: {db}.",
+        "descriptionGateway": "Pong!\n📡 API: {ping}.\n🗃 Base de dados: {db}.\n⏳ Porta de ligação: {gateway}."
     },
     "release": {
         "title": "Notícias de",

@@ -1,0 +1,131 @@
+{
+    "addblacklist": {
+        "all": "all",
+        "noCommand": "`❌|` Command not found, only the command name is accepted, not its aliases.",
+        "commandImport": "⚠| This command belongs to an important category.",
+        "bot": "`⛔|` This user is a bot.",
+        "noUser": "`❌|` The user, role, or channel was not found.",
+        "yaCommand": "`❌|` This command is already in the list.",
+        "title": "✅| Command added to the list on this server.",
+        "fieldCat": "Category:",
+        "fieldCom": "Command:",
+        "commands": "Commands:"
+    },
+    "addwhitelist": {
+        "all": "all",
+        "noCommand": "`❌|` Command not found, only the command name is accepted, not its aliases.",
+        "commandImport": "⚠| This command belongs to an important category.",
+        "bot": "`⛔|` This user is a bot.",
+        "noUser": "`❌|` No se encontró al usuario o rol.",
+        "yaCommand": "`❌|` This command is already in the list.",
+        "title": "✅| Command added to the list on this server.",
+        "fieldCat": "Category:",
+        "fieldCom": "Command:",
+        "commands": "Commands:"
+    },
+    "config": {
+        "noRol": "`❌|` Role not found.",
+        "noCanal": "*⚠ Channel not available.*",
+        "canal": "Channel:",
+        "canalEliminado": "*Channel removed or not available.*",
+        "mensaje": "Message:",
+        "noConfig": "*Not configured.*",
+        "roles": "roles:",
+        "default": "*Default:*",
+        "min": "Min:",
+        "max": "Max:",
+        "xplvl": "XP LevelUp:",
+        "cooldown": "XP Cooldown:",
+        "embed": {
+            "author": "Setting | {guild_name}.",
+            "title1": "Welcome / Farewell",
+            "bienvenida": "Welcome:",
+            "imgBienvenida": "Welcome Image:",
+            "rolEntrada": "Entry role/s:",
+            "despedida": "Farewell:",
+            "imgDespedida": "Farewell image:",
+            "title2": "Records",
+            "logs": "Message logs:",
+            "modLogs": "Moderation records:",
+            "excludeLogs": "Channels excluded from logs:",
+            "memberCount": "Member counter:",
+            "logsEntrada": "Security check-in:",
+            "title3": "Bot",
+            "prefix": "Prefix:",
+            "languageS": "Server language:",
+            "languageC": "Language in channels:",
+            "blacklist": "BlackList:",
+            "whitelist": "WhiteList:",
+            "title4": "Utilities",
+            "reportes": "Reports:",
+            "sugerencias": "Suggestions:",
+            "count": "contador:",
+            "systemLevels": "Level System",
+            "xp": "Experience:"
+        }
+    },
+    "deleteblacklist": {
+        "noConfig": "`⛔|` *Not configured.*",
+        "all": "all",
+        "noCommand": "`❌|` Command not found, only the command name is accepted, not its aliases.",
+        "commandImport": "⚠| This command belongs to an important category.",
+        "noUser": "`❌|` The user, role, or channel was not found.",
+        "noList": "`❌|` This command is not in the list.",
+        "title": "✅| Command removed from list on this server.",
+        "fieldAll": "Amount of commands removed:",
+        "fieldCom": "Command:",
+        "for": "For:"
+    },
+    "deletelanguage": {
+        "noConfig": "`⛔|` *You do not have language configured on this server.*",
+        "noChannel": "It seems that this channel is not configured.",
+        "title": "✅| Server language removed.",
+        "titleC": "✅| Channel language removed.",
+        "remove": "Taken away"
+    },
+    "deleteprefix": {
+        "noConfig": "`⛔|` *You do not have any prefix configured.*",
+        "title": "Custom prefix removed.",
+        "remove": "Taken away"
+    },
+    "deleteredirect": {
+        "noConfig": "`⛔|` *Not configured.*",
+        "title": "Level-up redirection removed.",
+        "remove": "Taken away"
+    },
+    "deletewhitelist": {
+        "noConfig": "`⛔|` *Not configured.*",
+        "all": "all",
+        "noCommand": "`❌|` Command not found, only the command name is accepted, not its aliases.",
+        "commandImport": "⚠| This command belongs to an important category.",
+        "noUser": "`❌|` The user, role, or channel was not found.",
+        "noList": "`❌|` This command is not in the list.",
+        "title": "✅| Command removed from list on this server.",
+        "fieldAll": "Amount of commands removed:",
+        "fieldCom": "Command:",
+        "for": "For:"
+    },
+    "setcolor": {
+        "noValid": "`❌|` Invalid color.",
+        "title": "✅| Assigned custom color",
+        "change": "Switched to:"
+    },
+    "setlanguage": {
+        "noLang": "`❌|` You did not set the language to be set for the channel.",
+        "noLanguage": "`⛔|` This language does not exist, use `{prefix}setlanguage help` to know the available languages.",
+        "title": "✅| Language of the assigned server.",
+        "titleC": "✅| Language of the assigned channel.",
+        "change": "Switched to:"
+    },
+    "setprefix": {
+        "title": "✅| Assigned custom prefix",
+        "change": "Switched to:"
+    },
+    "setredirect": {
+        "noChannel": "`❌|` Channel not found.",
+        "messageDefault": "**You have leveled up, *{user_name}***",
+        "title": "✅| Message channel for assigned level up.",
+        "channel": "Channel:",
+        "message": "Message:"
+    }
+}

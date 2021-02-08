@@ -20,6 +20,10 @@
             "No lo sé Rick"
         ]
     },
+    "achievement": {
+        "error": "❌ | Ocurrió un error inesperado. Avísanos con `bugreport` para poderlo solucionar.",
+        "text": "Logro Desbloqueado"
+    },
     "cat": {
         "title": "Gato Random 🐱"
     },
@@ -51,6 +55,9 @@
         "descripcion": "Descripción:",
         "popular": "Popularidad",
         "votos": "Votos Positivos:",
-        "confirmacion": "✅ Punto sumado a {waifu}."
+        "confirmacion": "✅ Voto {vote} para {waifu} correctamente.",
+        "positivo": "positivo",
+        "negativo": "negativo",
+        "footer": "Puedes votar cada 24 horas."
     }
 }

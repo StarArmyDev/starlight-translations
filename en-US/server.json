@@ -1,6 +1,6 @@
 {
     "errores": {
-        "title": "❌ You do not have permission to use this command.",
+        "title": "`❌|` You do not have permission to use this command.",
         "perm": "Permission Required:",
         "permisos": {
             "ADMINISTRATOR": "Administrator",
@@ -57,20 +57,21 @@
         "agregado": "Aggregate"
     },
     "commandHandling": {
+        "noGuild": "*`⛔|` This command can only be used on one server.*",
         "noCommand": {
-            "title": "❌ Command not found",
+            "title": "❌| Command not found",
             "description": "The **{command}** command does not exist",
             "similitudes": "Similar commands:"
         },
-        "noPermCanal": "I am not allowed to send messages in:",
-        "noPermComandoCanal": "I am not allowed to send the command `{commandName}` in:",
+        "noPermCanal": "`⛔|` I am not allowed to send messages in:",
+        "noPermComandoCanal": "`⛔|` I am not allowed to send the command `{commandName}` in:",
         "disable": {
             "miembro": "*⛔ | This command is disabled on this server.*",
             "rol": "*⛔ | Command disabled for your role on this server.*",
             "canal": "*⛔ | Command disabled on this channel.*",
             "server": "*⛔ | Command disabled on this server.*"
         },
-        "comandoApagado": "This command is turned off by some update or temporary suspension.",
+        "comandoApagado": "`⛔|` This command is turned off by some update or temporary suspension.",
         "noDesarrollador": "Sorry, this command can only be executed by a Developer.",
         "noUso": "You do not have to add parameters",
         "embedHelp": {
@@ -86,8 +87,8 @@
             "apagado": "Global shutdown",
             "sinPermisos": "No permits required"
         },
-        "cooldown": "High! Wait `{time}` to use the command again `{commandName}` be patient.",
-        "error": "❌ There was an error trying to execute the command. You can report it with `{prefix}bugreport` or write me to DM."
+        "cooldown": "⚠ | Stop! Wait `{time}` to use the command again `{commandName}` be patient.",
+        "error": "`❌|` There was an error trying to execute the command. You can report it with `{prefix}bugreport` or write me to DM."
     },
     "subidaDeNivel": {
         "levelUp": "You Level Up!",
@@ -112,6 +113,7 @@
             "botMiembro": "I replaced the place:",
             "creado": "⏳ Bot Created Since"
         },
+        "messageDefault": "I hope you enjoy this community.",
         "imgWelcomeWoman": "Welcome to",
         "imgWelcomeMan": "Welcome to",
         "imgWelcomeDefault": "Welcome to",
@@ -125,6 +127,7 @@
         "fuera": "He went",
         "id": "Unique identifier:",
         "creado": "⏳ Bot Created Since:",
+        "messageDefault": "I hope we see you again.",
         "leaveImg": "Goodbye..."
     },
     "eliminar": {

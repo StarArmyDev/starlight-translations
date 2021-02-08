@@ -26,14 +26,14 @@
         "interaction": "🎁 Interacción",
         "expression": "🎭 Expresión",
         "music": "🎵  Música",
-        "game": "🎮 Videojuegos",
+        "videogame": "🎮 Videojuegos",
         "economy": "💵 Economía",
         "profile": "👥 Perfil",
         "developer": "👨‍💻 Desarrollador",
         "manager": "⚙ Administrador del bot",
         "masInfo": {
             "title": "¿Más información?",
-            "desc": "Usa: `{prefix}<comando\nhelp` para obtener la información individual del comando y sus parámetros esperados."
+            "desc": "Usa: `{prefix}<comando> help` para obtener la información individual del comando y sus parámetros esperados."
         },
         "links": {
             "title": "Links útiles",
@@ -72,7 +72,8 @@
     "ping": {
         "footer": "Virtual Private Machine",
         "espera": "*Calculando...*",
-        "descripcion": "Pong!\n📡 API: **{ping}ms.**\n⏳ Puerta de Enlace: {gateway} ms."
+        "description": "Pong!\n📡 API: {ping}.\n🗃 Base de datos: {db}.",
+        "descriptionGateway": "Pong!\n📡 API: {ping}.\n🗃 Base de datos: {db}.\n⏳ Puerta de Enlace: {gateway}."
     },
     "release": {
         "title": "Novedades de",

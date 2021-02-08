@@ -1,6 +1,6 @@
 {
     "errores": {
-        "title": "❌ No tienes permiso para usar este comando.",
+        "title": "`❌|` No tienes permiso para usar este comando.",
         "perm": "Permiso requerido:",
         "permisos": {
             "ADMINISTRATOR": "Administrador",
@@ -57,20 +57,21 @@
         "agregado": "Agregado"
     },
     "commandHandling": {
+        "noGuild": "*`⛔|` Este comando solo se puede usar en un servidor.*",
         "noCommand": {
-            "title": "❌ No se ha encontrado el comando",
+            "title": "❌| No se ha encontrado el comando",
             "description": "El comando **{command}** no existe",
             "similitudes": "Comandos similares:"
         },
-        "noPermCanal": "No tengo permitido enviar mensajes en:",
-        "noPermComandoCanal": "No tengo permitido enviar el comando `{commandName}` en:",
+        "noPermCanal": "`⛔|` No tengo permitido enviar mensajes en:",
+        "noPermComandoCanal": "`⛔|` No tengo permitido enviar el comando `{commandName}` en:",
         "disable": {
             "miembro": "*⛔ | Este comando lo tienes deshabilitado en este servidor.*",
             "rol": "*⛔ | Comando deshabilitado para tu rol en este servidor.*",
             "canal": "*⛔ | Comando deshabilitado en este canal.*",
             "server": "*⛔ | Comando deshabilitado en este servidor.*"
         },
-        "comandoApagado": "Este comando se encuentra apagado por alguna actualización o suspensión temporal.",
+        "comandoApagado": "`⛔|` Este comando se encuentra apagado por alguna actualización o suspensión temporal.",
         "noUso": "No tienes que agregar parámetros.",
         "embedHelp": {
             "title": "Ayuda de: {command}",
@@ -85,8 +86,8 @@
             "apagado": "Apagado global",
             "sinPermisos": "Sin permisos requeridos"
         },
-        "cooldown": "¡Para! Espere `{time}` para usar nuevamente el comando `{commandName}`. Sea paciente.",
-        "error": "❌ Hubo un error al intentar ejecutar el comando. Puedes reportarlo con `{prefix}bugreport` o escríbele por MD al creador."
+        "cooldown": "⚠ | ¡Para! Espere `{time}` para usar nuevamente el comando `{commandName}`. Sea paciente.",
+        "error": "`❌|` Hubo un error al intentar ejecutar el comando. Puedes reportarlo con `{prefix}bugreport` o escríbele por MD al creador."
     },
     "subidaDeNivel": {
         "levelUp": "¡Subiste de nivel!",
@@ -111,6 +112,7 @@
             "botMiembro": "Suplantó el lugar:",
             "creado": "⏳ Bot creado hace"
         },
+        "messageDefault": "Espero que disfrutes de esta comunidad.",
         "imgWelcomeWoman": "Bienvenida a",
         "imgWelcomeMan": "Bienvenido a",
         "imgWelcomeDefault": "Bienvenid@ a",
@@ -124,6 +126,7 @@
         "fuera": "Se fue",
         "id": "ID:",
         "creado": "⏳ Bot creado desde hace:",
+        "messageDefault": "Espero que te volvamos a ver.",
         "leaveImg": "Adiós..."
     },
     "eliminar": {
