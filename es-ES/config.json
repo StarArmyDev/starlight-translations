@@ -295,11 +295,12 @@
         "server": "todo el servidor"
     },
     "setcount": {
+        "noChannel": "`❌|` Canal no válido, revisa que sea un canal de texto.",
         "empezar": "¡Ya pueden empezar a contar desde el número 1!",
         "sigan": "¡Sigan contando desde el número",
-        "error": "`❌|` Ocurrió un error al asignar la descripción del canal, verifica que tengo los permisos suficientes.",
         "title": "✅ Canal para contar asignado.",
-        "desde": "Desde el número:"
+        "desde": "Desde el número:",
+        "channel": "Canal:"
     },
     "setimageleave": {
         "noChannel": "`❌|` Canal no válido, revisa que sea un canal del servidor.",
@@ -337,7 +338,8 @@
         "noChannel": "`❌|` Canal no válido, revisa que sea un canal de texto.",
         "title": "Canal de despedida asignado.",
         "channel": "Canal:",
-        "message": "Con el mensaje."
+        "message": "Con el mensaje.",
+        "noMessageSelect": "Sin mensaje."
     },
     "setlogs": {
         "noChannel": "`❌|` Canal no válido, revisa que sea un canal de texto.",
