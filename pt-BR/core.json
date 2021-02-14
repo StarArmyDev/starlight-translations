@@ -74,11 +74,6 @@
         "description": "Pong!\n📡 API: {ping}.\n🗃 Base de dados: {db}.",
         "descriptionGateway": "Pong!\n📡 API: {ping}.\n🗃 Base de dados: {db}.\n⏳ Porta de ligação: {gateway}."
     },
-    "release": {
-        "title": "Notícias de",
-        "descripcion": "**__Novo__**\n- ConfigXp: Com este comando você pode editar as propriedades que são definidas com o comando **activexp**.\n- ActiveXp: Uma nova propriedade `mode` foi adicionada que servirá para indicar se As funções são removidas quando recebem outra ou serão mantidas.\n- Argumentos: Agora os espaços vazios que existem entre as propriedades dos comandos serão eliminados, como `sl!activexp  10   50 `\n\n**__Alterações__**\n- ActiveXp: A forma como as propriedades opcionais são colocadas foi modificada, agora você deve colocar `--` como `sl!activexp 10 25 --cooldown 5m`. *No futuro, todas as propriedades opcionais serão deste tipo.*\n- Categorias: O nome de várias categorias que estavam em espanhol foi alterado, passando-as em inglês para seguir uma organização melhor.\n- FlipCoin: O nome do comando foi alterado de flicoin para **flipcoin** porque era um erro ortográfico.\n\n**__Correções__**\n- Código: Várias alterações internas foram feitas para melhorar os comandos, como interação e expressão.",
-        "footer": "Estas são as mudanças de versão {version} qualquer problema que você pode entrar no servidor de suporte. | Desenvolvido por {dev}."
-    },
     "stats": {
         "bot": "🤖 Informação do bot",
         "owner": "👑 Criador",

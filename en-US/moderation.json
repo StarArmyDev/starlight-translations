@@ -1,11 +1,5 @@
 {
-    "anuncio": {
-        "nada": "nothing",
-        "everyone": "(Mention:everyone)",
-        "here": "(Mention:here)",
-        "noEnviar": "You cannot write on the mentioned channel."
-    },
-    "aprobar": {
+    "approve": {
         "noBot": "`❌|`I do not have permissions to manage messages on this server.",
         "noSugerencias": "Suggestions channel not established",
         "noCanal": "Could not find the channel in the guild",
@@ -17,6 +11,12 @@
         "aprobadoPor": "Approved by",
         "siAprobada": "Suggestion Approved.",
         "error": "`❌|`An unexpected error occurred, it is likely that the message does not exist or the ID is incorrect."
+    },
+    "asay": {
+        "nada": "nothing",
+        "everyone": "(Mention:everyone)",
+        "here": "(Mention:here)",
+        "noEnviar": "You cannot write on the mentioned channel."
     },
     "ban": {
         "noBot": "`❌|`I don't have permission to ban on this server.",
@@ -33,7 +33,7 @@
         "noPrivado": "I cannot send a private message to the user.",
         "mod": "👮‍♂️ Moderator"
     },
-    "canales": {
+    "channels": {
         "noCanales": "There are no channels.",
         "title": "Guild Structure"
     },
@@ -46,11 +46,24 @@
         "descripcionUser": "Have been deleted `{messages}` user messages {miembro} in the channel {channel}",
         "error": "`❌|` You cannot delete messages longer than 14 days."
     },
-    "crearInvitacion": {
+    "createinvitation": {
         "noBot": "`❌|`I do not have permissions to create invitations on this server.",
         "title": "A permanent invitation to my name has been created",
         "mod": "👮‍♂️ Moderator",
         "invite": "Invitation"
+    },
+    "deny": {
+        "noBot": "`❌|`I do not have permissions to manage messages on this server.",
+        "noSugerencias": "Suggestions channel not established",
+        "noCanal": "Could not find the channel in the guild",
+        "noValidaID": "You did not provide a valid ID.",
+        "noRazon": "You did not provide a reason.",
+        "calificada": "Suggestion already qualified",
+        "title": "Rejected",
+        "votos": "Votes:",
+        "rechazadaPor": "Rejected by",
+        "siRechazar": "Suggestion Rejected.",
+        "error": "`❌|`An unexpected error occurred, it is likely that the message does not exist or the ID is incorrect."
     },
     "hackban": {
         "noBot": "`❌|`I don't have permission to ban on this server.",
@@ -100,7 +113,13 @@
         "mod": "👮‍♂️ Moderator",
         "error": "🚫 An error occurred while creating the role, verify that you have the necessary permissions."
     },
-    "potencial": {
+    "poll": {
+        "noPregunta": "Add a question for the survey.",
+        "help": "Incorrect, add at least two options. `{prefix}poll <question> | <option 1> | <option 2> | [option 3] | [option 4] | [option 5] | [option 6] | [option 7] | [option 8]`",
+        "encuesta": "Poll",
+        "op": "Option"
+    },
+    "potential": {
         "noBot": "`❌|`I do not have permissions to manage messages on this server.",
         "noSugerencias": "Suggestions channel not established",
         "noCanal": "Could not find the channel in the guild",
@@ -111,19 +130,6 @@
         "votos": "Votes:",
         "calificadaPor": "Qualified by",
         "siPotencial": "Suggestion put in Potential.",
-        "error": "`❌|`An unexpected error occurred, it is likely that the message does not exist or the ID is incorrect."
-    },
-    "rechazar": {
-        "noBot": "`❌|`I do not have permissions to manage messages on this server.",
-        "noSugerencias": "Suggestions channel not established",
-        "noCanal": "Could not find the channel in the guild",
-        "noValidaID": "You did not provide a valid ID.",
-        "noRazon": "You did not provide a reason.",
-        "calificada": "Suggestion already qualified",
-        "title": "Rejected",
-        "votos": "Votes:",
-        "rechazadaPor": "Rejected by",
-        "siRechazar": "Suggestion Rejected.",
         "error": "`❌|`An unexpected error occurred, it is likely that the message does not exist or the ID is incorrect."
     },
     "unban": {

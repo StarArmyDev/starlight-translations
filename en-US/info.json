@@ -1,6 +1,7 @@
 {
     "avatar": {
-        "title": "Avatar of"
+        "title": "Avatar of",
+        "noUser": "`❌|` The named user was not found."
     },
     "emoji": {
         "noEmoji": "Emoji not found or not available.",
@@ -25,7 +26,7 @@
         }
     },
     "roleinfo": {
-        "noRol": "Role not found or invalid",
+        "noRol": "`❌|` Role not found or invalid",
         "title": "Role information",
         "nombre": "Name",
         "id": "🆔 Unique identifier",
@@ -78,7 +79,7 @@
         "traductor": " Translator"
     },
     "user": {
-        "noUser": "User not found or invalid",
+        "noUser": "`❌|` User not found or invalid",
         "estados": {
             "online": "Online",
             "dnd": "Do not bother",

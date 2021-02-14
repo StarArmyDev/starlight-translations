@@ -4,12 +4,6 @@
         "mencionH": "(Mention:here)",
         "mensaje": "You have established your afk status with the reason: `{razon}`"
     },
-    "poll": {
-        "noPregunta": "Add a question for the survey.",
-        "help": "Incorrect, add at least two options. `{prefix}poll <question> | <option 1> | <option 2> | [option 3] | [option 4] | [option 5] | [option 6] | [option 7] | [option 8]`",
-        "encuesta": "Poll",
-        "op": "Option"
-    },
     "remember": {
         "años": "years",
         "año": "year",

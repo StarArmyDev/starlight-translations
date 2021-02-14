@@ -1,6 +1,7 @@
 {
     "avatar": {
-        "title": "Avatar de"
+        "title": "Avatar de",
+        "noUser": "`❌|` No se encontró al usuario mencionado."
     },
     "emoji": {
         "noEmoji": "Emoji no encontrado o no disponible.",
@@ -25,7 +26,7 @@
         }
     },
     "roleinfo": {
-        "noRol": "Rol no encontrado o no válido.",
+        "noRol": "`❌|` Rol no encontrado o no válido.",
         "title": "Información de Rol",
         "nombre": "Nombre",
         "id": "🆔 ID",
@@ -78,7 +79,7 @@
         "traductor": " Traductor"
     },
     "user": {
-        "noUser": "Usuario no encontrado o no válido",
+        "noUser": "`❌|` No se encontró al usuario mencionado.",
         "estados": {
             "online": "En Línea",
             "dnd": "No Molestar",

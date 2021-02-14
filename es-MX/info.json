@@ -1,6 +1,7 @@
 {
     "avatar": {
-        "title": "Avatar de"
+        "title": "Avatar de",
+        "noUser": "`❌|` No se encontró al usuario mencionado."
     },
     "emoji": {
         "noEmoji": "Emoji no encontrado o no disponible.",
@@ -78,7 +79,7 @@
         "traductor": " Traductor"
     },
     "user": {
-        "noUser": "Usuario no encontrado o inválido",
+        "noUser": "`❌|` No se encontró al usuario mencionado.",
         "estados": {
             "online": "En Línea",
             "dnd": "No Molestar",

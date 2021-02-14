@@ -4,12 +4,6 @@
         "mencionH": "(Mención:here)",
         "mensaje": "Ha establecido su estado AFK con la razón: `{razon}`."
     },
-    "poll": {
-        "noPregunta": "Agregue una pregunta para la encuesta.",
-        "help": "Incorrecto, agregue mínimo dos opciones. `{prefix}encuesta <pregunta> | <opción 1> | <opción 2> | [opción 3] | [opción 4] | [opción 5] | [opción 6] | [opción 7] | [opción 8]`",
-        "encuesta": "Encuesta",
-        "op": "Opción"
-    },
     "remember": {
         "años": "años",
         "año": "año",

@@ -1,11 +1,5 @@
 {
-    "anuncio": {
-        "nada": "nada",
-        "everyone": "(Mención:everyone)",
-        "here": "(Mención:here)",
-        "noEnviar": "No puedes escribir en el canal mencionado."
-    },
-    "aprobar": {
+    "approve": {
         "noBot": "`❌|`No tengo permisos de gestionar mensajes en este servidor.",
         "noSugerencias": "No está establecido el canal de sugerencias.",
         "noCanal": "No se pudo encontrar el canal en el servidor.",
@@ -17,6 +11,12 @@
         "aprobadoPor": "Aprobada por",
         "siAprobada": "Sugerencia aprobada.",
         "error": "`❌|`Ocurrió un error inesperado, es probable que el mensaje no exista o la ID sea incorrecta."
+    },
+    "asay": {
+        "nada": "nada",
+        "everyone": "(Mención:everyone)",
+        "here": "(Mención:here)",
+        "noEnviar": "No puedes escribir en el canal mencionado."
     },
     "ban": {
         "noBot": "`❌|`No tengo permisos de banear en este servidor.",
@@ -33,7 +33,7 @@
         "noPrivado": "No puedo enviar mensajes privados al usuario.",
         "mod": "👮‍♂️ Moderador"
     },
-    "canales": {
+    "channels": {
         "noCanales": "No hay canales.",
         "title": "Estructura del servidor"
     },
@@ -46,11 +46,24 @@
         "descripcionUser": "Se han borrado `{messages}` mensajes de {miembro} en {channel}.",
         "error": "`❌|` No se pueden borrar mensajes de más de 14 días de antigüedad."
     },
-    "crearInvitacion": {
+    "createinvitation": {
         "noBot": "`❌|`No tengo permiso de crear invitaciones en este servidor.",
         "title": "Se ha creado una invitación permanente a mi nombre.",
         "mod": "👮‍♂️ Moderador",
         "invite": "Invitación"
+    },
+    "deny": {
+        "noBot": "`❌|`No tengo permiso de gestionar mensajes en este servidor.",
+        "noSugerencias": "No está establecido el canal de sugerencias.",
+        "noCanal": "No se pudo encontrar el canal en el servidor.",
+        "noValidaID": "No proporcionaste una ID válida.",
+        "noRazon": "No proporcionaste una razón.",
+        "calificada": "Sugerencia ya calificada.",
+        "title": "Rechazada",
+        "votos": "Votos:",
+        "rechazadaPor": "Rechazada por",
+        "siRechazar": "Sugerencia rechazada.",
+        "error": "`❌|`Ocurrió un error inesperado, es probable que el mensaje no exista o la ID sea incorrecta."
     },
     "hackban": {
         "noBot": "`❌|`No tengo permisos de banear en este servidor.",
@@ -100,7 +113,13 @@
         "mod": "👮‍♂️ Moderador",
         "error": "🚫 Ocurrió un error al crear el rol, verifica que tenga los permisos necesarios."
     },
-    "potencial": {
+    "poll": {
+        "noPregunta": "Agregue una pregunta para la encuesta.",
+        "help": "Incorrecto, agregue mínimo dos opciones. `{prefix}encuesta <pregunta> | <opción 1> | <opción 2> | [opción 3] | [opción 4] | [opción 5] | [opción 6] | [opción 7] | [opción 8]`",
+        "encuesta": "Encuesta",
+        "op": "Opción"
+    },
+    "potential": {
         "noBot": "`❌|`No tengo permiso de gestionar mensajes en este servidor.",
         "noSugerencias": "No está establecido el canal de sugerencias.",
         "noCanal": "No se pudo encontrar el canal en el servidor.",
@@ -111,19 +130,6 @@
         "votos": "Votos:",
         "calificadaPor": "Calificada por",
         "siPotencial": "Sugerencia marcada como potencial.",
-        "error": "`❌|`Ocurrió un error inesperado, es probable que el mensaje no exista o la ID sea incorrecta."
-    },
-    "rechazar": {
-        "noBot": "`❌|`No tengo permiso de gestionar mensajes en este servidor.",
-        "noSugerencias": "No está establecido el canal de sugerencias.",
-        "noCanal": "No se pudo encontrar el canal en el servidor.",
-        "noValidaID": "No proporcionaste una ID válida.",
-        "noRazon": "No proporcionaste una razón.",
-        "calificada": "Sugerencia ya calificada.",
-        "title": "Rechazada",
-        "votos": "Votos:",
-        "rechazadaPor": "Rechazada por",
-        "siRechazar": "Sugerencia rechazada.",
         "error": "`❌|`Ocurrió un error inesperado, es probable que el mensaje no exista o la ID sea incorrecta."
     },
     "unban": {
