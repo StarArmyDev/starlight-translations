@@ -3,10 +3,17 @@
         "noPerfil": "`❌|` Este usuario no tiene un perfil.",
         "noAchievement": "`❌|` Este usuario no cuenta con logros.",
         "nombre": "Nombre:",
-        "ponits": "Nivel:",
+        "points": "Puntos:",
         "categoria": "Categoría:",
         "title": "Logros ganados",
         "obtenido": "Obtenido el:"
+    },
+    "badge": {
+        "noPerfil": "`❌|` Este usuario no tiene un perfil.",
+        "noAchievement": "`❌|` Este usuario no cuenta con medallas.",
+        "nombre": "Nombre:",
+        "categoria": "Categoría:",
+        "title": "Medallas ganadas"
     },
     "divorce": {
         "autoMencion": "Oye, aquí no hacemos eso.",
@@ -110,7 +117,7 @@
         },
         "birthday": {
             "birthday": "cumpleaños",
-            "noValido": "Fecha muy larga. Ejemplo: 08-12",
+            "noValido": "Fecha muy larga. Ejemplo: 20-12",
             "siCumple": "`✅|` Cumpleaños establecido."
         },
         "medalla": {
@@ -120,7 +127,7 @@
             "noNum": "`❌|` Este dato no es un número o es un número no válido.",
             "noLugar": "`❌|` Lugar no válido, solamente puedes colocar \"1\", \"2\" o \"3\".",
             "noMedalla": "`❌|` Logro no encontrado o no válida.",
-            "siMedalla": "`✅|` Logro colocada correctamente."
+            "siMedalla": "`✅|` Logro colocado correctamente."
         },
         "insignia": {
             "insignia": "insignias",

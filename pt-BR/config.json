@@ -127,7 +127,7 @@
         "noCanal": "❌ | Canal inválido, verifique se é um canal de texto ou categoria.",
         "title": "✅ | Canal excluído da experiência removido"
     },
-    "deleterollevelup": {
+    "deleterolelevelup": {
         "noConfig": "❌ | Não há funções configuradas neste servidor.",
         "noRol": "❌ | Parece que esta função não existe no banco de dados.",
         "true": "✅ Função removida com sucesso."

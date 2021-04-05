@@ -58,7 +58,7 @@
         "noEscribir": "No puedes escribir en el canal mencionado."
     },
     "selfrole": {
-        "noConfig": "❌ | No hay roles autoasignables configurados.\n\n⚙ Puede configurarlo un administrador con el comando `addautorol`.",
+        "noConfig": "❌ | No hay roles autoasignables configurados.\n\n⚙ Puede configurarlo un administrador con el comando `addselftrole`.",
         "title": "Coloca el número correspondiente",
         "rolesColores": "[1] Roles de color",
         "rolesPerson1": "[1] Roles personalizados",

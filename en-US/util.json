@@ -58,7 +58,7 @@
         "noEscribir": "You cannot write on the mentioned channel."
     },
     "selfrole": {
-        "noConfig": "❌ | There are no auto-assignable roles configured.\n\n⚙ You can configure an admin with the command `addautorole`",
+        "noConfig": "❌ | There are no auto-assignable roles configured.\n\n⚙ You can configure an admin with the command `addselftrole`",
         "title": "Enter the corresponding number",
         "rolesColores": "[1] Color Roles",
         "rolesPerson1": "[1] Custom Roles",

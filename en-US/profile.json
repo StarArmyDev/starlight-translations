@@ -3,10 +3,17 @@
         "noPerfil": "`❌|` This user does not have a profile.",
         "noAchievement": "`❌|` This user does not have achievements.",
         "nombre": "Name:",
-        "ponts": "Level:",
+        "points": "Points:",
         "categoria": "Category:",
         "title": "Achievement Earned",
         "obtenido": "Obtained on:"
+    },
+    "badge": {
+        "noPerfil": "`❌|` Este usuario no tiene un perfil.",
+        "noAchievement": "`❌|` Este usuario no cuenta con medallas.",
+        "nombre": "Nombre:",
+        "categoria": "Categoría:",
+        "title": "Medallas ganadas"
     },
     "divorce": {
         "autoMencion": "Hey, we don't do that here",
@@ -110,7 +117,7 @@
         },
         "birthday": {
             "birthday": "birthday",
-            "noValido": "Very long date. Example: 08-12",
+            "noValido": "Very long date. Example: 20-12",
             "siCumple": "`✅|` Birthday set"
         },
         "medalla": {
@@ -119,8 +126,8 @@
             "help": "Use `{prefix}editprofile badge <name|id> <posición>` they both expect a number.",
             "noNum": "`❌|` This data is not a number or it is an invalid number",
             "noLugar": "`❌|` Invalid place, you can only place 1, 2 or 3",
-            "noMedalla": "`❌|` Badge not found or invalid.",
-            "siMedalla": "`✅|` Correctly placed badge."
+            "noMedalla": "`❌|` achievement not found or invalid.",
+            "siMedalla": "`✅|` Correctly placed achievement."
         },
         "insignia": {
             "insignia": "ensign",

@@ -1,5 +1,5 @@
 {
-    "delet": {
+    "delete": {
         "welcome": {
             "welcome": "bienvenida",
             "noConfig": "No tienes configurado ningún canal.",
@@ -100,7 +100,9 @@
             "noRol": "`❌|` Rol no encontrado.",
             "title": "Autorol eliminado del grupo.",
             "rol": "Rol quitado:"
-        }
+        },
+        "quitado": "Quitado:",
+        "noModo": "`❌|` Ese modo no existe."
     },
     "activexp": {
         "noNumber": "`❌|` No has colocado números válidos.",
@@ -272,7 +274,7 @@
         "noCanal": "`❌|` Canal no válido, revisa que sea un canal de texto o de categoría.",
         "title": "✅ | Canal excluido de experiencia quitado"
     },
-    "deleterollevelup": {
+    "deleterolelevelup": {
         "noConfig": "`❌|` No existen roles configurados en este servidor.",
         "noRol": "`❌|` Parece que no existe ese rol en la base de datos.",
         "true": "✅ Rol removido con éxito."
