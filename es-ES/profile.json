@@ -34,36 +34,6 @@
         "noDivorcio": "Lamentablemente *(o afortunadamente)*, {miembro} no acepta esta decisión. Deberías hablarle primero y hacer que esto funcione. :3",
         "noTiempo": "Ha tardado en responder... tal vez se enfadó *- corre -*."
     },
-    "levels": {
-        "noConfig": "`❌|` Este servidor no cuenta con niveles configurados.",
-        "nivel": "Nivel:",
-        "title": "Niveles de",
-        "paginas": "Página {count} de {countDB}"
-    },
-    "marry": {
-        "noUser": "`❌|` Usuario no encontrado.",
-        "autoMencion": "`❌|` Oye, aquí no hacemos eso.",
-        "isBot": "`❌|` La sociedad no puede permitir relaciones con máquinas... además de que no te puede contestar que sí.",
-        "noPerfil": "`❌|` El usuario mencionado no cuenta con un perfil, dile que use un comando para crearlo.",
-        "casadoUser": "`❌|` Oye, oye... este usuario ya está casado.",
-        "casado": "`❌|` ¡Ya estás casado!",
-        "mensaje": "{miembro}, ¿aceptas a {author} como tu {genero} en la salud y en la enfermedad, en la riqueza y en la pobreza, con internet y sin internet hasta que el Wi-Fi los separe?\n__*Tiene 60 segundos para responder \"sí\" o \"no\".*__",
-        "hombre": "legítimo esposo",
-        "mujer": "legítima esposa",
-        "otro": "legítim@ espos@",
-        "si": "si",
-        "no": "no",
-        "maridos": "Los declaro marido y mujer. <3",
-        "casados": "`✅|` Por el poder que se me fue otorgado por Discord y con todo el servidor de testigo, ",
-        "noCasados": "`❌|` Lamentablemente, {miembro} ha rechazado la propuesta de matrimonio y ha huido del servidor.",
-        "noTiempo": "`⏳|` Ha tardado en responder... eso no parece ser una buena señal."
-    },
-    "rank": {
-        "global": "Global",
-        "server": "Servidor",
-        "s": "s",
-        "noPerfil": "Este usuario no tiene un perfil o el servidor no tiene activado el sistema de XP."
-    },
     "editprofile": {
         "noPerfil": "Este usuario no tiene un perfil.",
         "noModo": "`❌|` Modo no encontrado.",
@@ -139,6 +109,36 @@
             "noIngsinia": "`❌|` Insignia no encontrada o no válida.",
             "siIngsinia": "`✅|` Insignia colocada correctamente."
         }
+    },
+    "levels": {
+        "noConfig": "`❌|` Este servidor no cuenta con niveles configurados.",
+        "nivel": "Nivel:",
+        "title": "Niveles de",
+        "paginas": "Página {count} de {countDB}"
+    },
+    "marry": {
+        "noUser": "`❌|` Usuario no encontrado.",
+        "autoMencion": "`❌|` Oye, aquí no hacemos eso.",
+        "isBot": "`❌|` La sociedad no puede permitir relaciones con máquinas... además de que no te puede contestar que sí.",
+        "noPerfil": "`❌|` El usuario mencionado no cuenta con un perfil, dile que use un comando para crearlo.",
+        "casadoUser": "`❌|` Oye, oye... este usuario ya está casado.",
+        "casado": "`❌|` ¡Ya estás casado!",
+        "mensaje": "{miembro}, ¿aceptas a {author} como tu {genero} en la salud y en la enfermedad, en la riqueza y en la pobreza, con internet y sin internet hasta que el Wi-Fi los separe?\n__*Tiene 60 segundos para responder \"sí\" o \"no\".*__",
+        "hombre": "legítimo esposo",
+        "mujer": "legítima esposa",
+        "otro": "legítim@ espos@",
+        "si": "si",
+        "no": "no",
+        "maridos": "Los declaro marido y mujer. <3",
+        "casados": "`✅|` Por el poder que se me fue otorgado por Discord y con todo el servidor de testigo, ",
+        "noCasados": "`❌|` Lamentablemente, {miembro} ha rechazado la propuesta de matrimonio y ha huido del servidor.",
+        "noTiempo": "`⏳|` Ha tardado en responder... eso no parece ser una buena señal."
+    },
+    "rank": {
+        "global": "Global",
+        "server": "Servidor",
+        "s": "s",
+        "noPerfil": "Este usuario no tiene un perfil o el servidor no tiene activado el sistema de XP."
     },
     "profile": {
         "noPerfil": "Este usuario no tiene un perfil.",

@@ -40,12 +40,12 @@
         "titulo": {
             "titulo": "título",
             "noTitulo": "Necesitas poner una sola palabra para el nuevo título.",
-            "siTitulo": "`✅|` Se actulaizó el título `{nuevoTitulo}` correctamente."
+            "siTitulo": "`✅|` Se actualizó el título `{nuevoTitulo}` correctamente."
         },
         "info": {
             "info": "info",
             "noInfo": "Necesitas poner algo para la nueva información.",
-            "siInfo": "`✅|` Se actulizó la información correctamente por"
+            "siInfo": "`✅|` Se actualizó la información correctamente por"
         },
         "fondos": {
             "noBG": "`❌|` No cuentas con temas.",
@@ -78,7 +78,7 @@
             "hombre": "hombre",
             "mujer": "mujer",
             "noGenero": "Género inválido. Solamente \"hombre\" o \"mujer\".",
-            "siGenero": "`✅|` Se actulizó el género correctamente por"
+            "siGenero": "`✅|` Se actualizó el género correctamente por"
         },
         "pais": {
             "pais": "pais",

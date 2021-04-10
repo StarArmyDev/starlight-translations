@@ -7,10 +7,19 @@
         "total": "💰 Total",
         "mult": "Multiplier"
     },
+    "buy": {
+        "bloqueado": "You have the economy blocked.Contact the support server to appeal.",
+        "noItem": "Item `{item}` does not exist.Verify the name.",
+        "noItemShop": "This object can not be purchased, it may be collection.",
+        "yaFondo": "You already have this background.",
+        "noMoney": "You do not have enough money, you lack `{faltante}` starcoins to be able to buy `{cantidad}` from {item}.",
+        "title": "Buying objects of {tienda}",
+        "descripcion": "You have bought `{cantidad}` from {emoji} {nombre} by `{costo}` starcoins."
+    },
     "crime": {
         "title": "🕵️‍♂️ Crime",
         "bloqueado": "You have the Economy Locked. Contact the support server to appeal.",
-        "crime": "You have received {crime} for stealing from the owner, correeee",
+        "crime": "You have received {money} for stealing from the owner, correeee",
         "noCrime": "❌ It seems you don't know how to quietly enter the places and they took you away {money} starcoins.",
         "error": "❌ Sorry, it seems that there was an error adding the money. We are working to repair it."
     },
@@ -61,31 +70,20 @@
         "noMensaje": "❌ The law struck you by surprise and took you away {money}, besides they gave half of that to {miembro} for the incident.",
         "error": "❌ Sorry, it seems there was an error. We are working to repair it."
     },
+    "sell": {
+        "bloqueado": "You have the economy blocked.Contact the support server to appeal.",
+        "noItemShop": "This object can not be sold, it may be collection.",
+        "noItemInv": "Do not tell the item: `{item}`.",
+        "noCantidad": "You do not have enough items to sell, only accounts with`{cantidad}`.",
+        "title": "Sale of {tienda}.",
+        "descripcion": "You've sold `{cantidad}` from {emoji} {nombre} by `{costo}` starcoins."
+    },
     "shop": {
         "title": "Store of {tienda}",
-        "descripcion": "To buy items you have to use `{prefix}shop buy <item> [quantity]`. To sell items use `{prefix}shop [guild] sell <item> [quantity]`\nSymbology:\n📥Purchase\n📤Sale",
+        "descripcion": "To buy items you have to use `{prefix}buy <item> [quantity]`. To sell items use `{prefix}sell <item> [quantity]`\nSymbology:\n📥Purchase\n📤Sale",
         "noTienda": "Store Not Found or Not Available.",
         "bloqueado": "You have the Economy Locked. Contact the support guild to appeal.",
         "suspencion": "Currently, the store items are located suspended. Use `{prefix}shop backgrounds` to view and purchase funds to your profile.",
-        "buy": {
-            "buy": "purchase",
-            "help": "Place the name of the item to buy. Uses: `{prefix}shop [guild] buy <item> [quantity]`",
-            "noItem": "Item `{item}` does not exist. Verify the name.",
-            "noItemShop": "This item cannot be purchased, it may be collectible.",
-            "noMoney": "You don't have enough money, you lack `{faltante}` starcoins to be able to buy `{cantidad}` from {item}.",
-            "title": "Purchase of Objects of {tienda}",
-            "descripcion": "Has comprado `{cantidad}` from {emoji} {nombre} by `{costo}` starcoins."
-        },
-        "sell": {
-            "sell": "trade",
-            "help": "Place the name of the item to sell. Uses: `{prefix}shop [guild] sell <item> [quantity]`",
-            "noItemInv": "You do not have the item: `{item}`",
-            "noItemShop": "This item cannot be sold, it may be collectible.",
-            "noCantidad": "You do not have enough items to sell, you only have `{cantidad}`",
-            "yaFondo": "You already have this background.",
-            "title": "Sale of Objects of {tienda}",
-            "descripcion": "You've sold `{cantidad}` from {emoji} {nombre} by `{costo}` starcoins."
-        },
         "fondos": {
             "fondos": "backdrops",
             "p": "🖼 Main Background:",

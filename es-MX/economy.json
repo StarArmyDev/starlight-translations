@@ -7,10 +7,19 @@
         "total": "💰 Total",
         "mult": "Multiplicador"
     },
+    "buy": {
+        "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",
+        "noItem": "Ítem `{item}` no existe. Verifica el nombre.",
+        "noItemShop": "Este objeto no se puede comprar, puede que sea de colección.",
+        "yaFondo": "Ya tienes este fondo.",
+        "noMoney": "No cuentas con el dinero suficiente, te falta `{faltante}` starcoins para poder comprar `{cantidad}` de {item}.",
+        "title": "Compra de objetos de {tienda}",
+        "descripcion": "Has comprado `{cantidad}` de {emoji} {nombre} por `{costo}` starcoins."
+    },
     "crime": {
         "title": "🕵️‍♂️ Crimen",
         "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",
-        "crime": "Has recibido {crime} por robarle al owner, ¡correeee!",
+        "crime": "Has recibido {money} por robarle al owner, ¡correeee!",
         "noCrime": "❌ Parece que no sabes entrar silenciosamente a los lugares y te quitaron {money} starcoins.",
         "error": "❌ Ocurrió un error inesperado. Avísanos con `bugreport` para poderlo solucionar."
     },
@@ -62,31 +71,20 @@
         "noMensaje": "❌ La ley te cayó de sorpresa y te quitó {money}, además de que le dieron la mitad de eso a {miembro} por el incidente.",
         "error": "❌ Ocurrió un error inesperado. Avísanos con `bugreport` para poderlo solucionar."
     },
+    "sell": {
+        "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",
+        "noItemShop": "Este objeto no se puede vender, puede que sea de colección.",
+        "noItemInv": "No cuentas con el ítem: `{item}`.",
+        "noCantidad": "No cuentas con los items suficientes para vender, solamente cuentas con`{cantidad}`.",
+        "title": "Venta de Objetos de {tienda}.",
+        "descripcion": "Has vendido `{cantidad}` de {emoji} {nombre} por `{costo}` starcoins."
+    },
     "shop": {
         "title": "Tienda de {tienda}",
-        "descripcion": "Para comprar ítems tienes que usar `{prefix}shop buy <ítem> [cantidad]`. Para vender ítems usa `{prefix}shop [server] sell <ítem> [cantidad]`\nSimbología:\n📥Compra\n📤Venta",
+        "descripcion": "Para comprar ítems tienes que usar `{prefix}buy <ítem> [cantidad]`. Para vender ítems usa `{prefix}sell <ítem> [cantidad]`\nSimbología:\n📥Compra\n📤Venta",
         "noTienda": "Tienda no encontrada o no disponible.",
         "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",
         "suspencion": "Actualmente la tienda de ítems se encentra suspendida. Usa `{prefix}shop fondos` para ver y comprar fondos para tu perfil.",
-        "buy": {
-            "buy": "comprar",
-            "help": "Coloca el nombre del ítem a comprar. Usa: `{prefix}shop [server] buy <ítem> [cantidad]`.",
-            "noItem": "Ítem `{item}` no existe. Verifica el nombre.",
-            "noItemShop": "Este objeto no se puede comprar, puede que sea de colección.",
-            "noMoney": "No cuentas con el dinero suficiente, te falta `{faltante}` starcoins para poder comprar `{cantidad}` de {item}.",
-            "title": "Compra de objetos de {tienda}",
-            "descripcion": "Has comprado `{cantidad}` de {emoji} {nombre} por `{costo}` starcoins."
-        },
-        "sell": {
-            "sell": "vender",
-            "help": "Coloca el nombre del ítem a vender. Usa: `{prefix}shop [server] sell <ítem> [cantidad]`.",
-            "noItemInv": "No cuentas con el ítem: `{item}`.",
-            "noItemShop": "Este objeto no se puede vender, puede que sea de colección.",
-            "noCantidad": "No cuentas con los items suficientes para vender, solamente cuentas con`{cantidad}`.",
-            "yaFondo": "Ya tienes este fondo.",
-            "title": "Venta de Objetos de {tienda}.",
-            "descripcion": "Has vendido `{cantidad}` de {emoji} {nombre} por `{costo}` starcoins."
-        },
         "fondos": {
             "fondos": "fondos",
             "p": "🖼 Fondo Principal:",
