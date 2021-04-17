@@ -95,57 +95,6 @@
         "mensaje": "**Has subido de nivel, *{user_name}*.**"
     },
     "terminamute": "**{usuario} terminó tu tiempo silenciado.**",
-    "welcome": {
-        "autoRolesRazon": "Autoroles bienvenida.",
-        "embed": {
-            "mensaje": "¡Nuevo miembro!",
-            "mensajeEmbed": "Hola, bienvenid@.",
-            "si": "Sí.",
-            "no": "No.",
-            "bienvenido": "¡Bienvenido!",
-            "nombre": "Nombre:",
-            "bot": "¡Tenemos a un nuevo bot!",
-            "id": "ID:",
-            "esBot": "¿Bot?",
-            "server": "Servidor:",
-            "miembro": "Eres el miembro:",
-            "botMiembro": "Suplantó el lugar:",
-            "creado": "⏳ Bot creado hace"
-        },
-        "messageDefault": "Espero que disfrutes de esta comunidad.",
-        "imgWelcomeWoman": "Bienvenida a",
-        "imgWelcomeMan": "Bienvenido a",
-        "imgWelcomeDefault": "Bienvenid@ a",
-        "reTitle": "Comprobación de seguridad",
-        "rePrecaucion": "⚠[PRECAUCIÓN]⚠ Cuenta recién creada:",
-        "reCreado": "⏳ Creó su cuenta hace:",
-        "terminamute": "**{usuario} terminó tu tiempo silenciado.**"
-    },
-    "leave": {
-        "botFuera": "Un bot fue expulsado:",
-        "fuera": "Se fue",
-        "id": "ID:",
-        "creado": "⏳ Bot creado desde hace:",
-        "messageDefault": "Espero que te volvamos a ver.",
-        "leaveImg": "Adiós..."
-    },
-    "eliminar": {
-        "embed": "Embed eliminado:",
-        "title": "Mensaje eliminado",
-        "elimino": "**eliminó un mensaje**",
-        "de": "**de:**",
-        "decia": "Decía:",
-        "continua": "Continuación (mensaje largo)",
-        "canal": "Canal origen:"
-    },
-    "edit": {
-        "title": "Mensaje editado:",
-        "edito": "**editó un mensaje:**",
-        "decia": "Decía:",
-        "ahoraDice": "Ahora díce:",
-        "continua": "Continuación (mensaje largo)",
-        "canal": "Canal origen:"
-    },
     "ban": {
         "noAudit": "Sin permiso para leer el registro de auditoría.",
         "title": "Miembro baneado",

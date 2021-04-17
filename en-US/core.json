@@ -77,7 +77,7 @@
     },
     "release": {
         "title": "News from",
-        "descripcion": "**__New__**\n- Delete: This command was added to delete the configuration of what is assigned in the *config* category.\n\n**__Changes__**\n- Crime: The name was changed from `crimen` to` crime` and it was changed to aliases since it did not recognize translations for this.\n- Avatar: Now it is less likely that a user will not be found and it is notified if it was not found.\n\n**__Fixes__**\n- AddExcludeLogs: Fixed messages not being sent due to errors in the implementation of translations.\n- DeactiveXP: Fixed point data going wrong in the embed.\n- SetSuggestions: `potencial_` property changed to `potential_` which prevented the correct saving of the channel for potential suggestions.\n- ServerInfo: The owner will always be shown.\n- Translate: Now the translation will be shown in an embed thus avoiding mentions and will return the help embed in case no arguments are passed.\n- User: Now the user data is displayed correctly if the command is used on a server.\n- Top: The list of users was limited, hoping that I did not block the bot on large servers.\n- Welcome and Goodbye: It was fixed that the messages did not get out when joining or leaving the server.",
+        "descripcion": "__...__",
         "footer": "These are the changes of the version {version} any problem you can enter the support server. | Developed by {dev}."
     },
     "stats": {

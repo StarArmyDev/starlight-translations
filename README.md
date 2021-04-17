@@ -4,8 +4,8 @@ Los idiomas serán añadidos conforme existan traductores, a lo que actualmente 
 
 | Idioma | Traductor Inicial | Colaboradores |    Estado    | Notas                          |
 | :----: | :---------------- | :------------ | :----------: | :----------------------------- |
-| es-MX  | DavichoStar       |               |   Revisar    | Idioma Nativo                  |
-| es-ES  | XtoMHA96          |               | Perfeccionar |                                |
+| es-MX  | DavichoStar       |               |              | Idioma Nativo                  |
+| es-ES  | XtoMHA96          |               |              |                                |
 | en-US  |                   |               |   Revisar    | Traducido con Google Traductor |
 | pt-BR  | Théo              |               | En progreso  |                                |
 

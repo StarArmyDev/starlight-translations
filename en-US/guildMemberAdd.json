@@ -1,0 +1,29 @@
+{
+    "autoRolesRazon": "Auto-roles Welcome",
+    "embed": {
+        "mensaje": "New member!",
+        "mensajeEmbed": "Hello welcome",
+        "si": "Yes.",
+        "no": "No.",
+        "bienvenido": "Welcome!",
+        "nombre": "Name:",
+        "bot": "We Have A New Bot!",
+        "id": "Unique identifier:",
+        "esBot": "Bot?",
+        "server": "Guild:",
+        "miembro": "You are the member:",
+        "botMiembro": "I replaced the place:",
+        "creado": "⏳ Bot Created Since"
+    },
+    "messageDefault": "I hope you enjoy this community.",
+    "imgWelcomeWoman": "Welcome to",
+    "imgWelcomeMan": "Welcome to",
+    "imgWelcomeDefault": "Welcome to",
+    "reTitle": "Security Check",
+    "rePrecaucion": "⚠[CAUTION] ⚠ Newly created account:",
+    "reCreado": "⏳ He created his account ago:",
+    "reInvite": "Invitation: {code}",
+    "reNoPerms": "`⛔|` I can not get server invitations, check that you have the correct permissions.",
+    "unknown": "A stranger",
+    "terminamute": "**{usuario} Your time is silenced.**"
+}

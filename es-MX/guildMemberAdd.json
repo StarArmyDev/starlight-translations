@@ -1,0 +1,29 @@
+{
+    "autoRolesRazon": "Autoroles bienvenida.",
+    "embed": {
+        "mensaje": "¡Nuevo miembro!",
+        "mensajeEmbed": "Hola, bienvenid@.",
+        "si": "Sí.",
+        "no": "No.",
+        "bienvenido": "¡Bienvenido!",
+        "nombre": "Nombre:",
+        "bot": "¡Tenemos a un nuevo bot!",
+        "id": "ID:",
+        "esBot": "¿Bot?",
+        "server": "Servidor:",
+        "miembro": "Eres el miembro:",
+        "botMiembro": "Suplantó el lugar:",
+        "creado": "⏳ Bot creado hace"
+    },
+    "messageDefault": "Espero que disfrutes de esta comunidad.",
+    "imgWelcomeWoman": "Bienvenida a",
+    "imgWelcomeMan": "Bienvenido a",
+    "imgWelcomeDefault": "Bienvenid@ a",
+    "reTitle": "Comprobación de seguridad",
+    "rePrecaucion": "⚠[PRECAUCIÓN]⚠ Cuenta recién creada:",
+    "reCreado": "⏳ Creó su cuenta hace:",
+    "reInvite": "Invitación: {code}",
+    "reNoPerms": "`⛔|` No puedo obtener las invitaciones del servidor, revisa que tenga los permisos correctos.",
+    "unknown": "Desconocido",
+    "terminamute": "**{usuario} terminó tu tiempo silenciado.**"
+}

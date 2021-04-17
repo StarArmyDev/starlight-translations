@@ -19,18 +19,18 @@
         "noEnviar": "No puedes escribir en el canal mencionado."
     },
     "ban": {
-        "noBot": "`❌|`No tengo permisos de banear en este servidor.",
-        "noUser": "No pude encontrar al usuario.",
-        "autoMencion": "¡¿Por qué quieres banearte?!",
-        "owner": "¡¿Por qué quieres banear al propietario?! Eso es... imposible.",
-        "noBan": "No puedo banear al usuario. Es probable que tenga un rol mayor que el mío.",
-        "rolAlto": "No se puede banear al usuario. Tiene un rol mayor o igual que el tuyo.",
+        "noBot": "`❌|` No tengo permisos de banear en este servidor.",
+        "noUser": "`❌|` No pude encontrar al usuario.",
+        "autoMencion": "`❌|` ¡¿Por qué quieres banearte?!",
+        "owner": "`⛔|` ¡¿Por qué quieres banear al propietario?! Eso es... imposible.",
+        "noBan": "`⛔|` No puedo banear al usuario. Es probable que tenga un rol mayor que el mío.",
+        "rolAlto": "`⛔|` No se puede banear al usuario. Tiene un rol mayor o igual que el tuyo.",
         "title": "Se baneó a",
         "razon": "Razón",
         "noRazon": "Ninguna.",
         "server": "Servidor",
         "privado": "Mensaje privado enviado correctamente.",
-        "noPrivado": "No puedo enviar mensajes privados al usuario.",
+        "noPrivado": "`❌|` No puedo enviar mensajes privados al usuario.",
         "mod": "👮‍♂️ Moderador"
     },
     "channels": {
