@@ -152,7 +152,8 @@
         "noUser": "Usuario no válido. Utiliza una mención o ID.",
         "autoMencion": "Acabas de darte reputación, {miembro}. *Ahora tienes 1 rep de castigo*\nVuelve en 12 días. para seguirte dando reputación.",
         "noPerfil": "Este usuario no tiene un perfil global, tiene que usar un comando primero.",
-        "mensaje": "Acabas de dar reputación a {miembro}. *Ahora tiene {reputacion} rep*\nVuelve en 12 horas para darle a alguien más."
+        "mensaje": "Acabas de dar reputación a {miembro}. *Ahora tiene {reputacion} rep*\nVuelve en 12 horas para darle a alguien más.",
+        "isBot":"`❌|` No se le puede dar reputación a un bot."
     },
     "top": {
         "reputacion": "reputacion",

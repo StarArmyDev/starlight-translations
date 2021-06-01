@@ -70,7 +70,6 @@
     },
     "ping": {
         "footer": "Virtual Private Machine",
-        "espera": "*Calculado...*",
         "description": "Pong!\n📡 API: {ping}.\n🗃 Base de dados: {db}.",
         "descriptionGateway": "Pong!\n📡 API: {ping}.\n🗃 Base de dados: {db}.\n⏳ Porta de ligação: {gateway}."
     },

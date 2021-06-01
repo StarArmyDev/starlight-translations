@@ -72,7 +72,6 @@
             "server": "*⛔ | Command disabled on this server.*"
         },
         "comandoApagado": "`⛔|` This command is turned off by some update or temporary suspension.",
-        "noDesarrollador": "Sorry, this command can only be executed by a Developer.",
         "noUso": "You do not have to add parameters",
         "embedHelp": {
             "title": "Help from: {command}",

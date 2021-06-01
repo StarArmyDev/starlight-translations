@@ -71,7 +71,6 @@
     },
     "ping": {
         "footer": "Virtual Private Machine",
-        "espera": "*Calculated...*",
         "description": "Pong!\n📡 API: {ping}.\n🗃 Database: {db}.",
         "descriptionGateway": "Pong!\n📡 API: {ping}.\n🗃 Database: {db}.\n⏳ Gateway: {gateway}."
     },

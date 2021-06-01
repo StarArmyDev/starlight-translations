@@ -35,9 +35,6 @@
     "dog": {
         "title": "Perro Random 🐶"
     },
-    "gru": {
-        "noTexto": "Tienes que poner algo. `{prefix}gru <texto 1> | <texto 2> | <texto 3>`"
-    },
     "love": {
         "noMencion": "Menciona a dos usuarios para calcular.",
         "rand20": "Uff, parece que no existe la posibilidad de amigos. Lo siento ;-;",
