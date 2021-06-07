@@ -76,7 +76,7 @@
     },
     "release": {
         "title": "News from",
-        "descripcion": "__...__",
+        "descripcion": "**__Changes__**\n- Library change: It has been decided to use discord.js-light to improve the performance of the bot, we will be seeing how it performs in production but a lower consumption of resources and improvements in ping are expected.\n\n** __ Arrangements __ **\n- Rep: When you gave the wrong rep, it told you that it was invalid but still applied the cooldown. You could try to rep a bot.\n- Bal: It did not show the user's data when it was used by mentioning someone, instead it told you your balances with the name of the other user.\n- Game state: Sometimes a wrong prefix was shown in the state instead of the global one.\n- Prefix, language and color: Sometimes the bot responds to a custom prefix not established in the servers, instead of the default, as with the color and language values _ (although the latter never received a report that the same) ._ Moved a few things to fix it and we'll see if the bug was fixed.",
         "footer": "These are the changes of the version {version} any problem you can enter the support server. | Developed by {dev}."
     },
     "stats": {
@@ -84,7 +84,7 @@
         "owner": "👑 Creator",
         "version": "📊 Version",
         "libreria": "📚 Library",
-        "discordjs": "Discord 12.2.0 (Js)",
+        "discordjs": "Discord.js-Light v3.5.11\nDiscord.js v12.5.3",
         "memoria": "🗂 Memory",
         "tiempo": "🕒 On Time",
         "servers": "💬 Guilds",
