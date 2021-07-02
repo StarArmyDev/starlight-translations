@@ -2,8 +2,8 @@
     "fchallenge": {
         "cargando": "🔃 Loading...",
         "title": "Fortnite Weekly Challenges",
-        "footer": "# Total: {length}",
-        "field": "Total Missions: {quests}"
+        "footer": "# Total: {{length}}",
+        "field": "Total Missions: {{quests}}"
     },
     "fstats": {
         "pc": "computer",
@@ -13,7 +13,7 @@
         "duo": "double",
         "squad": "squadron",
         "all": "everything",
-        "help": "Use `{prefix}fstats <user> | <lonely, double, squad> | [pc, xbl, psn]`",
+        "help": "Use `{{prefix}}fstats <user> | <lonely, double, squad> | [pc, xbl, psn]`",
         "noUserError": "User not found or an unexpected error has occurred."
     },
     "fstore": {
@@ -26,7 +26,7 @@
         "title": "Objects of the Day",
         "rareza": "Rarity:",
         "precio": "Price",
-        "items": "Item {item} from"
+        "items": "Item {{item}} from"
     },
     "h5emblema": {
         "emblema": "Emblem of ",
@@ -37,12 +37,12 @@
         "noUser": "The gamertag does not exist, please verify it."
     },
     "lolchamps": {
-        "footer": "Champion ID: {id}",
+        "footer": "Champion ID: {{id}}",
         "noCamp": "It seems that there is no such champion."
     },
     "lolchamprandom": {
         "title": "Random Champion: ",
-        "footer": "Champion ID: {id}",
+        "footer": "Champion ID: {{id}}",
         "error": "❌ Sorry, it seems there was an error. We are working to repair it."
     },
     "wotstats": {

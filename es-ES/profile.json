@@ -25,13 +25,13 @@
     "no": "no",
     "helpForce": "debes de colocar la ID de la persona.",
     "siUser": "La persona con quién te casaste está en el servidor, no puedes forzar el divorcio, debes de mencionar.",
-    "mensajeForce": "{author}, ¿aceptas forzar la separación por siempre de ({miembro})?\n__*Tienes 60 segundos para responder \"sí\" o \"no\".*__",
+    "mensajeForce": "{{author}}, ¿aceptas forzar la separación por siempre de ({{miembro}})?\n__*Tienes 60 segundos para responder \"sí\" o \"no\".*__",
     "divorcioForce": "Ahora quedas separado sin compromisos y... sin amor </3",
     "noDivorcioForce": "Lamentablemente *(o afortunadamente)* te has arrepentido del divorcio.",
     "noTiempoForce": "Tardaste en responder... toma tu tiempo para pensarlo.",
-    "mensaje": "{miembro}, ¿aceptas separarte por siempre de {author} y destruir lo que desde hace `{fecha}` fue declarado ante todos su amor incondicional?\n__*Tienes 60 segundos para responder \"sí\" o \"no\".*__",
+    "mensaje": "{{miembro}}, ¿aceptas separarte por siempre de {{author}} y destruir lo que desde hace `{{fecha}}` fue declarado ante todos su amor incondicional?\n__*Tienes 60 segundos para responder \"sí\" o \"no\".*__",
     "divorcio": "Ahora quedan separados, sin compromisos... sin amor </3",
-    "noDivorcio": "Lamentablemente *(o afortunadamente)*, {miembro} no acepta esta decisión. Deberías hablarle primero y hacer que esto funcione. :3",
+    "noDivorcio": "Lamentablemente *(o afortunadamente)*, {{miembro}} no acepta esta decisión. Deberías hablarle primero y hacer que esto funcione. :3",
     "noTiempo": "Ha tardado en responder... tal vez se enfadó *- corre -*."
   },
   "editprofile": {
@@ -40,7 +40,7 @@
     "titulo": {
       "titulo": "título",
       "noTitulo": "Necesitas poner una sola palabra para el nuevo título.",
-      "siTitulo": "`✅|` Se actualizó el título `{nuevoTitulo}` correctamente."
+      "siTitulo": "`✅|` Se actualizó el título `{{nuevoTitulo}}` correctamente."
     },
     "info": {
       "info": "info",
@@ -53,7 +53,7 @@
       "principal": "principal",
       "secundario": "secundario",
       "default": "defecto",
-      "noModo": "Modo no válido, solamente 1/main o 2/secundary.\nUsa `{prefix}editprofile fondos <1/principal o 2/secundario>`.",
+      "noModo": "Modo no válido, solamente 1/main o 2/secundary.\nUsa `{{prefix}}editprofile fondos <1/principal o 2/secundario>`.",
       "noFondos": "`❌|` No cuentas con fondos, ¡compra uno!",
       "colocarDefecto": "`✅|` Fondo predeterminado colocado.",
       "footer": "Fondos disponibles:",
@@ -93,7 +93,7 @@
     "medalla": {
       "medalla": "medallas",
       "noAchievement": "`❌|` No cuentas con logros para destacar.",
-      "help": "Usa `{prefix}editprofile medallas <nombre|id> <posición>`.",
+      "help": "Usa `{{prefix}}editprofile medallas <nombre|id> <posición>`.",
       "noNum": "`❌|` Este dato no es un número o es un número no válido.",
       "noLugar": "`❌|` Lugar no válido, solamente puedes colocar \"1\", \"2\" o \"3\".",
       "noMedalla": "`❌|` Logro no encontrado o no válida.",
@@ -102,7 +102,7 @@
     "insignia": {
       "insignia": "insignias",
       "noBadge": "`❌|` No cuentas con insignias.",
-      "help": "Usa `{prefix}editprofile insignia <nombre|id> <posición>`",
+      "help": "Usa `{{prefix}}editprofile insignia <nombre|id> <posición>`",
       "noNum": "`❌|` Este dato no es un número o es un número no válido.",
       "noLugar": "`❌|` Lugar no válido. Solamente puedes colocar del \"1\" al \"10\".",
       "noLugarE": "`❌|` Lugar no válido para insignia especial. Solamente puedes colocar \"1\" o \"2\".",
@@ -114,7 +114,7 @@
     "noConfig": "`❌|` Este servidor no cuenta con niveles configurados.",
     "nivel": "Nivel:",
     "title": "Niveles de",
-    "paginas": "Página {count} de {countDB}"
+    "paginas": "Página {{count}} de {{countDB}}"
   },
   "marry": {
     "noUser": "`❌|` Usuario no encontrado.",
@@ -123,7 +123,7 @@
     "noPerfil": "`❌|` El usuario mencionado no cuenta con un perfil, dile que use un comando para crearlo.",
     "casadoUser": "`❌|` Oye, oye... este usuario ya está casado.",
     "casado": "`❌|` ¡Ya estás casado!",
-    "mensaje": "{miembro}, ¿aceptas a {author} como tu {genero} en la salud y en la enfermedad, en la riqueza y en la pobreza, con internet y sin internet hasta que el Wi-Fi los separe?\n__*Tiene 60 segundos para responder \"sí\" o \"no\".*__",
+    "mensaje": "{{miembro}}, ¿aceptas a {{author}} como tu {{genero}} en la salud y en la enfermedad, en la riqueza y en la pobreza, con internet y sin internet hasta que el Wi-Fi los separe?\n__*Tiene 60 segundos para responder \"sí\" o \"no\".*__",
     "hombre": "legítimo esposo",
     "mujer": "legítima esposa",
     "otro": "legítim@ espos@",
@@ -131,7 +131,7 @@
     "no": "no",
     "maridos": "Los declaro marido y mujer. <3",
     "casados": "`✅|` Por el poder que se me fue otorgado por Discord y con todo el servidor de testigo, ",
-    "noCasados": "`❌|` Lamentablemente, {miembro} ha rechazado la propuesta de matrimonio y ha huido del servidor.",
+    "noCasados": "`❌|` Lamentablemente, {{miembro}} ha rechazado la propuesta de matrimonio y ha huido del servidor.",
     "noTiempo": "`⏳|` Ha tardado en responder... eso no parece ser una buena señal."
   },
   "rank": {
@@ -150,9 +150,9 @@
   },
   "rep": {
     "noUser": "Usuario no válido. Utiliza una mención o ID.",
-    "autoMencion": "Acabas de darte reputación, {miembro}. *Ahora tienes 1 rep de castigo*\nVuelve en 12 días. para seguirte dando reputación.",
+    "autoMencion": "Acabas de darte reputación, {{miembro}}. *Ahora tienes 1 rep de castigo*\nVuelve en 12 días. para seguirte dando reputación.",
     "noPerfil": "Este usuario no tiene un perfil global, tiene que usar un comando primero.",
-    "mensaje": "Acabas de dar reputación a {miembro}. *Ahora tiene {reputacion} rep*\nVuelve en 12 horas para darle a alguien más.",
+    "mensaje": "Acabas de dar reputación a {{miembro}}. *Ahora tiene {{reputacion}} rep*\nVuelve en 12 horas para darle a alguien más.",
     "isBot": "`❌|` No se le puede dar reputación a un bot."
   },
   "top": {
@@ -164,10 +164,10 @@
     "banco": "Banco:",
     "nivel": "Nivel:",
     "xp": "XP:",
-    "titleRep": "TOP REPUTACIÓN  | **{database}**",
-    "titleDiner": "TOP DINERO  | **{database}**",
-    "titleXp": "TOP NIVEL | **{database}**",
+    "titleRep": "TOP REPUTACIÓN  | **{{database}}**",
+    "titleDiner": "TOP DINERO  | **{{database}}**",
+    "titleXp": "TOP NIVEL | **{{database}}**",
     "global": "Global",
-    "paginas": "Página {count} de {countDB}"
+    "paginas": "Página {{count}} de {{countDB}}"
   }
 }

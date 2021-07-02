@@ -2,7 +2,7 @@
     "afk": {
         "mencionE": "(Mención:everyone)",
         "mencionH": "(Mención:here)",
-        "mensaje": "Usted ha establecido su estado AFK con la razón: `{razon}`."
+        "mensaje": "Usted ha establecido su estado AFK con la razón: `{{razon}}`."
     },
     "remember": {
         "años": "años",
@@ -34,7 +34,7 @@
         "mencionE": "(mención:everyone)",
         "mencionH": "(mención:here)",
         "title": "Recordatorio establecido",
-        "mensaje": "Con el tiempo: `{tiempo}`\nModalidad: `{modo}`.",
+        "mensaje": "Con el tiempo: `{{tiempo}}`\nModalidad: `{{modo}}`.",
         "mCanal": "\nCanal:"
     },
     "report": {
@@ -52,7 +52,7 @@
         "error": "❌ Parece que ocurrió un error inesperado, reporta el bug para solucionarlo."
     },
     "say": {
-        "help": "Usa `{prefix}say [embed] [#canal] <Mensaje a repetir>`.",
+        "help": "Usa `{{prefix}}say [embed] [#canal] <Mensaje a repetir>`.",
         "mencionE": "(mención:everyone)",
         "mencionH": "(mención:here)",
         "noEscribir": "No puedes escribir en el canal mencionado."
@@ -71,7 +71,7 @@
         "noRoles": "\"Grupo sin roles\"",
         "tieneRol": "❌ | Ya tienes este rol.",
         "limite": "❌ | Alcanzaste el límite de roles en este grupo.",
-        "colocado": "✅ Rol {rol} colocado.",
+        "colocado": "✅ Rol {{rol}} colocado.",
         "error": "❌ Ocurrió un error, es posible que no tenga acceso al rol o sea un rol inválido."
     },
     "suggestion": {

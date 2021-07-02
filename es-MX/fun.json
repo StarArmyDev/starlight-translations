@@ -1,7 +1,7 @@
 {
     "8ball": {
-        "title": "🎱 Pregunta\n{pregunta}",
-        "descripcion": "A lo que respondo: {respuesta}",
+        "title": "🎱 Pregunta\n{{pregunta}}",
+        "descripcion": "A lo que respondo: {{respuesta}}",
         "rpts": [
             "Sí",
             "No",
@@ -30,7 +30,7 @@
     "cookie": {
         "noUser": "Menciona a un usuario.",
         "noRazon": "Ninguna",
-        "cookie": "**{user},** tienes una {cookie} de **{author}**\n\n**Razón:** {razon}\n(づ｡◕‿‿◕｡)づ:･ﾟ✧ {cookie}"
+        "cookie": "**{{user}},** tienes una {{cookie}} de **{{author}}**\n\n**Razón:** {{razon}}\n(づ｡◕‿‿◕｡)づ:･ﾟ✧ {{cookie}}"
     },
     "dog": {
         "title": "Perro Random 🐶"
@@ -42,7 +42,7 @@
         "rand80": "Esto tiene posibilidad, muy probable que terminen siendo novios :3",
         "rand100": "No hay duda de que aquí hay amor cx, ¡no sé qué esperas! <3",
         "randInf": "El amor que te tienes tiene que tener debe de ser el mayor de todos, aprecialo com el mayor de los tesoros.",
-        "author": "El porcentaje de amor entre {user1} y {user2} es de:"
+        "author": "El porcentaje de amor entre {{user1}} y {{user2}} es de:"
     },
     "meme": {
         "title": "Ten tu meme",
@@ -52,7 +52,7 @@
         "descripcion": "Descripción:",
         "popular": "Popularidad",
         "votos": "Votos Positivos:",
-        "confirmacion": "✅ Voto {vote} para {waifu} correctamente.",
+        "confirmacion": "✅ Voto {{vote}} para {{waifu}} correctamente.",
         "positivo": "positivo",
         "negativo": "negativo",
         "footer": "Puedes votar cada 24 horas."

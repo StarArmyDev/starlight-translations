@@ -41,9 +41,9 @@
         "noBot": "`❌|`No tengo permisos de eliminar mensajes en este servidor.",
         "noValido": "Coloca un número entre 1 y 100 para eliminar esa cantidad de mensajes.",
         "mod": "👮‍♂️ Moderador",
-        "mensaje": "👾 | Borré `{messages}` mensajes con éxito. | ⭐",
-        "descripcion": "Se han borrado `{messages}` mensajes en {channel}.",
-        "descripcionUser": "Se han borrado `{messages}` mensajes de {miembro} en {channel}.",
+        "mensaje": "👾 | Borré `{{messages}}` mensajes con éxito. | ⭐",
+        "descripcion": "Se han borrado `{{messages}}` mensajes en {{channel}}.",
+        "descripcionUser": "Se han borrado `{{messages}}` mensajes de {{miembro}} en {{channel}}.",
         "error": "`❌|` No se pueden borrar mensajes de más de 14 días de antigüedad."
     },
     "createinvitation": {
@@ -72,7 +72,7 @@
         "autoMencion": "¡¿Por qué quieres banearte?!",
         "rolAlto": "No se puede banear al usuario. Tiene un rol mayor o igual que el tuyo.",
         "razon": "HackBan",
-        "mensaje": "El usuario con la ID \"`{idUser}`\" fue baneado del servidor. [{userban}]",
+        "mensaje": "El usuario con la ID \"`{{idUser}}`\" fue baneado del servidor. [{{userban}}]",
         "userban": "Usuario Baneado",
         "mod": "👮‍♂️ Moderador",
         "error": "`❌|`Ocurrió un error inesperado, es probable que la ID sea incorrecta."
@@ -115,7 +115,7 @@
     },
     "poll": {
         "noPregunta": "Agregue una pregunta para la encuesta.",
-        "help": "Incorrecto, agregue mínimo dos opciones. `{prefix}encuesta <pregunta> | <opción 1> | <opción 2> | [opción 3] | [opción 4] | [opción 5] | [opción 6] | [opción 7] | [opción 8]`",
+        "help": "Incorrecto, agregue mínimo dos opciones. `{{prefix}}encuesta <pregunta> | <opción 1> | <opción 2> | [opción 3] | [opción 4] | [opción 5] | [opción 6] | [opción 7] | [opción 8]`",
         "encuesta": "Encuesta",
         "op": "Opción"
     },
@@ -183,7 +183,7 @@
         "mod": "👮‍♂️ Moderador",
         "razon": "📄 Razón",
         "noRol": "No existe el rol `Silenciado` o no se ha asignado ningún rol. Use primero el comando `mute` con este bot para crearlo.",
-        "warnsAlcanzados": "Número de {warns} advertencias alcanzado.",
+        "warnsAlcanzados": "Número de {{warns}} advertencias alcanzado.",
         "mute": "Usuario silenciado por 1 hora.",
         "razonAlcanzados": "Advertencias alcanzadas, con la razón:",
         "kick": "Usuario expulsado",

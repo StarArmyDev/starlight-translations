@@ -37,7 +37,7 @@
         "xplvl": "XP LevelUp:",
         "cooldown": "XP Cooldown:",
         "embed": {
-            "author": "Setting | {guild_name}.",
+            "author": "Setting | {{guild_name}}.",
             "title1": "Welcome / Farewell",
             "bienvenida": "Welcome:",
             "imgBienvenida": "Welcome Image:",
@@ -112,7 +112,7 @@
     },
     "setlanguage": {
         "noLang": "`❌|` You did not set the language to be set for the channel.",
-        "noLanguage": "`⛔|` This language does not exist, use `{prefix}setlanguage help` to know the available languages.",
+        "noLanguage": "`⛔|` This language does not exist, use `{{prefix}}setlanguage help` to know the available languages.",
         "title": "✅| Language of the assigned server.",
         "titleC": "✅| Language of the assigned channel.",
         "change": "Switched to:"
@@ -123,7 +123,7 @@
     },
     "setredirect": {
         "noChannel": "`❌|` Channel not found.",
-        "messageDefault": "**You have leveled up, *{user_name}***",
+        "messageDefault": "**You have leveled up, *{{user_name}}***",
         "title": "✅| Message channel for assigned level up.",
         "channel": "Channel:",
         "message": "Message:"

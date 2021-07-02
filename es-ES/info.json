@@ -14,7 +14,7 @@
         "no": "No"
     },
     "game": {
-        "game": "Está {tipo}: ",
+        "game": "Está {{tipo}}: ",
         "noGame": "No está jugando en este momento.",
         "tipo": {
             "PLAYING": "🎮 Jugando",

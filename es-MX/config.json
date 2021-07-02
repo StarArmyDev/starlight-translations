@@ -7,7 +7,7 @@
         },
         "rol": {
             "rol": "rol",
-            "help": "Usa `{prefix}delete rolwelcome <rol>`.",
+            "help": "Usa `{{prefix}}delete rolwelcome <rol>`.",
             "noConfig": "No existen roles configurados en este servidor.",
             "noRoles": "Parece que no existe ese rol en la base de datos.",
             "true": "✅ Rol removido con éxito."
@@ -87,7 +87,7 @@
         },
         "group": {
             "group": "grupo",
-            "help": "Usa `{prefix}delete grupo <Nombre>`.",
+            "help": "Usa `{{prefix}}delete grupo <Nombre>`.",
             "noGrupo": "`❌|` Grupo no encontrado.",
             "title": "Grupo de autoroles eliminado.",
             "nombre": "Nombre:",
@@ -95,7 +95,7 @@
         },
         "autorole": {
             "autorole": "autorol",
-            "help": "Usa `{prefix}delete <nombre del grupo> <@rol>`.",
+            "help": "Usa `{{prefix}}delete <nombre del grupo> <@rol>`.",
             "noGrupo": "`❌|` Grupo no encontrado.",
             "noRol": "`❌|` Rol no encontrado.",
             "title": "Autorol eliminado del grupo.",
@@ -166,15 +166,15 @@
         "nivelTrue": "`❌|` Nivel ya asignado.",
         "embed": {
             "title": "✅ | Rol por nivel añadido.",
-            "footer": "Recuerda activar el XP del servidor con `{prefix}activexp` | {guild_name}.",
+            "footer": "Recuerda activar el XP del servidor con `{{prefix}}activexp` | {{guild_name}}.",
             "field": {
                 "title": "Rol",
-                "descripcion": "[{rolid}] Nivel: {lvl}\nMensaje: {rolmensaje}"
+                "descripcion": "[{{rolid}}] Nivel: {{lvl}}\nMensaje: {{rolmensaje}}"
             }
         }
     },
     "addselfrole": {
-        "noGrupo": "`❌|` Grupo no encontrado, primero debes de usar el comando `{prefix}addgrupo` para crearlo.",
+        "noGrupo": "`❌|` Grupo no encontrado, primero debes de usar el comando `{{prefix}}addgrupo` para crearlo.",
         "noRol": "Rol no encontrado o rol no válido, por favor, verifica que exista y que esté por debajo de mi rol más alto.",
         "existe": "`❌|` Este rol ya se encuentra en el grupo.",
         "title": "✅ Rol agregado.",
@@ -184,7 +184,7 @@
     "addxp": {
         "noMember": "`❌|` Usuario no encontrado, verifícalo.",
         "noCantidad": "`❌|` No colocaste un número de XP válido.",
-        "correcto": "✅ | {cantidad}XP correctamente añadida a {miembro}."
+        "correcto": "✅ | {{cantidad}}XP correctamente añadida a {{miembro}}."
     },
     "configxp": {
         "noConfig": "`❌|` Parece que la experiencia no está activada. Primero usa el comando `activexp`",
@@ -196,19 +196,19 @@
         "removerole": "quitarrol",
         "noMode": "`❌|` Modo no válido. Solamente `remove` y `keep`",
         "noProperty": "`❌|` Propiedad inválida.",
-        "message": "✅ | Propiedad `{property}` cambiada a `{value}` correctamente."
+        "message": "✅ | Propiedad `{{property}}` cambiada a `{{value}}` correctamente."
     },
     "createcolors": {
         "noBot": "`❌|`No tengo permiso de crear roles en este servidor.",
-        "modos": "Está a punto de crear {roles} roles de colores. Coloca `Si` para continuar, `Eliminar` para quitarlos o `Cancelar` para cancelar la operación.\n\n**Puedes colocar mi rol más alto desde donde quieres que empiece a crear los roles hacia abajo.**",
+        "modos": "Está a punto de crear {{roles}} roles de colores. Coloca `Si` para continuar, `Eliminar` para quitarlos o `Cancelar` para cancelar la operación.\n\n**Puedes colocar mi rol más alto desde donde quieres que empiece a crear los roles hacia abajo.**",
         "detectado": "Se ha detectado que existen roles de color que no están en la base de datos. Coloca `asignar` para agregarlos al comando *selfrole*.\n",
         "asignar": "asignar",
         "si": "si",
         "no": "eliminar",
         "asignado": "✅ Roles asignados correctamente.",
         "creando": "Creando",
-        "mensaje": "✅ Roles de colores creados:`{creados}` exitosamente. *Si los roles se crearon pero no están disponibles en el comando* `selfrole` *, usa nuevamente este comando y sigue la indicaciones*",
-        "mensajeDelete": "✅ Roles de colores eliminados:`{contador}` exitosamente.",
+        "mensaje": "✅ Roles de colores creados:`{{creados}}` exitosamente. *Si los roles se crearon pero no están disponibles en el comando* `selfrole` *, usa nuevamente este comando y sigue la indicaciones*",
+        "mensajeDelete": "✅ Roles de colores eliminados:`{{contador}}` exitosamente.",
         "error": "`❌|`Lo siento, parece que hubo un error. Estamos trabajando en repararlo.",
         "tiempoExpirado": "Tiempo de espera acabado.",
         "rolesN": [
@@ -284,16 +284,16 @@
         "noMember": "`❌|` Usuario no encontrado, verifícalo.",
         "noUser": "`❌|` El usuario no está en la base de datos.",
         "noNumber": "`❌|` No colocaste un número de XP válido.",
-        "true": "✅ | {cantidad}XP correctamente eliminada a {miembro}"
+        "true": "✅ | {{cantidad}}XP correctamente eliminada a {{miembro}}"
     },
     "resetxp": {
         "noMember": "`❌|` Usuario no encontrado, verifícalo.",
         "noMemverDB": "`❌|` Este usuario no tiene experiencial.",
-        "mensajeMiembro": "Está a punto de resetear la experiencia de {member} ¿Realmente desea continuar? Escribe `si`. *Tienes 60 segundos para contestar.*",
+        "mensajeMiembro": "Está a punto de resetear la experiencia de {{member}} ¿Realmente desea continuar? Escribe `si`. *Tienes 60 segundos para contestar.*",
         "mensajeServidor": "Está a punto de resetear la experiencia de todo el servidor  ¿Realmente desea continuar? Escribe `si`. *Tienes 60 segundos para contestar.*",
         "si": "si",
         "tiempo": "`❌|` El tiempo para contestar se acabó. Si creés que es un error, favor de reportarlo.",
-        "ok": "✅ | Experiencia de {sujeto} reiniciada.",
+        "ok": "✅ | Experiencia de {{sujeto}} reiniciada.",
         "server": "todo el servidor"
     },
     "setcount": {
@@ -361,7 +361,7 @@
     "setmembercount": {
         "channelsStr": "canales",
         "help": "ayuda",
-        "helpC": "Usa `{prefix}setmc canales [canal Total], [canal miembros], [canal bots], [canal roles], [canal canales]`\n\nPara que un canal no esté activo coloque en su lugar del nombre **false**.",
+        "helpC": "Usa `{{prefix}}setmc canales [canal Total], [canal miembros], [canal bots], [canal roles], [canal canales]`\n\nPara que un canal no esté activo coloque en su lugar del nombre **false**.",
         "noPermission": "`⛔|` No tengo los permisos suficientes para crear canales.",
         "category": "─── [Estadísticas] ───",
         "miembros": "Miembros",

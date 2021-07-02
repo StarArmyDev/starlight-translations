@@ -15,7 +15,7 @@
         "no": "No",
         "titulo": "Command list",
         "version": " | Version",
-        "descripcion": "Hello, I'm {client_name} and I come to help. This is my list of commands you can use.\n\nPing: `{ping}` ms\nTotal categories: `{categorias}`\n Total commands: `{commands}`",
+        "descripcion": "Hello, I'm {{client_name}} and I come to help. This is my list of commands you can use.\n\nPing: `{{ping}}` ms\nTotal categories: `{{categorias}}`\n Total commands: `{{commands}}`",
         "core": "🌠 Bot",
         "fun": "🎉 Fun",
         "info": "📃 Information",
@@ -33,17 +33,17 @@
         "manager": "⚙ Bot Manager",
         "masInfo": {
             "title": "More information?",
-            "desc": "Use: `{prefix} <command> help` to get your individual command information and expected parameters."
+            "desc": "Use: `{{prefix}} <command> help` to get your individual command information and expected parameters."
         },
         "links": {
             "title": "Useful links",
-            "desc": "[Invite me]({invite} \"Invite me to your server \") | [Support Server](https://discord.gg/MZN8Yf6 \"StarArmy Support\") | [Support with your Vote](https://top.gg/bot/517786947171909643 \"Vote on Top.gg every 12 hours.\")"
+            "desc": "[Invite me]({{invite}} \"Invite me to your server \") | [Support Server](https://discord.gg/MZN8Yf6 \"StarArmy Support\") | [Support with your Vote](https://top.gg/bot/517786947171909643 \"Vote on Top.gg every 12 hours.\")"
         },
         "private": "✅  **| Check your DMs.**  👌",
         "noPrivate": "❌ | It seems you have deactivated private messages.",
         "noUso": "You do not have to add parameters",
         "embedHelp": {
-            "title": "Help of: {command}",
+            "title": "Help of: {{command}}",
             "descripcion": "**Description:**",
             "uso": "Use the command as follows:",
             "alias": "Alias",
@@ -57,11 +57,11 @@
         }
     },
     "invite": {
-        "title": "My invitation | {client_name}",
+        "title": "My invitation | {{client_name}}",
         "descripcion": "This beautiful bot can help you a lot on your server, it has a lot of commands for administrators or normal users. But I assure you that you will have fun and help you in everything you need.",
         "version": "| Version",
         "invitacion": "🌠 Invitation",
-        "link": "[Invite {client_name} to your server]({link})",
+        "link": "[Invite {{client_name}} to your server]({{link}})",
         "soporteTitle": "📥 Support Server",
         "soporte": "[Login to the Server](https://discord.gg/MZN8Yf6 'StarArmy') To get help and be aware of all the information always.",
         "webTitle": "🖥 Web page",
@@ -71,20 +71,20 @@
     },
     "ping": {
         "footer": "Virtual Private Machine",
-        "description": "Pong!\n📡 API: {ping}.\n🗃 Database: {db}.",
-        "descriptionGateway": "Pong!\n📡 API: {ping}.\n🗃 Database: {db}.\n⏳ Gateway: {gateway}."
+        "description": "Pong!\n📡 API: {{ping}}.\n🗃 Database: {{db}}.",
+        "descriptionGateway": "Pong!\n📡 API: {{ping}}.\n🗃 Database: {{db}}.\n⏳ Gateway: {{gateway}}."
     },
     "release": {
         "title": "News from",
         "descripcion": "**__Changes__**\n- Library change: It has been decided to use discord.js-light to improve the performance of the bot, we will be seeing how it performs in production but a lower consumption of resources and improvements in ping are expected.\n\n** __ Arrangements __ **\n- Rep: When you gave the wrong rep, it told you that it was invalid but still applied the cooldown. You could try to rep a bot.\n- Bal: It did not show the user's data when it was used by mentioning someone, instead it told you your balances with the name of the other user.\n- Game state: Sometimes a wrong prefix was shown in the state instead of the global one.\n- Prefix, language and color: Sometimes the bot responds to a custom prefix not established in the servers, instead of the default, as with the color and language values _ (although the latter never received a report that the same) ._ Moved a few things to fix it and we'll see if the bug was fixed.",
-        "footer": "These are the changes of the version {version} any problem you can enter the support server. | Developed by {dev}."
+        "footer": "These are the changes of the version {{version}} any problem you can enter the support server. | Developed by {{dev}}."
     },
     "stats": {
         "bot": "🤖 Bot Info",
         "owner": "👑 Creator",
         "version": "📊 Version",
         "libreria": "📚 Library",
-        "discordjs": "Discord.js-Light v3.5.11\nDiscord.js v12.5.3",
+        "discordjs": "Discord.js-Light v4.0.0-dev\nDiscord.js v13.0.0-dev",
         "memoria": "🗂 Memory",
         "tiempo": "🕒 On Time",
         "servers": "💬 Guilds",

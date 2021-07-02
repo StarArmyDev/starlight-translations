@@ -22,8 +22,8 @@
     "reTitle": "Comprobación de seguridad",
     "rePrecaucion": "⚠[PRECAUCIÓN]⚠ Cuenta recién creada:",
     "reCreado": "⏳ Creó su cuenta hace:",
-    "reInvite": "Invitación: {code}",
+    "reInvite": "Invitación: {{code}}",
     "reNoPerms": "`⛔|` No puedo obtener las invitaciones del servidor, revisa que tenga los permisos correctos.",
     "unknown": "Desconocido",
-    "terminamute": "**{usuario} terminó tu tiempo silenciado.**"
+    "terminamute": "**{{usuario}} terminó tu tiempo silenciado.**"
 }

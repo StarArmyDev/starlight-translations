@@ -37,7 +37,7 @@
         "xplvl": "XP LevelUp:",
         "cooldown": "XP Cooldown:",
         "embed": {
-            "author": "Configuración | {guild_name}.",
+            "author": "Configuración | {{guild_name}}.",
             "title1": "Bienvenida/Despedida",
             "bienvenida": "Bienvenida:",
             "imgBienvenida": "Imagen de bienvenida:",
@@ -112,7 +112,7 @@
     },
     "setlanguage": {
         "noLang": "`❌|` No colocaste el idioma a establecer para el canal.",
-        "noLanguage": "`⛔|` Este idioma no existe, usa `{prefix}setidioma help` para conocer los idiomas disponibles.",
+        "noLanguage": "`⛔|` Este idioma no existe, usa `{{prefix}}setidioma help` para conocer los idiomas disponibles.",
         "title": "✅| Idioma del servidor asignado.",
         "titleC": "✅| Idioma del canal asignado.",
         "change": "Cambiado a:"
@@ -123,7 +123,7 @@
     },
     "setredirect": {
         "noChannel": "`❌|` No se encontró el canal.",
-        "messageDefault": "**Has subido de nivel, *{user_name}***",
+        "messageDefault": "**Has subido de nivel, *{{user_name}}***",
         "title": "✅| Canal de mensaje por subir de nivel asignado.",
         "channel": "Canal:",
         "message": "Mensaje:"

@@ -1,15 +1,15 @@
 {
     "createcolors": {
         "noBot": "❌ Não tenho permissão para criar funções neste servidor.",
-        "modos": "Está prestes a criar {roles} papéis coloridos. Lugar, colocar `Sim` para continuar, `Retirar` para removê-los ou `Cancelar` para cancelar a operação.\n\n**Você pode colocar meu papel mais alto de onde deseja que eu comece a criar os papéis.**",
+        "modos": "Está prestes a criar {{roles}} papéis coloridos. Lugar, colocar `Sim` para continuar, `Retirar` para removê-los ou `Cancelar` para cancelar a operação.\n\n**Você pode colocar meu papel mais alto de onde deseja que eu comece a criar os papéis.**",
         "detectado": "Foi detectado que existem funções de cores que não estão no banco de dados. Lugar, colocar `atribuir` para adicioná-los ao comando *selfrole*.\n",
         "asignar": "atribuir",
         "si": "sim",
         "no": "retirar",
         "asignado": "✅ Funções atribuídas corretamente",
         "creando": "Criando",
-        "mensaje": "✅ Papéis coloridos criados: `{creados}` com sucesso. *Se as funções foram criadas, mas não estão disponíveis no comando* `selfrole` *use este comando novamente e siga as instruções*",
-        "mensajeDelete": "Funções de cor removidas: `{contador}` com sucesso.",
+        "mensaje": "✅ Papéis coloridos criados: `{{creados}}` com sucesso. *Se as funções foram criadas, mas não estão disponíveis no comando* `selfrole` *use este comando novamente e siga as instruções*",
+        "mensajeDelete": "Funções de cor removidas: `{{contador}}` com sucesso.",
         "error": "❌ Parece que ocorreu um erro. Estamos trabalhando para consertá-lo.",
         "tiempoExpirado": "Tempo de espera acabou.",
         "rolesN": [
@@ -97,17 +97,17 @@
         "nivelTrue": "❌ | Nível já atribuído.",
         "embed": {
             "title": "✅ | Função por nível adicionado.",
-            "footer": "Lembre-se de ativar o servidor XP com `{prefix}activexp` | {guild_name}.",
+            "footer": "Lembre-se de ativar o servidor XP com `{{prefix}}activexp` | {{guild_name}}.",
             "field": {
                 "title": "Função",
-                "descripcion": "[{rolid}] Nível: {lvl}\nMensagem: {rolmensaje}"
+                "descripcion": "[{{rolid}}] Nível: {{lvl}}\nMensagem: {{rolmensaje}}"
             }
         }
     },
     "addxp": {
         "noMember": "❌ | Usuário não encontrado, verifique.",
         "noCantidad": "❌ | Você não inseriu um número XP válido.",
-        "correcto": "✅ | {cantidad}XP adicionado com sucesso a {miembro}."
+        "correcto": "✅ | {{cantidad}}XP adicionado com sucesso a {{miembro}}."
     },
     "configxp": {
         "noConfig": "❌ | Parece que a experiência não está ativada. Primeiro use o comando `activexp`",
@@ -119,7 +119,7 @@
         "removerole": "descolar",
         "noMode": "❌ | Modo inválido. Apenas `remove` e `keep`",
         "noProperty": "❌ | Propriedade inválida.",
-        "message": "✅ | Propriedade `{property}` alterada para `{value}` com sucesso"
+        "message": "✅ | Propriedade `{{property}}` alterada para `{{value}}` com sucesso"
     },
     "deleteexcludexp": {
         "noConfig": "*Não configurado.*",
@@ -137,16 +137,16 @@
         "noMember": "❌ | Usuário não encontrado, verifique.",
         "noUser": "❌ | O usuário não está no banco de dados.",
         "noNumber": "❌ | Você não inseriu um número XP válido.",
-        "true": "✅ | {cantidad}XP removido com sucesso em {miembro}"
+        "true": "✅ | {{cantidad}}XP removido com sucesso em {{miembro}}"
     },
     "resetxp": {
         "noMember": "❌ | Usuário não encontrado, verifique.",
         "noMemverDB": "❌ | Este usuário não tem experiência.",
-        "mensajeMiembro": "Você está prestes a reiniciar a experiência de {member}. Você realmente deseja continuar? Escreva `sim`. *Você tem 60 segundos para responder.*",
+        "mensajeMiembro": "Você está prestes a reiniciar a experiência de {{member}}. Você realmente deseja continuar? Escreva `sim`. *Você tem 60 segundos para responder.*",
         "mensajeServidor": "Você está prestes a redefinir toda a experiência do servidor. Você realmente deseja continuar? Escreva `sim`. *Você tem 60 segundos para responder.*",
         "si": "sim",
         "tiempo": "❌ | A hora de responder acabou. Se você acha que é um erro, informe-o.",
-        "ok": "✅ | {sujeto} redefinição de experiência.",
+        "ok": "✅ | {{sujeto}} redefinição de experiência.",
         "server": "Servidor inteiro"
     }
 }

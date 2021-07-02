@@ -9,23 +9,23 @@
     },
     "buy": {
         "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",
-        "noItem": "Ítem `{item}` no existe. Verifica el nombre.",
+        "noItem": "Ítem `{{item}}` no existe. Verifica el nombre.",
         "noItemShop": "Este objeto no se puede comprar, puede que sea de colección.",
         "yaFondo": "Ya tienes este fondo.",
-        "noMoney": "No cuentas con el dinero suficiente, te falta `{faltante}` starcoins para poder comprar `{cantidad}` de {item}.",
-        "title": "Compra de objetos de {tienda}",
-        "descripcion": "Has comprado `{cantidad}` de {emoji} {nombre} por `{costo}` starcoins."
+        "noMoney": "No cuentas con el dinero suficiente, te falta `{{faltante}}` starcoins para poder comprar `{{cantidad}}` de {{item}}.",
+        "title": "Compra de objetos de {{tienda}}",
+        "descripcion": "Has comprado `{{cantidad}}` de {{emoji}} {{nombre}} por `{{costo}}` starcoins."
     },
     "crime": {
         "title": "🕵️‍♂️ Crimen",
         "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",
-        "crime": "Has recibido {money} por robarle al owner, ¡correeee!",
-        "noCrime": "❌ Parece que no sabes entrar silenciosamente a los lugares y te quitaron {money} starcoins.",
+        "crime": "Has recibido {{money}} por robarle al owner, ¡correeee!",
+        "noCrime": "❌ Parece que no sabes entrar silenciosamente a los lugares y te quitaron {{money}} starcoins.",
         "error": "❌ Ocurrió un error inesperado. Avísanos con `bugreport` para poderlo solucionar."
     },
     "daily": {
-        "dlyUser": "¡Acabas de dar {money} starcoins a {miembro}! Vuelve en 12 horas por tu dinero diario.",
-        "dly": "¡Acabas de recibir {money} starcoins! Vuelve en 12 horas por tu dinero diario.",
+        "dlyUser": "¡Acabas de dar {{money}} starcoins a {{miembro}}! Vuelve en 12 horas por tu dinero diario.",
+        "dly": "¡Acabas de recibir {{money}} starcoins! Vuelve en 12 horas por tu dinero diario.",
         "title": "☀ Dinero Diario",
         "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",
         "error": "❌ Ocurrió un error inesperado. Avísanos con `bugreport` para poderlo solucionar."
@@ -36,60 +36,60 @@
         "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",
         "noMoney": "Parece que no tienes nada que depositar.",
         "falta": "Usted no tiene monedas suficientes.",
-        "mensaje": "✅ Depositado `{cantidad}` en tu banco con éxito.",
+        "mensaje": "✅ Depositado `{{cantidad}}` en tu banco con éxito.",
         "error": "❌ Ocurrió un error inesperado. Avísanos con `bugreport` para poderlo solucionar."
     },
     "dice": {
         "locked": "Tienes La Economía Bloqueada. Contacta con el staff en el servidor de soporte para apelar.",
-        "got": "Sacaste un: **{dice}**",
-        "win": "¡Adivinaste! Ganaste {money} starcoins",
-        "lose": "Perdiste... te quitaron {money} starcoins",
-        "cooldown": "🛑 | ¡Alto! Espere `{time}` para tirar el dado."
+        "got": "Sacaste un: **{{dice}}**",
+        "win": "¡Adivinaste! Ganaste {{money}} starcoins",
+        "lose": "Perdiste... te quitaron {{money}} starcoins",
+        "cooldown": "🛑 | ¡Alto! Espere `{{time}}` para tirar el dado."
     },
     "dirty": {
         "title": "👱‍️ Trabajo poco común",
         "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",
-        "mensaje": "✅ Has recibido `{money}` starcoins por hacer trabajos poco comunes",
-        "noMensaje": "❌ Parece que el cliente huyó y perdiste `{money}` starcoins.",
+        "mensaje": "✅ Has recibido `{{money}}` starcoins por hacer trabajos poco comunes",
+        "noMensaje": "❌ Parece que el cliente huyó y perdiste `{{money}}` starcoins.",
         "error": "❌ Ocurrió un error inesperado. Avísanos con `bugreport` para poderlo solucionar."
     },
     "flipcoin": {
         "cara": "Cara",
         "sello": "Cruz",
-        "got": "Sacaste: **{coin}**",
+        "got": "Sacaste: **{{coin}}**",
         "locked": "Tienes La Economía Bloqueada. Contacta con el staff en el servidor de soporte para apelar.",
-        "win": "¡Adivinaste! Ganaste {money} starcoins",
-        "lose": "Perdiste... te quitaron {money} starcoins",
-        "cooldown": "🛑 | ¡Alto! Espere `{time}` para tirar la moneda al aire."
+        "win": "¡Adivinaste! Ganaste {{money}} starcoins",
+        "lose": "Perdiste... te quitaron {{money}} starcoins",
+        "cooldown": "🛑 | ¡Alto! Espere `{{time}}` para tirar la moneda al aire."
     },
     "rob": {
         "title": "🕵️‍ Robar",
         "noUser": "Usuario no válido.",
         "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",
         "noRobMoney": "¿Cómo le quieres robar si no tiene nada?",
-        "mensaje": "✅ Le has robado a {miembro} el total de {robado} starcoins, ¡ahora huye mientras puedas!",
-        "noMensaje": "❌ La ley te cayó de sorpresa y te quitó {money}, además de que le dieron la mitad de eso a {miembro} por el incidente.",
+        "mensaje": "✅ Le has robado a {{miembro}} el total de {{robado}} starcoins, ¡ahora huye mientras puedas!",
+        "noMensaje": "❌ La ley te cayó de sorpresa y te quitó {{money}}, además de que le dieron la mitad de eso a {{miembro}} por el incidente.",
         "error": "❌ Ocurrió un error inesperado. Avísanos con `bugreport` para poderlo solucionar."
     },
     "sell": {
         "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",
         "noItemShop": "Este objeto no se puede vender, puede que sea de colección.",
-        "noItemInv": "No cuentas con el ítem: `{item}`.",
-        "noCantidad": "No cuentas con los items suficientes para vender, solamente cuentas con`{cantidad}`.",
-        "title": "Venta de Objetos de {tienda}.",
-        "descripcion": "Has vendido `{cantidad}` de {emoji} {nombre} por `{costo}` starcoins."
+        "noItemInv": "No cuentas con el ítem: `{{item}}`.",
+        "noCantidad": "No cuentas con los items suficientes para vender, solamente cuentas con`{{cantidad}}`.",
+        "title": "Venta de Objetos de {{tienda}}.",
+        "descripcion": "Has vendido `{{cantidad}}` de {{emoji}} {{nombre}} por `{{costo}}` starcoins."
     },
     "shop": {
-        "title": "Tienda de {tienda}",
-        "descripcion": "Para comprar ítems tienes que usar `{prefix}buy <ítem> [cantidad]`. Para vender ítems usa `{prefix}sell <ítem> [cantidad]`\nSimbología:\n📥Compra\n📤Venta",
+        "title": "Tienda de {{tienda}}",
+        "descripcion": "Para comprar ítems tienes que usar `{{prefix}}buy <ítem> [cantidad]`. Para vender ítems usa `{{prefix}}sell <ítem> [cantidad]`\nSimbología:\n📥Compra\n📤Venta",
         "noTienda": "Tienda no encontrada o no disponible.",
         "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",
-        "suspencion": "Actualmente la tienda de ítems se encuentra cerrada. Usa `{prefix}shop fondos` para ver y comprar fondos para tu perfil.",
+        "suspencion": "Actualmente la tienda de ítems se encuentra cerrada. Usa `{{prefix}}shop fondos` para ver y comprar fondos para tu perfil.",
         "fondos": {
             "fondos": "fondos",
             "p": "🖼 Fondo Principal:",
             "s": "🖼 Fondo Secundario:",
-            "descripcion": "Para comprar ítems tienes que usar `{prefix}shop buy <nombre-del-fondo>`.\nSimbología: 📥Compra",
+            "descripcion": "Para comprar ítems tienes que usar `{{prefix}}shop buy <nombre-del-fondo>`.\nSimbología: 📥Compra",
             "nombre": "Nombre:",
             "rareza": "Rareza:",
             "num": "Número de fondos:",
@@ -109,24 +109,24 @@
     "trade": {
         "title": "💎🏬 Comerciar",
         "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",
-        "mensaje": "✅ Has recibido {money} por hacer comercios peligrosos.",
-        "noMensaje": "❌ Parece que la policía te vio y te quitaron {money}.",
-        "cooldown": "🛑 | ¡Alto! Espere `{time}` para hacer trabajos peligroso nuevamente.",
+        "mensaje": "✅ Has recibido {{money}} por hacer comercios peligrosos.",
+        "noMensaje": "❌ Parece que la policía te vio y te quitaron {{money}}.",
+        "cooldown": "🛑 | ¡Alto! Espere `{{time}}` para hacer trabajos peligroso nuevamente.",
         "error": "❌ Ocurrió un error inesperado. Avísanos con `bugreport` para poderlo solucionar."
     },
     "trans": {
         "title": "💱 Transferencia",
         "noCantidad": "Cantidad no válida.",
         "noMencion": "Mención no valida. Verifica el usuario.",
-        "automencion": "✅ `{money}` starcoins transferidos correctamente al banco nacional de StarBot. Gracias por preferirnos.",
-        "mensajeEspera": "Verifica y acepta colocando `{numero}` para transferir `{dinero}` starcoins. Pon `cancel` o `cancelar` para no transferir dinero.\n*Tiene un 15% de comisión por la transferencia.*",
+        "automencion": "✅ `{{money}}` starcoins transferidos correctamente al banco nacional de StarBot. Gracias por preferirnos.",
+        "mensajeEspera": "Verifica y acepta colocando `{{numero}}` para transferir `{{dinero}}` starcoins. Pon `cancel` o `cancelar` para no transferir dinero.\n*Tiene un 15% de comisión por la transferencia.*",
         "cancel": "✅ Transferencia cancelada.",
         "noValido": "Número de verificación no válido.",
         "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",
         "noMoney": "Parece que no tienes dinero para transferir.",
         "falta": "Usted no tiene monedas suficientes.",
-        "noSumar": "Parece ser que {miembro} no tiene perfil. **Tiene que hablar para que se cree.**\n*Si consideras que esto es un error, puedes reportarlo con `bugreport`.",
-        "mensaje": "✅ Transferencia exitosa. Se dio a {miembro} la cantidad de `{cantidad}` starcoins. | ",
+        "noSumar": "Parece ser que {{miembro}} no tiene perfil. **Tiene que hablar para que se cree.**\n*Si consideras que esto es un error, puedes reportarlo con `bugreport`.",
+        "mensaje": "✅ Transferencia exitosa. Se dio a {{miembro}} la cantidad de `{{cantidad}}` starcoins. | ",
         "noTiempo": "⏳ Tiempo expirado ❌",
         "error": "❌ Ocurrió un error inesperado. Avísanos con `bugreport` para poderlo solucionar."
     },
@@ -136,13 +136,13 @@
         "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",
         "noMoney": "Parece que no tienes nada que retirar.",
         "falta": "Usted no tiene monedas suficientes.",
-        "mensaje": "✅ Retiró `{cantidad}` con éxito, dejando tu banco con `{banco}`.",
+        "mensaje": "✅ Retiró `{{cantidad}}` con éxito, dejando tu banco con `{{banco}}`.",
         "error": "❌ Ocurrió un error inesperado. Avísanos con `bugreport` para poderlo solucionar."
     },
     "work": {
         "title": "👷 ‍Trabajo",
-        "mensajeDar": "✅ ¡Acabas de dar {money} monedas a {miembro}!",
-        "mensaje": "✅ ¡Acabas de recibir {money} monedas!",
+        "mensajeDar": "✅ ¡Acabas de dar {{money}} monedas a {{miembro}}!",
+        "mensaje": "✅ ¡Acabas de recibir {{money}} monedas!",
         "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",
         "error": "❌ Ocurrió un error inesperado. Avísanos con `bugreport` para poderlo solucionar."
     }

@@ -1,7 +1,7 @@
 {
     "8ball": {
-        "title": "🎱 Questão\n{pregunta}",
-        "descripcion": "Ao qual eu respondo: {respuesta}",
+        "title": "🎱 Questão\n{{pregunta}}",
+        "descripcion": "Ao qual eu respondo: {{respuesta}}",
         "rpts": [
             "Sim",
             "Não",
@@ -30,7 +30,7 @@
     "cookie": {
         "noUser": "Mencione um usuário.",
         "noRazon": "Nenhum",
-        "cookie": "**{user},** você tem um {cookie} de **{author}**\n\n**Razão:** {reason}\n(づ ｡◕‿‿◕｡) づ: ･ ﾟ ✧ {cookie}"
+        "cookie": "**{{user}},** você tem um {{cookie}} de **{{author}}**\n\n**Razão:** {{reason}}\n(づ ｡◕‿‿◕｡) づ: ･ ﾟ ✧ {{cookie}}"
     },
     "dog": {
         "title": "Cachorro aleatório 🐶"
@@ -42,7 +42,7 @@
         "rand80": "Isso tem uma possibilidade, é muito provável que acabem sendo namorados: 3",
         "rand100": "Não há dúvida de que existe amor aqui, não sei o que você espera! <3",
         "randInf": "O amor que você deve ter deve ser o maior de todos, aprecie-o como o maior dos tesouros.",
-        "author": "A porcentagem de amor entre {user1} e {user2} é:"
+        "author": "A porcentagem de amor entre {{user1}} e {{user2}} é:"
     },
     "meme": {
         "title": "Tenha seu meme",
@@ -52,7 +52,7 @@
         "descripcion": "Descrição:",
         "popular": "Popularidade",
         "votos": "Votos positivos:",
-        "confirmacion": "✅ Eu voto {vote} para {waifu} corretamente.",
+        "confirmacion": "✅ Eu voto {{vote}} para {{waifu}} corretamente.",
         "positivo": "positivo",
         "negativo": "negativo",
         "footer": "Você pode votar a cada 24 horas."

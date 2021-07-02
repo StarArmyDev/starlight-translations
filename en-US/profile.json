@@ -25,20 +25,20 @@
     "no": "no",
     "helpForce": "you must place the person's id.",
     "siUser": "The person you married is on the server, you cannot force a divorce, you must mention",
-    "mensajeForce": "{author} you agree to force separation forever from ({miembro})?\n__*You have 60 seconds to answer yes or no*__",
+    "mensajeForce": "{{author}} you agree to force separation forever from ({{miembro}})?\n__*You have 60 seconds to answer yes or no*__",
     "divorcioForce": "Now you are separated, without compromises ... without love </3",
     "noDivorcioForce": "Unfortunately *(or fortunately)* you have regretted the divorce.",
     "noTiempoForce": "It took you a while to respond ... take your time to think about it",
-    "mensaje": "{miembro} you agree to separate forever from {author} and destroy what since `{fecha}` was his unconditional love declared to all?\n__*You have 60 seconds to answer yes or no*__",
+    "mensaje": "{{miembro}} you agree to separate forever from {{author}} and destroy what since `{{fecha}}` was his unconditional love declared to all?\n__*You have 60 seconds to answer yes or no*__",
     "divorcio": "Now they are separated, without compromises ... without love </3",
-    "noDivorcio": "Regrettably *(or fortunately)* {miembro} Don't accept this decision, you should talk to him first and make this work :3",
+    "noDivorcio": "Regrettably *(or fortunately)* {{miembro}} Don't accept this decision, you should talk to him first and make this work :3",
     "noTiempo": "It took a while to respond ... maybe he got angry *- Run -*."
   },
   "levels": {
     "noConfig": "`❌|` This server does not have levels configured.",
     "nivel": "Lvl:",
     "title": "Levels of",
-    "paginas": "Page {count} from {countDB}"
+    "paginas": "Page {{count}} from {{countDB}}"
   },
   "marry": {
     "noUser": "`❌|` User not found.",
@@ -47,7 +47,7 @@
     "noPerfil": "`❌|` The user mentioned does not have a profile, tell him to use a command to start it.",
     "casadoUser": "`❌|` Hey hey ... this user is already married.",
     "casado": "`❌|` You are already married!",
-    "mensaje": "¿{miembro} you accept {author} like you {genero} in health and disease, in wealth and poverty, with internet and without internet until the wifi separates them?\n__*You have 60 seconds to answer yes or no*__",
+    "mensaje": "¿{{miembro}} you accept {{author}} like you {{genero}} in health and disease, in wealth and poverty, with internet and without internet until the wifi separates them?\n__*You have 60 seconds to answer yes or no*__",
     "hombre": "legitimate husband",
     "mujer": "legitimate wife",
     "otro": "legitimate spouse",
@@ -55,7 +55,7 @@
     "no": "no",
     "maridos": "I declare them. Husband and wife <3",
     "casados": "`✅|` For the power granted to me by Discord and with all the testite server",
-    "noCasados": "`❌|` Unfortunately, the {miembro} marriage has declined and has run away from the server.",
+    "noCasados": "`❌|` Unfortunately, the {{miembro}} marriage has declined and has run away from the server.",
     "noTiempo": "`⏳|` It took a long time to respond ... that doesn't seem to be a good sign."
   },
   "rank": {
@@ -70,7 +70,7 @@
     "titulo": {
       "titulo": "title",
       "noTitulo": "You need to put a single word for the new title",
-      "siTitulo": "`✅|` The title was updated `{nuevoTitulo}` correctly."
+      "siTitulo": "`✅|` The title was updated `{{nuevoTitulo}}` correctly."
     },
     "info": {
       "info": "info",
@@ -83,7 +83,7 @@
       "principal": "head",
       "secundario": "side",
       "default": "defect",
-      "noModo": "Invalid mode, only 1/main or 2/secundary.\nUse `{prefix}editprofile background <1/main or 2/secundary>`",
+      "noModo": "Invalid mode, only 1/main or 2/secundary.\nUse `{{prefix}}editprofile background <1/main or 2/secundary>`",
       "noFondos": "`❌|` You don't have funds, buy one!",
       "colocarDefecto": "`✅|` Default background placed.",
       "footer": "Funds available:",
@@ -123,7 +123,7 @@
     "medalla": {
       "medalla": "badge",
       "noAchievement": "`❌|` You don't have achievements to stand out.",
-      "help": "Use `{prefix}editprofile badge <name|id> <posición>` they both expect a number.",
+      "help": "Use `{{prefix}}editprofile badge <name|id> <posición>` they both expect a number.",
       "noNum": "`❌|` This data is not a number or it is an invalid number",
       "noLugar": "`❌|` Invalid place, you can only place 1, 2 or 3",
       "noMedalla": "`❌|` achievement not found or invalid.",
@@ -132,7 +132,7 @@
     "insignia": {
       "insignia": "ensign",
       "noBadge": "`❌|` You don't have badges.",
-      "help": "Use `{prefix}editprofile insignia <name|id> <position>`",
+      "help": "Use `{{prefix}}editprofile insignia <name|id> <position>`",
       "noNum": "`❌|` This data is not a number or it is an invalid number.",
       "noLugar": "`❌|` Invalid place. You can only place from \"1\" to \"10\".",
       "noLugarE": "`❌|` Invalid place for special badge. You can only place \"1\" or \"2\".",
@@ -150,9 +150,9 @@
   },
   "rep": {
     "noUser": "Invalid user only mention or ID.",
-    "autoMencion": "You just gave yourself a reputation {miembro}. *Now you have 1 rep of punishment* \nReturn in 12 days. To continue giving you reputation.",
+    "autoMencion": "You just gave yourself a reputation {{miembro}}. *Now you have 1 rep of punishment* \nReturn in 12 days. To continue giving you reputation.",
     "noPerfil": "Este Usuario No tiene Un perfil global. Tiene que usar un comando primero.",
-    "mensaje": "You just gave reputation to {miembro}. *Now you have {reputacion} rep*\nCome back in 12 hours. to give someone else.",
+    "mensaje": "You just gave reputation to {{miembro}}. *Now you have {{reputacion}} rep*\nCome back in 12 hours. to give someone else.",
     "isBot": "`❌ |` You cannot give a bot reputation."
   },
   "top": {
@@ -164,10 +164,10 @@
     "banco": "Bank:",
     "nivel": "level:",
     "xp": "XP:",
-    "titleDiner": "MONEY TOP  | **{database}**",
-    "titleRep": "TOP REPUTATION  | **{database}**",
-    "titleXp": "TOP LEVEL  | **{database}**",
+    "titleDiner": "MONEY TOP  | **{{database}}**",
+    "titleRep": "TOP REPUTATION  | **{{database}}**",
+    "titleXp": "TOP LEVEL  | **{{database}}**",
     "global": "Global",
-    "paginas": "Page {count} from {countDB}"
+    "paginas": "Page {{count}} from {{countDB}}"
   }
 }

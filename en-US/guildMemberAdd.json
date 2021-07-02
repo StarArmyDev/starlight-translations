@@ -22,8 +22,8 @@
     "reTitle": "Security Check",
     "rePrecaucion": "⚠[CAUTION] ⚠ Newly created account:",
     "reCreado": "⏳ He created his account ago:",
-    "reInvite": "Invitation: {code}",
+    "reInvite": "Invitation: {{code}}",
     "reNoPerms": "`⛔|` I can not get server invitations, check that you have the correct permissions.",
     "unknown": "A stranger",
-    "terminamute": "**{usuario} Your time is silenced.**"
+    "terminamute": "**{{usuario}} Your time is silenced.**"
 }

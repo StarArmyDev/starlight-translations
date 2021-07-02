@@ -2,8 +2,8 @@
     "fchallenge": {
         "cargando": "🔃 Cargando...",
         "title": "Desafíos Semanales Fortnite",
-        "footer": "# Total: {length}.",
-        "field": "Misiones Totales: {quests}."
+        "footer": "# Total: {{length}}.",
+        "field": "Misiones Totales: {{quests}}."
     },
     "fstats": {
         "pc": "ordenador",
@@ -13,7 +13,7 @@
         "duo": "dúo",
         "squad": "squad",
         "all": "todo",
-        "help": "Usa `{prefix}fstats <usuario> | <solo, duo, squad> | [pc, xbl, psn]`.",
+        "help": "Usa `{{prefix}}fstats <usuario> | <solo, duo, squad> | [pc, xbl, psn]`.",
         "noUserError": "Usuario no encontrado o ha ocurrido un error inesperado."
     },
     "fstore": {
@@ -26,7 +26,7 @@
         "title": "Objetos del Día",
         "rareza": "Rareza:",
         "precio": "Precio",
-        "items": "Artículo {item} de"
+        "items": "Artículo {{item}} de"
     },
     "h5emblema": {
         "emblema": "Emblema de ",
@@ -37,12 +37,12 @@
         "noUser": "El gamertag no existe, por favor, verifíquelo."
     },
     "lolchamps": {
-        "footer": "ID del campeón: {id}",
+        "footer": "ID del campeón: {{id}}",
         "noCamp": "Parece que no existe ese campeón."
     },
     "lolchamprandom": {
         "title": "Campeón aleatorio: ",
-        "footer": "ID del campeón: {id}",
+        "footer": "ID del campeón: {{id}}",
         "error": "❌ Lo siento, parece que hubo un error. Estamos trabajando en repararlo."
     },
     "wotstats": {
