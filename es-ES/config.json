@@ -404,6 +404,7 @@
         "title": "Canal de bienvenida asignado.",
         "message": "Con el mensaje.",
         "messageE": "Mensaje del embed.",
-        "noMessageSelect": "Sin mensaje."
+        "noMessageSelect": "Sin mensaje.",
+        "canal": "Nombre"
     }
 }

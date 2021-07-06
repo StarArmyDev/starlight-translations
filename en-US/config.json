@@ -20,6 +20,7 @@
         "yaRol": "`❌|` Role already assigned.",
         "title": "✅ | Welcome role assigned.",
         "footer": "You can use the command again to add more roles.",
-        "mensaje": "Role"
+        "mensaje": "Role",
+        "canal": "Name"
     }
 }
