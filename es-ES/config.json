@@ -288,7 +288,7 @@
     },
     "resetxp": {
         "noMember": "`❌|` Usuario no encontrado, verifícalo.",
-        "noMemverDB": "`❌|` Este usuario no tiene experiencial.",
+        "noMemberDB": "`❌|` Este usuario no tiene experiencial.",
         "mensajeMiembro": "Está a punto de resetear la experiencia de {{member}} ¿Realmente desea continuar? Escribe `si`. *Tienes 60 segundos para contestar.*",
         "mensajeServidor": "Está a punto de resetear la experiencia de todo el servidor  ¿Realmente desea continuar? Escribe `si`. *Tienes 60 segundos para contestar.*",
         "si": "si",
