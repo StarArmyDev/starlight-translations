@@ -89,7 +89,7 @@
             "fondos": "fondos",
             "p": "🖼 Fondo Principal:",
             "s": "🖼 Fondo Secundario:",
-            "descripcion": "Para comprar ítems tienes que usar `{{prefix}}shop buy <nombre-del-fondo>`.\nSimbología: 📥Compra",
+            "descripcion": "Para comprar ítems tienes que usar `{{prefix}}buy <nombre-del-fondo>`.\nSimbología: 📥Compra",
             "nombre": "Nombre:",
             "rareza": "Rareza:",
             "num": "Número de fodos:",
