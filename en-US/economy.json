@@ -125,7 +125,7 @@
         "noMoney": "It seems you have no money to transfer.",
         "falta": "You do not have enough coins.",
         "noSumar": "It seems that {{miembro}} It has no profile. **He has to talk to be believed**\n*If you think this is a mistake, you can report it with* `bugreport`",
-        "mensaje": "✅ Successful transfer It was given to {{miembro}} the amount of `{{cantidad}}` starcoins. | ",
+        "mensaje": "✅ Successful transfer It was given to {{miembro}} the amount of `{{cantidad}}` starcoins.",
         "noTiempo": "⏳ Expired Time ❌",
         "error": "❌ Sorry, it seems there was an error. We are working to repair it."
     },

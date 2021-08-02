@@ -126,7 +126,7 @@
         "noMoney": "Parece que no tienes dinero para transferir.",
         "falta": "Usted no tiene monedas suficientes.",
         "noSumar": "Parece ser que {{miembro}} no tiene perfil. **Tiene que hablar para que se cree.**\n*Si consideras que esto es un error, puedes reportarlo con `bugreport`.",
-        "mensaje": "✅ Transferencia exitosa. Se dio a {{miembro}} la cantidad de `{{cantidad}}` starcoins. | ",
+        "mensaje": "✅ Transferencia exitosa. Se dio a {{miembro}} la cantidad de `{{cantidad}}` starcoins.",
         "noTiempo": "⏳ Tiempo expirado ❌",
         "error": "❌ Ocurrió un error inesperado. Avísanos con `bugreport` para poderlo solucionar."
     },
