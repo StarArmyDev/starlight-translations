@@ -28,23 +28,6 @@
         "precio": "Price",
         "items": "Item {{item}} from"
     },
-    "h5emblema": {
-        "emblema": "Emblem of ",
-        "noUser": "The gamertag does not exist, please verify it."
-    },
-    "h5spartan": {
-        "spartan": "Spartan of ",
-        "noUser": "The gamertag does not exist, please verify it."
-    },
-    "lolchamps": {
-        "footer": "Champion ID: {{id}}",
-        "noCamp": "It seems that there is no such champion."
-    },
-    "lolchamprandom": {
-        "title": "Random Champion: ",
-        "footer": "Champion ID: {{id}}",
-        "error": "❌ Sorry, it seems there was an error. We are working to repair it."
-    },
     "wotstats": {
         "xbox": "xboxone",
         "ps4": "playstation4",

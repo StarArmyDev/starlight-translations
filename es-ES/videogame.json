@@ -28,23 +28,6 @@
         "precio": "Precio",
         "items": "Artículo {{item}} de"
     },
-    "h5emblema": {
-        "emblema": "Emblema de ",
-        "noUser": "El gamertag no existe, por favor, verifíquelo."
-    },
-    "h5spartan": {
-        "spartan": "Spartan de ",
-        "noUser": "El gamertag no existe, por favor, verifíquelo."
-    },
-    "lolchamps": {
-        "footer": "ID del campeón: {{id}}",
-        "noCamp": "Parece que no existe ese campeón."
-    },
-    "lolchamprandom": {
-        "title": "Campeón aleatorio: ",
-        "footer": "ID del campeón: {{id}}",
-        "error": "❌ Lo siento, parece que hubo un error. Estamos trabajando en repararlo."
-    },
     "wotstats": {
         "xbox": "Xbox",
         "ps4": "PlayStation",
