@@ -62,7 +62,17 @@
         "mod": "👮‍♂️ Moderador",
         "invite": "Invitación"
     },
-    "createmute": {},
+    "createmute": {
+        "noPermissions": "`⛔|` Parece que no tengo permisos de manejar roles o canales.",
+        "noValidName": "`❌|` Nombre muy largo",
+        "exist": "`❌|` Ya exite un rol configurado, eliminalo si quieres crear uno nuevo.",
+        "process": "⏳ Creando rol... espere un momento.",
+        "rolemute": "Silenciado",
+        "reason": "Comando CreateMute",
+        "error": "`❌|` Ocurrió un error al crear el rol.",
+        "title": "✅ Rol Creado",
+        "description": "El rol para silenciar con el comando `mute` se ha creado con sus respectivas restrinciones."
+    },
     "deny": {
         "noBot": "`❌|`No tengo permiso de gestionar mensajes en este servidor.",
         "noSugerencias": "No está establecido el canal de sugerencias.",
