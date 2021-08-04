@@ -72,10 +72,9 @@
         "emojis": "😂 Emojis"
     },
     "translate": {
-        "embed": "embed",
-        "error": "❌ It seems that an unexpected error occurred, report the bug to fix it.",
-        "idioma": "Language:",
-        "original": "Original:",
+        "list": "List of available languages:",
+        "noValid": "`⛔|` Invalid language or not available.Check the available languages by adding `--list` to the command.",
+        "noTranslate": "`❌|` The text could not be translated, the message may be very long",
         "traductor": " Translator"
     },
     "user": {

@@ -46,12 +46,23 @@
         "descripcionUser": "Have been deleted `{{messages}}` user messages {{miembro}} in the channel {{channel}}",
         "error": "`❌|` You cannot delete messages longer than 14 days."
     },
+    "closereport": {
+        "noPremium": "`⛔|` This is a premium feature. \nUse the `premium` command to find out more information.",
+        "noReports": "`❌|` There are no open reports.",
+        "noFound": "`❌|` Report not found.",
+        "noUser": "`⛔|` The user could not be contacted, he is currently out of reach of the bot.",
+        "title": "✅ Report Closed",
+        "id": "Tracking identifier",
+        "sendDM": "✅ Report Closed",
+        "noSendDM": "`⛔|` I could not send the message, I may have the dm closed."
+    },
     "createinvitation": {
         "noBot": "`❌|`I do not have permissions to create invitations on this server.",
         "title": "A permanent invitation to my name has been created",
         "mod": "👮‍♂️ Moderator",
         "invite": "Invitation"
     },
+    "createmute": {},
     "deny": {
         "noBot": "`❌|`I do not have permissions to manage messages on this server.",
         "noSugerencias": "Suggestions channel not established",
@@ -92,7 +103,8 @@
         "privado": "Private message sent successfully.",
         "noPrivado": "I cannot send a private message to the user.",
         "mod": "👮‍♂️ Moderator",
-        "error": "`❌|`It cannot be expelled, please check the mention."
+        "error": "`❌|`It cannot be expelled, please check the mention.",
+        "guild": "Server"
     },
     "mute": {
         "noBot": "`❌|` I do not have permissions to handle Roles on this server.",
@@ -131,6 +143,19 @@
         "calificadaPor": "Qualified by",
         "siPotencial": "Suggestion put in Potential.",
         "error": "`❌|`An unexpected error occurred, it is likely that the message does not exist or the ID is incorrect."
+    },
+    "response": {
+        "noPremium": "`⛔ |` This is a premium feature. Use the `premium` command to find out more information.",
+        "noReports": "`❌ |` There are no open reports.",
+        "noFound": "`❌|` Report not found.",
+        "noMessage": "`❌|` Place a message to send.",
+        "noUser": "`⛔ |` The user could not be contacted, he is currently out of reach of the bot.",
+        "title": "Following the report",
+        "id": "Reply with this ID",
+        "response": "Answer",
+        "mod": "👮‍♂️ Moderator:",
+        "sendDM": "`✅ |` Message Sent",
+        "noSendDM": "`⛔ |` I could not send the message, I may have the dm closed."
     },
     "unban": {
         "noBot": "`❌|`I don't have permission to ban on this server.",
@@ -190,8 +215,9 @@
         "ban": "User Banned",
         "numAdver": "Number of warnings",
         "server": "Guild",
-        "privado": "Private message sent successfully.",
-        "error": "`❌|`Sorry, it seems there was an error. We are working to repair it."
+        "error": "`❌|`Sorry, it seems there was an error. We are working to repair it.",
+        "rolMute": "Mute",
+        "noPrivate": "`❌|` The private message could not be sent."
     },
     "warninfo": {
         "noUser": "Could not find user",

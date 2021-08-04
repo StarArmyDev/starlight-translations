@@ -46,11 +46,32 @@
         "descripcionUser": "Se han borrado `{{messages}}` mensajes de {{miembro}} en {{channel}}.",
         "error": "`❌|` No se pueden borrar mensajes de más de 14 días de antigüedad."
     },
+    "closereport": {
+        "noPremium": "`⛔|` Esta es una función premium. Usa el comando `premium` para saber más información.",
+        "noReports": "`❌|` No hay reportes abiertos.",
+        "noFound": "`❌|` Reporte no encontrado.",
+        "noUser": "`⛔|` No se pudo contactar al usuario, está fuera del alcance del bot actualmente.",
+        "title": "✅ Reporte Cerrado",
+        "id": "Identificador de seguimiento",
+        "sendDM": "✅ Reporte Cerrado",
+        "noSendDM": "`⛔|` No pude mandar el mensaje, puede que tenga el dm cerrado."
+    },
     "createinvitation": {
         "noBot": "`❌|`No tengo permiso de crear invitaciones en este servidor.",
         "title": "Se ha creado una invitación permanente a mi nombre.",
         "mod": "👮‍♂️ Moderador",
         "invite": "Invitación"
+    },
+    "createmute": {
+        "noPermissions": "`⛔|` Parece que no tengo permisos de manejar roles o canales.",
+        "noValidName": "`❌|` Nombre muy largo",
+        "exist": "`❌|` Ya exite un rol configurado, eliminalo si quieres crear uno nuevo.",
+        "process": "⏳ Creando rol... espere un momento.",
+        "rolemute": "Silenciado",
+        "reason": "Comando CreateMute",
+        "error": "`❌|` Ocurrió un error al crear el rol.",
+        "title": "✅ Rol Creado",
+        "description": "El rol para silenciar con el comando `mute` se ha creado con sus respectivas restrinciones."
     },
     "deny": {
         "noBot": "`❌|`No tengo permiso de gestionar mensajes en este servidor.",
@@ -92,7 +113,8 @@
         "privado": "Mensaje privado enviado correctamente.",
         "noPrivado": "No puedo enviar mensajes privados al usuario.",
         "mod": "👮‍♂️ Moderador",
-        "error": "`❌|`No se pudo expulsar. Por favor, verifica la mención."
+        "error": "`❌|`No se pudo expulsar. Por favor, verifica la mención.",
+        "guild": "Servidor"
     },
     "mute": {
         "noBot": "`❌|` No tengo permiso de gestionar roles en este servidor.",
@@ -131,6 +153,19 @@
         "calificadaPor": "Calificada por",
         "siPotencial": "Sugerencia marcada como potencial.",
         "error": "`❌|`Ocurrió un error inesperado, es probable que el mensaje no exista o la ID sea incorrecta."
+    },
+    "response": {
+        "noPremium": "`⛔|` Esta es una función premium. Usa el comando `premium` para saber más información.",
+        "noReports": "`❌|` No hay reportes abiertos.",
+        "noFound": "`❌|` Reporte no encontrado.",
+        "noSendDM": "`⛔|` No pude mandar el mensaje, puede que tenga el dm cerrado.",
+        "noUser": "`⛔|` No se pudo contactar al usuario, está fuera del alcance del bot actualmente.",
+        "title": "Seguimiendo del reporte",
+        "id": "Contesta con este ID",
+        "response": "Respuesta",
+        "mod": "👮‍♂️ Moderador:",
+        "sendDM": "`✅|` Mensaje Enviado",
+        "noMessage": "`❌|` Coloca un mensaje para enviar."
     },
     "unban": {
         "noBot": "`❌|`No tengo permiso de banear en este servidor.",
@@ -190,8 +225,9 @@
         "ban": "Usuario baneado",
         "numAdver": "Número de advertencias",
         "server": "Servidor",
-        "privado": "Mensaje privado enviado correctamente.",
-        "error": "`❌|`Lo siento, parece que hubo un error. Estamos trabajando en repararlo."
+        "error": "`❌|`Lo siento, parece que hubo un error. Estamos trabajando en repararlo.",
+        "rolMute": "Silenciado",
+        "noPrivate": "`❌ |` A mensagem privada não pôde ser enviada."
     },
     "warninfo": {
         "noUser": "No pude encontrar al usuario.",

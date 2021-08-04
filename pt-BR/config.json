@@ -141,7 +141,7 @@
     },
     "resetxp": {
         "noMember": "❌ | Usuário não encontrado, verifique.",
-        "noMemverDB": "❌ | Este usuário não tem experiência.",
+        "noMemberDB": "❌ | Este usuário não tem experiência.",
         "mensajeMiembro": "Você está prestes a reiniciar a experiência de {{member}}. Você realmente deseja continuar? Escreva `sim`. *Você tem 60 segundos para responder.*",
         "mensajeServidor": "Você está prestes a redefinir toda a experiência do servidor. Você realmente deseja continuar? Escreva `sim`. *Você tem 60 segundos para responder.*",
         "si": "sim",

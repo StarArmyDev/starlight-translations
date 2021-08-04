@@ -88,7 +88,7 @@
             "fondos": "backdrops",
             "p": "🖼 Main Background:",
             "s": "🖼 Secondary Background:",
-            "descripcion": "To buy background you have to use `{{prefix}}shop buy <background-name>`.\nSymbology: 📥Purchase",
+            "descripcion": "To buy background you have to use `{{prefix}}buy <background-name>`.\nSymbology: 📥Purchase",
             "nombre": "Name:",
             "rareza": "Rarity:",
             "num": "Number of backgrounds:",
