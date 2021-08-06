@@ -1,115 +1,115 @@
 {
     "avatar": {
-        "title": "Avatar of",
-        "noUser": "`❌|` The named user was not found."
+        "noUser": "`❌|` The named user was not found.",
+        "title": "Avatar of"
     },
     "emoji": {
-        "noEmoji": "Emoji not found or not available.",
-        "id": "🆔 Unique identifier",
         "animado": "Animated/Gif",
-        "server": "Guild",
         "autor": "Uploaded by",
         "creado": "🗓️ Creation date",
-        "si": "Yes",
-        "no": "Not"
+        "id": "🆔 Unique identifier",
+        "no": "Not",
+        "noEmoji": "Emoji not found or not available.",
+        "server": "Guild",
+        "si": "Yes"
     },
     "game": {
         "game": "This {{tipo}}: ",
         "noGame": "Is not playing right now.",
         "tipo": {
+            "CUSTOM_STATUS": "with a custom state",
+            "LISTENING": "🎶Listening",
             "PLAYING": "🎮Playing",
             "STREAMING": "📡Transmitting",
-            "LISTENING": "🎶Listening",
             "WATCHING": "📺Watch",
-            "CUSTOM_STATUS": "with a custom state",
             "undefined": "[Unknown activity]"
         }
     },
     "roleinfo": {
-        "noRol": "`❌|` Role not found or invalid",
-        "title": "Role information",
-        "nombre": "Name",
-        "id": "🆔 Unique identifier",
         "color": "🌈 Color",
-        "separado": "↕ Separated",
+        "id": "🆔 Unique identifier",
         "mensionable": "@ Mentionable",
-        "posicion": "🔢 Position",
         "miembros": "👥 Members",
-        "permisosImport": "⛔ Important perms",
-        "tiempo": "⌛ Role created",
-        "si": "Yes",
         "no": "No",
+        "noRol": "`❌|` Role not found or invalid",
+        "nombre": "Name",
+        "permisosImport": "⛔ Important perms",
+        "posicion": "🔢 Position",
+        "separado": "↕ Separated",
+        "si": "Yes",
+        "sinInfo": "No information.",
         "sinPerm": "No perms.",
-        "sinInfo": "No information."
+        "tiempo": "⌛ Role created",
+        "title": "Role information"
     },
     "serverinfo": {
-        "seguridad": {
-            "NONE": "None",
-            "LOW": "Low",
-            "MEDIUM": "Medium",
-            "HIGH": "High",
-            "VERY_HIGH": "Maximum"
-        },
-        "id": "🆔 Unique Identifier",
-        "region": "🗺️ Region",
-        "creado": "🗓️ Creation date",
-        "creadoHace": "🕑 Created ago",
-        "dueño": "👑 Guild owner",
-        "miembros": "👥 Members",
-        "linea": "Online:",
-        "noMolestar": "Do not bother:",
+        "afk": "AFK:",
         "ausente": "Missing:",
-        "desconectado": "Disconnected:",
-        "nivelVer": "🚨 Verification level",
-        "usuarios": "👤 Humans",
         "bots": "🤖 Bots",
         "canales": "💬 Channels",
-        "texto": "Of text:",
-        "voz": "Voice:",
-        "afk": "AFK:",
+        "creado": "🗓️ Creation date",
+        "creadoHace": "🕑 Created ago",
+        "desconectado": "Disconnected:",
+        "dueño": "👑 Guild owner",
+        "emojis": "😂 Emojis",
+        "id": "🆔 Unique Identifier",
+        "linea": "Online:",
+        "miembros": "👥 Members",
+        "nivelVer": "🚨 Verification level",
         "noAfk": "No channel",
+        "noMolestar": "Do not bother:",
+        "region": "🗺️ Region",
         "roles": "🔁 Roles",
-        "emojis": "😂 Emojis"
+        "seguridad": {
+            "HIGH": "High",
+            "LOW": "Low",
+            "MEDIUM": "Medium",
+            "NONE": "None",
+            "VERY_HIGH": "Maximum"
+        },
+        "texto": "Of text:",
+        "usuarios": "👤 Humans",
+        "voz": "Voice:"
     },
     "translate": {
         "list": "List of available languages:",
-        "noValid": "`⛔|` Invalid language or not available.Check the available languages by adding `--list` to the command.",
         "noTranslate": "`❌|` The text could not be translated, the message may be very long",
+        "noValid": "`⛔|` Invalid language or not available.Check the available languages by adding `--list` to the command.",
         "traductor": " Translator"
     },
     "user": {
-        "noUser": "`❌|` User not found or invalid",
+        "apodo": "👤 Nickname",
+        "conecCel": "📱 Connected on mobile",
+        "conecDesk": "💻 Connected on desktop",
+        "conecWeb": "💻 Web connected",
+        "creada": "📅 Account created",
+        "creadaHace": "🕑 Account created ago",
+        "estado": "🔘🔴 State",
         "estados": {
-            "online": "Online",
             "dnd": "Do not bother",
             "idle": "Absent",
-            "offline": "Disconnected"
+            "offline": "Disconnected",
+            "online": "Online"
         },
-        "jugando": "🎮 Activity",
-        "tipo": {
-            "PLAYING": "🎮Playing",
-            "STREAMING": "📡Transmitting",
-            "LISTENING": "🎶Listening",
-            "WATCHING": "📺Watch",
-            "CUSTOM_STATUS": "custom state"
-        },
-        "estado": "🔘🔴 State",
         "id": "🆔 Unique identifier",
-        "conecWeb": "💻 Web connected",
-        "conecDesk": "💻 Connected on desktop",
-        "conecCel": "📱 Connected on mobile",
-        "apodo": "👤 Nickname",
-        "creada": "📅 Account created",
         "ingreso": "📆 Entry",
-        "creadaHace": "🕑 Account created ago",
         "ingresoHace": "🕑 Login ago",
         "insignias": "🔶 Flags ",
-        "noInsig": "No badges",
-        "roles": "🔁 Roles",
-        "permisos": "Important perms",
-        "noJugando": "Nothing",
+        "jugando": "🎮 Activity",
         "noApodo": "None",
-        "sd": "S/D"
+        "noInsig": "No badges",
+        "noJugando": "Nothing",
+        "noUser": "`❌|` User not found or invalid",
+        "permisos": "Important perms",
+        "roles": "🔁 Roles",
+        "sd": "S/D",
+        "tipo": {
+            "CUSTOM_STATUS": "custom state",
+            "LISTENING": "🎶Listening",
+            "PLAYING": "🎮Playing",
+            "STREAMING": "📡Transmitting",
+            "WATCHING": "📺Watch"
+        }
     },
     "userrandom": {
         "title": "Lucky user:"

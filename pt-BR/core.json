@@ -6,138 +6,138 @@
         "correcto": "**Seu bug foi relatado com sucesso.**\nEle será revisado, portanto, seja paciente.\n*Para obter mais assistência ou ajuda, você pode entrar no servidor de suporte ou escrever para mim em DM.*",
         "error": "Ocorreu um problema ao enviar a mensagem, você pode me enviar uma mensagem privada como alternativa."
     },
+    "davichostar": {
+        "description": "Eu sou o criador deste bot e vim para me apresentar.\n\nSou um desenvolvedor mexicano com experiência em TypeScript (TS) e NodeJS principalmente, mas também conheço Java, Python, C #, C ++ com menos habilidade, estou aprendendo tecnologias como ReactJS, VueJS e Flutter.\n\nEu sei sobre design gráfico, mas era apaixonado por computação e o conjunto dessas pequenas habilidades me permitiu criar bots, com seus designs e banners, suas páginas web e seu servidor de suporte.\n\nEmail: *davichostar@protonmail.com*",
+        "title": "Olá! \n👋 Eu sou DavichoStar"
+    },
     "help": {
-        "si": "Sim",
-        "no": "Näo",
-        "titulo": "Lista de comandos",
-        "version": " | versão ",
-        "descripcion": "Olá, sou {{client_name}} e vim ajudar. Esta é minha lista de comandos que você pode usar.\n\nPing: `{{ping}}`ms\nCategorias no total: `{{categorias}}`\nComandos no total: `{{comandos}}`",
+        "config": "⚙ Configuração",
         "core": "🌠 Bot",
+        "descripcion": "Olá, sou {{client_name}} e vim ajudar. Esta é minha lista de comandos que você pode usar.\n\nPing: `{{ping}}`ms\nCategorias no total: `{{categorias}}`\nComandos no total: `{{comandos}}`",
+        "developer": "👨‍💻 Desenvolvedor",
+        "economy": "💵 Economia",
+        "embedHelp": {
+            "alias": "Alias",
+            "apagado": "Desligamento global",
+            "args": "Espere por argumentos",
+            "categoria": "Categoria",
+            "cooldown": "Esfriar",
+            "descripcion": "**Descrição:**",
+            "noAlias": "Sem aliases",
+            "permiso": "Com licença",
+            "sinPermisos": "Nenhuma permissão necessária",
+            "title": "Ajuda de: {{command}}",
+            "uso": "Use o comando da seguinte maneira:"
+        },
+        "expression": "🎭 Expressão",
         "fun": "🎉 Diversão",
         "info": "📃 Informação",
-        "util": "🛡 Utilidade",
-        "config": "⚙ Configuração",
-        "moderation": "👮 Funcionários",
         "interaction": "🎁 Interação",
-        "expression": "🎭 Expressão",
-        "music": "🎵  Música",
-        "videogame": "🎮 Videogame",
-        "economy": "💵 Economia",
-        "profile": "👥 Perfil",
-        "developer": "👨‍💻 Desenvolvedor",
+        "links": {
+            "desc": "[Convide-me]({{invite}}\"Convide-me para o seu servidor\") | [Servidor de suporte](https://discord.gg/MZN8Yf6\"StarArmy Support\") | [Apoie com seu voto](https://top.gg/bot/517786947171909643\"Vote no Top.gg a cada 12 horas.\")",
+            "title": "Links úteis"
+        },
         "manager": "⚙ Administrador del bot",
         "masInfo": {
-            "title": "Mais informação?",
-            "desc": "Use: `{{prefix}}<command> help` para obter suas informações de comando individual e seus parâmetros esperados."
+            "desc": "Use: `{{prefix}}<command> help` para obter suas informações de comando individual e seus parâmetros esperados.",
+            "title": "Mais informação?"
         },
-        "links": {
-            "title": "Links úteis",
-            "desc": "[Convide-me]({{invite}}\"Convide-me para o seu servidor\") | [Servidor de suporte](https://discord.gg/MZN8Yf6\"StarArmy Support\") | [Apoie com seu voto](https://top.gg/bot/517786947171909643\"Vote no Top.gg a cada 12 horas.\")"
-        },
-        "private": "✅ **| Verifique suas mensagens privadas.** 👌",
+        "moderation": "👮 Funcionários",
+        "music": "🎵  Música",
+        "no": "Näo",
         "noPrivate": "❌ | Parece que você desativou as mensagens privadas.",
         "noUso": "Você não precisa adicionar parâmetros",
-        "embedHelp": {
-            "title": "Ajuda de: {{command}}",
-            "descripcion": "**Descrição:**",
-            "uso": "Use o comando da seguinte maneira:",
-            "alias": "Alias",
-            "noAlias": "Sem aliases",
-            "categoria": "Categoria",
-            "permiso": "Com licença",
-            "cooldown": "Esfriar",
-            "args": "Espere por argumentos",
-            "apagado": "Desligamento global",
-            "sinPermisos": "Nenhuma permissão necessária"
-        },
+        "private": "✅ **| Verifique suas mensagens privadas.** 👌",
+        "profile": "👥 Perfil",
+        "si": "Sim",
+        "titulo": "Lista de comandos",
+        "util": "🛡 Utilidade",
+        "version": " | versão ",
+        "videogame": "🎮 Videogame",
         "vote": "Vote no TopGG"
     },
     "invite": {
-        "title": "Meu convite | {{client_name}}",
+        "apoyo": "Apoie o crescimento do bot doando o que puder através do [PayPal](https://www.paypal.me/czemtb 'CZEMTB')",
+        "apoyoTitle": "💎 Apoie-nos",
         "descripcion": "Este lindo bot pode te ajudar muito no seu servidor, ele tem uma grande variedade de comandos para administradores ou usuários normais. Mas garanto que você vai se divertir e te ajudar em tudo que você precisa.",
-        "version": "| Versão",
         "invitacion": "Convite",
         "link": "[Convide {{client_name}} para o seu servidor]({{link}})",
-        "soporteTitle": "Servidor de suporte",
         "soporte": "[Entrar no servidor](https://discord.gg/MZN8Yf6 'StarArmy') Para obter ajuda e estar ciente de todas as informações sempre.",
-        "webTitle": "🖥 Pagina web",
+        "soporteTitle": "Servidor de suporte",
+        "title": "Meu convite | {{client_name}}",
+        "version": "| Versão",
         "web": "Para obter mais informações sobre o bot e seus comandos, vá para [Site Oficial](https://starbot-oficial.herokuapp.com/ 'StarBot Discord - Página inicial')",
-        "apoyoTitle": "💎 Apoie-nos",
-        "apoyo": "Apoie o crescimento do bot doando o que puder através do [PayPal](https://www.paypal.me/czemtb 'CZEMTB')"
+        "webTitle": "🖥 Pagina web"
     },
     "ping": {
-        "footer": "Virtual Private Machine",
         "description": "Pong!\n📡 API: {{ping}}.\n🗃 Base de dados: {{db}}.",
-        "descriptionGateway": "Pong!\n📡 API: {{ping}}.\n🗃 Base de dados: {{db}}.\n⏳ Porta de ligação: {{gateway}}."
-    },
-    "stats": {
-        "bot": "🤖 Informação do bot",
-        "owner": "👑 Criador",
-        "version": "📊 Versão",
-        "libreria": "📚 Livraria",
-        "discordjs": "Discord.js v13.0.0-dev",
-        "memoria": "🗂 Memória",
-        "tiempo": "🕒 Na hora",
-        "servers": "💬 Servidores",
-        "users": "👥 Usuários",
-        "canales": "#️⃣ Canais",
-        "voz": "🔊 Conexões de voz",
-        "commands": "📄 Comandos",
-        "os": "🖥️ Sistema operativo",
-        "sistema": "Linux ******",
-        "horaServer": "⏳ Tempo no servidor"
-    },
-    "vote": {
-        "title": "Lista de bots onde você pode votar",
-        "desc": "Você pode votar a cada 12 horas, com votação dupla no fim de semana em [Top.gg](https://discordbots.org/bot/517786947171909643/vote)\n\nEstas são outras listas onde você encontrará o bot, mas eles ainda não sistema de votação.\n1- [Discord Bots](https://discord.bots.gg/bots/517786947171909643) 2- [Bots On Discord](https://bots.ondiscord.xyz/bots/517786947171909643) 3- [Lista MyBot](https://portalmybot.com/mybotlist/bot/517786947171909643)"
-    },
-    "davichostar": {
-        "title": "Olá! \n👋 Eu sou DavichoStar",
-        "description": "Eu sou o criador deste bot e vim para me apresentar.\n\nSou um desenvolvedor mexicano com experiência em TypeScript (TS) e NodeJS principalmente, mas também conheço Java, Python, C #, C ++ com menos habilidade, estou aprendendo tecnologias como ReactJS, VueJS e Flutter.\n\nEu sei sobre design gráfico, mas era apaixonado por computação e o conjunto dessas pequenas habilidades me permitiu criar bots, com seus designs e banners, suas páginas web e seu servidor de suporte.\n\nEmail: *davichostar@protonmail.com*"
+        "descriptionGateway": "Pong!\n📡 API: {{ping}}.\n🗃 Base de dados: {{db}}.\n⏳ Porta de ligação: {{gateway}}.",
+        "footer": "Virtual Private Machine"
     },
     "premium": {
-        "info": {
-            "info": "em formação",
-            "update": "Servidor aprimorado?",
-            "yes": "sim\n\nPor: {{user}}",
-            "time": "Tempo restante",
-            "timeUnknown": "*Hora Desconhecida*",
-            "noActivated": "`⛔|` Você não tem uma assinatura premium ativa.",
-            "spaces": "Espaços de servidor",
-            "available": "Totais: {{total}}\nDisponível {{available}}\nUsado: {{use}}"
-        },
         "add": {
             "add": "adicionar",
-            "noSpaces": "`❌|` Você não tem mais espaços no servidor para melhorar. Primeiro remova um para adicionar este servidor.",
             "noGuild": "`⛔ |` Esta ação só pode ser usada no servidor a ser atualizado.",
+            "noSpaces": "`❌|` Você não tem mais espaços no servidor para melhorar. Primeiro remova um para adicionar este servidor.",
             "premiumActive": "`❌ |` Você já atualizou este servidor.",
             "premiumActiveFor": "`⛔|` Este servidor já foi atualizado pelo usuário <@ {{id}}> ({{id}}), aguarde a atualização terminar ou peça a ele para removê-lo.",
-            "successfulTitle": "Parabéns!",
-            "successfulDesc": "Este servidor foi aprimorado por **{{user_name}}** ({{user}})\n\nAgora você aproveita os benefícios premium até que a assinatura do usuário termine ou seja cancelada pelo usuário."
+            "successfulDesc": "Este servidor foi aprimorado por **{{user_name}}** ({{user}})\n\nAgora você aproveita os benefícios premium até que a assinatura do usuário termine ou seja cancelada pelo usuário.",
+            "successfulTitle": "Parabéns!"
         },
-        "remove": {
-            "reomve": "mexer",
-            "noGuilds": "`❌ |` Você não tem um servidor melhorado.",
-            "noGuild": "`⛔ |` Esta ação só pode ser usada no servidor para remover a atualização.",
-            "noBoost": "`⛔ |` Este servidor não está atualizado.",
-            "noBoostForYou": "`❌ |` Este servidor não está na sua lista de atualização.",
-            "successfulTitle": "Melhoria Removida",
-            "successfulDesc": "Este servidor perdeu sua atualização de **{{user_name}}**\n\nAgora eles não poderão desfrutar dos benefícios premium neste servidor."
-        },
-        "guilds": {
-            "guilds": "servidores",
-            "guild": "Servidor:",
-            "time": "Termina em:"
-        },
+        "benefitsGuildDesc": "- **Advanced LogsEntry:** Mostra o convite com o qual o usuário entrou no servidor.\n- **Report:** Sistema de rastreamento para responder as mesmas denúncias através do bot e realizar uma conversa anônima.\n- **Função de aniversário:** Para poder colocar uma função para os aniversariantes além da mensagem que é enviada.\n- **ReactionRole:** Sem limite para colocar vários reactionsRoles. *Nível gratuito 4 apenas*\n- Comandos de categoria de música, como SlashCommands *Eles são instalados com o comando setup*.",
+        "benefitsGuildTitle": "✨ Benefícios do servidor",
+        "benefitsProfileDesc": "- **Função Premium:** Uma função no servidor oficial do bot para se diferenciar dos outros. *SL Premium*\n- **Multiplicador:** + 1,0 multiplicador na economia global.\n- **Coroa:** Uma coroa em seu perfil que indica sua assinatura ativa.\n- **Título:** Permitir mais de uma palavra no título do perfil\n- **Resfriamento do Perfil: ** Com premium você terá um resfriamento, para editar novamente, de 3 dias para título e gênero, no caso do país será sem resfriamento.",
+        "benefitsProfileTitle": "✨ Benefícios do perfil",
+        "description": "O sistema premium funciona com assinatura mensal ou anual com melhorias para o servidor do usuário e possibilidade de melhorias em um determinado número de servidores. Coloque `premium help` para mais informações sobre o comando.",
         "guild": {
             "title": "Lista de servidores aprimorados"
         },
-        "description": "O sistema premium funciona com assinatura mensal ou anual com melhorias para o servidor do usuário e possibilidade de melhorias em um determinado número de servidores. Coloque `premium help` para mais informações sobre o comando.",
-        "payTitle": "💵 Métodos de pagamento",
+        "guilds": {
+            "guild": "Servidor:",
+            "guilds": "servidores",
+            "time": "Termina em:"
+        },
+        "info": {
+            "available": "Totais: {{total}}\nDisponível {{available}}\nUsado: {{use}}",
+            "info": "em formação",
+            "noActivated": "`⛔|` Você não tem uma assinatura premium ativa.",
+            "spaces": "Espaços de servidor",
+            "time": "Tempo restante",
+            "timeUnknown": "*Hora Desconhecida*",
+            "update": "Servidor aprimorado?",
+            "yes": "sim\n\nPor: {{user}}"
+        },
         "payDesc": "- **$3,5 USD** [Paypal](https://www.paypal.me/czemtb) *Insira como conceito de pagamento: seu ID Discord seguido da palavra sl-premium. Exemplo: `445746830563868672-sl-premium`*",
-        "benefitsProfileTitle": "✨ Benefícios do perfil",
-        "benefitsGuildTitle": "✨ Benefícios do servidor",
-        "benefitsProfileDesc": "- **Função Premium:** Uma função no servidor oficial do bot para se diferenciar dos outros. *SL Premium*\n- **Multiplicador:** + 1,0 multiplicador na economia global.\n- **Coroa:** Uma coroa em seu perfil que indica sua assinatura ativa.\n- **Título:** Permitir mais de uma palavra no título do perfil\n- **Resfriamento do Perfil: ** Com premium você terá um resfriamento, para editar novamente, de 3 dias para título e gênero, no caso do país será sem resfriamento.",
-        "benefitsGuildDesc": "- **Advanced LogsEntry:** Mostra o convite com o qual o usuário entrou no servidor.\n- **Report:** Sistema de rastreamento para responder as mesmas denúncias através do bot e realizar uma conversa anônima.\n- **Função de aniversário:** Para poder colocar uma função para os aniversariantes além da mensagem que é enviada.\n- **ReactionRole:** Sem limite para colocar vários reactionsRoles. *Nível gratuito 4 apenas*\n- Comandos de categoria de música, como SlashCommands *Eles são instalados com o comando setup*."
+        "payTitle": "💵 Métodos de pagamento",
+        "remove": {
+            "noBoost": "`⛔ |` Este servidor não está atualizado.",
+            "noBoostForYou": "`❌ |` Este servidor não está na sua lista de atualização.",
+            "noGuild": "`⛔ |` Esta ação só pode ser usada no servidor para remover a atualização.",
+            "noGuilds": "`❌ |` Você não tem um servidor melhorado.",
+            "reomve": "mexer",
+            "successfulDesc": "Este servidor perdeu sua atualização de **{{user_name}}**\n\nAgora eles não poderão desfrutar dos benefícios premium neste servidor.",
+            "successfulTitle": "Melhoria Removida"
+        }
+    },
+    "stats": {
+        "bot": "🤖 Informação do bot",
+        "canales": "#️⃣ Canais",
+        "commands": "📄 Comandos",
+        "discordjs": "Discord.js v13.0.0-dev",
+        "horaServer": "⏳ Tempo no servidor",
+        "libreria": "📚 Livraria",
+        "memoria": "🗂 Memória",
+        "os": "🖥️ Sistema operativo",
+        "owner": "👑 Criador",
+        "servers": "💬 Servidores",
+        "sistema": "Linux ******",
+        "tiempo": "🕒 Na hora",
+        "users": "👥 Usuários",
+        "version": "📊 Versão",
+        "voz": "🔊 Conexões de voz"
+    },
+    "vote": {
+        "desc": "Você pode votar a cada 12 horas, com votação dupla no fim de semana em [Top.gg](https://discordbots.org/bot/517786947171909643/vote)\n\nEstas são outras listas onde você encontrará o bot, mas eles ainda não sistema de votação.\n1- [Discord Bots](https://discord.bots.gg/bots/517786947171909643) 2- [Bots On Discord](https://bots.ondiscord.xyz/bots/517786947171909643) 3- [Lista MyBot](https://portalmybot.com/mybotlist/bot/517786947171909643)",
+        "title": "Lista de bots onde você pode votar"
     }
 }

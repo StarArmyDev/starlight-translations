@@ -1,0 +1,16 @@
+{
+    "selfrole": {
+        "defaultName": "Nameless",
+        "messageAdd": "`✅|` Role placed correctly",
+        "messageAddAndDelete": "`✅|` Role placed and removed correctly",
+        "messageAddAndDelete_plural": "`✅|` Roles colocados y quitados correctamente",
+        "messageAdd_plural": "`✅|` Roles colocados correctamente",
+        "messageDelete": "`✅|` Role successfully removed",
+        "messageDelete_plural": "`✅|` Roles quitados correctamente",
+        "messageFailt": "`⛔|` Your roles were not updated due to group limitations.\nGroup mode: `{{mode}}`",
+        "multiSelect": "Select more than one",
+        "noConfig": "`❌ |` There are no self-assigning roles configured.",
+        "noUser": "Only those who use the command can choose their roles",
+        "singleSelect": "Select a role"
+    }
+}

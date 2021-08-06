@@ -1,99 +1,98 @@
 {
     "bal": {
-        "bloqueado": "Sorry, You Have The Economy Locked for some reason.",
-        "money": "Economy",
-        "bolcillo": "🌟 Pocket",
         "banco": "🏦 Bank",
-        "total": "💰 Total",
-        "mult": "Multiplier"
+        "bloqueado": "Sorry, You Have The Economy Locked for some reason.",
+        "bolcillo": "🌟 Pocket",
+        "money": "Economy",
+        "mult": "Multiplier",
+        "total": "💰 Total"
     },
     "buy": {
         "bloqueado": "You have the economy blocked.Contact the support server to appeal.",
+        "descripcion": "You have bought `{{cantidad}}` from {{emoji}} {{nombre}} by `{{costo}}` starcoins.",
         "noItem": "Item `{{item}}` does not exist.Verify the name.",
         "noItemShop": "This object can not be purchased, it may be collection.",
-        "yaFondo": "You already have this background.",
         "noMoney": "You do not have enough money, you lack `{{faltante}}` starcoins to be able to buy `{{cantidad}}` from {{item}}.",
         "title": "Buying objects of {{tienda}}",
-        "descripcion": "You have bought `{{cantidad}}` from {{emoji}} {{nombre}} by `{{costo}}` starcoins."
+        "yaFondo": "You already have this background."
     },
     "crime": {
-        "title": "🕵️‍♂️ Crime",
         "bloqueado": "You have the Economy Locked. Contact the support server to appeal.",
         "crime": "You have received {{money}} for stealing from the owner, correeee",
+        "error": "❌ Sorry, it seems that there was an error adding the money. We are working to repair it.",
         "noCrime": "❌ It seems you don't know how to quietly enter the places and they took you away {{money}} starcoins.",
-        "error": "❌ Sorry, it seems that there was an error adding the money. We are working to repair it."
+        "title": "🕵️‍♂️ Crime"
     },
     "daily": {
-        "dlyUser": "You just gave {{money}} starcoins to user {{miembro}}! Come back in 12 hrs for your daily money.",
-        "dly": "You just received {{money}} starcoins! Come back in 12 hrs for your daily money.",
-        "title": "☀ Daily Money",
         "bloqueado": "You have the Economy Locked. Contact the support guild to appeal.",
-        "error": "❌ Sorry, it seems that there was an error adding the money. We are working to repair it."
+        "dly": "You just received {{money}} starcoins! Come back in 12 hrs for your daily money.",
+        "dlyUser": "You just gave {{money}} starcoins to user {{miembro}}! Come back in 12 hrs for your daily money.",
+        "error": "❌ Sorry, it seems that there was an error adding the money. We are working to repair it.",
+        "title": "☀ Daily Money"
     },
     "deposite": {
-        "title": "🏛 To deposit",
-        "noCantidad": "Invalid amount.",
         "bloqueado": "You have the Economy Locked. Contact the support guild to appeal.",
+        "error": "❌ Sorry, it seems there was an error. We are working to repair it.",
         "falta": "You do not have enough coins.",
         "mensaje": "✅ Successfully deposited `{{cantidad}}` in your bank",
-        "error": "❌ Sorry, it seems there was an error. We are working to repair it."
+        "noCantidad": "Invalid amount.",
+        "title": "🏛 To deposit"
     },
     "dice": {
-        "locked": "You Have The Blocked Economy. Contact the staff on the support server to appeal.",
+        "cooldown": "🛑 | High! Wait `{{time}}` to roll the die.",
         "got": "You got: **{{dice}}**",
-        "win": "You guessed it! You won {{money}} starcoins",
+        "locked": "You Have The Blocked Economy. Contact the staff on the support server to appeal.",
         "lose": "You lost ... they took {{money}} starcoins",
-        "cooldown": "🛑 | High! Wait `{{time}}` to roll the die."
+        "win": "You guessed it! You won {{money}} starcoins"
     },
     "dirty": {
-        "title": "👱‍️ Indecent Work",
         "bloqueado": "You have the Economy Locked. Contact the support guild to appeal.",
+        "error": "❌ An unexpected error occurred. Report it with `bugreport` to fix it quickly.",
         "mensaje": "✅ You have received `{{money}}` starcoins for doing odd jobs",
         "noMensaje": "❌ It seems that the client ran away and you lost `{{money}}` starcoins.",
-        "error": "❌ An unexpected error occurred. Report it with `bugreport` to fix it quickly."
+        "title": "👱‍️ Indecent Work"
     },
     "flipcoin": {
         "cara": "Face",
-        "sello": "Stamp",
+        "cooldown": "🛑 | High! Wait `{{time}}` to flip the coin.",
         "got": "You got: **{{coin}}**",
         "locked": "You Have The Blocked Economy. Contact the staff on the support server to appeal.",
-        "win": "You guessed it! You won {{money}} starcoins",
         "lose": "You lost ... they took {{money}} starcoins",
-        "cooldown": "🛑 | High! Wait `{{time}}` to flip the coin."
+        "sello": "Stamp",
+        "win": "You guessed it! You won {{money}} starcoins"
     },
     "rob": {
-        "title": "🕵️‍ Steal",
-        "noUser": "Usuario no válido",
         "bloqueado": "You have the Economy Locked. Contact the support guild to appeal.",
-        "noRobMoney": "How do you want to steal it if it has nothing?",
+        "error": "❌ Sorry, it seems there was an error. We are working to repair it.",
         "mensaje": "✅ Successful theft You have stolen {{miembro}} the total of {{robado}} starcoins. Now run away while you can.",
         "noMensaje": "❌ The law struck you by surprise and took you away {{money}}, besides they gave half of that to {{miembro}} for the incident.",
-        "error": "❌ Sorry, it seems there was an error. We are working to repair it."
+        "noRobMoney": "How do you want to steal it if it has nothing?",
+        "noUser": "Usuario no válido",
+        "title": "🕵️‍ Steal"
     },
     "sell": {
         "bloqueado": "You have the economy blocked.Contact the support server to appeal.",
-        "noItemShop": "This object can not be sold, it may be collection.",
-        "noItemInv": "Do not tell the item: `{{item}}`.",
+        "descripcion": "You've sold `{{cantidad}}` from {{emoji}} {{nombre}} by `{{costo}}` starcoins.",
         "noCantidad": "You do not have enough items to sell, only accounts with`{{cantidad}}`.",
-        "title": "Sale of {{tienda}}.",
-        "descripcion": "You've sold `{{cantidad}}` from {{emoji}} {{nombre}} by `{{costo}}` starcoins."
+        "noItemInv": "Do not tell the item: `{{item}}`.",
+        "noItemShop": "This object can not be sold, it may be collection.",
+        "title": "Sale of {{tienda}}."
     },
     "shop": {
-        "title": "Store of {{tienda}}",
-        "descripcion": "To buy items you have to use `{{prefix}}buy <item> [quantity]`. To sell items use `{{prefix}}sell <item> [quantity]`\nSymbology:\n📥Purchase\n📤Sale",
-        "noTienda": "Store Not Found or Not Available.",
         "bloqueado": "You have the Economy Locked. Contact the support guild to appeal.",
-        "suspencion": "Currently, the store items are located suspended. Use `{{prefix}}shop backgrounds` to view and purchase funds to your profile.",
+        "descripcion": "To buy items you have to use `{{prefix}}buy <item> [quantity]`. To sell items use `{{prefix}}sell <item> [quantity]`\nSymbology:\n📥Purchase\n📤Sale",
+        "error": "❌ An unexpected error occurred. Report it with `bugreport` to fix it quickly.",
         "fondos": {
-            "fondos": "backdrops",
-            "p": "🖼 Main Background:",
-            "s": "🖼 Secondary Background:",
+            "de": "of",
             "descripcion": "To buy background you have to use `{{prefix}}buy <background-name>`.\nSymbology: 📥Purchase",
+            "fondos": "backdrops",
             "nombre": "Name:",
-            "rareza": "Rarity:",
             "num": "Number of backgrounds:",
-            "de": "of"
+            "p": "🖼 Main Background:",
+            "rareza": "Rarity:",
+            "s": "🖼 Secondary Background:"
         },
+        "noTienda": "Store Not Found or Not Available.",
         "rarezas": {
             "1": "Common",
             "2": "Uncommon",
@@ -103,46 +102,47 @@
             "6": "Legendary",
             "7": "Star"
         },
-        "error": "❌ An unexpected error occurred. Report it with `bugreport` to fix it quickly."
+        "suspencion": "Currently, the store items are located suspended. Use `{{prefix}}shop backgrounds` to view and purchase funds to your profile.",
+        "title": "Store of {{tienda}}"
     },
     "trade": {
-        "title": "💎🏬 Trade",
         "bloqueado": "You have the Economy Locked. Contact the support guild to appeal.",
+        "cooldown": "🛑 | High! Wait `{{time}}` to do indecent work again.",
+        "error": "❌ An unexpected error occurred. Report it with `bugreport` to fix it quickly.",
         "mensaje": "✅ You have received {{money}} for doing dangerous trades",
         "noMensaje": "❌ It looks like the police saw you and took you away {{money}}.",
-        "cooldown": "🛑 | High! Wait `{{time}}` to do indecent work again.",
-        "error": "❌ An unexpected error occurred. Report it with `bugreport` to fix it quickly."
+        "title": "💎🏬 Trade"
     },
     "trans": {
-        "title": "💱 Transfer",
+        "automencion": "✅ `{{money}}` starcoins successfully transferred to the national bank of StarLight. Thanks for your preference.",
+        "bloqueado": "You have the Economy Locked. Contact the support guild to appeal.",
+        "cancel": "Transfer Canceled",
+        "error": "❌ Sorry, it seems there was an error. We are working to repair it.",
+        "falta": "You do not have enough coins.",
+        "mensaje": "✅ Successful transfer It was given to {{miembro}} the amount of `{{cantidad}}` starcoins. | ",
+        "mensajeEspera": "Verify and accept by placing `{{numero}}` to transfer `{{dinero}}` starcoins. Set `cancel` not to transfer money.\n*You have a 15% commission for the transfer.*",
         "noCantidad": "Invalid amount.",
         "noMencion": "Mention not valid. Verify the user.",
-        "automencion": "✅ `{{money}}` starcoins successfully transferred to the national bank of StarLight. Thanks for your preference.",
-        "mensajeEspera": "Verify and accept by placing `{{numero}}` to transfer `{{dinero}}` starcoins. Set `cancel` not to transfer money.\n*You have a 15% commission for the transfer.*",
-        "cancel": "Transfer Canceled",
-        "noValido": "Invalid Verification Number.",
-        "bloqueado": "You have the Economy Locked. Contact the support guild to appeal.",
         "noMoney": "It seems you have no money to transfer.",
-        "falta": "You do not have enough coins.",
         "noSumar": "It seems that {{miembro}} It has no profile. **He has to talk to be believed**\n*If you think this is a mistake, you can report it with* `bugreport`",
-        "mensaje": "✅ Successful transfer It was given to {{miembro}} the amount of `{{cantidad}}` starcoins. | ",
         "noTiempo": "⏳ Expired Time ❌",
-        "error": "❌ Sorry, it seems there was an error. We are working to repair it."
+        "noValido": "Invalid Verification Number.",
+        "title": "💱 Transfer"
     },
     "withdraw": {
-        "title": "💸 Retirement",
-        "noCantidad": "Invalid amount.",
         "bloqueado": "You have the Economy Locked. Contact the support guild to appeal.",
-        "noMoney": "It seems you have nothing to withdraw.",
+        "error": "❌ Sorry, it seems there was an error. We are working to repair it.",
         "falta": "You do not have enough coins.",
         "mensaje": "✅ Successful withdrawal `{{cantidad}}` in your pocket, leaving in your bank `{{banco}}`",
-        "error": "❌ Sorry, it seems there was an error. We are working to repair it."
+        "noCantidad": "Invalid amount.",
+        "noMoney": "It seems you have nothing to withdraw.",
+        "title": "💸 Retirement"
     },
     "work": {
-        "title": "👷 ‍Work",
-        "mensajeDar": "✅ You just gave {{money}} user coins {{miembro}}!",
-        "mensaje": "✅ You just received {{money}} coins!",
         "bloqueado": "You have the Economy Locked. Contact the support guild to appeal.",
-        "error": "❌ Sorry, it seems there was an error. We are working to repair it."
+        "error": "❌ Sorry, it seems there was an error. We are working to repair it.",
+        "mensaje": "✅ You just received {{money}} coins!",
+        "mensajeDar": "✅ You just gave {{money}} user coins {{miembro}}!",
+        "title": "👷 ‍Work"
     }
 }

@@ -1,173 +1,173 @@
 {
-  "achievements": {
-    "noPerfil": "`❌|` This user does not have a profile.",
-    "noAchievement": "`❌|` This user does not have achievements.",
-    "nombre": "Name:",
-    "points": "Points:",
-    "categoria": "Category:",
-    "title": "Achievement Earned",
-    "obtenido": "Obtained on:"
-  },
-  "badge": {
-    "noPerfil": "`❌|` Este usuario no tiene un perfil.",
-    "noAchievement": "`❌|` Este usuario no cuenta con medallas.",
-    "nombre": "Nombre:",
-    "categoria": "Categoría:",
-    "title": "Medallas ganadas"
-  },
-  "divorce": {
-    "autoMencion": "Hey, we don't do that here",
-    "noUser": "The person with whom you are married is not on the server.",
-    "noPerfil": "The user mentioned does not have a profile, tell him to use a command to start it.",
-    "noCasadoUser": "It's ugly that you want to divorce but ... this user isn't even your partner.",
-    "noCasadoAuthor": "You are not even married and do you want to divorce?",
-    "si": "yes",
-    "no": "no",
-    "helpForce": "you must place the person's id.",
-    "siUser": "The person you married is on the server, you cannot force a divorce, you must mention",
-    "mensajeForce": "{{author}} you agree to force separation forever from ({{miembro}})?\n__*You have 60 seconds to answer yes or no*__",
-    "divorcioForce": "Now you are separated, without compromises ... without love </3",
-    "noDivorcioForce": "Unfortunately *(or fortunately)* you have regretted the divorce.",
-    "noTiempoForce": "It took you a while to respond ... take your time to think about it",
-    "mensaje": "{{miembro}} you agree to separate forever from {{author}} and destroy what since `{{fecha}}` was his unconditional love declared to all?\n__*You have 60 seconds to answer yes or no*__",
-    "divorcio": "Now they are separated, without compromises ... without love </3",
-    "noDivorcio": "Regrettably *(or fortunately)* {{miembro}} Don't accept this decision, you should talk to him first and make this work :3",
-    "noTiempo": "It took a while to respond ... maybe he got angry *- Run -*."
-  },
-  "levels": {
-    "noConfig": "`❌|` This server does not have levels configured.",
-    "nivel": "Lvl:",
-    "title": "Levels of",
-    "paginas": "Page {{count}} from {{countDB}}"
-  },
-  "marry": {
-    "noUser": "`❌|` User not found.",
-    "autoMencion": "`❌|` Hey, we don't do that here",
-    "isBot": "`❌|` Society cannot allow relationships with machines...",
-    "noPerfil": "`❌|` The user mentioned does not have a profile, tell him to use a command to start it.",
-    "casadoUser": "`❌|` Hey hey ... this user is already married.",
-    "casado": "`❌|` You are already married!",
-    "mensaje": "¿{{miembro}} you accept {{author}} like you {{genero}} in health and disease, in wealth and poverty, with internet and without internet until the wifi separates them?\n__*You have 60 seconds to answer yes or no*__",
-    "hombre": "legitimate husband",
-    "mujer": "legitimate wife",
-    "otro": "legitimate spouse",
-    "si": "yes",
-    "no": "no",
-    "maridos": "I declare them. Husband and wife <3",
-    "casados": "`✅|` For the power granted to me by Discord and with all the testite server",
-    "noCasados": "`❌|` Unfortunately, the {{miembro}} marriage has declined and has run away from the server.",
-    "noTiempo": "`⏳|` It took a long time to respond ... that doesn't seem to be a good sign."
-  },
-  "rank": {
-    "global": "Global",
-    "server": "Guild",
-    "s": "guild",
-    "noPerfil": "This User does not have a profile or the server does not have the XP system activated"
-  },
-  "editprofile": {
-    "noPerfil": "This User does not have a profile.",
-    "noModo": "`❌|` Mode not found.",
-    "titulo": {
-      "titulo": "title",
-      "noTitulo": "You need to put a single word for the new title",
-      "siTitulo": "`✅|` The title was updated `{{nuevoTitulo}}` correctly."
+    "achievements": {
+        "categoria": "Category:",
+        "noAchievement": "`❌|` This user does not have achievements.",
+        "noPerfil": "`❌|` This user does not have a profile.",
+        "nombre": "Name:",
+        "obtenido": "Obtained on:",
+        "points": "Points:",
+        "title": "Achievement Earned"
     },
-    "info": {
-      "info": "info",
-      "noInfo": "You need to put something for the new information",
-      "siInfo": "`✅|` The information was updated correctly by"
+    "badge": {
+        "categoria": "Categoría:",
+        "noAchievement": "`❌|` Este usuario no cuenta con medallas.",
+        "noPerfil": "`❌|` Este usuario no tiene un perfil.",
+        "nombre": "Nombre:",
+        "title": "Medallas ganadas"
     },
-    "fondos": {
-      "noBG": "`❌|` You don't have themes.",
-      "fondos": "backdrop",
-      "principal": "head",
-      "secundario": "side",
-      "default": "defect",
-      "noModo": "Invalid mode, only 1/main or 2/secundary.\nUse `{{prefix}}editprofile background <1/main or 2/secundary>`",
-      "noFondos": "`❌|` You don't have funds, buy one!",
-      "colocarDefecto": "`✅|` Default background placed.",
-      "footer": "Funds available:",
-      "title": "Choose your profile background",
-      "titleN": "Choose your level fund",
-      "descripcion": "React to the emoji ✅ to assign it",
-      "fondoYa": "This fund is already placed.",
-      "titleSelec": "`✅|` Properly Assigned Background",
-      "cancelado": "`✅|` Operation cancelled.",
-      "error": "`❌|` There was an error modifying your profile. Report the error if you think everything is correct."
+    "divorce": {
+        "autoMencion": "Hey, we don't do that here",
+        "divorcio": "Now they are separated, without compromises ... without love </3",
+        "divorcioForce": "Now you are separated, without compromises ... without love </3",
+        "helpForce": "you must place the person's id.",
+        "mensaje": "{{miembro}} you agree to separate forever from {{author}} and destroy what since `{{fecha}}` was his unconditional love declared to all?\n__*You have 60 seconds to answer yes or no*__",
+        "mensajeForce": "{{author}} you agree to force separation forever from ({{miembro}})?\n__*You have 60 seconds to answer yes or no*__",
+        "no": "no",
+        "noCasadoAuthor": "You are not even married and do you want to divorce?",
+        "noCasadoUser": "It's ugly that you want to divorce but ... this user isn't even your partner.",
+        "noDivorcio": "Regrettably *(or fortunately)* {{miembro}} Don't accept this decision, you should talk to him first and make this work :3",
+        "noDivorcioForce": "Unfortunately *(or fortunately)* you have regretted the divorce.",
+        "noPerfil": "The user mentioned does not have a profile, tell him to use a command to start it.",
+        "noTiempo": "It took a while to respond ... maybe he got angry *- Run -*.",
+        "noTiempoForce": "It took you a while to respond ... take your time to think about it",
+        "noUser": "The person with whom you are married is not on the server.",
+        "si": "yes",
+        "siUser": "The person you married is on the server, you cannot force a divorce, you must mention"
     },
-    "tema": {
-      "tema": "theme",
-      "claro": "light",
-      "oscuro": "dark",
-      "noTema": "Only Light or Dark (1 or 2) can be subject",
-      "temaClaro": "`✅|` Clear Issue Established",
-      "temaOscuro": "`✅|` Dark Theme Established"
+    "editprofile": {
+        "birthday": {
+            "birthday": "birthday",
+            "noValido": "Very long date. Example: 20-12",
+            "siCumple": "`✅|` Birthday set"
+        },
+        "fondos": {
+            "cancelado": "`✅|` Operation cancelled.",
+            "colocarDefecto": "`✅|` Default background placed.",
+            "default": "defect",
+            "descripcion": "React to the emoji ✅ to assign it",
+            "error": "`❌|` There was an error modifying your profile. Report the error if you think everything is correct.",
+            "fondoYa": "This fund is already placed.",
+            "fondos": "backdrop",
+            "footer": "Funds available:",
+            "noBG": "`❌|` You don't have themes.",
+            "noFondos": "`❌|` You don't have funds, buy one!",
+            "noModo": "Invalid mode, only 1/main or 2/secundary.\nUse `{{prefix}}editprofile background <1/main or 2/secundary>`",
+            "principal": "head",
+            "secundario": "side",
+            "title": "Choose your profile background",
+            "titleN": "Choose your level fund",
+            "titleSelec": "`✅|` Properly Assigned Background"
+        },
+        "genero": {
+            "genero": "genre",
+            "hombre": "boy",
+            "mujer": "girl",
+            "noGenero": "Invalid gender. Only boy or girl",
+            "siGenero": "`✅|` The gender was correctly updated by"
+        },
+        "info": {
+            "info": "info",
+            "noInfo": "You need to put something for the new information",
+            "siInfo": "`✅|` The information was updated correctly by"
+        },
+        "insignia": {
+            "help": "Use `{{prefix}}editprofile insignia <name|id> <position>`",
+            "insignia": "ensign",
+            "noBadge": "`❌|` You don't have badges.",
+            "noIngsinia": "`❌|` Insignia not found or invalid.",
+            "noLugar": "`❌|` Invalid place. You can only place from \"1\" to \"10\".",
+            "noLugarE": "`❌|` Invalid place for special badge. You can only place \"1\" or \"2\".",
+            "noNum": "`❌|` This data is not a number or it is an invalid number.",
+            "siIngsinia": "`✅|` Insignia placed correctly."
+        },
+        "medalla": {
+            "help": "Use `{{prefix}}editprofile badge <name|id> <posición>` they both expect a number.",
+            "medalla": "badge",
+            "noAchievement": "`❌|` You don't have achievements to stand out.",
+            "noLugar": "`❌|` Invalid place, you can only place 1, 2 or 3",
+            "noMedalla": "`❌|` achievement not found or invalid.",
+            "noNum": "`❌|` This data is not a number or it is an invalid number",
+            "siMedalla": "`✅|` Correctly placed achievement."
+        },
+        "noModo": "`❌|` Mode not found.",
+        "noPerfil": "This User does not have a profile.",
+        "pais": {
+            "noPais": "Invalid or unavailable country.",
+            "pais": "land",
+            "siPais": "`✅|` Established country"
+        },
+        "tema": {
+            "claro": "light",
+            "noTema": "Only Light or Dark (1 or 2) can be subject",
+            "oscuro": "dark",
+            "tema": "theme",
+            "temaClaro": "`✅|` Clear Issue Established",
+            "temaOscuro": "`✅|` Dark Theme Established"
+        },
+        "titulo": {
+            "noTitulo": "You need to put a single word for the new title",
+            "siTitulo": "`✅|` The title was updated `{{nuevoTitulo}}` correctly.",
+            "titulo": "title"
+        }
     },
-    "genero": {
-      "genero": "genre",
-      "hombre": "boy",
-      "mujer": "girl",
-      "noGenero": "Invalid gender. Only boy or girl",
-      "siGenero": "`✅|` The gender was correctly updated by"
+    "levels": {
+        "nivel": "Lvl:",
+        "noConfig": "`❌|` This server does not have levels configured.",
+        "paginas": "Page {{count}} from {{countDB}}",
+        "title": "Levels of"
     },
-    "pais": {
-      "pais": "land",
-      "noPais": "Invalid or unavailable country.",
-      "siPais": "`✅|` Established country"
+    "marry": {
+        "autoMencion": "`❌|` Hey, we don't do that here",
+        "casado": "`❌|` You are already married!",
+        "casadoUser": "`❌|` Hey hey ... this user is already married.",
+        "casados": "`✅|` For the power granted to me by Discord and with all the testite server",
+        "hombre": "legitimate husband",
+        "isBot": "`❌|` Society cannot allow relationships with machines...",
+        "maridos": "I declare them. Husband and wife <3",
+        "mensaje": "¿{{miembro}} you accept {{author}} like you {{genero}} in health and disease, in wealth and poverty, with internet and without internet until the wifi separates them?\n__*You have 60 seconds to answer yes or no*__",
+        "mujer": "legitimate wife",
+        "no": "no",
+        "noCasados": "`❌|` Unfortunately, the {{miembro}} marriage has declined and has run away from the server.",
+        "noPerfil": "`❌|` The user mentioned does not have a profile, tell him to use a command to start it.",
+        "noTiempo": "`⏳|` It took a long time to respond ... that doesn't seem to be a good sign.",
+        "noUser": "`❌|` User not found.",
+        "otro": "legitimate spouse",
+        "si": "yes"
     },
-    "birthday": {
-      "birthday": "birthday",
-      "noValido": "Very long date. Example: 20-12",
-      "siCumple": "`✅|` Birthday set"
+    "profile": {
+        "casada": "Married with:",
+        "casado": "Married to:",
+        "casadoDes": "Married to:",
+        "noInformacion": "No information",
+        "noPerfil": "This User does not have a profile.",
+        "nvl": "Lvl"
     },
-    "medalla": {
-      "medalla": "badge",
-      "noAchievement": "`❌|` You don't have achievements to stand out.",
-      "help": "Use `{{prefix}}editprofile badge <name|id> <posición>` they both expect a number.",
-      "noNum": "`❌|` This data is not a number or it is an invalid number",
-      "noLugar": "`❌|` Invalid place, you can only place 1, 2 or 3",
-      "noMedalla": "`❌|` achievement not found or invalid.",
-      "siMedalla": "`✅|` Correctly placed achievement."
+    "rank": {
+        "global": "Global",
+        "noPerfil": "This User does not have a profile or the server does not have the XP system activated",
+        "s": "guild",
+        "server": "Guild"
     },
-    "insignia": {
-      "insignia": "ensign",
-      "noBadge": "`❌|` You don't have badges.",
-      "help": "Use `{{prefix}}editprofile insignia <name|id> <position>`",
-      "noNum": "`❌|` This data is not a number or it is an invalid number.",
-      "noLugar": "`❌|` Invalid place. You can only place from \"1\" to \"10\".",
-      "noLugarE": "`❌|` Invalid place for special badge. You can only place \"1\" or \"2\".",
-      "noIngsinia": "`❌|` Insignia not found or invalid.",
-      "siIngsinia": "`✅|` Insignia placed correctly."
+    "rep": {
+        "autoMencion": "You just gave yourself a reputation {{miembro}}. *Now you have 1 rep of punishment* \nReturn in 12 days. To continue giving you reputation.",
+        "isBot": "`❌ |` You cannot give a bot reputation.",
+        "mensaje": "You just gave reputation to {{miembro}}. *Now you have {{reputacion}} rep*\nCome back in 12 hours. to give someone else.",
+        "noPerfil": "Este Usuario No tiene Un perfil global. Tiene que usar un comando primero.",
+        "noUser": "Invalid user only mention or ID."
+    },
+    "top": {
+        "banco": "Bank:",
+        "dinero": "Money:",
+        "global": "Global",
+        "money": "money",
+        "nivel": "level:",
+        "paginas": "Page {{count}} from {{countDB}}",
+        "rep": "Rep:",
+        "reputacion": "reputation",
+        "titleDiner": "MONEY TOP  | **{{database}}**",
+        "titleRep": "TOP REPUTATION  | **{{database}}**",
+        "titleXp": "TOP LEVEL  | **{{database}}**",
+        "tu": "Your position:",
+        "xp": "XP:"
     }
-  },
-  "profile": {
-    "noPerfil": "This User does not have a profile.",
-    "nvl": "Lvl",
-    "noInformacion": "No information",
-    "casadoDes": "Married to:",
-    "casado": "Married to:",
-    "casada": "Married with:"
-  },
-  "rep": {
-    "noUser": "Invalid user only mention or ID.",
-    "autoMencion": "You just gave yourself a reputation {{miembro}}. *Now you have 1 rep of punishment* \nReturn in 12 days. To continue giving you reputation.",
-    "noPerfil": "Este Usuario No tiene Un perfil global. Tiene que usar un comando primero.",
-    "mensaje": "You just gave reputation to {{miembro}}. *Now you have {{reputacion}} rep*\nCome back in 12 hours. to give someone else.",
-    "isBot": "`❌ |` You cannot give a bot reputation."
-  },
-  "top": {
-    "reputacion": "reputation",
-    "money": "money",
-    "tu": "Your position:",
-    "rep": "Rep:",
-    "dinero": "Money:",
-    "banco": "Bank:",
-    "nivel": "level:",
-    "xp": "XP:",
-    "titleDiner": "MONEY TOP  | **{{database}}**",
-    "titleRep": "TOP REPUTATION  | **{{database}}**",
-    "titleXp": "TOP LEVEL  | **{{database}}**",
-    "global": "Global",
-    "paginas": "Page {{count}} from {{countDB}}"
-  }
 }

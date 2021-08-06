@@ -1,115 +1,115 @@
 {
     "avatar": {
-        "title": "Avatar de",
-        "noUser": "`❌|` No se encontró al usuario mencionado."
+        "noUser": "`❌|` No se encontró al usuario mencionado.",
+        "title": "Avatar de"
     },
     "emoji": {
-        "noEmoji": "Emoji no encontrado o no disponible.",
-        "id": "🆔 Identificador Único",
         "animado": "Animado/Gif",
-        "server": "Servidor",
         "autor": "Subido Por",
         "creado": "🗓️ Fecha de Creación",
-        "si": "Sí",
-        "no": "No"
+        "id": "🆔 Identificador Único",
+        "no": "No",
+        "noEmoji": "Emoji no encontrado o no disponible.",
+        "server": "Servidor",
+        "si": "Sí"
     },
     "game": {
         "game": "Está {{tipo}}: ",
         "noGame": "No está jugando en este momento.",
         "tipo": {
+            "CUSTOM_STATUS": "con un estado personalizado",
+            "LISTENING": "🎶 Escuchando",
             "PLAYING": "🎮 Jugando",
             "STREAMING": "📡 Transmitiendo en vivo",
-            "LISTENING": "🎶 Escuchando",
             "WATCHING": "📺 Viendo",
-            "CUSTOM_STATUS": "con un estado personalizado",
             "undefined": "[Actividad Desconocida]"
         }
     },
     "roleinfo": {
-        "noRol": "Rol no encontrado o inválido.",
-        "title": "Información de Rol",
-        "nombre": "Nombre",
-        "id": "🆔 Identificador Único",
         "color": "🌈 Color",
-        "separado": "↕ Separado",
+        "id": "🆔 Identificador Único",
         "mensionable": "@ Mencionable",
-        "posicion": "🔢 Posición",
         "miembros": "👥 Miembros",
-        "permisosImport": "⛔ Permisos Importantes",
-        "tiempo": "⌛ Rol Creado",
-        "si": "Sí",
         "no": "No",
+        "noRol": "Rol no encontrado o inválido.",
+        "nombre": "Nombre",
+        "permisosImport": "⛔ Permisos Importantes",
+        "posicion": "🔢 Posición",
+        "separado": "↕ Separado",
+        "si": "Sí",
+        "sinInfo": "Sin Información.",
         "sinPerm": "Sin Permisos.",
-        "sinInfo": "Sin Información."
+        "tiempo": "⌛ Rol Creado",
+        "title": "Información de Rol"
     },
     "serverinfo": {
-        "seguridad": {
-            "NONE": "Ninguno",
-            "LOW": "Bajo",
-            "MEDIUM": "Medio",
-            "HIGH": "Alto",
-            "VERY_HIGH": "Máximo"
-        },
-        "id": "🆔 Identificador Único",
-        "region": "🗺️ Región",
-        "creado": "🗓️ Fecha de Creación",
-        "creadoHace": "🕑 Creado hace",
-        "dueño": "👑 Dueño del Servidor",
-        "miembros": "👥 Miembros",
-        "linea": "En Línea:",
-        "noMolestar": "No Molestar:",
+        "afk": "AFK:",
         "ausente": "Ausentes:",
-        "desconectado": "Desconectados:",
-        "nivelVer": "🚨 Nivel de Verificación",
-        "usuarios": "👤 Humanos",
         "bots": "🤖 Bots",
         "canales": "💬 Canales",
-        "texto": "De Texto:",
-        "voz": "De Voz:",
-        "afk": "AFK:",
+        "creado": "🗓️ Fecha de Creación",
+        "creadoHace": "🕑 Creado hace",
+        "desconectado": "Desconectados:",
+        "dueño": "👑 Dueño del Servidor",
+        "emojis": "😂 Emojis",
+        "id": "🆔 Identificador Único",
+        "linea": "En Línea:",
+        "miembros": "👥 Miembros",
+        "nivelVer": "🚨 Nivel de Verificación",
         "noAfk": "Sin Canal",
+        "noMolestar": "No Molestar:",
+        "region": "🗺️ Región",
         "roles": "🔁 Roles",
-        "emojis": "😂 Emojis"
+        "seguridad": {
+            "HIGH": "Alto",
+            "LOW": "Bajo",
+            "MEDIUM": "Medio",
+            "NONE": "Ninguno",
+            "VERY_HIGH": "Máximo"
+        },
+        "texto": "De Texto:",
+        "usuarios": "👤 Humanos",
+        "voz": "De Voz:"
     },
     "translate": {
         "list": "Lista de idiomas disponibles:",
-        "noValid": "`⛔|` Idioma inválido o no disponible. Consulta los idiomas disponible agregando `--list` al comando.",
         "noTranslate": "`❌|` No se pudo traducir el texto por algún error, puede que el mensaje sea muy largo",
+        "noValid": "`⛔|` Idioma inválido o no disponible. Consulta los idiomas disponible agregando `--list` al comando.",
         "traductor": " Traductor"
     },
     "user": {
-        "noUser": "`❌|` No se encontró al usuario mencionado.",
+        "apodo": "👤 Apodo",
+        "conecCel": "📱 Conectado en Celular",
+        "conecDesk": "💻 Conectado en Escritorio",
+        "conecWeb": "💻 Conectado en Web",
+        "creada": "📅 Cuenta Creada",
+        "creadaHace": "🕑 Cuenta Creada hace",
+        "estado": "🔘🔴 Estado",
         "estados": {
-            "online": "En Línea",
             "dnd": "No Molestar",
             "idle": "Ausente",
-            "offline": "Desconectado"
+            "offline": "Desconectado",
+            "online": "En Línea"
         },
-        "jugando": "🎮 Actividad",
-        "tipo": {
-            "PLAYING": "🎮 Jugando a",
-            "STREAMING": "📡 Transmitiendo en vivo",
-            "LISTENING": "🎶 Escuchando",
-            "WATCHING": "📺 Viendo a",
-            "CUSTOM_STATUS": "Estado personalizado"
-        },
-        "estado": "🔘🔴 Estado",
         "id": "🆔 Identificador único",
-        "conecWeb": "💻 Conectado en Web",
-        "conecDesk": "💻 Conectado en Escritorio",
-        "conecCel": "📱 Conectado en Celular",
-        "apodo": "👤 Apodo",
-        "creada": "📅 Cuenta Creada",
         "ingreso": "📆 Ingreso",
-        "creadaHace": "🕑 Cuenta Creada hace",
         "ingresoHace": "🕑 Ingresó hace",
         "insignias": "🔶 Insignias",
-        "noInsig": "Sin insignias",
-        "roles": "🔁 Roles",
-        "permisos": "Permisos Importantes",
-        "noJugando": "Nada",
+        "jugando": "🎮 Actividad",
         "noApodo": "Ninguno",
-        "sd": "S/D"
+        "noInsig": "Sin insignias",
+        "noJugando": "Nada",
+        "noUser": "`❌|` No se encontró al usuario mencionado.",
+        "permisos": "Permisos Importantes",
+        "roles": "🔁 Roles",
+        "sd": "S/D",
+        "tipo": {
+            "CUSTOM_STATUS": "Estado personalizado",
+            "LISTENING": "🎶 Escuchando",
+            "PLAYING": "🎮 Jugando a",
+            "STREAMING": "📡 Transmitiendo en vivo",
+            "WATCHING": "📺 Viendo a"
+        }
     },
     "userrandom": {
         "title": "Usuario afortunado:"
