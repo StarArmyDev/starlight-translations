@@ -1,50 +1,59 @@
 {
     "achievements": {
-        "categoria": "Category:",
+        "category": "Category:",
+        "name": "Name:",
         "noAchievement": "`❌|` This user does not have achievements.",
-        "noPerfil": "`❌|` This user does not have a profile.",
-        "nombre": "Name:",
-        "obtenido": "Obtained on:",
+        "noProfile": "`❌|` This user does not have a profile.",
+        "noUser": "`❌ |` The user was not found.",
+        "obtained": "Obtained on:",
         "points": "Points:",
         "title": "Achievement Earned"
     },
     "badge": {
-        "categoria": "Categoría:",
+        "category": "Categoría:",
+        "name": "Nombre:",
         "noAchievement": "`❌|` Este usuario no cuenta con medallas.",
-        "noPerfil": "`❌|` Este usuario no tiene un perfil.",
-        "nombre": "Nombre:",
+        "noProfile": "`❌|` Este usuario no tiene un perfil.",
         "title": "Medallas ganadas"
     },
     "divorce": {
-        "autoMencion": "Hey, we don't do that here",
-        "divorcio": "Now they are separated, without compromises ... without love </3",
-        "divorcioForce": "Now you are separated, without compromises ... without love </3",
-        "helpForce": "you must place the person's id.",
-        "mensaje": "{{miembro}} you agree to separate forever from {{author}} and destroy what since `{{fecha}}` was his unconditional love declared to all?\n__*You have 60 seconds to answer yes or no*__",
-        "mensajeForce": "{{author}} you agree to force separation forever from ({{miembro}})?\n__*You have 60 seconds to answer yes or no*__",
+        "divorce": "Now they are separated, without compromises ... without love </3",
+        "divorceForce": "Now you are separated, without compromises ... without love </3",
+        "message": "{{miembro}} you agree to separate forever from {{author}} and destroy what since `{{fecha}}` was his unconditional love declared to all?\n__*You have 60 seconds to answer yes or no*__",
+        "messageForce": "{{author}} you agree to force separation forever from ({{miembro}})?\n__*You have 60 seconds to answer yes or no*__",
         "no": "no",
-        "noCasadoAuthor": "You are not even married and do you want to divorce?",
-        "noCasadoUser": "It's ugly that you want to divorce but ... this user isn't even your partner.",
-        "noDivorcio": "Regrettably *(or fortunately)* {{miembro}} Don't accept this decision, you should talk to him first and make this work :3",
-        "noDivorcioForce": "Unfortunately *(or fortunately)* you have regretted the divorce.",
-        "noPerfil": "The user mentioned does not have a profile, tell him to use a command to start it.",
-        "noTiempo": "It took a while to respond ... maybe he got angry *- Run -*.",
-        "noTiempoForce": "It took you a while to respond ... take your time to think about it",
+        "noDivorce": "Regrettably *(or fortunately)* {{miembro}} Don't accept this decision, you should talk to him first and make this work :3",
+        "noDivorceForce": "Unfortunately *(or fortunately)* you have regretted the divorce.",
+        "noMarriedAuthor": "You are not even married and do you want to divorce?",
+        "noMarriedUser": "It's ugly that you want to divorce but ... this user isn't even your partner.",
+        "noProfile": "The user mentioned does not have a profile, tell him to use a command to start it.",
+        "noTime": "It took a while to respond ... maybe he got angry *- Run -*.",
+        "noTimeForce": "It took you a while to respond ... take your time to think about it",
         "noUser": "The person with whom you are married is not on the server.",
-        "si": "yes",
-        "siUser": "The person you married is on the server, you cannot force a divorce, you must mention"
+        "yes": "yes",
+        "yesUser": "The person you married is on the server, you cannot force a divorce, you must mention"
     },
     "editprofile": {
+        "badge": {
+            "badge": "ensign",
+            "help": "Use `{{prefix}}editprofile badge <name|id> <position>`",
+            "noBadge": "`❌|` You don't have badges.",
+            "noIngsinia": "`❌|` Insignia not found or invalid.",
+            "noLugar": "`❌|` Invalid place. You can only place from \"1\" to \"10\".",
+            "noLugarE": "`❌|` Invalid place for special badge. You can only place \"1\" or \"2\".",
+            "noNum": "`❌|` This data is not a number or it is an invalid number.",
+            "yesIngsinia": "`✅|` Insignia placed correctly."
+        },
         "birthday": {
             "birthday": "birthday",
-            "noValido": "Very long date. Example: 20-12",
-            "siCumple": "`✅|` Birthday set"
+            "noValid": "Very long date. Example: 20-12",
+            "yesBirthday": "`✅|` Birthday set"
         },
         "fondos": {
-            "cancelado": "`✅|` Operation cancelled.",
-            "colocarDefecto": "`✅|` Default background placed.",
+            "assignDefault": "`✅|` Default background placed.",
+            "cancelled": "`✅|` Operation cancelled.",
             "default": "defect",
-            "descripcion": "React to the emoji ✅ to assign it",
+            "description": "React to the emoji ✅ to assign it",
             "error": "`❌|` There was an error modifying your profile. Report the error if you think everything is correct.",
             "fondoYa": "This fund is already placed.",
             "fondos": "backdrop",
@@ -63,38 +72,28 @@
             "hombre": "boy",
             "mujer": "girl",
             "noGenero": "Invalid gender. Only boy or girl",
-            "siGenero": "`✅|` The gender was correctly updated by"
+            "yesGenero": "`✅|` The gender was correctly updated by"
         },
         "info": {
             "info": "info",
             "noInfo": "You need to put something for the new information",
-            "siInfo": "`✅|` The information was updated correctly by"
-        },
-        "insignia": {
-            "help": "Use `{{prefix}}editprofile insignia <name|id> <position>`",
-            "insignia": "ensign",
-            "noBadge": "`❌|` You don't have badges.",
-            "noIngsinia": "`❌|` Insignia not found or invalid.",
-            "noLugar": "`❌|` Invalid place. You can only place from \"1\" to \"10\".",
-            "noLugarE": "`❌|` Invalid place for special badge. You can only place \"1\" or \"2\".",
-            "noNum": "`❌|` This data is not a number or it is an invalid number.",
-            "siIngsinia": "`✅|` Insignia placed correctly."
+            "yesInfo": "`✅|` The information was updated correctly by"
         },
         "medalla": {
-            "help": "Use `{{prefix}}editprofile badge <name|id> <posición>` they both expect a number.",
+            "help": "Use `{{prefix}}editprofile badge <name|id> <position>` they both expect a number.",
             "medalla": "badge",
             "noAchievement": "`❌|` You don't have achievements to stand out.",
             "noLugar": "`❌|` Invalid place, you can only place 1, 2 or 3",
             "noMedalla": "`❌|` achievement not found or invalid.",
             "noNum": "`❌|` This data is not a number or it is an invalid number",
-            "siMedalla": "`✅|` Correctly placed achievement."
+            "yesMedalla": "`✅|` Correctly placed achievement."
         },
         "noModo": "`❌|` Mode not found.",
-        "noPerfil": "This User does not have a profile.",
+        "noProfile": "This User does not have a profile.",
         "pais": {
             "noPais": "Invalid or unavailable country.",
             "pais": "land",
-            "siPais": "`✅|` Established country"
+            "yesPais": "`✅|` Established country"
         },
         "tema": {
             "claro": "light",
@@ -106,8 +105,8 @@
         },
         "titulo": {
             "noTitulo": "You need to put a single word for the new title",
-            "siTitulo": "`✅|` The title was updated `{{nuevoTitulo}}` correctly.",
-            "titulo": "title"
+            "titulo": "title",
+            "yesTitulo": "`✅|` The title was updated `{{nuevoTitulo}}` correctly."
         }
     },
     "levels": {
@@ -124,35 +123,36 @@
         "hombre": "legitimate husband",
         "isBot": "`❌|` Society cannot allow relationships with machines...",
         "maridos": "I declare them. Husband and wife <3",
-        "mensaje": "¿{{miembro}} you accept {{author}} like you {{genero}} in health and disease, in wealth and poverty, with internet and without internet until the wifi separates them?\n__*You have 60 seconds to answer yes or no*__",
+        "message": "¿{{miembro}} you accept {{author}} like you {{genero}} in health and disease, in wealth and poverty, with internet and without internet until the wifi separates them?\n__*You have 60 seconds to answer yes or no*__",
         "mujer": "legitimate wife",
         "no": "no",
-        "noCasados": "`❌|` Unfortunately, the {{miembro}} marriage has declined and has run away from the server.",
-        "noPerfil": "`❌|` The user mentioned does not have a profile, tell him to use a command to start it.",
-        "noTiempo": "`⏳|` It took a long time to respond ... that doesn't seem to be a good sign.",
+        "noMarrieds": "`❌|` Unfortunately, the {{miembro}} marriage has declined and has run away from the server.",
+        "noProfile": "`❌|` The user mentioned does not have a profile, tell him to use a command to start it.",
+        "noTime": "`⏳|` It took a long time to respond ... that doesn't seem to be a good sign.",
         "noUser": "`❌|` User not found.",
         "otro": "legitimate spouse",
-        "si": "yes"
+        "yes": "yes"
     },
     "profile": {
         "casada": "Married with:",
         "casado": "Married to:",
         "casadoDes": "Married to:",
         "noInformacion": "No information",
-        "noPerfil": "This User does not have a profile.",
+        "noProfile": "This User does not have a profile.",
         "nvl": "Lvl"
     },
     "rank": {
         "global": "Global",
-        "noPerfil": "This User does not have a profile or the server does not have the XP system activated",
+        "noProfile": "This User does not have a profile or the server does not have the XP system activated",
+        "noUser": "`❌ |` The user was not found.",
         "s": "guild",
         "server": "Guild"
     },
     "rep": {
         "autoMencion": "You just gave yourself a reputation {{miembro}}. *Now you have 1 rep of punishment* \nReturn in 12 days. To continue giving you reputation.",
         "isBot": "`❌ |` You cannot give a bot reputation.",
-        "mensaje": "You just gave reputation to {{miembro}}. *Now you have {{reputacion}} rep*\nCome back in 12 hours. to give someone else.",
-        "noPerfil": "Este Usuario No tiene Un perfil global. Tiene que usar un comando primero.",
+        "message": "You just gave reputation to {{miembro}}. *Now you have {{reputacion}} rep*\nCome back in 12 hours. to give someone else.",
+        "noProfile": "Este Usuario No tiene Un perfil global. Tiene que usar un comando primero.",
         "noUser": "Invalid user only mention or ID."
     },
     "top": {

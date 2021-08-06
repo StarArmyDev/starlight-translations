@@ -1,50 +1,59 @@
 {
     "achievements": {
-        "categoria": "Categoría:",
+        "category": "Categoría:",
+        "name": "Nombre:",
         "noAchievement": "`❌|` Este usuario no cuenta con logros.",
-        "noPerfil": "`❌|` Este usuario no tiene un perfil.",
-        "nombre": "Nombre:",
-        "obtenido": "Obtenido el:",
+        "noProfile": "`❌|` Este usuario no tiene un perfil.",
+        "noUser": "`❌ |` No se encontró al usuario.",
+        "obtained": "Obtenido el:",
         "points": "Puntos:",
         "title": "Logros ganados"
     },
     "badge": {
-        "categoria": "Categoría:",
+        "category": "Categoría:",
+        "name": "Nombre:",
         "noAchievement": "`❌|` Este usuario no cuenta con medallas.",
-        "noPerfil": "`❌|` Este usuario no tiene un perfil.",
-        "nombre": "Nombre:",
+        "noProfile": "`❌|` Este usuario no tiene un perfil.",
         "title": "Medallas ganadas"
     },
     "divorce": {
-        "autoMencion": "Oye, aquí no hacemos eso.",
-        "divorcio": "Ahora quedan separados, sin compromisos... sin amor </3",
-        "divorcioForce": "Ahora quedas separado sin compromisos y... sin amor </3",
-        "helpForce": "debes de colocar la ID de la persona.",
-        "mensaje": "{{miembro}}, ¿aceptas separarte por siempre de {{author}} y destruir lo que desde hace `{{fecha}}` fue declarado ante todos su amor incondicional?\n__*Tienes 60 segundos para responder \"sí\" o \"no\".*__",
-        "mensajeForce": "{{author}}, ¿aceptas forzar la separación por siempre de ({{miembro}})?\n__*Tienes 60 segundos para responder \"sí\" o \"no\".*__",
+        "divorce": "Ahora quedan separados, sin compromisos... sin amor </3",
+        "divorceForce": "Ahora quedas separado sin compromisos y... sin amor </3",
+        "message": "{{miembro}}, ¿aceptas separarte por siempre de {{author}} y destruir lo que desde hace `{{fecha}}` fue declarado ante todos su amor incondicional?\n__*Tienes 60 segundos para responder \"sí\" o \"no\".*__",
+        "messageForce": "{{author}}, ¿aceptas forzar la separación por siempre de ({{miembro}})?\n__*Tienes 60 segundos para responder \"sí\" o \"no\".*__",
         "no": "no",
-        "noCasadoAuthor": "Ni siquiera estás casad@, ¿y quieres divorciarte?",
-        "noCasadoUser": "Está feo que te quieras divorciar, pero... este usuario ni siquiera es tu pareja.",
-        "noDivorcio": "Lamentablemente *(o afortunadamente)*, {{miembro}} no acepta esta decisión. Deberías hablarle primero y hacer que esto funcione. :3",
-        "noDivorcioForce": "Lamentablemente *(o afortunadamente)* te has arrepentido del divorcio.",
-        "noPerfil": "El usuario mencionado no cuenta con un perfil, dile que use un comando para iniciarlo.",
-        "noTiempo": "Ha tardado en responder... tal vez se enfadó *- corre -*.",
-        "noTiempoForce": "Tardaste en responder... toma tu tiempo para pensarlo.",
+        "noDivorce": "Lamentablemente *(o afortunadamente)*, {{miembro}} no acepta esta decisión. Deberías hablarle primero y hacer que esto funcione. :3",
+        "noDivorceForce": "Lamentablemente *(o afortunadamente)* te has arrepentido del divorcio.",
+        "noMarriedAuthor": "Ni siquiera estás casad@, ¿y quieres divorciarte?",
+        "noMarriedUser": "Está feo que te quieras divorciar, pero... este usuario ni siquiera es tu pareja.",
+        "noProfile": "El usuario mencionado no cuenta con un perfil, dile que use un comando para iniciarlo.",
+        "noTime": "Ha tardado en responder... tal vez se enfadó *- corre -*.",
+        "noTimeForce": "Tardaste en responder... toma tu tiempo para pensarlo.",
         "noUser": "La persona con quién estás casado no está en el servidor.",
-        "si": "si",
-        "siUser": "La persona con quién te casaste está en el servidor, no puedes forzar el divorcio, debes de mencionar."
+        "yes": "si",
+        "yesUser": "La persona con quién te casaste está en el servidor, no puedes forzar el divorcio, debes de mencionar."
     },
     "editprofile": {
+        "badge": {
+            "badge": "insignias",
+            "help": "Usa `{{prefix}}editprofile insignia <nombre|id> <posición>`",
+            "noBadge": "`❌|` No cuentas con insignias.",
+            "noIngsinia": "`❌|` Insignia no encontrada o no válida.",
+            "noLugar": "`❌|` Lugar no válido. Solamente puedes colocar del \"1\" al \"10\".",
+            "noLugarE": "`❌|` Lugar no válido para insignia especial. Solamente puedes colocar \"1\" o \"2\".",
+            "noNum": "`❌|` Este dato no es un número o es un número no válido.",
+            "yesIngsinia": "`✅|` Insignia colocada correctamente."
+        },
         "birthday": {
             "birthday": "cumpleaños",
-            "noValido": "Fecha muy larga. Ejemplo: 20-12",
-            "siCumple": "`✅|` Cumpleaños establecido."
+            "noValid": "Fecha muy larga. Ejemplo: 20-12",
+            "yesBirthday": "`✅|` Cumpleaños establecido."
         },
         "fondos": {
-            "cancelado": "`✅|` Operación cancelada.",
-            "colocarDefecto": "`✅|` Fondo predeterminado colocado.",
+            "assignDefault": "`✅|` Fondo predeterminado colocado.",
+            "cancelled": "`✅|` Operación cancelada.",
             "default": "defecto",
-            "descripcion": "Reacciona al emoji ✅ para asignarlo.",
+            "description": "Reacciona al emoji ✅ para asignarlo.",
             "error": "`❌|` Ocurrió un error al modificar tu perfil. Reporta el error si crees que tu comando está bien hecho.",
             "fondoYa": "Este fondo ya está colocado.",
             "fondos": "fondos",
@@ -63,22 +72,12 @@
             "hombre": "chico",
             "mujer": "chica",
             "noGenero": "Género no válido. Solamente \"hombre\" o \"mujer\".",
-            "siGenero": "`✅|` Se actualizó el género correctamente por"
+            "yesGenero": "`✅|` Se actualizó el género correctamente por"
         },
         "info": {
             "info": "info",
             "noInfo": "Necesitas poner algo para la nueva información.",
-            "siInfo": "`✅|` Se actualizó la información correctamente por"
-        },
-        "insignia": {
-            "help": "Usa `{{prefix}}editprofile insignia <nombre|id> <posición>`",
-            "insignia": "insignias",
-            "noBadge": "`❌|` No cuentas con insignias.",
-            "noIngsinia": "`❌|` Insignia no encontrada o no válida.",
-            "noLugar": "`❌|` Lugar no válido. Solamente puedes colocar del \"1\" al \"10\".",
-            "noLugarE": "`❌|` Lugar no válido para insignia especial. Solamente puedes colocar \"1\" o \"2\".",
-            "noNum": "`❌|` Este dato no es un número o es un número no válido.",
-            "siIngsinia": "`✅|` Insignia colocada correctamente."
+            "yesInfo": "`✅|` Se actualizó la información correctamente por"
         },
         "medalla": {
             "help": "Usa `{{prefix}}editprofile medallas <nombre|id> <posición>`.",
@@ -87,14 +86,14 @@
             "noLugar": "`❌|` Lugar no válido, solamente puedes colocar \"1\", \"2\" o \"3\".",
             "noMedalla": "`❌|` Logro no encontrado o no válida.",
             "noNum": "`❌|` Este dato no es un número o es un número no válido.",
-            "siMedalla": "`✅|` Logro colocado correctamente."
+            "yesMedalla": "`✅|` Logro colocado correctamente."
         },
         "noModo": "`❌|` Modo no encontrado.",
-        "noPerfil": "Este usuario no tiene un perfil.",
+        "noProfile": "Este usuario no tiene un perfil.",
         "pais": {
             "noPais": "País no válido o no disponible.",
             "pais": "país",
-            "siPais": "`✅|` País establecido."
+            "yesPais": "`✅|` País establecido."
         },
         "tema": {
             "claro": "claro",
@@ -106,8 +105,8 @@
         },
         "titulo": {
             "noTitulo": "Necesitas poner una sola palabra para el nuevo título.",
-            "siTitulo": "`✅|` Se actualizó el título `{{nuevoTitulo}}` correctamente.",
-            "titulo": "título"
+            "titulo": "título",
+            "yesTitulo": "`✅|` Se actualizó el título `{{nuevoTitulo}}` correctamente."
         }
     },
     "levels": {
@@ -124,35 +123,36 @@
         "hombre": "legítimo esposo",
         "isBot": "`❌|` La sociedad no puede permitir relaciones con máquinas... además de que no te puede contestar que sí.",
         "maridos": "Los declaro marido y mujer. <3",
-        "mensaje": "{{miembro}}, ¿aceptas a {{author}} como tu {{genero}} en la salud y en la enfermedad, en la riqueza y en la pobreza, con internet y sin internet hasta que el Wi-Fi los separe?\n__*Tiene 60 segundos para responder \"sí\" o \"no\".*__",
+        "message": "{{miembro}}, ¿aceptas a {{author}} como tu {{genero}} en la salud y en la enfermedad, en la riqueza y en la pobreza, con internet y sin internet hasta que el Wi-Fi los separe?\n__*Tiene 60 segundos para responder \"sí\" o \"no\".*__",
         "mujer": "legítima esposa",
         "no": "no",
-        "noCasados": "`❌|` Lamentablemente, {{miembro}} ha rechazado la propuesta de matrimonio y ha huido del servidor.",
-        "noPerfil": "`❌|` El usuario mencionado no cuenta con un perfil, dile que use un comando para crearlo.",
-        "noTiempo": "`⏳|` Ha tardado en responder... eso no parece ser una buena señal.",
+        "noMarrieds": "`❌|` Lamentablemente, {{miembro}} ha rechazado la propuesta de matrimonio y ha huido del servidor.",
+        "noProfile": "`❌|` El usuario mencionado no cuenta con un perfil, dile que use un comando para crearlo.",
+        "noTime": "`⏳|` Ha tardado en responder... eso no parece ser una buena señal.",
         "noUser": "`❌|` Usuario no encontrado.",
         "otro": "legítim@ espos@",
-        "si": "si"
+        "yes": "si"
     },
     "profile": {
         "casada": "Casada con:",
         "casado": "Casado con:",
         "casadoDes": "Casad@ con:",
         "noInformacion": "Sin información",
-        "noPerfil": "Este usuario no tiene un perfil.",
+        "noProfile": "Este usuario no tiene un perfil.",
         "nvl": "Nvl"
     },
     "rank": {
         "global": "Global",
-        "noPerfil": "Este usuario no tiene un perfil o el servidor no tiene activado el sistema de XP.",
+        "noProfile": "Este usuario no tiene un perfil o el servidor no tiene activado el sistema de XP.",
+        "noUser": "`❌ |` No se encontró al usuario.",
         "s": "s",
         "server": "Servidor"
     },
     "rep": {
         "autoMencion": "Acabas de darte reputación, {{miembro}}. *Ahora tienes 1 rep de castigo*\nVuelve en 12 días. para seguirte dando reputación.",
         "isBot": "`❌|` No se le puede dar reputación a un bot.",
-        "mensaje": "Acabas de dar reputación a {{miembro}}. *Ahora tiene {{reputacion}} rep*\nVuelve en 12 horas para darle a alguien más.",
-        "noPerfil": "Este usuario no tiene un perfil global, tiene que usar un comando primero.",
+        "message": "Acabas de dar reputación a {{miembro}}. *Ahora tiene {{reputacion}} rep*\nVuelve en 12 horas para darle a alguien más.",
+        "noProfile": "Este usuario no tiene un perfil global, tiene que usar un comando primero.",
         "noUser": "Usuario no válido. Utiliza una mención o ID."
     },
     "top": {
