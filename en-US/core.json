@@ -11,6 +11,7 @@
         "title": "Hello! \n👋 I am DavichoStar"
     },
     "help": {
+        "categories": "Categoríes",
         "config": "⚙ Configuration",
         "config-bot": "⚙ Bot Configuration",
         "core": "🌠 Bot",
@@ -24,20 +25,21 @@
             "categoria": "Category",
             "cooldown": "Cooldown",
             "descripcion": "**Description:**",
+            "no": "No",
             "noAlias": "Without alias",
+            "noCommand": "Command `{{name}}` not found.",
+            "noUso": "You do not have to add parameters",
             "permiso": "Permission",
+            "si": "Yes",
             "sinPermisos": "No permissions required",
             "title": "Help of: {{command}}",
             "uso": "Use the command as follows:"
         },
         "expression": "🎭 Expression",
         "fun": "🎉 Fun",
+        "home": "Start",
         "info": "📃 Information",
         "interaction": "🎁 Interaction",
-        "links": {
-            "desc": "[Invite me]({{invite}} \"Invite me to your server \") | [Support Server](https://discord.gg/MZN8Yf6 \"StarArmy Support\") | [Support with your Vote](https://top.gg/bot/517786947171909643 \"Vote on Top.gg every 12 hours.\")",
-            "title": "Useful links"
-        },
         "manager": "⚙ Bot Manager",
         "masInfo": {
             "desc": "Use: `{{prefix}} <command> help` to get your individual command information and expected parameters.",
@@ -45,12 +47,10 @@
         },
         "moderation": "👮 Moderation",
         "music": "🎵 Music",
-        "no": "No",
         "noPrivate": "❌ | It seems you have deactivated private messages.",
-        "noUso": "You do not have to add parameters",
         "private": "✅  **| Check your DMs.**  👌",
         "profile": "👥 Profile",
-        "si": "Yes",
+        "selectCategory": "Select a category",
         "titulo": "Command list",
         "util": "🛡 Utilities",
         "version": " | Version",
@@ -85,7 +85,7 @@
             "successfulDesc": "This server has been improved by **{{user_name}}** ({{user}})\n\nNow you enjoy the premium benefits until the user's subscription ends or is withdrawn by the user.",
             "successfulTitle": "Congratulations!"
         },
-        "benefitsGuildDesc": "- **Advanced LogsEntry:** It shows you the invitation with which the user entered the server.\n- **Report:** Tracking system to answer the same reports through the bot and carry an anonymous conversation.\n- **Birthday role:** To be able to put a role to the birthday children in addition to the message that is sent.\n- **ReactionRole:** No limit to place multiple reactionRoles. *Free Tier 4 only*\n- Music category commands such as SlashCommands *They are installed with the setup* command.",
+        "benefitsGuildDesc": "- **Advanced LogsEntry:** It shows you the invitation with which the user entered the server.\n- **Report:** Tracking system to answer the same reports through the bot and carry an anonymous conversation.\n- **Birthday role:** To be able to put a role to the birthday children in addition to the message that is sent.\n- **ReactionRole:** No limit to place multiple reactionRoles. *Free Tier 4 only*",
         "benefitsGuildTitle": "✨ Server Benefits",
         "benefitsProfileDesc": "- **Premium Role:** A role on the bot's official server to distinguish yourself from others. *SL Premium*\n- **Multiplier:** + 1.0 multiplier in the global economy.\n- **Crown:** A crown on your profile that indicates your active subscription.\n- **Title:** Allow more than one word in the profile title\n- **Profile Cooldown:** With premium you will have a cooldown, to edit again, of 3 days for title and gender, in the case of country it will be without cooldown.",
         "benefitsProfileTitle": "✨ Profile Benefits",
