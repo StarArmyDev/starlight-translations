@@ -34,59 +34,58 @@
         "yesUser": "La persona con quién te casaste está en el servidor, no puedes forzar el divorcio, debes de mencionar."
     },
     "editprofile": {
+        "achievement": {
+            "achievement": "medallas",
+            "noAchievement": "`❌|` No cuentas con logros para destacar.",
+            "yesAchievement": "`✅|` Logro colocado correctamente."
+        },
+        "background": {
+            "assignDefault": "`✅|` Fondo predeterminado colocado.",
+            "background": "fondos",
+            "backgroundOk": "`⛔|` Este fondo ya está colocado.",
+            "buttonDefault": "Por Defecto",
+            "buttonDeleteServer": "Eliminar",
+            "buttonOkServer": "Servidor",
+            "cancelled": "`✅|` Operación cancelada.",
+            "default": "defecto",
+            "description": "Reacciona al emoji ✅ para asignarlo.",
+            "error": "`❌|` Ocurrió un error al modificar tu perfil. Reporta el error si crees que tu comando está bien hecho.",
+            "footer": "Fondos disponibles:",
+            "main": "Principal",
+            "noBackground": "`❌|` No cuentas con fondos, ¡Consigue uno!",
+            "noBackgroundServer": "`❌|` No cuentas con un fondo establecido en este servidor.\nSi ve un fondo, es global, establezca el \"Por Defecto\".",
+            "noPremium": "`⛔|` Esta es una función premium. Usa el comando `premium` para más información",
+            "secondary": "Secundario",
+            "selectType": "Escoje el tipo de fondo a editar",
+            "title": "Escoge tu fondo de perfil.",
+            "titleDeletedServer": "`✅|` Se eliminó el fondo personalizado de este servidor.",
+            "titleN": "Escoge tu fondo de nivel.",
+            "titleSelec": "`✅|` Fondo asignado correctamente."
+        },
         "badge": {
             "badge": "insignias",
-            "help": "Usa `{{prefix}}editprofile insignia <nombre|id> <posición>`",
             "noBadge": "`❌|` No cuentas con insignias.",
-            "noIngsinia": "`❌|` Insignia no encontrada o no válida.",
-            "noLugar": "`❌|` Lugar no válido. Solamente puedes colocar del \"1\" al \"10\".",
-            "noLugarE": "`❌|` Lugar no válido para insignia especial. Solamente puedes colocar \"1\" o \"2\".",
-            "noNum": "`❌|` Este dato no es un número o es un número no válido.",
-            "yesIngsinia": "`✅|` Insignia colocada correctamente."
+            "yesBadge": "`✅|` Insignia colocada correctamente."
         },
         "birthday": {
             "birthday": "cumpleaños",
             "noValid": "Fecha muy larga. Ejemplo: 20-12",
             "yesBirthday": "`✅|` Cumpleaños establecido."
         },
-        "fondos": {
-            "assignDefault": "`✅|` Fondo predeterminado colocado.",
-            "cancelled": "`✅|` Operación cancelada.",
-            "default": "defecto",
-            "description": "Reacciona al emoji ✅ para asignarlo.",
-            "error": "`❌|` Ocurrió un error al modificar tu perfil. Reporta el error si crees que tu comando está bien hecho.",
-            "fondoYa": "Este fondo ya está colocado.",
-            "fondos": "fondos",
-            "footer": "Fondos disponibles:",
-            "noBG": "`❌|` No cuentas con temas.",
-            "noFondos": "`❌|` No cuentas con fondos, ¡compra uno!",
-            "noModo": "Modo no válido, solamente 1/main o 2/secundary.\nUsa `{{prefix}}editprofile fondos <1/principal o 2/secundario>`.",
-            "principal": "principal",
-            "secundario": "secundario",
-            "title": "Escoge tu fondo de perfil.",
-            "titleN": "Escoge tu fondo de nivel.",
-            "titleSelec": "`✅|` Fondo asignado correctamente."
-        },
-        "genero": {
-            "genero": "género",
-            "hombre": "chico",
-            "mujer": "chica",
-            "noGenero": "Género no válido. Solamente \"hombre\" o \"mujer\".",
-            "yesGenero": "`✅|` Se actualizó el género correctamente por"
+        "gender": {
+            "cooldown": "`❌ |` No puedes cambiar de nuevo este parámetro hasta dentro de `{{time}}`",
+            "female": "Chica",
+            "gender": "género",
+            "isSame": "`⛔|` Ya tienes este género establecido",
+            "male": "Chico",
+            "other": "Otro",
+            "yesGender": "`✅|` Se actualizó el género correctamente por"
         },
         "info": {
             "info": "info",
-            "noInfo": "Necesitas poner algo para la nueva información.",
+            "maxLength": "`⛔|` No puede sobrepasar los 200 carácteres.",
+            "noInfo": "`❌|` Necesitas poner algo para la nueva información.",
             "yesInfo": "`✅|` Se actualizó la información correctamente por"
-        },
-        "medalla": {
-            "help": "Usa `{{prefix}}editprofile medallas <nombre|id> <posición>`.",
-            "medalla": "medallas",
-            "noAchievement": "`❌|` No cuentas con logros para destacar.",
-            "noLugar": "`❌|` Lugar no válido, solamente puedes colocar \"1\", \"2\" o \"3\".",
-            "noMedalla": "`❌|` Logro no encontrado o no válida.",
-            "noNum": "`❌|` Este dato no es un número o es un número no válido.",
-            "yesMedalla": "`✅|` Logro colocado correctamente."
         },
         "noModo": "`❌|` Modo no encontrado.",
         "noProfile": "Este usuario no tiene un perfil.",
@@ -95,13 +94,20 @@
             "pais": "país",
             "yesPais": "`✅|` País establecido."
         },
-        "tema": {
-            "claro": "claro",
-            "noTema": "Solamente se puede tema claro y oscuro (1 o 2).",
-            "oscuro": "oscuro",
-            "tema": "tema",
-            "temaClaro": "`✅|` Tema claro establecido.",
-            "temaOscuro": "`✅|` Tema oscuro establecido."
+        "selectPosition": "Selecciona una posición",
+        "theme": {
+            "assignDefault": "`✅|` Tema predeterminado colocado.",
+            "footer": "Temas disponibles:",
+            "loading": "🔁 Cargando...",
+            "noTheme": "`❌|` No cuentas con temas, ¡Consigue uno!",
+            "noThemeServer": "`❌|` No cuentas con un tema establecido en este servidor.\nSi ve un tema, es global, establezca el \"Por Defecto\"",
+            "selectType": "Escoje el tipo de tema a editar",
+            "theme": "tema",
+            "themeOk": "`⛔|` Este tema ya está establecido.",
+            "title": "Escoge tu tema de perfil ",
+            "titleDeletedServer":"`✅|` Se eliminó el tema personalizado de este servidor.",
+            "titleN": "Escoge tu tema de nivel.",
+            "titleSelec": "`✅|` Tema establecido correctamente."
         },
         "titulo": {
             "noTitulo": "Necesitas poner una sola palabra para el nuevo título.",
