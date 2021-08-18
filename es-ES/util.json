@@ -1,8 +1,10 @@
 {
     "afk": {
+        "invite": "[Invitación]",
         "mencionE": "(Mención:everyone)",
         "mencionH": "(Mención:here)",
-        "mensaje": "Ha establecido su estado AFK con la razón: `{{razon}}`."
+        "mensaje": "Ha establecido su estado AFK con la razón: `{{razon}}`.",
+        "mention": "[Mención]"
     },
     "remember": {
         "año": "año",
@@ -24,6 +26,7 @@
         "minuto": "minuto",
         "minutos": "minutos",
         "noEscribir": "No puedes escribir en el canal mencionado.",
+        "noMessage": "`❌|` No has escrito un mensaje, coloca uno",
         "noNumber": "❌ Ese recordatorio no existe.",
         "noRemember": "❌ No tienes recordatorios programados.",
         "noTiempo": "Tiempo no válido. Ejemplos: 1d, 10h, 20m.",
@@ -53,8 +56,10 @@
     },
     "say": {
         "help": "Usa `{{prefix}}say [embed] [#canal] <Mensaje a repetir>`.",
+        "invite": "[Invitación]",
         "mencionE": "(mención:everyone)",
         "mencionH": "(mención:here)",
+        "mention": "[Mención]",
         "noEscribir": "No puedes escribir en el canal mencionado."
     },
     "selfrole": {

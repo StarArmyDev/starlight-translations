@@ -78,6 +78,7 @@
             "gender": "género",
             "isSame": "`⛔|` Ya tienes este género establecido",
             "male": "Chico",
+            "message": "Selecciona tu género:",
             "other": "Otro",
             "yesGender": "`✅|` Se actualizó el género correctamente por"
         },
@@ -105,7 +106,7 @@
             "theme": "tema",
             "themeOk": "`⛔|` Este tema ya está establecido.",
             "title": "Escoge tu tema de perfil ",
-            "titleDeletedServer":"`✅|` Se eliminó el tema personalizado de este servidor.",
+            "titleDeletedServer": "`✅|` Se eliminó el tema personalizado de este servidor.",
             "titleN": "Escoge tu tema de nivel.",
             "titleSelec": "`✅|` Tema establecido correctamente."
         },

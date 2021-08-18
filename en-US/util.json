@@ -1,8 +1,10 @@
 {
     "afk": {
+        "invite": "[Invitation]",
         "mencionE": "(Mention:everyone)",
         "mencionH": "(Mention:here)",
-        "mensaje": "You have established your afk status with the reason: `{{razon}}`"
+        "mensaje": "You have established your afk status with the reason: `{{razon}}`",
+        "mention": "[Mention]"
     },
     "remember": {
         "año": "year",
@@ -24,6 +26,7 @@
         "minuto": "minute",
         "minutos": "minutes",
         "noEscribir": "You cannot write on the mentioned channel.",
+        "noMessage": "`❌|` You have not written a message, put one",
         "noNumber": "❌ That reminder doesn't exist.",
         "noRemember": "❌ You have No reminders scheduled",
         "noTiempo": "Invalid time. Examples: 1d, 10h, 20m",
@@ -53,8 +56,10 @@
     },
     "say": {
         "help": "Use `{{prefix}}say [embed] [#channel] <Message to be repeated>`",
+        "invite": "[Invitation]",
         "mencionE": "(Mention:everyone)",
         "mencionH": "(Mention:here)",
+        "mention": "[Mention]",
         "noEscribir": "You cannot write on the mentioned channel."
     },
     "selfrole": {

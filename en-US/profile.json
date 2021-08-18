@@ -78,6 +78,7 @@
             "gender": "genre",
             "isSame": "`⛔|` You already have this genre established",
             "male": "Boy",
+            "message": "Select your gender:",
             "other": "Other",
             "yesGender": "`✅|` The gender was correctly updated by"
         },
@@ -105,7 +106,7 @@
             "theme": "themes",
             "themeOk": "`⛔|` This theme is already established.",
             "title": "Choose your profile theme ",
-            "titleDeletedServer":"`✅|` The personalized theme of this server was eliminated.",
+            "titleDeletedServer": "`✅|` The personalized theme of this server was eliminated.",
             "titleN": "Choose your level theme.",
             "titleSelec": "`✅|` Theme set correctly."
         },
