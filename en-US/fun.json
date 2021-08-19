@@ -1,6 +1,5 @@
 {
     "8ball": {
-        "title": "🎱 Question\n{{pregunta}}",
         "descripcion": "To which I respond: {{respuesta}}",
         "rpts": [
             "Yes",
@@ -18,7 +17,8 @@
             "Unfortunally Yes",
             "Unfortunately not",
             "I don't know Rick"
-        ]
+        ],
+        "title": "🎱 Question\n{{pregunta}}"
     },
     "achievement": {
         "error": "❌ | An unexpected error occurred. Let us know with `bugreport` so we can fix it.",
@@ -28,33 +28,33 @@
         "title": "Random cat 🐱"
     },
     "cookie": {
-        "noUser": "Mention a user.",
+        "cookie": "**{{user}},** you have a {{cookie}} from **{{author}}**\n\n**Reason:** {{razon}}\n(づ｡◕‿‿◕｡)づ:･ﾟ✧ {{cookie}}",
         "noRazon": "Any",
-        "cookie": "**{{user}},** you have a {{cookie}} from **{{author}}**\n\n**Reason:** {{razon}}\n(づ｡◕‿‿◕｡)づ:･ﾟ✧ {{cookie}}"
+        "noUser": "Mention a user."
     },
     "dog": {
         "title": "Random dog 🐶"
     },
     "love": {
+        "author": "The percentage of love between {{user1}} and {{user2}} it is:",
         "noMencion": "Mention two users to calculate",
+        "rand100": "There is no doubt that there is love here cx I don't know what you expect! <3",
         "rand20": "Uff it seems that there is no possibility of friends. I'm sorry ;-;",
         "rand50": "It seems that there is not much love, but they can be good friends c:",
         "rand80": "This has a chance, very likely to end up being boyfriends :3",
-        "rand100": "There is no doubt that there is love here cx I don't know what you expect! <3",
-        "randInf": "The Love that you have to have must be the greatest of all, appreciate it with the greatest of treasures.",
-        "author": "The percentage of love between {{user1}} and {{user2}} it is:"
+        "randInf": "The Love that you have to have must be the greatest of all, appreciate it with the greatest of treasures."
     },
     "meme": {
-        "title": "Have your meme",
-        "creditos": "By MegaBot community"
+        "creditos": "By MegaBot community",
+        "title": "Have your meme"
     },
     "waifu": {
-        "descripcion": "Description:",
-        "popular": "Popularity",
-        "votos": "Positive Votes:",
         "confirmacion": "✅ Vote {{vote}} for {{waifu}} correctly.",
-        "positivo": "positive",
+        "descripcion": "Description:",
+        "footer": "You can vote every 24 hours.",
         "negativo": "negative",
-        "footer": "You can vote every 24 hours."
+        "popular": "Popularity",
+        "positivo": "positive",
+        "votos": "Positive Votes:"
     }
 }

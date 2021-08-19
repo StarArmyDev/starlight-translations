@@ -1,144 +1,178 @@
 {
     "baka": {
-        "bot": "You are {{author}}!",
-        "author": "Why do you want to insult yourself like that ?!",
         "all": "{{author}} Baka tells everyone! With many love.",
-        "users": "{{author}} He says that you are Baka! {{users}}",
+        "author": "Why do you want to insult yourself like that ?!",
+        "bot": "You are {{author}}!",
+        "error": "❌ It seems that there was an error, check the mention.",
         "user": "{{user}} You are baka! according {{author}}",
-        "error": "❌ It seems that there was an error, check the mention."
+        "users": "{{author}} He says that you are Baka! {{users}}"
     },
     "bite": {
-        "bot": "Don't bite me!",
+        "all": "{{author}} wants to bite everyone!",
         "author": "Looks like you're a sadist, you bit yourself!",
-        "users": "{{author}} is crazy and bit {{users}}",
+        "bot": "Don't bite me!",
+        "error": "❌ It seems that there was an error, check the mention.",
         "user": "{{author}} bit to {{user}} D:",
-        "error": "❌ It seems that there was an error, check the mention."
+        "users": "{{author}} is crazy and bit {{users}}"
     },
     "bye": {
-        "bot": "Bye, have a nice day",
+        "all": "{{author}} says goodbye to everyone.",
         "author": "{{author}} says goodbye and leaves",
-        "users": "{{author}} says goodbye, but only from you {{users}}",
+        "bot": "Bye, have a nice day",
+        "error": "❌ It seems that there was an error, check the mention.",
         "user": "{{user}} says goodbye {{author}}",
-        "error": "❌ It seems that there was an error, check the mention."
+        "users": "{{author}} says goodbye, but only from you {{users}}"
     },
-    "cheeks": {},
-    "claps": {},
-    "cook": {},
+    "cheeks": {
+    },
+    "claps": {
+    },
+    "combed": {
+        "all": "{{author}} thinks he is a stylist and wants to do everyone's hair.",
+        "author": "{{author}} is combing her hair.",
+        "bot": "{{author}}, nobody combs my hair!",
+        "error": "❌ It seems there was an error, check the mention.",
+        "user": "{{author}} is doing {{user} }'s hair, and he's going to look good.",
+        "users": "{{author}} thinks he's a stylist and does {{users}} hair."
+    },
+    "cook": {
+    },
     "cuddle": {
-        "bot": "Well, I let you snuggle with me {{author}}",
+        "all": "{{Author}} wants to cuddle with everyone!",
         "author": "{{author}} He curled up ... alone in his bed u.u",
-        "users": "{{author}} snuggles with you {{users}}",
+        "bot": "Well, I let you snuggle with me {{author}}",
+        "error": "❌ It seems that there was an error, check the mention.",
         "user": "{{author}} curled up with {{user}} :3",
-        "error": "❌ It seems that there was an error, check the mention."
+        "users": "{{author}} snuggles with you {{users}}"
     },
     "dance": {
-        "bot": "Let's Dance! {{author}}",
+        "all": "{{author}} is on a disco with everyone, let's dance!",
         "author": "{{author}} is dancing :3",
-        "users": "{{author}} He says the party was put together! and now dance with you {{users}}",
+        "bot": "Let's Dance! {{author}}",
+        "error": "❌ It seems that there was an error, check the mention.",
         "user": "{{author}} he started dancing with {{user}}",
-        "error": "❌ It seems that there was an error, check the mention."
+        "users": "{{author}} He says the party was put together! and now dance with you {{users}}"
     },
     "feed": {
-        "bot": "Are you feeding me {{author}}? Well ... but I hope it's spaghetti :3",
+        "all": "{{author}} prepared a whole buffet for everyone.",
         "author": "{{author}} is eating",
-        "users": "{{author}} prepares him to eat {{users}}",
+        "bot": "Are you feeding me {{author}}? Well ... but I hope it's spaghetti :3",
+        "error": "❌ It seems that there was an error, check the mention.",
         "user": "{{author}} He fed {{user}}",
-        "error": "❌ It seems that there was an error, check the mention."
+        "users": "{{author}} prepares him to eat {{users}}"
     },
-    "handholding": {},
+    "handholding": {
+    },
     "hi": {
-        "bot": "Hi {{author}}!",
+        "all": "{{author}} greets everyone.",
         "author": "{{author}} says hello!",
-        "users": "{{author}} greets you {{users}}",
+        "bot": "Hi {{author}}!",
+        "error": "❌ It seems that there was an error, check the mention.",
         "user": "{{author}} say hi to {{user}}",
-        "error": "❌ It seems that there was an error, check the mention."
+        "users": "{{author}} greets you {{users}}"
     },
-    "highfive": {},
+    "highfive": {
+    },
     "hug": {
-        "bot": "Thank you {{author}} I accept your hug :3",
+        "all": "{{author}} hands out hugs to everyone!",
         "author": "You can't hug yourself {{author}} but so you don't feel alone I hug you.",
-        "users": "{{author}} makes a group hug {{users}}!",
+        "bot": "Thank you {{author}} I accept your hug :3",
+        "error": "❌ It seems that there was an error, check the mention.",
         "user": "{{author}} hugged {{user}} owo",
-        "error": "❌ It seems that there was an error, check the mention."
+        "users": "{{author}} makes a group hug {{users}}!"
     },
-    "kickbutts": {},
+    "kickbutts": {
+    },
     "kill": {
-        "bot": "Nooo! you won't kill me {{author}}",
         "all": "{{author}} is killing everyone °o°",
         "author": "I ... I'm not going to kill you {{author}}, minus yourself, that's already Suicide!",
-        "users": "{{author}} is a serial killer and killed {{users}}",
+        "bot": "Nooo! you won't kill me {{author}}",
+        "error": "❌ It seems that there was an error, check the mention.",
         "user": "{{author}} killed {{user}} ;-;",
-        "error": "❌ It seems that there was an error, check the mention."
+        "users": "{{author}} is a serial killer and killed {{users}}"
     },
     "kiss": {
-        "bot": "{{author}} you ... you ... did you kiss me ?! O////O",
+        "all": "{{author}} spread kisses to everyone!",
         "author": "You can't kiss alone but I am {{author}} ~3~",
-        "users": "{{author}} he's kissing all of you {{users}} :3",
+        "bot": "{{author}} you ... you ... did you kiss me ?! O////O",
+        "error": "❌ It seems that there was an error, check the mention.",
         "user": "{{author}} he kissed {{user}} (U3U)",
-        "error": "❌ It seems that there was an error, check the mention."
+        "users": "{{author}} he's kissing all of you {{users}} :3"
     },
-    "laugh": {},
+    "laugh": {
+    },
     "lick": {
-        "bot": "No ... don't lick me nooo {{author}} >:c",
+        "all": "{{author}} goes looking for someone to lick.",
         "author": "{{author}} You're a little strange, you licked yourself.",
-        "users": "{{users}} he is licking them {{author}} :0",
+        "bot": "No ... don't lick me nooo {{author}} >:c",
+        "error": "❌ It seems that there was an error, check the mention.",
         "user": "{{author}} licked to {{user}}",
-        "error": "❌ It seems that there was an error, check the mention."
+        "users": "{{users}} he is licking them {{author}} :0"
     },
     "pat": {
-        "bot": "{{author}} you caressed me! :3",
+        "all": "{{author}} wants to pet everyone.",
         "author": "You don't have anyone to caress you, but it's me {{author}} quiet cx",
-        "users": "{{users}} caresses them {{author}} :3",
+        "bot": "{{author}} you caressed me! :3",
+        "error": "❌ It seems that there was an error, check the mention.",
         "user": "{{author}} stroked {{user}} :3",
-        "error": "❌ It seems that there was an error, check the mention."
+        "users": "{{users}} caresses them {{author}} :3"
     },
     "poke": {
-        "bot": "¡{{author}} you touched !! ufff I will not tolerate it!",
-        "author": "I don't think it works like this {{author}} but I better bother you by biting you!",
         "all": "{{author}} wants to sting and bother everyone",
-        "users": "{{users}} is touching them {{author}} :eyes:",
+        "author": "I don't think it works like this {{author}} but I better bother you by biting you!",
+        "bot": "¡{{author}} you touched !! ufff I will not tolerate it!",
+        "error": "❌ It seems that there was an error, check the mention.",
         "user": "{{author}} poke {{user}}",
-        "error": "❌ It seems that there was an error, check the mention."
+        "users": "{{users}} is touching them {{author}} :eyes:"
     },
-    "punch": {},
+    "punch": {
+    },
     "run": {
-        "bot": "{{author}} some strollers?",
+        "all": "{{author}} run everyone away, run away!",
         "author": "{{author}} He ran.",
-        "users": "{{author}} is running with {{users}}",
+        "bot": "{{author}} some strollers?",
+        "error": "❌ It seems that there was an error, check the mention.",
         "user": "{{author}} is running around {{user}}",
-        "error": "❌ It seems that there was an error, check the mention."
+        "users": "{{author}} is running with {{users}}"
     },
-    "scared": {},
+    "scared": {
+    },
     "slap": {
-        "bot": "No ... I don't want to hit myself, why don't you love me {{author}}? :'c",
+        "all": "{{author}} started beating everyone, watch out.",
         "author": "{{author}} Why do you want to hit yourself? That's not good! Stop!",
-        "users": "{{author}} hit to {{users}}",
+        "bot": "No ... I don't want to hit myself, why don't you love me {{author}}? :'c",
+        "error": "❌ It seems that there was an error, check the mention.",
         "user": "{{author}} hit to {{user}} o\\_o\\r",
-        "error": "❌ It seems that there was an error, check the mention."
+        "users": "{{author}} hit to {{users}}"
     },
     "sleep": {
-        "bot": "Good night have a good rest {{author}} cx",
+        "all": "{{author}} seems like he thinks it's a hotel, he fell asleep with everyone.",
         "author": "{{author}} has fallen asleep",
-        "users": "{{author}} has sleepover with {{users}} yeiiii",
+        "bot": "Good night have a good rest {{author}} cx",
+        "error": "❌ It seems that there was an error, check the mention.",
         "user": "{{author}} he fell asleep with {{user}} :3, Or did he sleep it? :0",
-        "error": "❌ It seems that there was an error, check the mention."
+        "users": "{{author}} has sleepover with {{users}} yeiiii"
     },
-    "splash": {},
-    "spray": {},
+    "splash": {
+    },
+    "spray": {
+    },
     "tickle": {
-        "bot": "{{author}} I don't have tickles!",
-        "author": "{{author}} tickles only...",
         "all": "{{author}} wants to tickle everyone!",
-        "users": "{{author}} is tickling {{users}}",
+        "author": "{{author}} tickles only...",
+        "bot": "{{author}} I don't have tickles!",
+        "error": "❌ It seems that there was an error, check the mention.",
         "user": "{{author}} is tickling {{user}}",
-        "error": "❌ It seems that there was an error, check the mention."
+        "users": "{{author}} is tickling {{users}}"
     },
-    "tsundere": {},
+    "tsundere": {
+    },
     "wake": {
-        "bot": "Good Morning {{author}} cx",
+        "all": "{{author}} says: good morning everyone!",
         "author": "{{author}} is waking up",
-        "users": "{{author}} it's bad and wake up to {{users}} >:3",
+        "bot": "Good Morning {{author}} cx",
+        "error": "❌ It seems that there was an error, check the mention.",
         "user": "{{author}} wake up {{user}}",
-        "error": "❌ It seems that there was an error, check the mention."
+        "users": "{{author}} it's bad and wake up to {{users}} >:3"
     }
 }
