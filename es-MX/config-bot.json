@@ -1,131 +1,137 @@
 {
     "addblacklist": {
         "all": "todo",
-        "noCommand": "`❌|` Comando no encontrado, solo se acepta el nombre del comando, no sus alias.",
-        "commandImport": "⚠| Este comando pertenece a una categoría importante.",
         "bot": "`⛔|` Este usuario es un bot.",
-        "noUser": "`❌|` No se encontró al usuario, rol o canal.",
-        "yaCommand": "`❌|` Este comando ya se encuentra en la lista.",
-        "title": "✅| Comando agregado a la lista en este servidor.",
+        "commandImport": "⚠| Este comando pertenece a una categoría importante.",
+        "commands": "Comandos:",
         "fieldCat": "Categoría:",
         "fieldCom": "Comando:",
-        "commands": "Comandos:"
+        "isAddedAll": "`⛔|` Ya están agregados todos los comandos a este rol/usuario/canal o servidor.",
+        "noCommand": "`❌|` Comando no encontrado, solo se acepta el nombre del comando, no sus alias.",
+        "noUser": "`❌|` No se encontró al usuario, rol o canal.",
+        "title": "✅| Comando agregado a la lista en este servidor.",
+        "to": "Para",
+        "yaCommand": "`❌|` Este comando ya se encuentra en la lista."
     },
     "addwhitelist": {
         "all": "todo",
-        "noCommand": "`❌|` Comando no encontrado, solo se acepta el nombre del comando, no sus alias.",
-        "commandImport": "⚠| Este comando pertenece a una categoría importante.",
         "bot": "`⛔|` Este usuario es un bot.",
-        "noUser": "`❌|` No se encontró al usuario o rol.",
-        "yaCommand": "`❌|` Este comando ya se encuentra en la lista.",
-        "title": "✅| Comando agregado a la lista en este servidor.",
+        "commandImport": "⚠| Este comando pertenece a una categoría importante.",
+        "commands": "Comandos:",
         "fieldCat": "Categoría:",
         "fieldCom": "Comando:",
-        "commands": "Comandos:"
+        "isAddedAll": "`⛔|` Ya están agregados todos los comandos a este rol/usuario o canal.",
+        "noCommand": "`❌|` Comando no encontrado, solo se acepta el nombre del comando, no sus alias.",
+        "noUser": "`❌|` No se encontró al usuario o rol.",
+        "title": "✅| Comando agregado a la lista en este servidor.",
+        "yaCommand": "`❌|` Este comando ya se encuentra en la lista."
     },
     "config": {
-        "noRol": "`❌|` Rol no encontrado.",
-        "noCanal": "*⚠ Canal no disponible.*",
         "canal": "Canal:",
         "canalEliminado": "*Canal eliminado o no disponible.*",
-        "mensaje": "Mensaje:",
-        "noConfig": "*No configurado.*",
-        "roles": "Rol/es:",
-        "default": "*Por defecto:*",
-        "min": "Mín.:",
-        "max": "Máx.:",
-        "xplvl": "XP LevelUp:",
         "cooldown": "XP Cooldown:",
+        "default": "*Por defecto:*",
         "embed": {
             "author": "Configuración | {{guild_name}}.",
-            "title1": "Bienvenida/Despedida",
             "bienvenida": "Bienvenida:",
-            "imgBienvenida": "Imagen de bienvenida:",
-            "rolEntrada": "Rol/es de entrada:",
-            "despedida": "Despedida:",
-            "imgDespedida": "Imagen de despedida:",
-            "title2": "Registros",
-            "logs": "Registros de mensajes:",
-            "modLogs": "Registros de moderación:",
-            "excludeLogs": "Canales excluidos de los registros:",
-            "memberCount": "Contador de miembros:",
-            "logsEntrada": "Registro de entrada de seguridad:",
-            "title3": "Bot",
-            "prefix": "Prefijo:",
-            "languageS": "Idioma del servidor:",
-            "languageC": "Idioma en canales:",
             "blacklist": "BlackList:",
-            "whitelist": "WhiteList:",
-            "title4": "Utilidades",
-            "reportes": "Reportes:",
-            "sugerencias": "Sugerencias:",
             "count": "Contador:",
+            "despedida": "Despedida:",
+            "excludeLogs": "Canales excluidos de los registros:",
+            "imgBienvenida": "Imagen de bienvenida:",
+            "imgDespedida": "Imagen de despedida:",
+            "languageC": "Idioma en canales:",
+            "languageS": "Idioma del servidor:",
+            "logs": "Registros de mensajes:",
+            "logsEntrada": "Registro de entrada de seguridad:",
+            "memberCount": "Contador de miembros:",
+            "modLogs": "Registros de moderación:",
+            "prefix": "Prefijo:",
+            "reportes": "Reportes:",
+            "rolEntrada": "Rol/es de entrada:",
+            "sugerencias": "Sugerencias:",
             "systemLevels": "Sistema de Niveles",
+            "title1": "Bienvenida/Despedida",
+            "title2": "Registros",
+            "title3": "Bot",
+            "title4": "Utilidades",
+            "whitelist": "WhiteList:",
             "xp": "Experiencia:"
-        }
+        },
+        "max": "Máx.:",
+        "mensaje": "Mensaje:",
+        "min": "Mín.:",
+        "noCanal": "*⚠ Canal no disponible.*",
+        "noConfig": "*No configurado.*",
+        "noConfigAll": "`⛔|` No tienes minguna configuración en este servidor.",
+        "noRol": "`❌|` Rol no encontrado.",
+        "roles": "Rol/es:",
+        "unknown": "Desconocido ID:",
+        "xplvl": "XP LevelUp:"
     },
     "deleteblacklist": {
-        "noConfig": "`⛔|` *No configurado.*",
         "all": "todo",
-        "noCommand": "`❌|` Comando no encontrado, solo se acepta el nombre del comando, no sus alias.",
         "commandImport": "⚠| Este comando pertenece a una categoría importante.",
-        "noUser": "`❌|` No se encontró al usuario, rol o canal.",
-        "noList": "`❌|` Este comando no se encuentra en la lista.",
-        "title": "✅| Comando quitado de la lista en este servidor.",
         "fieldAll": "Cantidad de comandos eliminados:",
         "fieldCom": "Comando:",
-        "for": "Para:"
+        "for": "Para:",
+        "noCommand": "`❌|` Comando no encontrado, solo se acepta el nombre del comando, no sus alias.",
+        "noConfig": "`⛔|` *No configurado.*",
+        "noList": "`❌|` Este comando no se encuentra en la lista.",
+        "noUser": "`❌|` No se encontró al usuario, rol o canal.",
+        "title": "✅| Comando quitado de la lista en este servidor."
     },
     "deletelanguage": {
-        "noConfig": "`⛔|` *No tienes configurado idioma en este servidor.*",
         "noChannel": "Parece que este canal no está configurado.",
+        "noConfig": "`⛔|` *No tienes configurado idioma en este servidor.*",
+        "remove": "Quitado",
         "title": "✅| Idioma del servidor eliminado.",
-        "titleC": "✅| Idioma del canal eliminado.",
-        "remove": "Quitado"
+        "titleC": "✅| Idioma del canal eliminado."
     },
     "deleteprefix": {
         "noConfig": "`⛔|` *No tienes configurado ningún prefijo.*",
-        "title": "Prefijo personalizado quitado.",
-        "remove": "Quitado"
+        "remove": "Quitado",
+        "title": "Prefijo personalizado quitado."
     },
     "deleteredirect": {
         "noConfig": "`⛔|` *No configurado.*",
-        "title": "Redirección de subida de nivel quitado.",
-        "remove": "Quitado"
+        "remove": "Quitado",
+        "title": "Redirección de subida de nivel quitado."
     },
     "deletewhitelist": {
-        "noConfig": "`⛔|` *No configurado.*",
         "all": "todo",
-        "noCommand": "`❌|` Comando no encontrado, solo se acepta el nombre del comando, no sus alias.",
         "commandImport": "⚠| Este comando pertenece a una categoría importante.",
-        "noUser": "`❌|` No se encontró al usuario, rol o canal.",
-        "noList": "`❌|` Este comando no se encuentra en la lista.",
-        "title": "✅| Comando quitado de la lista en este servidor.",
         "fieldAll": "Cantidad de comandos eliminados:",
         "fieldCom": "Comando:",
-        "for": "Para:"
+        "for": "Para:",
+        "noCommand": "`❌|` Comando no encontrado, solo se acepta el nombre del comando, no sus alias.",
+        "noConfig": "`⛔|` *No configurado.*",
+        "noDataList": "`❌|` No hay ningún comando o categoría en la lista blanca.",
+        "noList": "`❌|` Este comando no se encuentra en la lista.",
+        "noUser": "`❌|` No se encontró al usuario, rol o canal.",
+        "title": "✅| Comando quitado de la lista en este servidor."
     },
     "setcolor": {
+        "change": "Cambiado a:",
         "noValid": "`❌|` Color no válido.",
-        "title": "✅| Color personalizado asignado",
-        "change": "Cambiado a:"
+        "title": "✅| Color personalizado asignado"
     },
     "setlanguage": {
+        "change": "Cambiado a:",
         "noLang": "`❌|` No colocaste el idioma a establecer para el canal.",
         "noLanguage": "`⛔|` Este idioma no existe, usa `{{prefix}}setidioma help` para conocer los idiomas disponibles.",
         "title": "✅| Idioma del servidor asignado.",
-        "titleC": "✅| Idioma del canal asignado.",
-        "change": "Cambiado a:"
+        "titleC": "✅| Idioma del canal asignado."
     },
     "setprefix": {
-        "title": "✅| Prefijo personalizado asignado",
-        "change": "Cambiado a:"
+        "change": "Cambiado a:",
+        "title": "✅| Prefijo personalizado asignado"
     },
     "setredirect": {
-        "noChannel": "`❌|` No se encontró el canal.",
-        "messageDefault": "**Has subido de nivel, *{{user_name}}***",
-        "title": "✅| Canal de mensaje por subir de nivel asignado.",
         "channel": "Canal:",
-        "message": "Mensaje:"
+        "message": "Mensaje:",
+        "messageDefault": "**Has subido de nivel, *{{user_name}}***",
+        "noChannel": "`❌|` No se encontró el canal.",
+        "title": "✅| Canal de mensaje por subir de nivel asignado."
     }
 }

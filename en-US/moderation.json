@@ -63,6 +63,15 @@
         "title": "A permanent invitation to my name has been created"
     },
     "createmute": {
+        "description": "The role to mute with the `mute` command has been created with its respective restrictions.",
+        "error": "`❌ |` An error occurred while creating the role.",
+        "exist": "`❌ |` There is already a configured role, delete it if you want to create a new one.",
+        "noPermissions": "`⛔ |` It seems that I do not have permissions to manage roles or channels.",
+        "noValidName": "`❌ |` Very long name",
+        "process": "⏳ Creating role ... wait a moment.",
+        "reason": "CreateMute command",
+        "rolemute": "Silenced",
+        "title": "✅ Role Created"
     },
     "deny": {
         "calificada": "Suggestion already qualified",

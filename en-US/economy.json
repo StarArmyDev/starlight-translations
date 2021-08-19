@@ -36,6 +36,7 @@
         "falta": "You do not have enough coins.",
         "mensaje": "✅ Successfully deposited `{{cantidad}}` in your bank",
         "noCantidad": "Invalid amount.",
+        "noMoney": "It seems you have nothing to deposit.",
         "title": "🏛 To deposit"
     },
     "dice": {
