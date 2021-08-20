@@ -118,10 +118,16 @@
     },
     "setlanguage": {
         "change": "Cambiado a:",
-        "noLang": "`❌|` No colocaste el idioma a establecer para el canal.",
-        "noLanguage": "`⛔|` Este idioma no existe, usa `{{prefix}}setidioma help` para conocer los idiomas disponibles.",
+        "langENUS": "Inglés: Estados Unidos (English)",
+        "langESES": "Español: España",
+        "langESMX": "Español: México",
+        "langPTBR": "Portugues: Brasil (Português)",
+        "noChannel": "`❌|` No colocaste un canal válido o no tengo acceso a él.",
+        "selectLanguage": "Selecciona un idioma",
+        "server": "todo el servidor",
         "title": "✅| Idioma del servidor asignado.",
-        "titleC": "✅| Idioma del canal asignado."
+        "titleC": "✅| Idioma del canal asignado.",
+        "titleSelect": "Cambia el idioma de {{channel}} por:"
     },
     "setprefix": {
         "change": "Cambiado a:",

@@ -118,10 +118,16 @@
     },
     "setlanguage": {
         "change": "Switched to:",
-        "noLang": "`❌|` You did not set the language to be set for the channel.",
-        "noLanguage": "`⛔|` This language does not exist, use `{{prefix}}setlanguage help` to know the available languages.",
+        "langENUS": "English: United States",
+        "langESES": "Spanish: España (Español)",
+        "langESMX": "Spanish: Mexico (Español)",
+        "langPTBR": "Portugues: Brazil (Português)",
+        "noChannel": "`❌|` You did not put a valid channel or I do not have access to it.",
+        "selectLanguage": "Select a language",
+        "server": "All the server.",
         "title": "✅| Language of the assigned server.",
-        "titleC": "✅| Language of the assigned channel."
+        "titleC": "✅| Language of the assigned channel.",
+        "titleSelect": "Change the language of {{channel}} by:"
     },
     "setprefix": {
         "change": "Switched to:",

@@ -1,25 +1,25 @@
 {
     "activexp": {
-        "noNumber": "`❌|` You have not entered valid numbers.",
-        "noValido": "`❌|` You have not entered valid numbers or it is less than 10.",
-        "noTiempo": "`❌|` You have not entered valid time or it is less than 10.",
+        "conservar": "Preserve roles",
+        "cooldown": "Cooldown XP:",
+        "lvl": "Lvl XP:",
+        "mode": "Way:",
         "noMode": "`❌|` Invalid mode.Only `remove` and `keep`",
+        "noNumber": "`❌|` You have not entered valid numbers.",
+        "noTiempo": "`❌|` You have not entered valid time or it is less than 10.",
+        "noValido": "`❌|` You have not entered valid numbers or it is less than 10.",
+        "quitar": "Remove roles",
         "remove": "remove",
         "title": "✅ | Server experience system activated.",
-        "xpMin": "Minimum XP:",
         "xpMax": "Max XP:",
-        "lvl": "Lvl XP:",
-        "cooldown": "Cooldown XP:",
-        "mode": "Way:",
-        "quitar": "Remove roles",
-        "conservar": "Preserve roles"
+        "xpMin": "Minimum XP:"
     },
     "addautorole": {
-        "noRol": "`❌|` Role not found or invalid role.",
-        "noPosicion": "`❌|` Invalid role.This role is higher than my highest role.",
-        "yaRol": "`❌|` Role already assigned.",
-        "title": "✅ | Welcome role assigned.",
         "footer": "You can use the command again to add more roles.",
-        "mensaje": "Role"
+        "mensaje": "Role",
+        "noPosicion": "`❌|` Invalid role.This role is higher than my highest role.",
+        "noRol": "`❌|` Role not found or invalid role.",
+        "title": "✅ | Welcome role assigned.",
+        "yaRol": "`❌|` Role already assigned."
     }
 }
