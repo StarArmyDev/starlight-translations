@@ -80,21 +80,20 @@
         "title": "Venta de Objetos de {{tienda}}."
     },
     "shop": {
-        "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",
-        "descripcion": "Para comprar ítems tienes que usar `{{prefix}}buy <ítem> [cantidad]`. Para vender ítems usa `{{prefix}}sell <ítem> [cantidad]`\nSimbología:\n📥Compra\n📤Venta",
-        "error": "❌ Ocurrió un error inesperado. Avísanos con `bugreport` para poderlo solucionar.",
-        "fondos": {
-            "de": "de",
-            "descripcion": "Para comprar ítems tienes que usar `{{prefix}}buy <nombre-del-fondo>`.\nSimbología: 📥Compra",
-            "fondos": "fondos",
-            "nombre": "Nombre:",
+        "backgrounds": {
+            "backgrounds": "Fondos",
+            "description": "Para comprar ítems tienes que usar `{{prefix}}buy <nombre>`.\nSimbología: 📥Compra",
+            "main": "🖼 Fondo Principal:",
             "num": "Número de fodos:",
-            "p": "🖼 Fondo Principal:",
-            "rareza": "Rareza:",
-            "s": "🖼 Fondo Secundario:"
+            "secon": "🖼 Fondo Secundario:"
         },
-        "noTienda": "Tienda no encontrada o no disponible.",
-        "rarezas": {
+        "description": "Para comprar ítems tienes que usar `{{prefix}}buy <nombre> [cantidad]`. Para vender ítems usa `{{prefix}}sell <ítem> [cantidad]`\nSimbología:\n📥Compra\n📤Venta",
+        "items": "Items",
+        "main": "Principales",
+        "name": "Nombre:",
+        "noInteraction": "`⛔|` No puedes interactuar con este mensaje. No eres quien usó el comando.",
+        "of": "de",
+        "rareness": {
             "1": "Común",
             "2": "Poco Común",
             "3": "Raro",
@@ -103,7 +102,15 @@
             "6": "Legendario",
             "7": "Star"
         },
-        "suspencion": "Actualmente la tienda de ítems se encentra suspendida. Usa `{{prefix}}shop fondos` para ver y comprar fondos para tu perfil.",
+        "rarity": "Rareza:",
+        "secondary": "Secundarios",
+        "selectCategory": "`🔢|` Selecciona la categoría a mostrar",
+        "selectMode": "`🔢|` Selecciona el modo a mostrar",
+        "theme": {
+            "main": "🎨 Tema Principal",
+            "secon": "🎨 Tema Secundario",
+            "themes": "Temas"
+        },
         "title": "Tienda de {{tienda}}"
     },
     "trade": {
@@ -120,8 +127,8 @@
         "cancel": "✅ Transferencia cancelada.",
         "error": "❌ Ocurrió un error inesperado. Avísanos con `bugreport` para poderlo solucionar.",
         "falta": "Usted no tiene monedas suficientes.",
-        "noSumar": "Parece ser que {{miembro}} no tiene perfil. **Tiene que hablar para que se cree.**\n*Si consideras que esto es un error, puedes reportarlo con `bugreport`.",
         "mensaje": "✅ Transferencia exitosa. Se dio a {{miembro}} la cantidad de `{{cantidad}}` starcoins.",
+        "noSumar": "Parece ser que {{miembro}} no tiene perfil. **Tiene que hablar para que se cree.**\n*Si consideras que esto es un error, puedes reportarlo con `bugreport`.",
         "noTiempo": "⏳ Tiempo expirado ❌",
         "noValido": "Número de verificación no válido.",
         "title": "💱 Transferencia"

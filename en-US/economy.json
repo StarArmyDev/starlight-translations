@@ -80,21 +80,20 @@
         "title": "Sale of {{tienda}}."
     },
     "shop": {
-        "bloqueado": "You have the Economy Locked. Contact the support guild to appeal.",
-        "descripcion": "To buy items you have to use `{{prefix}}buy <item> [quantity]`. To sell items use `{{prefix}}sell <item> [quantity]`\nSymbology:\n📥Purchase\n📤Sale",
-        "error": "❌ An unexpected error occurred. Report it with `bugreport` to fix it quickly.",
-        "fondos": {
-            "de": "of",
-            "descripcion": "To buy background you have to use `{{prefix}}buy <background-name>`.\nSymbology: 📥Purchase",
-            "fondos": "backdrops",
-            "nombre": "Name:",
+        "backgrounds": {
+            "backgrounds": "Backgrounds",
+            "description": "To buy background you have to use `{{prefix}}buy <name>`.\nSymbology: 📥Purchase",
+            "main": "🖼 Main Background:",
             "num": "Number of backgrounds:",
-            "p": "🖼 Main Background:",
-            "rareza": "Rarity:",
-            "s": "🖼 Secondary Background:"
+            "secon": "🖼 Secondary Background:"
         },
-        "noTienda": "Store Not Found or Not Available.",
-        "rarezas": {
+        "description": "To buy items you have to use `{{prefix}}buy <name> [quantity]`. To sell items use `{{prefix}}sell <item> [quantity]`\nSymbology:\n📥Purchase\n📤Sale",
+        "items": "Items",
+        "main": "Main",
+        "name": "Name:",
+        "noInteraction": "`⛔|` You cannot interact with this message. You are not the one who used the command.",
+        "of": "of",
+        "rareness": {
             "1": "Common",
             "2": "Uncommon",
             "3": "Rare",
@@ -103,7 +102,15 @@
             "6": "Legendary",
             "7": "Star"
         },
-        "suspencion": "Currently, the store items are located suspended. Use `{{prefix}}shop backgrounds` to view and purchase funds to your profile.",
+        "rarity": "Rarity:",
+        "secondary": "Secondary",
+        "selectCategory": "`🔢|` Select the category to display",
+        "selectMode": "`🔢|` Selects the mode to display",
+        "theme": {
+            "main": "🎨 Main Theme",
+            "secon": "🎨 Secondary Theme",
+            "themes": "Themes"
+        },
         "title": "Store of {{tienda}}"
     },
     "trade": {
@@ -120,8 +127,8 @@
         "cancel": "Transfer Canceled",
         "error": "❌ Sorry, it seems there was an error. We are working to repair it.",
         "falta": "You do not have enough coins.",
-        "noSumar": "It seems that {{miembro}} It has no profile. **He has to talk to be believed**\n*If you think this is a mistake, you can report it with* `bugreport`",
         "mensaje": "✅ Successful transfer It was given to {{miembro}} the amount of `{{cantidad}}` starcoins.",
+        "noSumar": "It seems that {{miembro}} It has no profile. **He has to talk to be believed**\n*If you think this is a mistake, you can report it with* `bugreport`",
         "noTiempo": "⏳ Expired Time ❌",
         "noValido": "Invalid Verification Number.",
         "title": "💱 Transfer"
