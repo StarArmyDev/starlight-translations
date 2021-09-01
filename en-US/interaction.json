@@ -23,10 +23,8 @@
         "user": "{{user}} says goodbye {{author}}",
         "users": "{{author}} says goodbye, but only from you {{users}}"
     },
-    "cheeks": {
-    },
-    "claps": {
-    },
+    "cheeks": {},
+    "claps": {},
     "combed": {
         "all": "{{author}} thinks he is a stylist and wants to do everyone's hair.",
         "author": "{{author}} is combing her hair.",
@@ -35,8 +33,7 @@
         "user": "{{author}} is doing {{user} }'s hair, and he's going to look good.",
         "users": "{{author}} thinks he's a stylist and does {{users}} hair."
     },
-    "cook": {
-    },
+    "cook": {},
     "cuddle": {
         "all": "{{Author}} wants to cuddle with everyone!",
         "author": "{{author}} He curled up ... alone in his bed u.u",
@@ -61,8 +58,7 @@
         "user": "{{author}} He fed {{user}}",
         "users": "{{author}} prepares him to eat {{users}}"
     },
-    "handholding": {
-    },
+    "handholding": {},
     "hi": {
         "all": "{{author}} greets everyone.",
         "author": "{{author}} says hello!",
@@ -71,8 +67,7 @@
         "user": "{{author}} say hi to {{user}}",
         "users": "{{author}} greets you {{users}}"
     },
-    "highfive": {
-    },
+    "highfive": {},
     "hug": {
         "all": "{{author}} hands out hugs to everyone!",
         "author": "You can't hug yourself {{author}} but so you don't feel alone I hug you.",
@@ -81,8 +76,7 @@
         "user": "{{author}} hugged {{user}} owo",
         "users": "{{author}} makes a group hug {{users}}!"
     },
-    "kickbutts": {
-    },
+    "kickbutts": {},
     "kill": {
         "all": "{{author}} is killing everyone °o°",
         "author": "I ... I'm not going to kill you {{author}}, minus yourself, that's already Suicide!",
@@ -99,8 +93,7 @@
         "user": "{{author}} he kissed {{user}} (U3U)",
         "users": "{{author}} he's kissing all of you {{users}} :3"
     },
-    "laugh": {
-    },
+    "laugh": {},
     "lick": {
         "all": "{{author}} goes looking for someone to lick.",
         "author": "{{author}} You're a little strange, you licked yourself.",
@@ -125,8 +118,7 @@
         "user": "{{author}} poke {{user}}",
         "users": "{{users}} is touching them {{author}} :eyes:"
     },
-    "punch": {
-    },
+    "punch": {},
     "run": {
         "all": "{{author}} run everyone away, run away!",
         "author": "{{author}} He ran.",
@@ -135,8 +127,7 @@
         "user": "{{author}} is running around {{user}}",
         "users": "{{author}} is running with {{users}}"
     },
-    "scared": {
-    },
+    "scared": {},
     "slap": {
         "all": "{{author}} started beating everyone, watch out.",
         "author": "{{author}} Why do you want to hit yourself? That's not good! Stop!",
@@ -153,10 +144,8 @@
         "user": "{{author}} he fell asleep with {{user}} :3, Or did he sleep it? :0",
         "users": "{{author}} has sleepover with {{users}} yeiiii"
     },
-    "splash": {
-    },
-    "spray": {
-    },
+    "splash": {},
+    "spray": {},
     "tickle": {
         "all": "{{author}} wants to tickle everyone!",
         "author": "{{author}} tickles only...",
@@ -165,8 +154,7 @@
         "user": "{{author}} is tickling {{user}}",
         "users": "{{author}} is tickling {{users}}"
     },
-    "tsundere": {
-    },
+    "tsundere": {},
     "wake": {
         "all": "{{author}} says: good morning everyone!",
         "author": "{{author}} is waking up",
