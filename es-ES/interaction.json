@@ -23,10 +23,8 @@
         "user": "{{user}} te dice adiós, {{author}}.",
         "users": "{{author}} se despide, pero solo de ustedes, {{users}}."
     },
-    "cheeks": {
-    },
-    "claps": {
-    },
+    "cheeks": {},
+    "claps": {},
     "combed": {
         "all": "{{author}} se cree estilista y quiere peinar a todos.",
         "author": "{{author}} se está peinando.",
@@ -35,8 +33,7 @@
         "user": "{{author}} está peinando a {{user}}, y va a quedar bien guap@.",
         "users": "{{author}} se cree estilista y peina a {{users}}."
     },
-    "cook": {
-    },
+    "cook": {},
     "cuddle": {
         "all": "¡{{author}} se quiere acurrucar con todo el mundo!",
         "author": "{{author}} se acurrucó solo en su cama u.u",
@@ -61,8 +58,7 @@
         "user": "{{author}} le dió de comer a {{user}}.",
         "users": "{{author}} le prepara de comer a {{users}}."
     },
-    "handholding": {
-    },
+    "handholding": {},
     "hi": {
         "all": "{{author}} saluda a todos.",
         "author": "{{author}} dice \"¡Hola!\".",
@@ -71,8 +67,7 @@
         "user": "{{author}} saluda a {{user}}.",
         "users": "{{author}} los saluda, {{users}}."
     },
-    "highfive": {
-    },
+    "highfive": {},
     "hug": {
         "all": "¡{{author}} reparte abrazos a todos!.",
         "author": "No te puedes abrazar a tí mismo, {{author}}, pero, para que no te sientas solo, yo te abrazo.",
@@ -81,8 +76,7 @@
         "user": "{{author}} abrazó a {{user}} owo",
         "users": "¡{{author}} hace un abrazo grupal, {{users}}!"
     },
-    "kickbutts": {
-    },
+    "kickbutts": {},
     "kill": {
         "all": "{{author}} está matando a todos °o°",
         "author": "Yo... yo no te voy a matar, {{author}}, menos tú mismo, ¡eso ya es suicidio!",
@@ -99,8 +93,7 @@
         "user": "{{author}} le dió un beso a {{user}} (U3U)",
         "users": "{{author}} anda besando a todos ustedes, {{users}} :3"
     },
-    "laugh": {
-    },
+    "laugh": {},
     "lick": {
         "all": "{{author}} va en busca de a quién lamer.",
         "author": "{{author}}, eres un poco extraño, te lamiste tú solo.",
@@ -125,8 +118,7 @@
         "user": "{{author}} tocó a {{user}}.",
         "users": "{{users}} los está tocando, {{author}} :eyes:"
     },
-    "punch": {
-    },
+    "punch": {},
     "run": {
         "all": "{{author}} quiere hacer una carrera con todos, ¡huyan!",
         "author": "{{author}} se echó a correr.",
@@ -135,8 +127,7 @@
         "user": "{{author}} está corriendo con {{user}}.",
         "users": "{{author}} está corriendo con {{users}}."
     },
-    "scared": {
-    },
+    "scared": {},
     "slap": {
         "all": "{{author}} se puso a golpear a todos, cuidado.",
         "author": "{{author}}, ¿por qué quieres golpearte a tí mismo? Eso no es bueno amigo, ¡para!",
@@ -153,10 +144,8 @@
         "user": "{{author}} se quedó dormido con {{user}} :3, ¿o lo durmió? :0",
         "users": "{{author}} tiene una fista de pijamas con {{users}}, yeiiii."
     },
-    "splash": {
-    },
-    "spray": {
-    },
+    "splash": {},
+    "spray": {},
     "tickle": {
         "all": "¡{{author}} quiere hacerle cosquillas a todos!",
         "author": "{{author}} se está haciendo cosquillas solo...",
@@ -165,8 +154,7 @@
         "user": "{{author}} está haciéndole cosquillas a {{user}}.",
         "users": "{{author}} está haciéndole cosquillas a {{users}}."
     },
-    "tsundere": {
-    },
+    "tsundere": {},
     "wake": {
         "all": "{{author}} les dice: ¡buenos días a todos!",
         "author": "{{author}} se está despertando.",
