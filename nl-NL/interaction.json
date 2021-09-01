@@ -1,0 +1,166 @@
+{
+    "baka": {
+        "all": "¡{{author}} les dice baka a todos, con muchos amor!",
+        "author": "¡¿Por qué te quieres insultar así?!",
+        "bot": "¡Tú lo eres, {{author}}!",
+        "error": "❌ Parece que hubo un error, verifica la mención.",
+        "user": "¡{{user}}, eres baka según {{author}}!",
+        "users": "¡{{author}} dice que ustedes son baka, {{users}}!"
+    },
+    "bite": {
+        "all": "¡{{author}} quiere morder a todos!",
+        "author": "Parece que eres un sádico, ¡te mordiste!",
+        "bot": "¡No me muerdaaaas!",
+        "error": "❌ Parece que hubo un error, verifica la mención.",
+        "user": "{{author}} mordió a {{user}} D:",
+        "users": "{{author}} está loco y mordió a {{users}}."
+    },
+    "bye": {
+        "all": "{{author}} se despide de todos.",
+        "author": "{{author}} se despide y se va.",
+        "bot": "Adiós, que te vaya bien.",
+        "error": "❌ Parece que hubo un error, verifica la mención.",
+        "user": "{{user}} te dice adiós, {{author}}.",
+        "users": "{{author}} se despide, pero solo de ustedes, {{users}}."
+    },
+    "cheeks": {},
+    "claps": {},
+    "combed": {
+        "all": "{{author}} se cree estilista y quiere peinar a todos.",
+        "author": "{{author}} se está peinando.",
+        "bot": "¡{{author}}, a mí nadie me peina!",
+        "error": "❌ Parece que hubo un error, verifica la mención.",
+        "user": "{{author}} está peinando a {{user}}, y va a quedar bien guap@.",
+        "users": "{{author}} se cree estilista y peina a {{users}}."
+    },
+    "cook": {},
+    "cuddle": {
+        "all": "¡{{author}} se quiere acurrucar con todo el mundo!",
+        "author": "{{author}} se acurrucó solo en su cama u.u",
+        "bot": "Bueno, te dejo que te acurruques conmigo, {{author}}.",
+        "error": "❌ Parece que hubo un error, verifica la mención.",
+        "user": "{{author}} se acurrucó con {{user}} :3",
+        "users": "{{author}} se acurruca con ustedes, {{users}}."
+    },
+    "dance": {
+        "all": "{{author}} está en una disco con todos, ¡a bailar!",
+        "author": "{{author}} está bailando :3",
+        "bot": "¡Vamos a bailar, {{author}}!",
+        "error": "❌ Parece que hubo un error, verifica la mención.",
+        "user": "{{author}} se puso a bailar con {{user}}.",
+        "users": "¡{{author}} dice que se armó la fiesta y ahora baila con ustedes, {{users}}!"
+    },
+    "feed": {
+        "all": "{{author}} preparó todo un bufet para todos.",
+        "author": "{{author}} está comiendo.",
+        "bot": "¿Me estás dando de comer, {{author}}? Bueno... pero espero que sea espagueti :3",
+        "error": "❌ Parece que hubo un error, verifica la mención.",
+        "user": "{{author}} le dió de comer a {{user}}.",
+        "users": "{{author}} le prepara de comer a {{users}}."
+    },
+    "handholding": {},
+    "hi": {
+        "all": "{{author}} saluda a todos.",
+        "author": "{{author}} dice \"¡Hola!\".",
+        "bot": "¡Hola {{author}}!",
+        "error": "❌ Parece que hubo un error, verifica la mención.",
+        "user": "{{author}} saluda a {{user}}.",
+        "users": "{{author}} los saluda, {{users}}."
+    },
+    "highfive": {},
+    "hug": {
+        "all": "¡{{author}} reparte abrazos a todos!.",
+        "author": "No te puedes abrazar a tí mismo, {{author}}, pero, para que no te sientas solo, yo te abrazo.",
+        "bot": "Gracias, {{author}}, acepto tu abrazo :3",
+        "error": "❌ Parece que hubo un error, verifica la mención.",
+        "user": "{{author}} abrazó a {{user}} owo",
+        "users": "¡{{author}} hace un abrazo grupal, {{users}}!"
+    },
+    "kickbutts": {},
+    "kill": {
+        "all": "{{author}} está matando a todos °o°",
+        "author": "Yo... yo no te voy a matar, {{author}}, menos tú mismo, ¡eso ya es suicidio!",
+        "bot": "¡Nooo! A mí no me vas a matar prro, {{author}}.",
+        "error": "❌ Parece que hubo un error, verifica la mención.",
+        "user": "{{author}} mató a {{user}} ;-;",
+        "users": "{{author}} es un asesino en serie y mató a {{users}}."
+    },
+    "kiss": {
+        "all": "¡{{author}} reparte besos a todos!",
+        "author": "No te puedes besar a tí mismo, pero estoy yo, {{author}} ~3~",
+        "bot": "{{author}}, me... me... ¡¿me diste un beso?! O////O",
+        "error": "❌ Parece que hubo un error, verifica la mención.",
+        "user": "{{author}} le dió un beso a {{user}} (U3U)",
+        "users": "{{author}} anda besando a todos ustedes, {{users}} :3"
+    },
+    "laugh": {},
+    "lick": {
+        "all": "{{author}} va en busca de a quién lamer.",
+        "author": "{{author}}, eres un poco extraño, te lamiste tú solo.",
+        "bot": "No... no me lamas. ¡Nooo, {{author}}! >:c",
+        "error": "❌ Parece que hubo un error, verifica la mención.",
+        "user": "{{author}} lamió a {{user}}.",
+        "users": "{{users}} los está lamiendo, {{author}} :0"
+    },
+    "pat": {
+        "all": "{{author}} quiere acariciar a todo el mundo.",
+        "author": "No tienes a nadie que te acaricie, pero estoy yo, {{author}}, tranquilo cx",
+        "bot": "¡{{author}}, me acariciaste! :3",
+        "error": "❌ Parece que hubo un error, verifica la mención.",
+        "user": "{{author}} acarició a {{user}} :3",
+        "users": "{{users}} los acaricia, {{author}} :3"
+    },
+    "poke": {
+        "all": "{{author}} quiere picar y molestar a todo el mundo.",
+        "author": "No creo que funcione así, {{author}}, ¡pero mejor yo te molesto picándote!",
+        "bot": "¡{{author}} tocaste! Ufff, ¡no lo voy a tolerar!",
+        "error": "❌ Parece que hubo un error, verifica la mención.",
+        "user": "{{author}} tocó a {{user}}.",
+        "users": "{{users}} los está tocando, {{author}} :eyes:"
+    },
+    "punch": {},
+    "run": {
+        "all": "{{author}} corretea a todos, ¡huyan!",
+        "author": "{{author}} se echó a correr.",
+        "bot": "¿{{author}} unas carreritas?",
+        "error": "❌ Parece que hubo un error, verifica la mención.",
+        "user": "{{author}} está correteando a {{user}}.",
+        "users": "{{author}} está corriendo con {{users}}."
+    },
+    "scared": {},
+    "slap": {
+        "all": "{{author}} se puso a golpear a todos, cuidado.",
+        "author": "{{author}}, ¿por qué quieres golpearte a tí mismo? Eso no es bueno amigo, ¡alto!",
+        "bot": "No... no me quiero golpear, ¿por qué no me quieres, {{author}}? :'c",
+        "error": "❌ Parece que hubo un error, verifica la mención.",
+        "user": "{{author}} golpeó a {{user}} o\\_o\\r",
+        "users": "{{author}} golpeó a {{users}}."
+    },
+    "sleep": {
+        "all": "{{author}} parece que cree que es un hotel, se quedó dormido con todos.",
+        "author": "{{author}} se ha dormido.",
+        "bot": "Buenas noches, que descanses, {{author}} cx",
+        "error": "❌ Parece que hubo un error, verifica la mención.",
+        "user": "{{author}} se quedó dormido con {{user}} :3, ¿o lo durmió? :0",
+        "users": "{{author}} tiene pijamada con {{users}}, yeiiii."
+    },
+    "splash": {},
+    "spray": {},
+    "tickle": {
+        "all": "¡{{author}} quiere hacerle cosquillas a todos!",
+        "author": "{{author}} se está haciendo cosquillas solo...",
+        "bot": "{{author}}, ¡yo no tengo cosquillas!",
+        "error": "❌ Parece que hubo un error, verifica la mención.",
+        "user": "{{author}} está haciéndole cosquillas a {{user}}.",
+        "users": "{{author}} está haciéndole cosquillas a {{users}}."
+    },
+    "tsundere": {},
+    "wake": {
+        "all": "{{author}} les dice: ¡buenos días a todos!",
+        "author": "{{author}} se está despertando.",
+        "bot": "Buenos días, {{author}} cx",
+        "error": "❌ Parece que hubo un error, verifica la mención.",
+        "user": "{{author}} despierta a {{user}}.",
+        "users": "{{author}} es malo y despierta a {{users}} >:3"
+    }
+}

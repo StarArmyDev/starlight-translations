@@ -1,130 +1,444 @@
 {
-    "createcolors": {
-        "noBot": "❌ Não tenho permissão para criar funções neste servidor.",
-        "modos": "Está prestes a criar {{roles}} papéis coloridos. Lugar, colocar `Sim` para continuar, `Retirar` para removê-los ou `Cancelar` para cancelar a operação.\n\n**Você pode colocar meu papel mais alto de onde deseja que eu comece a criar os papéis.**",
-        "detectado": "Foi detectado que existem funções de cores que não estão no banco de dados. Lugar, colocar `atribuir` para adicioná-los ao comando *selfrole*.\n",
-        "asignar": "atribuir",
-        "si": "sim",
-        "no": "retirar",
-        "asignado": "✅ Funções atribuídas corretamente",
-        "creando": "Criando",
-        "mensaje": "✅ Papéis coloridos criados: `{{creados}}` com sucesso. *Se as funções foram criadas, mas não estão disponíveis no comando* `selfrole` *use este comando novamente e siga as instruções*",
-        "mensajeDelete": "Funções de cor removidas: `{{contador}}` com sucesso.",
-        "error": "❌ Parece que ocorreu um erro. Estamos trabalhando para consertá-lo.",
-        "tiempoExpirado": "Tempo de espera acabou.",
-        "rolesN": [
-            { "nombre": "Rojo indio", "color": "#cd5c5c" },
-            { "nombre": "Rojo", "color": "#ff0000" },
-            { "nombre": "Carmesí", "color": "#dc143c" },
-            { "nombre": "Rojo Fuego", "color": "#b22222" },
-            { "nombre": "Coral Claro", "color": "#f08080" },
-            { "nombre": "Naranja Rojizo", "color": "#ff4500" },
-            { "nombre": "Naranja Oscuro", "color": "#ff8c00" },
-            { "nombre": "Naranja", "color": "#ffa500" },
-            { "nombre": "Amarillo Oro", "color": "#ffd700" },
-            { "nombre": "Amarillo", "color": "#ffff00" },
-            { "nombre": "Amarillo Claro", "color": "#ffffe0" },
-            { "nombre": "Rosa Profundo", "color": "#ff1493" },
-            { "nombre": "Rosa Pastel", "color": "#e99bd4" },
-            { "nombre": "Violeta", "color": "#ee82ee" },
-            { "nombre": "Orquídea", "color": "#da70d6" },
-            { "nombre": "Fucsia", "color": "#ff00ff" },
-            { "nombre": "Amatista", "color": "#9966cc" },
-            { "nombre": "Violeta Oscuro", "color": "#9400d3" },
-            { "nombre": "Magenta Oscuro", "color": "#8b008b" },
-            { "nombre": "Púrpura", "color": "#800080" },
-            { "nombre": "Índigo", "color": "#4b0082" },
-            { "nombre": "Verde Amarillento", "color": "#adff2f" },
-            { "nombre": "Verde Césped", "color": "#7cfc00" },
-            { "nombre": "Verde Lima", "color": "#32cd32" },
-            { "nombre": "Verde Claro", "color": "#90ee90" },
-            { "nombre": "Verde Primavera", "color": "#00ff7f" },
-            { "nombre": "Verde", "color": "#008000" },
-            { "nombre": "Verde Oscuro", "color": "#003b00" },
-            { "nombre": "Amarillo Verdoso", "color": "#9acd32" },
-            { "nombre": "Oliva", "color": "#808000" },
-            { "nombre": "Verde Oliva", "color": "#556b2f" },
-            { "nombre": "Cian Oscuro", "color": "#008b8b" },
-            { "nombre": "Cian", "color": "#00ffff" },
-            { "nombre": "Turquesa Pastel", "color": "#afeeee" },
-            { "nombre": "Aguamarina", "color": "#7fffd4" },
-            { "nombre": "Turquesa", "color": "#40e0d0" },
-            { "nombre": "Turquesa Oscuro", "color": "#00ced1" },
-            { "nombre": "Azul Acero", "color": "#4682b4" },
-            { "nombre": "Azul Cielo", "color": "#00bfff" },
-            { "nombre": "Azul Capota", "color": "#1e90ff" },
-            { "nombre": "Azul Pizarra", "color": "#7b68ee" },
-            { "nombre": "Azul", "color": "#0000ff" },
-            { "nombre": "Azul Oscuro", "color": "#00008b" },
-            { "nombre": "Azul Noche", "color": "#191970" },
-            { "nombre": "Gainsboro", "color": "#dcdcdc" },
-            { "nombre": "Gris Plata", "color": "#c0c0c0" },
-            { "nombre": "Gris", "color": "#808080" },
-            { "nombre": "Gris Pizarra", "color": "#778899" },
-            { "nombre": "Blanco", "color": "#fffefe" },
-            { "nombre": "Negro", "color": "#040100" }
-        ]
-    },
     "activexp": {
-        "noNumber": "❌ | Você não inseriu números válidos.",
-        "noValido": "❌ | Você não inseriu números válidos ou é menor que 10.",
-        "noTiempo": "❌ | Você não inseriu uma hora válida ou é inferior a 10.",
+        "conservar": "Preservar funções",
+        "cooldown": "XP Cooldown:",
+        "lvl": "XP Lvl:",
+        "mode": "Modo:",
         "noMode": "❌ | Modo no válido. Solamente `remove` y `keep`",
+        "noNumber": "❌ | Você não inseriu números válidos.",
+        "noTiempo": "❌ | Você não inseriu uma hora válida ou é inferior a 10.",
+        "noValido": "❌ | Você não inseriu números válidos ou é menor que 10.",
+        "quitar": "Remover funções",
         "remove": "retirar",
         "title": "✅ | Sistema de experiência do servidor ativado.",
-        "xpMin": "XP mínimo:",
         "xpMax": "XP máximo:",
-        "lvl": "XP Lvl:",
-        "cooldown": "XP Cooldown:",
-        "mode": "Modo:",
-        "quitar": "Remover funções",
-        "conservar": "Preservar funções"
+        "xpMin": "XP mínimo:"
+    },
+    "addautorole": {
+        "footer": "Puedes usar el comando nuevamente para agregar más roles.",
+        "mensaje": "Rol",
+        "noPosicion": "`❌|` Rol no válido. Este rol está mas arriba de mi rol más alto.",
+        "noRol": "`❌|` Rol no encontrado o rol no válido.",
+        "title": "✅ | Rol de bienvenida asignado.",
+        "yaRol": "`❌|` Rol ya asignado."
+    },
+    "addexcludelogs": {
+        "canal": "Agregado:",
+        "canales": "Agregados:",
+        "noCanal": "Canal no válido, revisa que sea un canal de texto.",
+        "title": "Canal excluido de registros.",
+        "title2": "Canales excluidos de registros."
     },
     "addexcludexp": {
-        "noCanal": "❌ | Canal inválido, verifique se é um canal ou categoria de texto.",
-        "yaCanal": "❌ | Canal já excluído.",
-        "title": "✅ | Canal excluído da experiência",
         "canal": "Agregar:",
+        "canales": "Agregados:",
+        "noCanal": "❌ | Canal inválido, verifique se é um canal ou categoria de texto.",
+        "title": "✅ | Canal excluído da experiência",
         "title2": "✅ | Canais excluídos da experiência.",
-        "canales": "Agregados:"
+        "yaCanal": "❌ | Canal já excluído."
+    },
+    "addgroup": {
+        "embedsolo": "Sólo",
+        "existe": "`❌|` Este grupo ya está creado.",
+        "group": "grupo",
+        "maximo": "Máximo de roles:",
+        "modo": "Modo:",
+        "multi": "múltiple",
+        "multiple": "Múltiple",
+        "ninguno": "Estandar",
+        "noMaximo": "`❌|` No colocaste un número máximo de roles múltiples o es inválido.",
+        "noModo": "`❌|` Ese modo no existe, solamente **solo** y **múltiple**.",
+        "nombre": "Nombre:",
+        "solo": "solo",
+        "title": "✅ Grupo de roles creados."
+    },
+    "addreactionrole": {
+        "completed": "`✅ |` **Instalación de roles por reacción completa ({{count}}/{{total}}**\nYa puedes eliminar este mensaje",
+        "config": "Configurando...",
+        "hasConfig": "`⛔|` Este grupo ya está configurado, elimínelo para continuar",
+        "noConfig": "`❌ |` No hay roles autoasignables configurados.",
+        "noEmoji": "`⛔|` No tengo acceso a este emoji",
+        "noGetRole": "`⛔|` No se pudo obtener el primer rol del grupo.",
+        "noGroup": "`❌|` Grupo no encontrado",
+        "noPremium": "`⛔ |` Has alcanzado el límite del tier gratuito. *(4)*",
+        "noRole": "`❌|` No se pudo obtener el rol.",
+        "setup": "**Instalación de roles por reacción**\nReacciona a este mensaje con el emoji que deseas para:\n\n({{count}}/{{total}} `{{role}}`",
+        "setupReaction": "**{{group}}**\nReacciona al emoji correspondiente:"
     },
     "addrollevelup": {
-        "noBot": "❌ | Não tenho permissão para gerenciar funções neste servidor.",
-        "noRol": "❌ | Função não encontrada ou não existe, verifique-a.",
-        "noNumber": "❌ | Você não inseriu um número de nível válido.",
-        "rolMensaje": "Você subiu de nível e tem um papel a exibir!",
-        "rolTrue": "❌ | Função já atribuída.",
-        "nivelTrue": "❌ | Nível já atribuído.",
         "embed": {
-            "title": "✅ | Função por nível adicionado.",
-            "footer": "Lembre-se de ativar o servidor XP com `{{prefix}}activexp` | {{guild_name}}.",
             "field": {
-                "title": "Função",
-                "descripcion": "[{{rolid}}] Nível: {{lvl}}\nMensagem: {{rolmensaje}}"
-            }
-        }
+                "descripcion": "[{{rolid}}] Nível: {{lvl}}\nMensagem: {{rolmensaje}}",
+                "title": "Função"
+            },
+            "footer": "Lembre-se de ativar o servidor XP com `{{prefix}}activexp` | {{guild_name}}.",
+            "title": "✅ | Função por nível adicionado."
+        },
+        "higherThanMe": "`⛔|` Rol no válido. Este rol está mas arriba que mi rol actual.",
+        "nivelTrue": "❌ | Nível já atribuído.",
+        "noBot": "❌ | Não tenho permissão para gerenciar funções neste servidor.",
+        "noNumber": "❌ | Você não inseriu um número de nível válido.",
+        "noRol": "❌ | Função não encontrada ou não existe, verifique-a.",
+        "rolMensaje": "Você subiu de nível e tem um papel a exibir!",
+        "rolTrue": "❌ | Função já atribuída."
+    },
+    "addselfrole": {
+        "existe": "`❌|` Este rol ya se encuentra en el grupo.",
+        "grupo": "Grupo al que pertenece:",
+        "noGrupo": "`❌|` Grupo no encontrado, primero debes de usar el comando `{{prefix}}addgrupo` para crearlo.",
+        "noRol": "Rol no encontrado o rol no válido, por favor, verifica que exista y que esté por debajo de mi rol más alto.",
+        "rol": "Rol:",
+        "title": "✅ Rol agregado."
     },
     "addxp": {
-        "noMember": "❌ | Usuário não encontrado, verifique.",
+        "correcto": "✅ | {{cantidad}}XP adicionado com sucesso a {{miembro}}.",
         "noCantidad": "❌ | Você não inseriu um número XP válido.",
-        "correcto": "✅ | {{cantidad}}XP adicionado com sucesso a {{miembro}}."
+        "noMember": "❌ | Usuário não encontrado, verifique."
     },
     "configxp": {
-        "noConfig": "❌ | Parece que a experiência não está ativada. Primeiro use o comando `activexp`",
-        "noNumber": "❌ | Número inválido.",
-        "min": "minimo",
-        "max": "maximo",
-        "xplevelup": "xpnivel",
         "cooldown": "tempo",
-        "removerole": "descolar",
+        "max": "maximo",
+        "message": "✅ | Propriedade `{{property}}` alterada para `{{value}}` com sucesso",
+        "min": "minimo",
+        "noConfig": "❌ | Parece que a experiência não está ativada. Primeiro use o comando `activexp`",
         "noMode": "❌ | Modo inválido. Apenas `remove` e `keep`",
+        "noNumber": "❌ | Número inválido.",
         "noProperty": "❌ | Propriedade inválida.",
-        "message": "✅ | Propriedade `{{property}}` alterada para `{{value}}` com sucesso"
+        "removerole": "descolar",
+        "xplevelup": "xpnivel"
+    },
+    "createcolors": {
+        "asignado": "✅ Funções atribuídas corretamente",
+        "asignar": "atribuir",
+        "creando": "Criando",
+        "detectado": "Foi detectado que existem funções de cores que não estão no banco de dados. Lugar, colocar `atribuir` para adicioná-los ao comando *selfrole*.\n",
+        "error": "❌ Parece que ocorreu um erro. Estamos trabalhando para consertá-lo.",
+        "mensaje": "✅ Papéis coloridos criados: `{{creados}}` com sucesso. *Se as funções foram criadas, mas não estão disponíveis no comando* `selfrole` *use este comando novamente e siga as instruções*",
+        "mensajeDelete": "Funções de cor removidas: `{{contador}}` com sucesso.",
+        "modos": "Está prestes a criar {{roles}} papéis coloridos. Lugar, colocar `Sim` para continuar, `Retirar` para removê-los ou `Cancelar` para cancelar a operação.\n\n**Você pode colocar meu papel mais alto de onde deseja que eu comece a criar os papéis.**",
+        "no": "retirar",
+        "noBot": "❌ Não tenho permissão para criar funções neste servidor.",
+        "rolesN": [
+            {
+                "color": "#cd5c5c",
+                "nombre": "Rojo indio"
+            },
+            {
+                "color": "#ff0000",
+                "nombre": "Rojo"
+            },
+            {
+                "color": "#dc143c",
+                "nombre": "Carmesí"
+            },
+            {
+                "color": "#b22222",
+                "nombre": "Rojo Fuego"
+            },
+            {
+                "color": "#f08080",
+                "nombre": "Coral Claro"
+            },
+            {
+                "color": "#ff4500",
+                "nombre": "Naranja Rojizo"
+            },
+            {
+                "color": "#ff8c00",
+                "nombre": "Naranja Oscuro"
+            },
+            {
+                "color": "#ffa500",
+                "nombre": "Naranja"
+            },
+            {
+                "color": "#ffd700",
+                "nombre": "Amarillo Oro"
+            },
+            {
+                "color": "#ffff00",
+                "nombre": "Amarillo"
+            },
+            {
+                "color": "#ffffe0",
+                "nombre": "Amarillo Claro"
+            },
+            {
+                "color": "#ff1493",
+                "nombre": "Rosa Profundo"
+            },
+            {
+                "color": "#e99bd4",
+                "nombre": "Rosa Pastel"
+            },
+            {
+                "color": "#ee82ee",
+                "nombre": "Violeta"
+            },
+            {
+                "color": "#da70d6",
+                "nombre": "Orquídea"
+            },
+            {
+                "color": "#ff00ff",
+                "nombre": "Fucsia"
+            },
+            {
+                "color": "#9966cc",
+                "nombre": "Amatista"
+            },
+            {
+                "color": "#9400d3",
+                "nombre": "Violeta Oscuro"
+            },
+            {
+                "color": "#8b008b",
+                "nombre": "Magenta Oscuro"
+            },
+            {
+                "color": "#800080",
+                "nombre": "Púrpura"
+            },
+            {
+                "color": "#4b0082",
+                "nombre": "Índigo"
+            },
+            {
+                "color": "#adff2f",
+                "nombre": "Verde Amarillento"
+            },
+            {
+                "color": "#7cfc00",
+                "nombre": "Verde Césped"
+            },
+            {
+                "color": "#32cd32",
+                "nombre": "Verde Lima"
+            },
+            {
+                "color": "#90ee90",
+                "nombre": "Verde Claro"
+            },
+            {
+                "color": "#00ff7f",
+                "nombre": "Verde Primavera"
+            },
+            {
+                "color": "#008000",
+                "nombre": "Verde"
+            },
+            {
+                "color": "#003b00",
+                "nombre": "Verde Oscuro"
+            },
+            {
+                "color": "#9acd32",
+                "nombre": "Amarillo Verdoso"
+            },
+            {
+                "color": "#808000",
+                "nombre": "Oliva"
+            },
+            {
+                "color": "#556b2f",
+                "nombre": "Verde Oliva"
+            },
+            {
+                "color": "#008b8b",
+                "nombre": "Cian Oscuro"
+            },
+            {
+                "color": "#00ffff",
+                "nombre": "Cian"
+            },
+            {
+                "color": "#afeeee",
+                "nombre": "Turquesa Pastel"
+            },
+            {
+                "color": "#7fffd4",
+                "nombre": "Aguamarina"
+            },
+            {
+                "color": "#40e0d0",
+                "nombre": "Turquesa"
+            },
+            {
+                "color": "#00ced1",
+                "nombre": "Turquesa Oscuro"
+            },
+            {
+                "color": "#4682b4",
+                "nombre": "Azul Acero"
+            },
+            {
+                "color": "#00bfff",
+                "nombre": "Azul Cielo"
+            },
+            {
+                "color": "#1e90ff",
+                "nombre": "Azul Capota"
+            },
+            {
+                "color": "#7b68ee",
+                "nombre": "Azul Pizarra"
+            },
+            {
+                "color": "#0000ff",
+                "nombre": "Azul"
+            },
+            {
+                "color": "#00008b",
+                "nombre": "Azul Oscuro"
+            },
+            {
+                "color": "#191970",
+                "nombre": "Azul Noche"
+            },
+            {
+                "color": "#dcdcdc",
+                "nombre": "Gainsboro"
+            },
+            {
+                "color": "#c0c0c0",
+                "nombre": "Gris Plata"
+            },
+            {
+                "color": "#808080",
+                "nombre": "Gris"
+            },
+            {
+                "color": "#778899",
+                "nombre": "Gris Pizarra"
+            },
+            {
+                "color": "#fffefe",
+                "nombre": "Blanco"
+            },
+            {
+                "color": "#040100",
+                "nombre": "Negro"
+            }
+        ],
+        "si": "sim",
+        "tiempoExpirado": "Tempo de espera acabou."
+    },
+    "deactivatexp": {
+        "description": "Puntos: Min `{{min}}` Max `{{max}}`\nXP para Siguente Nivel: `{{nexlvl}}`",
+        "noConfig": "`❌|` No tienes configurado el sistema de niveles/XP del servidor.",
+        "title": "✅| Sistema de XP del servidor eliminado."
+    },
+    "delete": {
+        "autorole": {
+            "autorole": "autorol",
+            "help": "Usa `{{prefix}}delete <nombre del grupo> <@rol>`.",
+            "noGrupo": "`❌|` Grupo no encontrado.",
+            "noRol": "`❌|` Rol no encontrado.",
+            "rol": "Rol quitado:",
+            "title": "Autorol eliminado del grupo."
+        },
+        "count": {
+            "count": "contador",
+            "title": "Canal de conteo quitado."
+        },
+        "e": {
+            "exclude": "excluir",
+            "title": "Canal excluido quitado."
+        },
+        "econ": {
+            "econ": "economía",
+            "title": "Sistema de economía del servidor desactivada."
+        },
+        "el": {
+            "excludeLogs": "excluirlogs",
+            "title": "Canal de registros excluidos quitado."
+        },
+        "group": {
+            "group": "grupo",
+            "help": "Usa `{{prefix}}delete grupo <Nombre>`.",
+            "noGrupo": "`❌|` Grupo no encontrado.",
+            "nombre": "Nombre:",
+            "roles": "Cantidad de roles que contenía:",
+            "title": "Grupo de autoroles eliminado."
+        },
+        "il": {
+            "imgdespedida": "imgdespedida",
+            "noConfig": "No tienes configurado ningún canal para mandar la imagen de despedida.",
+            "title": "Canal de despedida con imagen quitado."
+        },
+        "iw": {
+            "imgWelcome": "imgbienvenida",
+            "noConfig": "No tienes configurado ningún canal para mandar la imagen de bienvenida.",
+            "title": "Canal de bienvenida con imagen quitado."
+        },
+        "leave": {
+            "leave": "salida",
+            "noConfig": "No tienes configurado ningún canal para mandar la despedida.",
+            "title": "Canal de despedida quitado."
+        },
+        "logs": {
+            "logs": "registros",
+            "noCanal": "Canal desconocido:",
+            "title": "Canal de registros quitado."
+        },
+        "lw": {
+            "rwelcome": "registroentrada",
+            "title": "Canal de registros de entrada quitado."
+        },
+        "mc": {
+            "c": "Canales eliminados.",
+            "descripcion": "*Se eliminarán los canales correspondientes.*",
+            "e": "Canal eliminado.",
+            "mc": "contadormiembros",
+            "noCanal": "No pude eliminar el canal.",
+            "title": "Contador de miembros quitado."
+        },
+        "ml": {
+            "modlogs": "registrosmod",
+            "noCanal": "Canal desconocido:",
+            "title": "Canal de registros de moderación quitado."
+        },
+        "money": {
+            "all": "todo",
+            "banco": "banco",
+            "error": "`❌|`Ocurrió un error inesperado, repórtalo para que se pueda resolver lo más pronto posible.",
+            "money": "dinero",
+            "noNumber": "No colocaste un número de dinero válido.",
+            "true": "Dinero eliminado correctamente de:"
+        },
+        "nick": {
+            "nick": "apodo",
+            "title": "Autoapodo desactivado."
+        },
+        "noConfig": "`❌|` No tienes configurado este modo.",
+        "noConfigAll": "`❌|` No tienes ninguna configuraión en este servidor.",
+        "noModo": "`❌|` Ese modo no existe.",
+        "quitado": "Quitado:",
+        "report": {
+            "report": "reporte",
+            "title": "Canal de reportes quitado."
+        },
+        "rol": {
+            "help": "Usa `{{prefix}}delete rolwelcome <rol>`.",
+            "noConfig": "No existen roles configurados en este servidor.",
+            "noRoles": "Parece que no existe ese rol en la base de datos.",
+            "rol": "rol",
+            "true": "✅ Rol removido con éxito."
+        },
+        "sug": {
+            "sug": "sugerencia",
+            "title": "Canal de sugerencias quitado."
+        },
+        "welcome": {
+            "noConfig": "No tienes configurado ningún canal.",
+            "title": "Canal de bienvenida quitado.",
+            "welcome": "bienvenida"
+        }
     },
     "deleteexcludexp": {
+        "noCanal": "❌ | Canal inválido, verifique se é um canal de texto ou categoria.",
         "noConfig": "*Não configurado.*",
         "quitado": "Levado embora.",
-        "noCanal": "❌ | Canal inválido, verifique se é um canal de texto ou categoria.",
         "title": "✅ | Canal excluído da experiência removido"
     },
     "deleterolelevelup": {
@@ -135,18 +449,139 @@
     "deletexp": {
         "all": "todo",
         "noMember": "❌ | Usuário não encontrado, verifique.",
-        "noUser": "❌ | O usuário não está no banco de dados.",
         "noNumber": "❌ | Você não inseriu um número XP válido.",
+        "noUser": "❌ | O usuário não está no banco de dados.",
         "true": "✅ | {{cantidad}}XP removido com sucesso em {{miembro}}"
     },
     "resetxp": {
-        "noMember": "❌ | Usuário não encontrado, verifique.",
-        "noMemberDB": "❌ | Este usuário não tem experiência.",
         "mensajeMiembro": "Você está prestes a reiniciar a experiência de {{member}}. Você realmente deseja continuar? Escreva `sim`. *Você tem 60 segundos para responder.*",
         "mensajeServidor": "Você está prestes a redefinir toda a experiência do servidor. Você realmente deseja continuar? Escreva `sim`. *Você tem 60 segundos para responder.*",
-        "si": "sim",
-        "tiempo": "❌ | A hora de responder acabou. Se você acha que é um erro, informe-o.",
+        "noMember": "❌ | Usuário não encontrado, verifique.",
+        "noMemberDB": "❌ | Este usuário não tem experiência.",
         "ok": "✅ | {{sujeto}} redefinição de experiência.",
-        "server": "Servidor inteiro"
+        "server": "Servidor inteiro",
+        "si": "sim",
+        "tiempo": "❌ | A hora de responder acabou. Se você acha que é um erro, informe-o."
+    },
+    "setbirthday": {
+        "message": "Mensaje",
+        "noChannel": "`❌|` Canal no enontrado o no válido.",
+        "noMessage": "`❌|` No has colocado ningún mensaje.",
+        "noPremium": "*Esta es una función premium*",
+        "role": "Rol",
+        "title": "✅ Mensaje de Cumpleaños establecido"
+    },
+    "setcount": {
+        "channel": "Canal:",
+        "desde": "Desde el número:",
+        "empezar": "¡Ya pueden empezar a contar desde el número 1!",
+        "noChannel": "`❌|` Canal no válido, revisa que sea un canal de texto.",
+        "noPermission": "`⛔|` No tengo permisos para escribir en ese canal.",
+        "sigan": "¡Sigan contando desde el número",
+        "title": "✅ Canal para contar asignado."
+    },
+    "setimageleave": {
+        "channel": "Canal:",
+        "colorMain": "Color principal:",
+        "colorSecondary": "Color secundario:",
+        "colorText": "Color de texto:",
+        "colorTextSecondary": "Color de texto secundario:",
+        "colores": "Colores",
+        "default": "Por defecto.",
+        "imageMessage": "Con el mensaje de imagen:",
+        "message": "Con el mensaje:",
+        "noChannel": "`❌|` Canal no válido, revisa que sea un canal del servidor.",
+        "noMessage": "`❌|` No has colocado un mensaje.",
+        "noMessageSelect": "Sin mensaje.",
+        "noPermission": "`⛔|` No tengo permisos para escribir en ese canal.",
+        "title": "Canal de imagen de despedida asignado."
+    },
+    "setimagewelcome": {
+        "channel": "Canal:",
+        "colorMain": "Color principal:",
+        "colorSecondary": "Color secundario:",
+        "colorText": "Color de texto:",
+        "colorTextSecondary": "Color de texto secundario:",
+        "colores": "Colores",
+        "default": "Por defecto.",
+        "imageMessage": "Con el mensaje de imagen:",
+        "message": "Con el mensaje:",
+        "noCanal": "`❌|` Canal no válido, revisa que sea un canal del servidor.",
+        "noImage": "`❌|` La url ingresada no fue valida, intentalo denuevo.",
+        "noMessage": "`❌|` No has colocado un mensaje.",
+        "noMessageSelect": "Sin mensaje.",
+        "noPermission": "`⛔|` No tengo permisos para escribir en ese canal.",
+        "title": "Canal de imagen de bienvenida asignado."
+    },
+    "setleave": {
+        "channel": "Canal:",
+        "message": "Con el mensaje.",
+        "noChannel": "`❌|` Canal no válido, revisa que sea un canal de texto.",
+        "noMessageSelect": "Sin mensaje.",
+        "title": "Canal de despedida asignado."
+    },
+    "setlogs": {
+        "channel": "Canal:",
+        "noChannel": "`❌|` Canal no válido, revisa que sea un canal de texto.",
+        "title": "Canal de registros asignado."
+    },
+    "setlogsentry": {
+        "channel": "Canal:",
+        "noChannel": "`❌|` Canal no válido, revisa que sea un canal de texto.",
+        "title": "Canal de registros de entradas asignado."
+    },
+    "setlogsmod": {
+        "channel": "Canal:",
+        "noChannel": "`❌|` Canal no válido, revisa que sea un canal de texto.",
+        "title": "Canal de registros de moderación asignado."
+    },
+    "setmembercount": {
+        "cChannels": "Canal Nº Canales:",
+        "cMembers": "Canal Nº Miembros:",
+        "cRoles": "Canal Nº Roles:",
+        "category": "─── [Estadísticas] ───",
+        "channels": "Canales",
+        "channelsStr": "canales",
+        "descripcion": "Todos los canales serán creados:",
+        "eDescripcion": "Creando canal.",
+        "embed": "embed",
+        "help": "ayuda",
+        "helpC": "Usa `{{prefix}}setmc canales [canal Total], [canal miembros], [canal bots], [canal roles], [canal canales]`\n\nPara que un canal no esté activo coloque en su lugar del nombre **false**.",
+        "miembros": "Miembros",
+        "noActive": "Desactivado.",
+        "noMode": "`❌|` Modo no encontrado, solamente **canales** o **embed**.",
+        "noPermission": "`⛔|` No tengo los permisos suficientes para crear canales.",
+        "roles": "Roles",
+        "title": "Contador de miembros asignado."
+    },
+    "setnickname": {
+        "change": "Cambiado a:",
+        "title": "Autoapodo activado."
+    },
+    "setreports": {
+        "channel": "Canal:",
+        "noChannel": "`❌|` Canal no válido, revisa que sea un canal de texto.",
+        "title": "Canal de reportes asignado."
+    },
+    "setsuggestions": {
+        "approve": "aprobar",
+        "channelApprove": "Sugerencias Aprobadas",
+        "channelDeny": "Sugerencias Recahzadas",
+        "channelPotential": "Sugerencias en Potencial",
+        "channels": "Canal de Sugerencias",
+        "deny": "denegar",
+        "noChannel": "`❌|` Canal no válido, revisa que sea un canal de texto.",
+        "noConfig": "*No Configurado*",
+        "potential": "potencial",
+        "title": "Canal de sugerencias asignado."
+    },
+    "setwelcome": {
+        "canal": "Nombre",
+        "message": "Con el mensaje.",
+        "messageE": "Mensaje del embed.",
+        "messageEmbed": "Hola, bienvenid@.",
+        "noChannel": "`❌|` Canal no válido, revisa que sea un canal de texto.",
+        "noMessageSelect": "Sin mensaje.",
+        "title": "Canal de bienvenida asignado."
     }
 }

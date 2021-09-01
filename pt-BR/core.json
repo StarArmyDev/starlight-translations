@@ -11,7 +11,9 @@
         "title": "Olá! \n👋 Eu sou DavichoStar"
     },
     "help": {
+        "categories": "Categorías",
         "config": "⚙ Configuração",
+        "config-bot": "⚙ Configuración Bot",
         "core": "🌠 Bot",
         "descripcion": "Olá, sou {{client_name}} e vim ajudar. Esta é minha lista de comandos que você pode usar.\n\nPing: `{{ping}}`ms\nCategorias no total: `{{categorias}}`\nComandos no total: `{{comandos}}`",
         "developer": "👨‍💻 Desenvolvedor",
@@ -25,6 +27,7 @@
             "descripcion": "**Descrição:**",
             "no": "Näo",
             "noAlias": "Sem aliases",
+            "noCommand": "Comando `{{name}}` no encontrado.",
             "noUso": "Você não precisa adicionar parâmetros",
             "permiso": "Com licença",
             "si": "Sim",
@@ -47,6 +50,7 @@
         "noPrivate": "❌ | Parece que você desativou as mensagens privadas.",
         "private": "✅ **| Verifique suas mensagens privadas.** 👌",
         "profile": "👥 Perfil",
+        "selectCategory": "Selecciona una categoría",
         "titulo": "Lista de comandos",
         "util": "🛡 Utilidade",
         "version": " | versão ",
@@ -115,6 +119,11 @@
             "successfulDesc": "Este servidor perdeu sua atualização de **{{user_name}}**\n\nAgora eles não poderão desfrutar dos benefícios premium neste servidor.",
             "successfulTitle": "Melhoria Removida"
         }
+    },
+    "release": {
+        "descripcion": "✨ **__Nuevo__**\n**- Premium:** Se ha creado el método perfecto con el que puedes apoyar al bot y obtener beneficios de ello, que van desde mejoras para tu perfil a mejoras para el servidor. Usa el comando `premium` para más información.\n**- Interacción:** Se agregaron botones y menús en múltiples comandos para ser mucho mas fácil su uso, evitando muchas validaciones y complicaciones sobre todo.\n**- ReactionRole:** Se pueden crear reaction roles con emojis para colocarse un rol en el mensaje que gustes. \n**- Temas:** Llegaron los temas de perfil y de nivel que te permite tener una apariencia única.\n**- Tiendas:** Ahora ya no hay una, sino 3 tiendas en el comando `shop` donde tendrás donde gastar esos miles de starcoins que has estado juntando y comprar fondos, temas o items.\n**- Shards:** EL bot está preparado para recibir más 3k de servidores para mejorar su rendimiento\n\n♻️ **__Cambios__**\n**- Diseños:** Nuevos diseños en la tarjeta de perfil y en el de nivel fresco y minimalista.\n**- SelfRole:** Se cambió el funcionamiento del comando para ser sumamente sencillo colocarse roles con los limitantes que tenga el grupo de roles.\n**- EditProfile:** Ahora es mas fácil colocarte fondos, temas, insignias, logros y demás.\n\n🐛 **__Arreglos__**\n**- Hilos:** El bot no podía contestar en los hilos aunque lo mencionaran.\n**- EmbedWelcome:** Los emojis no se mostraban y en vez de eso, aparecía *undefined*.\n**- Transfer:** Al final del mensaje de transferido correctamente, aparecía *undefined*.\n**- Bal:** No funcionaba el comando sin mencionar a alguien o a ti mismo.\n**- MemberCount:** No se generaba el mensaje embed para visualizar las estadísticas.\n**- SetSuggestion:** No dejaba asignar los canales de sugerencias.\n**- Top:** No dejaba ver otras páginas a parte de la uno.\n**- Translate:** No dejaba traducir ningún texto.\n**- Comandos Fortnite:** El código de estos comandos estaban muy desactualizados y con código redundante causando que no se ejecuten de la mejor manera y no estaban listos para los últimos cambios de datos del juego.\n**- Marry/Divorce:** Los comandos eran propensos a casarse con dos o más usuarios al mismo tiempo y causar errores al intentar divorciarse, además de que era más complicado contestar con mensajes.\n**- SelfRole:** El sistema se llegaba a bugear al tener varios grupos de comandos y no se mostraban todos los roles en ocaciones.\n\n⛔ **__Eliminados__**\n**- Comandos de Halo 5:** Estos comandos no eran usados, además de por tenerlo causaba un riesgo de seguridad por tener una API tan desactualizada.\n**- Comandos de League of Legends:** Estos comandos eran muy sencillo, no aportando realmente nada y por consecuencia, no eran usados.",
+        "footer": "Estos son los cambios de la versión {{version}}. Cualquier problema que tengas, puedes ingresar al servidor de soporte a pedir ayuda. | Desarrollado por {{dev}}.",
+        "title": "Novedades de"
     },
     "stats": {
         "bot": "🤖 Informação do bot",
