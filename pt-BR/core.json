@@ -11,15 +11,15 @@
         "title": "Olá! \n👋 Eu sou DavichoStar"
     },
     "help": {
-        "categories": "Categorías",
+        "categories": "Categorias",
         "config": "⚙ Configuração",
-        "config-bot": "⚙ Configuración Bot",
+        "config-bot": "⚙ Configuração do bot",
         "core": "🌠 Bot",
         "descripcion": "Olá, sou {{client_name}} e vim ajudar. Esta é minha lista de comandos que você pode usar.\n\nPing: `{{ping}}`ms\nCategorias no total: `{{categorias}}`\nComandos no total: `{{comandos}}`",
         "developer": "👨‍💻 Desenvolvedor",
         "economy": "💵 Economia",
         "embedHelp": {
-            "alias": "Alias",
+            "alias": "Apelido",
             "apagado": "Desligamento global",
             "args": "Espere por argumentos",
             "categoria": "Categoria",
@@ -27,7 +27,7 @@
             "descripcion": "**Descrição:**",
             "no": "Näo",
             "noAlias": "Sem aliases",
-            "noCommand": "Comando `{{name}}` no encontrado.",
+            "noCommand": "Comando `{{name}}` não encontrado.",
             "noUso": "Você não precisa adicionar parâmetros",
             "permiso": "Com licença",
             "si": "Sim",
@@ -40,7 +40,7 @@
         "home": "Começar",
         "info": "📃 Informação",
         "interaction": "🎁 Interação",
-        "manager": "⚙ Administrador del bot",
+        "manager": "⚙ Gerente do bot",
         "masInfo": {
             "desc": "Use: `{{prefix}}<command> help` para obter suas informações de comando individual e seus parâmetros esperados.",
             "title": "Mais informação?"
