@@ -85,13 +85,13 @@
             "successfulDesc": "Este servidor foi melhorado pelo usuário **{{user_name}}** ({{user}})\n\nAgora você desfrutar dos benefícios premium até que termine a assinatura do usuário ou seja removido pelo mesmo.",
             "successfulTitle": "Parabéns!"
         },
-        "benefitsGuildDesc": "- **Advanced LogsEntry:** Mostra o convite com o qual o usuário entrou no servidor.\n- **Report:** Sistema de rastreamento para responder as mesmas denúncias através do bot e realizar uma conversa anônima.\n- **Função de aniversário:** Para poder colocar uma função para os aniversariantes além da mensagem que é enviada.\n- **ReactionRole:** Sem limite para colocar vários reactionsRoles. *Nível gratuito 4 apenas*",
-        "benefitsGuildTitle": "✨ Benefícios do servidor",
-        "benefitsProfileDesc": "- **Função Premium:** Uma função no servidor oficial do bot para se diferenciar dos outros. *SL Premium*\n- **Multiplicador:** + 1,0 multiplicador na economia global.\n- **Coroa:** Uma coroa em seu perfil que indica sua assinatura ativa.\n- **Título:** Permitir mais de uma palavra no título do perfil\n- **Resfriamento do Perfil: ** Com premium você terá um resfriamento, para editar novamente, de 3 dias para título e gênero, no caso do país será sem resfriamento.",
-        "benefitsProfileTitle": "✨ Benefícios do perfil",
-        "description": "O sistema premium funciona com assinatura mensal ou anual com melhorias para o servidor do usuário e possibilidade de melhorias em um determinado número de servidores. Coloque `premium help` para mais informações sobre o comando.",
+        "benefitsGuildDesc": "`LogsEntry avançado:` Mostra o convite com o qual o novo membro entrou no servidor.\n\n`Comando report:` Sistema de rastreamento para responder reportes usando o bot e manter uma conversa anônima.\n\n`Aniversário:` Será atribuído um cargo as pessoas de aniversário, além de mensagens de parabéns.\n\n`Cargos de reação:` Sem limite de cargos de reação, *gratuitamente são 4 fendas*.",
+        "benefitsGuildTitle": "✨ BENEFÍCIOS DO SERVIDOR",
+        "benefitsProfileDesc": "`Cargo Premium:` Você receberá um cargo (**SL Premium**) para se distinguir dos outros em nosso servidor oficial de suporte.\n\n`Multiplicador:` +1 no seu multiplicador de economia global.\n\n`Coroa:` Uma coroa no avatar do seu perfil que indica a sua assinatura ativa.\n\n`Título:` Permite mais de uma palavra no título do seu perfil.\n\n`Cooldown do perfil:` O cooldown para editar seu perfil será de 3 dias seja título ou gênero, no caso de nacionalidade não terá cooldown.",
+        "benefitsProfileTitle": "✨ BENEFÍCIOS DO PERFIL",
+        "description": "O sistema premium funciona com melhorias mensais/anuais para uma certa quantidade de servidores do usuário. Use o comando `premium help` para mais informação.",
         "guild": {
-            "title": "Lista de servidores aprimorados"
+            "title": "Lista de servidores melhorados"
         },
         "guilds": {
             "guild": "Servidor:",
@@ -99,14 +99,14 @@
             "time": "Termina em:"
         },
         "info": {
-            "available": "Totais: {{total}}\nDisponível {{available}}\nUsado: {{use}}",
-            "info": "em formação",
+            "available": "Totais: {{total}}\nDisponíveis: {{available}}\nUsados: {{use}}",
+            "info": "informação",
             "noActivated": "`⛔|` Você não tem uma assinatura premium ativa.",
-            "spaces": "Espaços de servidor",
+            "spaces": "Fendas para melhorias",
             "time": "Tempo restante",
-            "timeUnknown": "*Hora Desconhecida*",
-            "update": "Servidor aprimorado?",
-            "yes": "sim\n\nPor: {{user}}"
+            "timeUnknown": "*Tempo desconhecido*",
+            "update": "O servidor está melhorado?",
+            "yes": "Sim, por {{user}."
         },
         "payDesc": "- **$3,5 USD** [Paypal](https://www.paypal.me/czemtb) *Insira como conceito de pagamento: seu ID Discord seguido da palavra sl-premium. Exemplo: `445746830563868672-sl-premium`*",
         "payTitle": "💵 Métodos de pagamento",
