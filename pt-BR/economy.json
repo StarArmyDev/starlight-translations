@@ -1,23 +1,23 @@
 {
     "bal": {
         "banco": "🏦 Banco",
-        "bloqueado": "Desculpe, o seu sistema econômico está bloqueado.",
+        "bloqueado": "O seu sistema econômico está bloqueado. [Contate-nos em nosso servidor de suporte](https://discord.gg/MZN8Yf6).",
         "bolcillo": "🌟 Bolso",
         "money": "Economia",
         "mult": "Multiplicador",
         "total": "💰 Total"
     },
     "buy": {
-        "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",
-        "descripcion": "Has comprado `{{cantidad}}` de {{emoji}} {{nombre}} por `{{costo}}` starcoins.",
-        "noItem": "Ítem `{{item}}` no existe. Verifica el nombre.",
-        "noItemShop": "Este objeto no se puede comprar, puede que sea de colección.",
-        "noMoney": "No cuentas con el dinero suficiente, te falta `{{faltante}}` starcoins para poder comprar `{{cantidad}}` de {{item}}.",
-        "title": "Compra de objetos de {{tienda}}",
-        "yaFondo": "Ya tienes este fondo."
+        "bloqueado": "O seu sistema econômico está bloqueado. [Contate-nos em nosso servidor de suporte](https://discord.gg/MZN8Yf6).",
+        "descripcion": "Você comprou `{{cantidad}}` de {{emoji}} {{nombre}} por `{{costo}}` starcoins.",
+        "noItem": "O item `{{item}}` não existe, verifica a ortografia correta do nome.",
+        "noItemShop": "Este item é de coleção, não pode ser comprado.",
+        "noMoney": "Você não tem starcoins suficientes, você está faltando `{{faltante}}` starcoins para poder comprar `{{cantidad}}` de {{item}}.",
+        "title": "Compra de itens de {{tienda}}",
+        "yaFondo": "Já tens este fundo no inventário."
     },
     "crime": {
-        "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",
+        "bloqueado": "O seu sistema econômico está bloqueado. [Contate-nos em nosso servidor de suporte](https://discord.gg/MZN8Yf6).",
         "crime": "Has recibido {{money}} por robarle al owner, ¡correeee!",
         "error": "❌ Um erro inesperado ocorreu. Deixe-nos saber com `bugreport` para que possamos corrigi-lo.",
         "noCrime": "❌ Parece que no sabes entrar silenciosamente a los lugares y te quitaron {{money}} starcoins.",
