@@ -19,7 +19,7 @@
     "crime": {
         "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",
         "crime": "Has recibido {{money}} por robarle al owner, ¡correeee!",
-        "error": "❌ Ocurrió un error inesperado. Avísanos con `bugreport` para poderlo solucionar.",
+        "error": "❌ Um erro inesperado ocorreu. Deixe-nos saber com `bugreport` para que possamos corrigi-lo.",
         "noCrime": "❌ Parece que no sabes entrar silenciosamente a los lugares y te quitaron {{money}} starcoins.",
         "title": "🕵️‍♂️ Crimen"
     },
@@ -27,12 +27,12 @@
         "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",
         "dly": "¡Acabas de recibir {{money}} starcoins! Vuelve en 12 horas por tu dinero diario.",
         "dlyUser": "¡Acabas de dar {{money}} starcoins a {{miembro}}! Vuelve en 12 horas por tu dinero diario.",
-        "error": "❌ Ocurrió un error inesperado. Avísanos con `bugreport` para poderlo solucionar.",
+        "error": "❌ Um erro inesperado ocorreu. Deixe-nos saber com `bugreport` para que possamos corrigi-lo.",
         "title": "☀ Dinero Diario"
     },
     "deposite": {
         "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",
-        "error": "❌ Ocurrió un error inesperado. Avísanos con `bugreport` para poderlo solucionar.",
+        "error": "❌ Um erro inesperado ocorreu. Deixe-nos saber com `bugreport` para que possamos corrigi-lo.",
         "falta": "Usted no tiene monedas suficientes.",
         "mensaje": "✅ Depositado `{{cantidad}}` en tu banco con éxito.",
         "noCantidad": "Cantidad no válida.",
@@ -48,7 +48,7 @@
     },
     "dirty": {
         "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",
-        "error": "❌ Ocurrió un error inesperado. Avísanos con `bugreport` para poderlo solucionar.",
+        "error": "❌ Um erro inesperado ocorreu. Deixe-nos saber com `bugreport` para que possamos corrigi-lo.",
         "mensaje": "✅ Has recibido `{{money}}` starcoins por hacer trabajos poco comunes",
         "noMensaje": "❌ Parece que el cliente huyó y perdiste `{{money}}` starcoins.",
         "title": "👱‍️ Trabajo Indecente"
@@ -64,7 +64,7 @@
     },
     "rob": {
         "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",
-        "error": "❌ Ocurrió un error inesperado. Avísanos con `bugreport` para poderlo solucionar.",
+        "error": "❌ Um erro inesperado ocorreu. Deixe-nos saber com `bugreport` para que possamos corrigi-lo.",
         "mensaje": "✅ Le has robado a {{miembro}} el total de {{robado}} starcoins, ¡ahora huye mientras puedas!",
         "noMensaje": "❌ La ley te cayó de sorpresa y te quitó {{money}}, además de que le dieron la mitad de eso a {{miembro}} por el incidente.",
         "noRobMoney": "¿Cómo le quieres robar si no tiene nada?",
@@ -116,7 +116,7 @@
     "trade": {
         "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",
         "cooldown": "🛑 | ¡Alto! Espere `{{time}}` para hacer trabajos indecentes nuevamente.",
-        "error": "❌ Ocurrió un error inesperado. Avísanos con `bugreport` para poderlo solucionar.",
+        "error": "❌ Um erro inesperado ocorreu. Deixe-nos saber com `bugreport` para que possamos corrigi-lo.",
         "mensaje": "✅ Has recibido {{money}} por hacer comercios peligrosos.",
         "noMensaje": "❌ Parece que la policía te vio y te quitaron {{money}}.",
         "title": "💎🏬 Comerciar"
@@ -125,7 +125,7 @@
         "automencion": "✅ `{{money}}` starcoins transferidos correctamente al banco nacional de StarBot. Gracias por preferirnos.",
         "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",
         "cancel": "✅ Transferencia cancelada.",
-        "error": "❌ Ocurrió un error inesperado. Avísanos con `bugreport` para poderlo solucionar.",
+        "error": "❌ Um erro inesperado ocorreu. Deixe-nos saber com `bugreport` para que possamos corrigi-lo.",
         "falta": "Usted no tiene monedas suficientes.",
         "mensaje": "✅ Transferencia exitosa. Se dio a {{miembro}} la cantidad de `{{cantidad}}` starcoins.",
         "noSumar": "Parece ser que {{miembro}} no tiene perfil. **Tiene que hablar para que se cree.**\n*Si consideras que esto es un error, puedes reportarlo con `bugreport`.",
@@ -135,7 +135,7 @@
     },
     "withdraw": {
         "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",
-        "error": "❌ Ocurrió un error inesperado. Avísanos con `bugreport` para poderlo solucionar.",
+        "error": "❌ Um erro inesperado ocorreu. Deixe-nos saber com `bugreport` para que possamos corrigi-lo.",
         "falta": "Usted no tiene monedas suficientes.",
         "mensaje": "✅ Retiró `{{cantidad}}` con éxito, dejando tu banco con `{{banco}}`.",
         "noCantidad": "Cantidad no válida.",
@@ -144,7 +144,7 @@
     },
     "work": {
         "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",
-        "error": "❌ Ocurrió un error inesperado. Avísanos con `bugreport` para poderlo solucionar.",
+        "error": "❌ Um erro inesperado ocorreu. Deixe-nos saber com `bugreport` para que possamos corrigi-lo.",
         "mensaje": "✅ ¡Acabas de recibir {{money}} monedas!",
         "mensajeDar": "✅ ¡Acabas de dar {{money}} monedas a {{miembro}}!",
         "title": "👷 ‍Trabajo"
