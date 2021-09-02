@@ -50,7 +50,7 @@
         "noPrivate": "❌ | Parece que você desativou as mensagens privadas.",
         "private": "✅ **| Verifique suas mensagens privadas.** 👌",
         "profile": "👥 Perfil",
-        "selectCategory": "Selecciona una categoría",
+        "selectCategory": "Selecione uma categoria",
         "titulo": "Lista de comandos",
         "util": "🛡 Utilidade",
         "version": " | versão ",
@@ -73,7 +73,7 @@
     "ping": {
         "description": "Pong!\n📡 API: {{ping}}.\n🗃 Base de dados: {{db}}.",
         "descriptionGateway": "Pong!\n📡 API: {{ping}}.\n🗃 Base de dados: {{db}}.\n⏳ Porta de ligação: {{gateway}}.",
-        "footer": "Virtual Private Machine"
+        "footer": "Máquina Virtual Privada"
     },
     "premium": {
         "add": {
