@@ -3,8 +3,8 @@
     "embed": {
         "mensaje": "¡Nuevo miembro!",
         "mensajeEmbed": "Hola, bienvenid@.",
-        "si": "Sí.",
-        "no": "No.",
+        "si": "Sim.",
+        "no": "Näo.",
         "bienvenido": "¡Bienvenido!",
         "nombre": "Nombre:",
         "bot": "¡Tenemos a un nuevo bot!",
