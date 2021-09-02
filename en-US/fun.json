@@ -3,7 +3,7 @@
         "descripcion": "To which I respond: {{respuesta}}",
         "rpts": [
             "Yes",
-            "No",
+            "Not",
             "May be",
             "Maybe not",
             "Sure!",
