@@ -15,7 +15,7 @@
         "config": "⚙ Configuración",
         "config-bot": "⚙ Configuración Bot",
         "core": "🌠 Bot",
-        "descripcion": "Hola, soy {{client_name}} y vengo a ayudar. Esta es mi lista de comandos que puedes ocupar.\n\nPing: `{{ping}}` ms\nCategorías en total: `{{categorias}}`\nComandos en total: `{{commands}}`",
+        "descripcion": "Hola, soy {{client_name}} y vengo a ayudar. Esta es mi lista de comandos que puedes usar.\n\nPing: `{{ping}}` ms\nCategorías en total: `{{categorias}}`\nComandos en total: `{{commands}}`",
         "developer": "👨‍💻 Desarrollador",
         "economy": "💵 Economía",
         "embedHelp": {
@@ -23,7 +23,7 @@
             "apagado": "Apagado global",
             "args": "Espera argumentos",
             "categoria": "Categoría",
-            "cooldown": "Tiempo de espera",
+            "cooldown": "Cooldown",
             "descripcion": "**Descripción:**",
             "no": "No",
             "noAlias": "Sin alias",
