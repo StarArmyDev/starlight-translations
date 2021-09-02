@@ -402,7 +402,7 @@
             "all": "todo",
             "banco": "banco",
             "error": "`❌|`Ocurrió un error inesperado, repórtalo para que se pueda resolver lo más pronto posible.",
-            "money": "dinero",
+            "money": "cartera",
             "noNumber": "No colocaste un número de dinero válido.",
             "true": "Dinero eliminado correctamente de:"
         },
@@ -413,7 +413,7 @@
         "noConfig": "`❌|` No tienes configurado este modo.",
         "noConfigAll": "`❌|` No tienes ninguna configuraión en este servidor.",
         "noModo": "`❌|` Ese modo no existe.",
-        "quitado": "Quitado:",
+        "quitado": "Eliminado:",
         "report": {
             "report": "reporte",
             "title": "Canal de reportes quitado."
@@ -438,7 +438,7 @@
     "deleteexcludexp": {
         "noCanal": "`❌|` Canal no válido, revisa que sea un canal de texto o de categoría.",
         "noConfig": "*No configurado.*",
-        "quitado": "Quitado.",
+        "quitado": "Eliminado.",
         "title": "✅ | Canal excluido de experiencia quitado"
     },
     "deleterolelevelup": {
