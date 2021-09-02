@@ -112,7 +112,7 @@
         "asignar": "asignar",
         "creando": "Creando",
         "detectado": "Se ha detectado que existen roles de color que no están en la base de datos. Coloca `asignar` para agregarlos al comando *selfrole*.\n",
-        "error": "`❌|`Lo siento, parece que hubo un error. Estamos trabajando en repararlo.",
+        "error": "`❌|`Perdón, parece que hubo un error. Estamos trabajando en repararlo.",
         "mensaje": "✅ Roles de colores creados:`{{creados}}` exitosamente. *Si los roles se crearon pero no están disponibles en el comando* `selfrole` *, usa nuevamente este comando y sigue la indicaciones*",
         "mensajeDelete": "✅ Roles de colores eliminados:`{{contador}}` exitosamente.",
         "modos": "Está a punto de crear {{roles}} roles de colores. Coloca `Si` para continuar, `Eliminar` para quitarlos o `Cancelar` para cancelar la operación.\n\n**Puedes colocar mi rol más alto desde donde quieres que empiece a crear los roles hacia abajo.**",

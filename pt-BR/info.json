@@ -8,10 +8,10 @@
         "autor": "Subido Por",
         "creado": "🗓️ Fecha de Creación",
         "id": "🆔 Identificador Único",
-        "no": "No",
+        "no": "Não",
         "noEmoji": "Emoji no encontrado o no disponible.",
         "server": "Servidor",
-        "si": "Sí"
+        "si": "Sim"
     },
     "game": {
         "game": "Está {{tipo}}: ",
@@ -30,13 +30,13 @@
         "id": "🆔 Identificador Único",
         "mensionable": "@ Mencionable",
         "miembros": "👥 Miembros",
-        "no": "No",
+        "no": "Não",
         "noRol": "Rol no encontrado o inválido.",
         "nombre": "Nombre",
         "permisosImport": "⛔ Permisos Importantes",
         "posicion": "🔢 Posición",
         "separado": "↕ Separado",
-        "si": "Sí",
+        "si": "Sim",
         "sinInfo": "Sin Información.",
         "sinPerm": "Sin Permisos.",
         "tiempo": "⌛ Rol Creado",

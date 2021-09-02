@@ -70,7 +70,7 @@
         "noValidName": "`❌|` Nombre muy largo",
         "process": "⏳ Creando rol... espere un momento.",
         "reason": "Comando CreateMute",
-        "rolemute": "Silenciado",
+        "rolemute": "Muteado",
         "title": "✅ Rol Creado"
     },
     "deny": {
@@ -223,7 +223,7 @@
         "numAdver": "Número de advertencias",
         "razon": "📄 Razón",
         "razonAlcanzados": "Advertencias alcanzadas, con la razón:",
-        "rolMute": "Silenciado",
+        "rolMute": "Muteado",
         "server": "Servidor",
         "title": "⚠ Advertido",
         "user": "👤 Usuario",

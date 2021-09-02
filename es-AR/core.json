@@ -1,6 +1,6 @@
 {
     "botsuggestion": {
-        "ok": "✅ Sugerencia enviada al servidor de soporte.\n*Cualquier abuso de este u otro comando será sancionado.*"
+        "ok": "✅ Sugerencia mandada al servidor de soporte.\n*Cualquier abuso de este u otro comando va a ser sancionado.*"
     },
     "bugreport": {
         "correcto": "**Su error ha sido reportado correctamente.**\nSerá revisado, así que, por favor, sea paciente.\n*Para mayor asistencia o ayuda puedes entrar al servidor de soporte o escribirle al MD al creador.*",
@@ -15,13 +15,13 @@
         "config": "⚙ Configuración",
         "config-bot": "⚙ Configuración Bot",
         "core": "🌠 Bot",
-        "descripcion": "Hola, soy {{client_name}} y vengo a ayudar. Esta es mi lista de comandos que puedes ocupar.\n\nPing: `{{ping}}` ms\nCategorías en total: `{{categorias}}`\nComandos en total: `{{commands}}`",
+        "descripcion": "Hola, soy {{client_name}} y vengo a ayudar. Esta es mi lista de comandos que podés ocupar.\n\nPing: `{{ping}}` ms\nCategorías en total: `{{categorias}}`\nComandos en total: `{{commands}}`",
         "developer": "👨‍💻 Desarrollador",
         "economy": "💵 Economía",
         "embedHelp": {
             "alias": "Alias",
             "apagado": "Apagado global",
-            "args": "Espera argumentos",
+            "args": "Esperá argumentos",
             "categoria": "Categoría",
             "cooldown": "Tiempo de espera",
             "descripcion": "**Descripción:**",
@@ -33,7 +33,7 @@
             "si": "Sí",
             "sinPermisos": "Sin permisos requeridos",
             "title": "Ayuda de: {{command}}",
-            "uso": "Usa el comando de la siguiente manera:"
+            "uso": "Usá el comando de esta manera:"
         },
         "expression": "🎭 Expresión",
         "fun": "🎉 Diversión",
@@ -47,8 +47,8 @@
         },
         "moderation": "👮 Moderación",
         "music": "🎵 Música",
-        "noPrivate": "❌ | Parece que tienes desactivado los mensajes privados.",
-        "private": "✅ **| Revisa tu MD.** 👌",
+        "noPrivate": "❌ | Parece que tenés desactivados los mensajes privados.",
+        "private": "✅ **| Revisá tu MD.** 👌",
         "profile": "👥 Perfil",
         "selectCategory": "Selecciona una categoría",
         "titulo": "Lista de Comandos",
@@ -62,7 +62,7 @@
         "apoyoTitle": "💎 Apóyanos",
         "descripcion": "Este hermoso bot puede ayudarte mucho en tu servidor, tiene mucha variedad de comandos para administradores o usuarios normales. Te aseguro que te divertirás y te ayudará en todo lo que necesites.",
         "invitacion": "Invitación",
-        "link": "[Invita a {{client_name}} a tu servidor]({{link}})",
+        "link": "[Invitá a {{client_name}} a tu servidor]({{link}})",
         "soporte": "[Entra Al Servidor](https://discord.gg/MZN8Yf6 'StarArmy') Para obtener ayuda y estar enterado de toda la información siempre.",
         "soporteTitle": "Servidor de Soporte",
         "title": "Mi Invitación | {{client_name}}",
@@ -72,7 +72,7 @@
     },
     "ping": {
         "description": "Pong!\n📡 API: {{ping}}.\n🗃 Base de datos: {{db}}.",
-        "descriptionGateway": "Pong!\n📡 API: {{ping}}.\n🗃 Base de datos: {{db}}.\n⏳ Puerta de Enlace: {{gateway}}.",
+        "descriptionGateway": "¡Pong!\n📡 API: {{ping}}.\n🗃 Base de datos: {{db}}.\n⏳ Puerta de Enlace: {{gateway}}.",
         "footer": "Virtual Private Machine"
     },
     "premium": {

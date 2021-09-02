@@ -71,7 +71,7 @@
       "canal": "*⛔ | Comando deshabilitado en este canal.*",
       "server": "*⛔ | Comando deshabilitado en este servidor.*"
     },
-    "comandoApagado": "`⛔|` Este comando se encuentra apagado por alguna actualización o suspensión temporal.",
+    "comandoApagado": "`⛔|` Este comando se encuentra deshabilitado por alguna actualización o suspensión temporal.",
     "noUso": "No tienes que agregar parámetros.",
     "embedHelp": {
       "title": "Ayuda de: {{command}}",
@@ -81,7 +81,7 @@
       "noAlias": "Sin alias",
       "categoria": "Categoría",
       "permiso": "Permiso",
-      "cooldown": "Tiempo de espera",
+      "cooldown": "Cooldown",
       "args": "Espera argumentos",
       "apagado": "Apagado global",
       "sinPermisos": "Sin permisos requeridos"
@@ -100,7 +100,7 @@
     "title": "Miembro baneado",
     "mensaje": "fue baneado del servidor.",
     "razon": "Razón",
-    "noRazon": "Sin razón.",
+    "noRazon": "No proporcionaste una razón.",
     "mod": "Fue baneado por:"
   },
   "unban": {
@@ -108,7 +108,7 @@
     "title": "Miembro desbaneado",
     "mensaje": "fue desbaneado del servidor.",
     "razon": "Razón",
-    "noRazon": "Sin razón.",
+    "noRazon": "No proporcionaste una razón.",
     "mod": "Fue desbaneado por:"
   },
   "canal": {
@@ -126,7 +126,7 @@
     "title": "Canal eliminado",
     "mensaje": "fue eliminado.",
     "razon": "Razón",
-    "noRazon": "Sin razón.",
+    "noRazon": "No proporcionaste una razón.",
     "mod": "Fue eliminado por:"
   }
 }

@@ -25,7 +25,7 @@
             "categoria": "Category",
             "cooldown": "Cooldown",
             "descripcion": "**Description:**",
-            "no": "No",
+            "no": "Not",
             "noAlias": "Without alias",
             "noCommand": "Command `{{name}}` not found.",
             "noUso": "You do not have to add parameters",

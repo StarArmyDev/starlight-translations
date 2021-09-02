@@ -16,14 +16,14 @@
     },
     "addautorole": {
         "footer": "Puedes usar el comando nuevamente para agregar más roles.",
-        "mensaje": "Rol",
+        "mensaje": "Função",
         "noPosicion": "`❌|` Rol no válido. Este rol está mas arriba de mi rol más alto.",
         "noRol": "`❌|` Rol no encontrado o rol no válido.",
         "title": "✅ | Rol de bienvenida asignado.",
-        "yaRol": "`❌|` Rol ya asignado."
+        "yaRol": "❌ | Função já atribuída."
     },
     "addexcludelogs": {
-        "canal": "Agregado:",
+        "canal": "Agregar:",
         "canales": "Agregados:",
         "noCanal": "Canal no válido, revisa que sea un canal de texto.",
         "title": "Canal excluido de registros.",
@@ -87,7 +87,7 @@
         "grupo": "Grupo al que pertenece:",
         "noGrupo": "`❌|` Grupo no encontrado, primero debes de usar el comando `{{prefix}}addgrupo` para crearlo.",
         "noRol": "Rol no encontrado o rol no válido, por favor, verifica que exista y que esté por debajo de mi rol más alto.",
-        "rol": "Rol:",
+        "rol": "Função:",
         "title": "✅ Rol agregado."
     },
     "addxp": {
@@ -399,7 +399,7 @@
             "title": "Canal de registros de moderación quitado."
         },
         "money": {
-            "all": "todo",
+            "all": "tudo",
             "banco": "banco",
             "error": "`❌|`Ocurrió un error inesperado, repórtalo para que se pueda resolver lo más pronto posible.",
             "money": "dinero",
@@ -413,7 +413,7 @@
         "noConfig": "`❌|` No tienes configurado este modo.",
         "noConfigAll": "`❌|` No tienes ninguna configuraión en este servidor.",
         "noModo": "`❌|` Ese modo no existe.",
-        "quitado": "Quitado:",
+        "quitado": "Levado embora:",
         "report": {
             "report": "reporte",
             "title": "Canal de reportes quitado."
@@ -422,8 +422,8 @@
             "help": "Usa `{{prefix}}delete rolwelcome <rol>`.",
             "noConfig": "No existen roles configurados en este servidor.",
             "noRoles": "Parece que no existe ese rol en la base de datos.",
-            "rol": "rol",
-            "true": "✅ Rol removido con éxito."
+            "rol": "função",
+            "true": "✅ Função removida com sucesso."
         },
         "sug": {
             "sug": "sugerencia",
@@ -447,7 +447,7 @@
         "true": "✅ Função removida com sucesso."
     },
     "deletexp": {
-        "all": "todo",
+        "all": "tudo",
         "noMember": "❌ | Usuário não encontrado, verifique.",
         "noNumber": "❌ | Você não inseriu um número XP válido.",
         "noUser": "❌ | O usuário não está no banco de dados.",
@@ -468,7 +468,7 @@
         "noChannel": "`❌|` Canal no enontrado o no válido.",
         "noMessage": "`❌|` No has colocado ningún mensaje.",
         "noPremium": "*Esta es una función premium*",
-        "role": "Rol",
+        "role": "Função",
         "title": "✅ Mensaje de Cumpleaños establecido"
     },
     "setcount": {
@@ -555,7 +555,7 @@
         "title": "Contador de miembros asignado."
     },
     "setnickname": {
-        "change": "Cambiado a:",
+        "change": "Transferido para:",
         "title": "Autoapodo activado."
     },
     "setreports": {
@@ -571,7 +571,7 @@
         "channels": "Canal de Sugerencias",
         "deny": "denegar",
         "noChannel": "`❌|` Canal no válido, revisa que sea un canal de texto.",
-        "noConfig": "*No Configurado*",
+        "noConfig": "*Não configurado*",
         "potential": "potencial",
         "title": "Canal de sugerencias asignado."
     },

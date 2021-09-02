@@ -29,7 +29,7 @@
     "config": {
         "canal": "Channel:",
         "canalEliminado": "*Channel removed or not available.*",
-        "cooldown": "XP Cooldown:",
+        "cooldown": "Cooldown XP:",
         "default": "*Default:*",
         "embed": {
             "author": "Setting | {{guild_name}}.",

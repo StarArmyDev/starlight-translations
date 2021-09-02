@@ -210,7 +210,7 @@
     "warn": {
         "autoMencion": "¡¿Por qué quieres advertirte a tí mismo?!",
         "ban": "Usuario baneado",
-        "error": "`❌|`Lo siento, parece que hubo un error. Estamos trabajando en repararlo.",
+        "error": "`❌|`Perdón, parece que hubo un error. Estamos trabajando en repararlo.",
         "id": "🆔 Identificador:",
         "kick": "Usuario expulsado",
         "mod": "👮‍♂️ Moderador",

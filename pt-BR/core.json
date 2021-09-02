@@ -3,64 +3,64 @@
         "ok": "✅ Sugestão enviada ao servidor de suporte.\n*Qualquer abuso deste ou de qualquer outro comando será penalizado.*"
     },
     "bugreport": {
-        "correcto": "**Seu bug foi relatado com sucesso.**\nEle será revisado, portanto, seja paciente.\n*Para obter mais assistência ou ajuda, você pode entrar no servidor de suporte ou escrever para mim em DM.*",
-        "error": "Ocorreu um problema ao enviar a mensagem, você pode me enviar uma mensagem privada como alternativa."
+        "correcto": "**O erro foi reportado corretamente.**\nEste está em estado de revisão, seja paciente, o comando `release` será atualizado quando for resolvido. ",
+        "error": "Ocorreu um erro ao tentar enviar a mensagem, tente me enviar uma mensagem direta."
     },
     "davichostar": {
-        "description": "Eu sou o criador deste bot e vim para me apresentar.\n\nSou um desenvolvedor mexicano com experiência em TypeScript (TS) e NodeJS principalmente, mas também conheço Java, Python, C #, C ++ com menos habilidade, estou aprendendo tecnologias como ReactJS, VueJS e Flutter.\n\nEu sei sobre design gráfico, mas era apaixonado por computação e o conjunto dessas pequenas habilidades me permitiu criar bots, com seus designs e banners, suas páginas web e seu servidor de suporte.\n\nEmail: *davichostar@protonmail.com*",
-        "title": "Olá! \n👋 Eu sou DavichoStar"
+        "description": "Me apresento, sou o criador deste bot.\nSou um desenvolvedor mexicano com experiência principalmente em TypeScript (TS) e NodeJS. Mas também experimentei um pouco com Java, Python, C# e C++; Estou aprendendo tecnologias como ReactJS, VueJS e Flutter.\nTambém conheço desenho gráfico, mas realmente meu ponto forte é a computação e o conjunto de habilidades que me permitem desenvolver bots, seus desenhos, páginas web e servidor de suporte.\n\nEmail: *davichostar@protonmail.com* ",
+        "title": "Olá! 👋 Sou DavichoStar"
     },
     "help": {
         "categories": "Categorias",
         "config": "⚙ Configuração",
         "config-bot": "⚙ Configuração do bot",
         "core": "🌠 Bot",
-        "descripcion": "Olá, sou {{client_name}} e vim ajudar. Esta é minha lista de comandos que você pode usar.\n\nPing: `{{ping}}`ms\nCategorias no total: `{{categorias}}`\nComandos no total: `{{comandos}}`",
+        "descripcion": "Olá, sou {{client_name}} e vim ajudar. Esta é a lista dos meus comandos que você pode usar.\n\nLatência: `{{ping}}` ms\nCategorias totais: `{{categorias}}`\nComandos totais: `{{comandos}}` ",
         "developer": "👨‍💻 Desenvolvedor",
         "economy": "💵 Economia",
         "embedHelp": {
             "alias": "Apelido",
             "apagado": "Desligamento global",
-            "args": "Espere por argumentos",
+            "args": "Espera argumentos",
             "categoria": "Categoria",
-            "cooldown": "Esfriar",
+            "cooldown": "Tempo de espera",
             "descripcion": "**Descrição:**",
-            "no": "Näo",
-            "noAlias": "Sem aliases",
+            "no": "Não",
+            "noAlias": "Sem apelidos",
             "noCommand": "Comando `{{name}}` não encontrado.",
-            "noUso": "Você não precisa adicionar parâmetros",
-            "permiso": "Com licença",
+            "noUso": "[Não espera parâmetros]",
+            "permiso": "Permissão",
             "si": "Sim",
-            "sinPermisos": "Nenhuma permissão necessária",
-            "title": "Ajuda de: {{command}}",
-            "uso": "Use o comando da seguinte maneira:"
+            "sinPermisos": "Sem permissões requeridas",
+            "title": "Ajuda do: {{command}}",
+            "uso": "Use o comando da seguinte forma:"
         },
         "expression": "🎭 Expressão",
         "fun": "🎉 Diversão",
-        "home": "Começar",
+        "home": "Início",
         "info": "📃 Informação",
         "interaction": "🎁 Interação",
         "manager": "⚙ Gerente do bot",
         "masInfo": {
-            "desc": "Use: `{{prefix}}<command> help` para obter suas informações de comando individual e seus parâmetros esperados.",
+            "desc": "Usa: `{{prefix}}<comando> help` para obter a informação individual do comando e seus parâmetros esperados.",
             "title": "Mais informação?"
         },
-        "moderation": "👮 Funcionários",
+        "moderation": "👮 Moderação",
         "music": "🎵  Música",
-        "noPrivate": "❌ | Parece que você desativou as mensagens privadas.",
-        "private": "✅ **| Verifique suas mensagens privadas.** 👌",
+        "noPrivate": "❌ | Parece que tem fechado as mensagens diretas.",
+        "private": "✅ **| Verifique suas mensagens diretas.** 👌",
         "profile": "👥 Perfil",
         "selectCategory": "Selecione uma categoria",
         "titulo": "Lista de comandos",
-        "util": "🛡 Utilidade",
-        "version": " | versão ",
-        "videogame": "🎮 Videogame",
-        "vote": "Vote no TopGG"
+        "util": "🛡 Utilidades",
+        "version": " | Versão ",
+        "videogame": "🎮 Videojogos",
+        "vote": "Vote no Discord Bot List"
     },
     "invite": {
-        "apoyo": "Apoie o crescimento do bot doando o que puder através do [PayPal](https://www.paypal.me/czemtb 'CZEMTB')",
+        "apoyo": "Apoie o crescimento do bot doando o que puder através do [PayPal](https://www.paypal.me/czemtb 'CZEMTB').",
         "apoyoTitle": "💎 Apoie-nos",
-        "descripcion": "Este lindo bot pode te ajudar muito no seu servidor, ele tem uma grande variedade de comandos para administradores ou usuários normais. Mas garanto que você vai se divertir e te ajudar em tudo que você precisa.",
+        "descripcion": "Este belo bot é muito útil para ajudar na configuração do seu servidor, seja com comandos para administradores ou membros e comandos de diversão.",
         "invitacion": "Convite",
         "link": "[Convide {{client_name}} para o seu servidor]({{link}})",
         "soporte": "[Entrar no servidor](https://discord.gg/MZN8Yf6 'StarArmy') Para obter ajuda e estar ciente de todas as informações sempre.",
@@ -121,22 +121,22 @@
         }
     },
     "release": {
-        "descripcion": "✨ **__Nuevo__**\n**- Premium:** Se ha creado el método perfecto con el que puedes apoyar al bot y obtener beneficios de ello, que van desde mejoras para tu perfil a mejoras para el servidor. Usa el comando `premium` para más información.\n**- Interacción:** Se agregaron botones y menús en múltiples comandos para ser mucho mas fácil su uso, evitando muchas validaciones y complicaciones sobre todo.\n**- ReactionRole:** Se pueden crear reaction roles con emojis para colocarse un rol en el mensaje que gustes. \n**- Temas:** Llegaron los temas de perfil y de nivel que te permite tener una apariencia única.\n**- Tiendas:** Ahora ya no hay una, sino 3 tiendas en el comando `shop` donde tendrás donde gastar esos miles de starcoins que has estado juntando y comprar fondos, temas o items.\n**- Shards:** EL bot está preparado para recibir más 3k de servidores para mejorar su rendimiento\n\n♻️ **__Cambios__**\n**- Diseños:** Nuevos diseños en la tarjeta de perfil y en el de nivel fresco y minimalista.\n**- SelfRole:** Se cambió el funcionamiento del comando para ser sumamente sencillo colocarse roles con los limitantes que tenga el grupo de roles.\n**- EditProfile:** Ahora es mas fácil colocarte fondos, temas, insignias, logros y demás.\n\n🐛 **__Arreglos__**\n**- Hilos:** El bot no podía contestar en los hilos aunque lo mencionaran.\n**- EmbedWelcome:** Los emojis no se mostraban y en vez de eso, aparecía *undefined*.\n**- Transfer:** Al final del mensaje de transferido correctamente, aparecía *undefined*.\n**- Bal:** No funcionaba el comando sin mencionar a alguien o a ti mismo.\n**- MemberCount:** No se generaba el mensaje embed para visualizar las estadísticas.\n**- SetSuggestion:** No dejaba asignar los canales de sugerencias.\n**- Top:** No dejaba ver otras páginas a parte de la uno.\n**- Translate:** No dejaba traducir ningún texto.\n**- Comandos Fortnite:** El código de estos comandos estaban muy desactualizados y con código redundante causando que no se ejecuten de la mejor manera y no estaban listos para los últimos cambios de datos del juego.\n**- Marry/Divorce:** Los comandos eran propensos a casarse con dos o más usuarios al mismo tiempo y causar errores al intentar divorciarse, además de que era más complicado contestar con mensajes.\n**- SelfRole:** El sistema se llegaba a bugear al tener varios grupos de comandos y no se mostraban todos los roles en ocaciones.\n\n⛔ **__Eliminados__**\n**- Comandos de Halo 5:** Estos comandos no eran usados, además de por tenerlo causaba un riesgo de seguridad por tener una API tan desactualizada.\n**- Comandos de League of Legends:** Estos comandos eran muy sencillo, no aportando realmente nada y por consecuencia, no eran usados.",
-        "footer": "Estos son los cambios de la versión {{version}}. Cualquier problema que tengas, puedes ingresar al servidor de soporte a pedir ayuda. | Desarrollado por {{dev}}.",
-        "title": "Novedades de"
+        "descripcion": "✨ **NOVO**\n`Prêmio:` O modo de suporte de assinante e bot foi adicionado, onde você pode endossar recursivamente o bot, obter melhorias de perfil é servidores, e mais benefícios em nosso servidor de suporte. Use o comando `premium` para mais informações.\n\n`Interação:` Botões e menus de seleção foram adicionados em vários comandos para melhor usabilidade e otimização das validações.\n\n`Cargos de reação:` Os cargos de reação agora podem ser definidas para serem adicionadas, removidas e alternar entre as cargos.\n\n`Temas:` Os temas de perfil e nível foram adicionados para melhor estética e originalidade.\n\n`Lojas:` Agora existem até 3 catálogos na loja (comando `shop`) onde você pode comprar fundos, itens, temas e mais itens com as starcoins coletadas.\n\n`ShardsManager:` Os eventos de bot foram fragmentados para que possam melhorar seu desempenho e receber grandes quantidades de servidores.\n\n♻️ **MUDANÇAS**\n`Designs:` Novos desenhos minimalistas e definidos em cartões de perfil e nível.\n\n`Comando selfrole:` A configuração e colocação da cargos do grupo foi facilitada pelo uso de menus de seleção.\n\n`Comando editprofile:` A colocação de fundos, temas, insígnias, realizações e outros itens adicionais agora são mais fáceis.\n\n🐛 **CORREÇÕES**\n`Conversas:` Agora o bot pode responder às mensagens de conversas.\n\n`Boas-vindas inseridas:` Agora os emojis são exibidos corretamente.\n\n`Comando transfer:` Resposta corretamente detalhada.\n\n`Comando bal:` Agora o comando pega seus dados se ninguém foi mencionado.\n\n`Comando setmembercount:` Agora a mensagem inserida de estatísticas é gerada.\n\n`Comando setsuggestions:` Agora os tipos de canais de sugestão podem ser configurados corretamente.\n\n`Comando top:` Agora você pode navegar entre as páginas.\n\n`Tradutor:` Agora funciona corretamente.\n\n`Comandos no Fortnite:` O código desses comandos foi otimizado e atualizado para a versão mais recente.\n\n`Comando selfrole:` Agora todas os cargos são exibidas, independentemente do número de grupos existentes. \n\n⛔ **EXCLUÍDOS**\n`Comandos no Halo 5:` Seus usos não era frequentes e geravan riscos de ter uma API tão desatualizada.\n\n`Comandos no League of Legends:` Seus usos eram muito simples, tornando-os não frequentes. \n",
+        "footer": "Estas são as mudanças de versão {{version}}. Se você tiver qualquer problema, pode entrar no servidor de suporte para pedir ajuda. | Desenvolvido por {{dev}}.",
+        "title": "Novidades de"
     },
     "stats": {
         "bot": "🤖 Informação do bot",
         "canales": "#️⃣ Canais",
         "commands": "📄 Comandos",
-        "discordjs": "Discord.js v13.0.0-dev",
+        "discordjs": "discord.js v13.0.0-dev",
         "horaServer": "⏳ Tempo no servidor",
         "libreria": "📚 Livraria",
         "memoria": "🗂 Memória",
         "os": "🖥️ Sistema operativo",
         "owner": "👑 Criador",
         "servers": "💬 Servidores",
-        "sistema": "Linux ******",
+        "sistema": "Linux",
         "tiempo": "🕒 Na hora",
         "users": "👥 Usuários",
         "version": "📊 Versão",

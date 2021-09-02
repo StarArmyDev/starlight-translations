@@ -10,10 +10,10 @@
         "title": "Achievement Earned"
     },
     "badge": {
-        "category": "Categoría:",
-        "name": "Nombre:",
+        "category": "Category:",
+        "name": "Name:",
         "noAchievement": "`❌|` Este usuario no cuenta con medallas.",
-        "noProfile": "`❌|` Este usuario no tiene un perfil.",
+        "noProfile": "`❌|` This user does not have a profile.",
         "title": "Medallas ganadas"
     },
     "divorce": {
@@ -21,7 +21,7 @@
         "divorceForce": "Now you are separated, without compromises ... without love </3",
         "message": "{{miembro}} you agree to separate forever from {{author}} and destroy what since `{{fecha}}` was his unconditional love declared to all?\n__*You have 60 seconds to answer yes or no*__",
         "messageForce": "{{author}} you agree to force separation forever from ({{miembro}})?\n__*You have 60 seconds to answer yes or no*__",
-        "no": "no",
+        "no": "not",
         "noDivorce": "Regrettably *(or fortunately)* {{miembro}} Don't accept this decision, you should talk to him first and make this work :3",
         "noDivorceForce": "Unfortunately *(or fortunately)* you have regretted the divorce.",
         "noMarriedAuthor": "You are not even married and do you want to divorce?",
@@ -132,7 +132,7 @@
         "maridos": "I declare them. Husband and wife <3",
         "message": "¿{{miembro}} you accept {{author}} like you {{genero}} in health and disease, in wealth and poverty, with internet and without internet until the wifi separates them?\n__*You have 60 seconds to answer yes or no*__",
         "mujer": "legitimate wife",
-        "no": "no",
+        "no": "not",
         "noMarrieds": "`❌|` Unfortunately, the {{miembro}} marriage has declined and has run away from the server.",
         "noProfile": "`❌|` The user mentioned does not have a profile, tell him to use a command to start it.",
         "noTime": "`⏳|` It took a long time to respond ... that doesn't seem to be a good sign.",

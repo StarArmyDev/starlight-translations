@@ -84,18 +84,18 @@
     "deletelanguage": {
         "noChannel": "Parece que este canal no está configurado.",
         "noConfig": "`⛔|` *No tienes configurado idioma en este servidor.*",
-        "remove": "Quitado",
+        "remove": "Eliminado",
         "title": "✅| Idioma del servidor eliminado.",
         "titleC": "✅| Idioma del canal eliminado."
     },
     "deleteprefix": {
         "noConfig": "`⛔|` *No tienes configurado ningún prefijo.*",
-        "remove": "Quitado",
+        "remove": "Eliminado",
         "title": "Prefijo personalizado quitado."
     },
     "deleteredirect": {
         "noConfig": "`⛔|` *No configurado.*",
-        "remove": "Quitado",
+        "remove": "Eliminado",
         "title": "Redirección de subida de nivel quitado."
     },
     "deletewhitelist": {
