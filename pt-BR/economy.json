@@ -1,9 +1,9 @@
 {
     "bal": {
         "banco": "🏦 Banco",
-        "bloqueado": "Lo siento, tienes la economía bloqueada por alguna razón.",
-        "bolcillo": "🌟 Bolsillo",
-        "money": "Economía",
+        "bloqueado": "Desculpe, o seu sistema econômico está bloqueado.",
+        "bolcillo": "🌟 Bolso",
+        "money": "Economia",
         "mult": "Multiplicador",
         "total": "💰 Total"
     },
