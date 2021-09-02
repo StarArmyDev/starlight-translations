@@ -82,7 +82,7 @@
             "noSpaces": "`❌|` Não há melhorias disponíveis para o servidor. Remova um upgrade de um servidor para o configurar neste.",
             "premiumActive": "`❌ |` Já melhoraste este servidor.",
             "premiumActiveFor": "`⛔|` Este servidor já foi melhorado pelo usuário <@{{id}}> ({{id}}), espera que a melhoria expire ou pede ao melhorador atual que a remova.",
-            "successfulDesc": "Este servidor foi aprimorado por **{{user_name}}** ({{user}})\n\nAgora você aproveita os benefícios premium até que a assinatura do usuário termine ou seja cancelada pelo usuário.",
+            "successfulDesc": "Este servidor foi melhorado pelo usuário **{{user_name}}** ({{user}})\n\nAgora você desfrutar dos benefícios premium até que termine a assinatura do usuário ou seja removido pelo mesmo.",
             "successfulTitle": "Parabéns!"
         },
         "benefitsGuildDesc": "- **Advanced LogsEntry:** Mostra o convite com o qual o usuário entrou no servidor.\n- **Report:** Sistema de rastreamento para responder as mesmas denúncias através do bot e realizar uma conversa anônima.\n- **Função de aniversário:** Para poder colocar uma função para os aniversariantes além da mensagem que é enviada.\n- **ReactionRole:** Sem limite para colocar vários reactionsRoles. *Nível gratuito 4 apenas*",
