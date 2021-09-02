@@ -18,36 +18,36 @@
     },
     "crime": {
         "bloqueado": "O seu sistema econômico está bloqueado. [Contate-nos em nosso servidor de suporte](https://discord.gg/MZN8Yf6).",
-        "crime": "Has recibido {{money}} por robarle al owner, ¡correeee!",
+        "crime": "Você recebeu {{money}} por roubar o proprietário, corra!",
         "error": "❌ Um erro inesperado ocorreu. Deixe-nos saber com `bugreport` para que possamos corrigi-lo.",
-        "noCrime": "❌ Parece que no sabes entrar silenciosamente a los lugares y te quitaron {{money}} starcoins.",
-        "title": "🕵️‍♂️ Crimen"
+        "noCrime": "❌ Parece que você não sabe entrar silenciosamente aos lugares e lhe tiraram {{money}} starcoins.",
+        "title": "🕵️‍♂️ Crime"
     },
     "daily": {
-        "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",
-        "dly": "¡Acabas de recibir {{money}} starcoins! Vuelve en 12 horas por tu dinero diario.",
-        "dlyUser": "¡Acabas de dar {{money}} starcoins a {{miembro}}! Vuelve en 12 horas por tu dinero diario.",
-        "error": "❌ Um erro inesperado ocorreu. Deixe-nos saber com `bugreport` para que possamos corrigi-lo.",
-        "title": "☀ Dinero Diario"
+        "bloqueado": "O seu sistema econômico está bloqueado. [Contate-nos em nosso servidor de suporte](https://discord.gg/MZN8Yf6).",
+        "dly": "Você acabou de receber {{money}} starcoins! Volte em 12 horas para seus starcoins diários.",
+        "dlyUser": "Você acabou de dar {{money}} starcoins a {{miembro}}! Volte em 12 horas para seus starcoins diários.",
+        "error": "❌ Ocorreu um erro inesperado. Informe-nos com o comando `bugreport` para que possamos corrigi-lo.",
+        "title": "☀ Starcoins diarios"
     },
     "deposite": {
-        "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",
-        "error": "❌ Um erro inesperado ocorreu. Deixe-nos saber com `bugreport` para que possamos corrigi-lo.",
-        "falta": "Usted no tiene monedas suficientes.",
-        "mensaje": "✅ Depositado `{{cantidad}}` en tu banco con éxito.",
-        "noCantidad": "Cantidad no válida.",
-        "noMoney": "Parece que no tienes nada que depositar.",
+        "bloqueado": "O seu sistema econômico está bloqueado. [Contate-nos em nosso servidor de suporte](https://discord.gg/MZN8Yf6).",
+        "error": "❌ Ocorreu um erro inesperado. Informe-nos com o comando `bugreport` para que possamos corrigi-lo.",
+        "falta": "Você não tem starcoins suficientes.",
+        "mensaje": "✅ Depositado `{{cantidad}}` em seu banco com sucesso.",
+        "noCantidad": "Quantidade não válida.",
+        "noMoney": "Não tens nada para depositar.",
         "title": "🏛 Depositar"
     },
     "dice": {
-        "cooldown": "🛑 | ¡Alto! Espere `{{time}}` para tirar el dado.",
-        "got": "Sacaste un: **{{dice}}**",
-        "locked": "Tienes La Economía Bloqueada. Contacta con el staff en el servidor de soporte para apelar.",
-        "lose": "Perdiste... te quitaron {{money}} starcoins",
-        "win": "¡Adivinaste! Ganaste {{money}} starcoins"
+        "cooldown": "🛑 | Pare! Espere `{{time}}` para lançar o dado.",
+        "got": "Você puxou um **{{dice}}**!",
+        "locked": "O seu sistema econômico está bloqueado. [Contate-nos em nosso servidor de suporte](https://discord.gg/MZN8Yf6).",
+        "lose": "Você perdeu... você foi removido {{money}} starcoins.",
+        "win": "Você adivinhou! Você ganhou {{money}} starcoins."
     },
     "dirty": {
-        "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",
+        "bloqueado": "O seu sistema econômico está bloqueado. [Contate-nos em nosso servidor de suporte](https://discord.gg/MZN8Yf6).",
         "error": "❌ Um erro inesperado ocorreu. Deixe-nos saber com `bugreport` para que possamos corrigi-lo.",
         "mensaje": "✅ Has recibido `{{money}}` starcoins por hacer trabajos poco comunes",
         "noMensaje": "❌ Parece que el cliente huyó y perdiste `{{money}}` starcoins.",
@@ -57,13 +57,13 @@
         "cara": "Sol (cara)",
         "cooldown": "🛑 | ¡Alto! Espere `{{time}}` para tirar la moneda al aire.",
         "got": "Sacaste: **{{coin}}**",
-        "locked": "Tienes La Economía Bloqueada. Contacta con el staff en el servidor de soporte para apelar.",
+        "locked": "O seu sistema econômico está bloqueado. [Contate-nos em nosso servidor de suporte](https://discord.gg/MZN8Yf6).",
         "lose": "Perdiste... te quitaron {{money}} starcoins",
         "sello": "Águila (cruz)",
         "win": "¡Adivinaste! Ganaste {{money}} starcoins"
     },
     "rob": {
-        "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",
+        "bloqueado": "O seu sistema econômico está bloqueado. [Contate-nos em nosso servidor de suporte](https://discord.gg/MZN8Yf6).",
         "error": "❌ Um erro inesperado ocorreu. Deixe-nos saber com `bugreport` para que possamos corrigi-lo.",
         "mensaje": "✅ Le has robado a {{miembro}} el total de {{robado}} starcoins, ¡ahora huye mientras puedas!",
         "noMensaje": "❌ La ley te cayó de sorpresa y te quitó {{money}}, además de que le dieron la mitad de eso a {{miembro}} por el incidente.",
@@ -72,7 +72,7 @@
         "title": "🕵️‍ Robar"
     },
     "sell": {
-        "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",
+        "bloqueado": "O seu sistema econômico está bloqueado. [Contate-nos em nosso servidor de suporte](https://discord.gg/MZN8Yf6).",
         "descripcion": "Has vendido `{{cantidad}}` de {{emoji}} {{nombre}} por `{{costo}}` starcoins.",
         "noCantidad": "No cuentas con los items suficientes para vender, solamente cuentas con`{{cantidad}}`.",
         "noItemInv": "No cuentas con el ítem: `{{item}}`.",
