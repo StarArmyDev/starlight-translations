@@ -48,28 +48,28 @@
     },
     "dirty": {
         "bloqueado": "O seu sistema econômico está bloqueado. [Contate-nos em nosso servidor de suporte](https://discord.gg/MZN8Yf6).",
-        "error": "❌ Um erro inesperado ocorreu. Deixe-nos saber com `bugreport` para que possamos corrigi-lo.",
-        "mensaje": "✅ Has recibido `{{money}}` starcoins por hacer trabajos poco comunes",
-        "noMensaje": "❌ Parece que el cliente huyó y perdiste `{{money}}` starcoins.",
-        "title": "👱‍️ Trabajo Indecente"
+        "error": "❌ Ocorreu um erro inesperado. Informe-nos com o comando `bugreport` para que possamos corrigi-lo.",
+        "mensaje": "Você recebeu `{{money}}` starcoins por fazer trabalhos incomuns.",
+        "noMensaje": "Parece que o cliente fugiu e você perdeu `{{money}}` starcoins.",
+        "title": "👱‍️ Trabalho indecente"
     },
     "flipcoin": {
         "cara": "Sol (cara)",
-        "cooldown": "🛑 | ¡Alto! Espere `{{time}}` para tirar la moneda al aire.",
-        "got": "Sacaste: **{{coin}}**",
+        "cooldown": "🛑 | Pare! Espere `{{time}}` para atirar a moeda ao ar.",
+        "got": "Você puxou **{{coin}}**!",
         "locked": "O seu sistema econômico está bloqueado. [Contate-nos em nosso servidor de suporte](https://discord.gg/MZN8Yf6).",
-        "lose": "Perdiste... te quitaron {{money}} starcoins",
-        "sello": "Águila (cruz)",
-        "win": "¡Adivinaste! Ganaste {{money}} starcoins"
+        "lose": "Você perdeu... você foi removido {{money}} starcoins.",
+        "sello": "Águia (cruz)",
+        "win": "Você adivinhou! Você ganhou {{money}} starcoins."
     },
     "rob": {
         "bloqueado": "O seu sistema econômico está bloqueado. [Contate-nos em nosso servidor de suporte](https://discord.gg/MZN8Yf6).",
-        "error": "❌ Um erro inesperado ocorreu. Deixe-nos saber com `bugreport` para que possamos corrigi-lo.",
-        "mensaje": "✅ Le has robado a {{miembro}} el total de {{robado}} starcoins, ¡ahora huye mientras puedas!",
-        "noMensaje": "❌ La ley te cayó de sorpresa y te quitó {{money}}, además de que le dieron la mitad de eso a {{miembro}} por el incidente.",
-        "noRobMoney": "¿Cómo le quieres robar si no tiene nada?",
-        "noUser": "Usuario no válido.",
-        "title": "🕵️‍ Robar"
+        "error": "❌ Ocorreu um erro inesperado. Informe-nos com o comando `bugreport` para que possamos corrigi-lo.",
+        "mensaje": "✅ Você roubou a {{miembro}} o total de {{robado}} starcoins, agora fuja enquanto puder!",
+        "noMensaje": "A lei caiu-lhe de surpresa e tirou-lhe {{money}}, além de que lhe deram metade disso a {{miembro}} pelo incidente.",
+        "noRobMoney": "Como queres roubá-lo se ele não tem nada?",
+        "noUser": "Usuário não válido.",
+        "title": "🕵️‍ Roubar"
     },
     "sell": {
         "bloqueado": "O seu sistema econômico está bloqueado. [Contate-nos em nosso servidor de suporte](https://discord.gg/MZN8Yf6).",
@@ -83,35 +83,35 @@
         "backgrounds": {
             "backgrounds": "Fondos",
             "description": "Para comprar ítems tienes que usar `{{prefix}}buy <nombre>`.\nSimbología: 📥Compra",
-            "main": "🖼 Fondo Principal:",
+            "main": "🖼 Fundo principal:",
             "num": "Número de fodos:",
-            "secon": "🖼 Fondo Secundario:"
+            "secon": "🖼 Fundo secundário:"
         },
         "description": "Para comprar ítems tienes que usar `{{prefix}}buy <nombre> [cantidad]`. Para vender ítems usa `{{prefix}}sell <ítem> [cantidad]`\nSimbología:\n📥Compra\n📤Venta",
-        "items": "Items",
-        "main": "Principales",
-        "name": "Nombre:",
+        "items": "Itens",
+        "main": "Principais",
+        "name": "Nome:",
         "noInteraction": "`⛔|` No puedes interactuar con este mensaje. No eres quien usó el comando.",
         "of": "de",
         "rareness": {
-            "1": "Común",
-            "2": "Poco Común",
-            "3": "Raro",
-            "4": "Ultrararo",
+            "1": "Comum",
+            "2": "Incomum",
+            "3": "Estranho",
+            "4": "Ultra-raro",
             "5": "Mítico",
-            "6": "Legendario",
+            "6": "Lendário",
             "7": "Star"
         },
-        "rarity": "Rareza:",
-        "secondary": "Secundarios",
+        "rarity": "Raridade:",
+        "secondary": "Secundários",
         "selectCategory": "`🔢|` Selecciona la categoría a mostrar",
         "selectMode": "`🔢|` Selecciona el modo a mostrar",
         "theme": {
-            "main": "🎨 Tema Principal",
-            "secon": "🎨 Tema Secundario",
+            "main": "🎨 Tema principal",
+            "secon": "🎨 Tema secundário",
             "themes": "Temas"
         },
-        "title": "Tienda de {{tienda}}"
+        "title": "Loja do {{tienda}}"
     },
     "trade": {
         "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",
@@ -119,7 +119,7 @@
         "error": "❌ Um erro inesperado ocorreu. Deixe-nos saber com `bugreport` para que possamos corrigi-lo.",
         "mensaje": "✅ Has recibido {{money}} por hacer comercios peligrosos.",
         "noMensaje": "❌ Parece que la policía te vio y te quitaron {{money}}.",
-        "title": "💎🏬 Comerciar"
+        "title": "💎🏬 Trocar"
     },
     "trans": {
         "automencion": "✅ `{{money}}` starcoins transferidos correctamente al banco nacional de StarBot. Gracias por preferirnos.",
