@@ -54,7 +54,7 @@
   "setprefix": {
     "help": "Use `@MenciónBot prefix <nuevo prefijo>`",
     "title": "Prefix Personalizado Asignado",
-    "agregado": "Agregado"
+    "agregado": "Agregar"
   },
   "commandHandling": {
     "noGuild": "*`⛔|` Este comando solo se puede usar en un servidor.*",
@@ -74,17 +74,17 @@
     "comandoApagado": "`⛔|` Este comando se encuentra apagado por alguna actualización o suspensión temporal.",
     "noUso": "No tienes que agregar parámetros.",
     "embedHelp": {
-      "title": "Ayuda de: {{command}}",
-      "descripcion": "**Descripción:**",
-      "uso": "Usa el comando de la siguiente manera:",
-      "alias": "Alias",
-      "noAlias": "Sin alias",
-      "categoria": "Categoría",
-      "permiso": "Permiso",
-      "cooldown": "Tiempo de espera",
+      "title": "Ajuda do: {{command}}",
+      "descripcion": "**Descrição:**",
+      "uso": "Use o comando da seguinte forma:",
+      "alias": "Apelido",
+      "noAlias": "Sem apelidos",
+      "categoria": "Categoria",
+      "permiso": "Permissão",
+      "cooldown": "Tempo de espera",
       "args": "Espera argumentos",
-      "apagado": "Apagado global",
-      "sinPermisos": "Sin permisos requeridos"
+      "apagado": "Desligamento global",
+      "sinPermisos": "Sem permissões requeridas"
     },
     "cooldown": "⚠ | ¡Alto! Espere `{{time}}` para usar nuevamente el comando `{{commandName}}`. Sea paciente.",
     "error": "`❌|` Hubo un error al intentar ejecutar el comando. Puedes reportarlo con `{{prefix}}BugReport`."
