@@ -1,6 +1,6 @@
 {
     "achievements": {
-        "category": "Categoría:",
+        "category": "Categoria:",
         "name": "Nombre:",
         "noAchievement": "`❌|` Este usuario no cuenta con logros.",
         "noProfile": "`❌|` Este usuario no tiene un perfil.",
@@ -10,7 +10,7 @@
         "title": "Logros ganados"
     },
     "badge": {
-        "category": "Categoría:",
+        "category": "Categoria:",
         "name": "Nombre:",
         "noAchievement": "`❌|` Este usuario no cuenta con medallas.",
         "noProfile": "`❌|` Este usuario no tiene un perfil.",
@@ -21,7 +21,7 @@
         "divorceForce": "Ahora quedas separado sin compromisos y... sin amor </3",
         "message": "{{miembro}}, ¿aceptas separarte por siempre de {{author}} y destruir lo que desde hace `{{fecha}}` fue declarado ante todos su amor incondicional?\n__*Tienes 60 segundos para responder \"sí\" o \"no\".*__",
         "messageForce": "{{author}}, ¿aceptas forzar la separación por siempre de ({{miembro}})?\n__*Tienes 60 segundos para responder \"sí\" o \"no\".*__",
-        "no": "no",
+        "no": "não",
         "noDivorce": "Lamentablemente *(o afortunadamente)*, {{miembro}} no acepta esta decisión. Deberías hablarle primero y hacer que esto funcione. :3",
         "noDivorceForce": "Lamentablemente *(o afortunadamente)* te has arrepentido del divorcio.",
         "noMarriedAuthor": "Ni siquiera estás casad@, ¿y quieres divorciarte?",
@@ -30,7 +30,7 @@
         "noTime": "Se ha tardado en responder... tal vez se enojó *- corre -*.",
         "noTimeForce": "Te tardaste en responder... toma tu tiempo para pensarlo.",
         "noUser": "La persona con quién estás casado no está en el servidor.",
-        "yes": "si",
+        "yes": "sim",
         "yesUser": "La persona con quién te casaste está en el servidor, no puedes forzar el divorcio, debes de mencionar."
     },
     "editprofile": {
@@ -132,13 +132,13 @@
         "maridos": "Los declaro marido y mujer. <3",
         "message": "{{miembro}}, ¿aceptas a {{author}} como tu {{genero}} en la salud y en la enfermedad, en la riqueza y en la pobreza, con internet y sin internet hasta que el Wi-Fi los separe?\n__*Tiene 60 segundos para responder \"sí\" o \"no\".*__",
         "mujer": "legítima esposa",
-        "no": "no",
+        "no": "não",
         "noMarrieds": "`❌|` Lamentablemente, {{miembro}} ha rechazado la propuesta de matrimonio y ha huido del servidor.",
         "noProfile": "`❌|` El usuario mencionado no cuenta con un perfil, dile que use un comando para crearlo.",
         "noTime": "`⏳|` Se ha tardado en responder... eso no parece ser una buena señal.",
         "noUser": "`❌|` Usuario no encontrado.",
         "otro": "legítim@ espos@",
-        "yes": "si"
+        "yes": "sim"
     },
     "profile": {
         "casada": "Casada con:",
