@@ -164,9 +164,9 @@
     },
     "top": {
         "banco": "Banco:",
-        "dinero": "Dinero:",
+        "dinero": "Cartera:",
         "global": "Global",
-        "money": "dinero",
+        "money": "cartera",
         "nivel": "Nivel:",
         "paginas": "Página {{count}} de {{countDB}}",
         "rep": "Rep:",
