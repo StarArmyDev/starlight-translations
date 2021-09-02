@@ -106,18 +106,18 @@
             "time": "Tempo restante",
             "timeUnknown": "*Tempo desconhecido*",
             "update": "O servidor está melhorado?",
-            "yes": "Sim, por {{user}."
+            "yes": "Sim, por {{user}}."
         },
-        "payDesc": "- **$3,5 USD** [Paypal](https://www.paypal.me/czemtb) *Insira como conceito de pagamento: seu ID Discord seguido da palavra sl-premium. Exemplo: `445746830563868672-sl-premium`*",
-        "payTitle": "💵 Métodos de pagamento",
+        "payDesc": "`[Paypal](https://www.paypal.me/czemtb):` **$3,5 USD** *Coloque como conceito de pagamento o seu ID de usuário seguido da palavra sl-premium. Exemplo: `445746830563868672-sl-premium`*",
+        "payTitle": "💵 Métodos de facturação",
         "remove": {
-            "noBoost": "`⛔ |` Este servidor não está atualizado.",
-            "noBoostForYou": "`❌ |` Este servidor não está na sua lista de atualização.",
-            "noGuild": "`⛔ |` Esta ação só pode ser usada no servidor para remover a atualização.",
-            "noGuilds": "`❌ |` Você não tem um servidor melhorado.",
-            "reomve": "mexer",
+            "noBoost": "`⛔ |` Este servidor não está melhorado.",
+            "noBoostForYou": "`❌ |` Este servidor não está na lista de servidores melhorados.",
+            "noGuild": "`⛔ |` Esta ação só é válida para o servidor a remover a melhoria.",
+            "noGuilds": "`❌ |` Não tens um servidor melhorado.",
+            "reomve": "remover",
             "successfulDesc": "Este servidor perdeu sua atualização de **{{user_name}}**\n\nAgora eles não poderão desfrutar dos benefícios premium neste servidor.",
-            "successfulTitle": "Melhoria Removida"
+            "successfulTitle": "Melhoria removida"
         }
     },
     "release": {
@@ -130,20 +130,20 @@
         "canales": "#️⃣ Canais",
         "commands": "📄 Comandos",
         "discordjs": "discord.js v13.0.0-dev",
-        "horaServer": "⏳ Tempo no servidor",
+        "horaServer": "⏳ Hora no servidor",
         "libreria": "📚 Livraria",
         "memoria": "🗂 Memória",
-        "os": "🖥️ Sistema operativo",
+        "os": "🖥️ Sistema operacional",
         "owner": "👑 Criador",
         "servers": "💬 Servidores",
         "sistema": "Linux",
-        "tiempo": "🕒 Na hora",
+        "tiempo": "🕒 Tempo sobre",
         "users": "👥 Usuários",
         "version": "📊 Versão",
         "voz": "🔊 Conexões de voz"
     },
     "vote": {
-        "desc": "Você pode votar a cada 12 horas, com votação dupla no fim de semana em [Top.gg](https://discordbots.org/bot/517786947171909643/vote)\n\nEstas são outras listas onde você encontrará o bot, mas eles ainda não sistema de votação.\n1- [Discord Bots](https://discord.bots.gg/bots/517786947171909643) 2- [Bots On Discord](https://bots.ondiscord.xyz/bots/517786947171909643) 3- [Lista MyBot](https://portalmybot.com/mybotlist/bot/517786947171909643)",
-        "title": "Lista de bots onde você pode votar"
+        "desc": "Você pode votar a cada 12 horas e nos fins de semana você tem voto duplo em [Discord Bot List](https://top.gg/bot/517786947171909643/vote)\n\nEstas são outras listas onde poderá encontrar o bot:\n`[Discord Bots](https://discord.bots.gg/bots/517786947171909643)`ㅤㅤㅤㅤㅤㅤ  ㅤ`[MyBOT List](https://portalmybot.com/list/bot/517786947171909643)`",
+        "title": "Lista de bots em que você pode votar"
     }
 }
