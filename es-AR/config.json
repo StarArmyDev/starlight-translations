@@ -1,38 +1,38 @@
 {
     "activexp": {
-        "conservar": "Conservar roles",
+        "conservar": "Mantener roles",
         "cooldown": "XP Cooldown:",
         "lvl": "XP Lvl:",
         "mode": "Modo:",
         "noMode": "`❌|` Modo no válido. Solamente `remove` y `keep`",
-        "noNumber": "`❌|` No has colocado números válidos.",
-        "noTiempo": "`❌|` No has colocado tiempo válido o es menor a 10.",
-        "noValido": "`❌|` No has colocado números válidos o es menor a 10.",
-        "quitar": "Quitar roles",
-        "remove": "quitar",
+        "noNumber": "`❌|` No pusiste números válidos.",
+        "noTiempo": "`❌|` No pusiste un tiempo válido o es menor a 10.",
+        "noValido": "`❌|` No pusiste números válidos o es menor a 10.",
+        "quitar": "Sacar roles",
+        "remove": "sacar",
         "title": "✅ | Sistema de experiencia del servidor activado.",
         "xpMax": "XP Máxima:",
         "xpMin": "XP Mínima:"
     },
     "addautorole": {
-        "footer": "Puedes usar el comando nuevamente para agregar más roles.",
+        "footer": "Podés usar el comando nuevamente para agregar más roles.",
         "mensaje": "Rol",
-        "noPosicion": "`❌|` Rol no válido. Este rol está mas arriba de mi rol más alto.",
-        "noRol": "`❌|` Rol no encontrado o rol no válido.",
+        "noPosicion": "`❌|` Rol no válido. Este rol está más arriba de mi rol más alto.",
+        "noRol": "`❌|` Rol no encontrado o no válido.",
         "title": "✅ | Rol de bienvenida asignado.",
         "yaRol": "`❌|` Rol ya asignado."
     },
     "addexcludelogs": {
         "canal": "Agregado:",
         "canales": "Agregados:",
-        "noCanal": "Canal no válido, revisa que sea un canal de texto.",
+        "noCanal": "Canal no válido, revisá que sea un canal de texto.",
         "title": "Canal excluido de registros.",
         "title2": "Canales excluidos de registros."
     },
     "addexcludexp": {
         "canal": "Agregado:",
         "canales": "Agregados:",
-        "noCanal": "`❌|` Canal no válido, revisa que sea un canal de texto o categoría.",
+        "noCanal": "`❌|` Canal no válido, revisá que sea un canal de texto o categoría.",
         "title": "✅ | Canal excluido de experiencia",
         "title2": "✅ | Canales excluidos de experiencia.",
         "yaCanal": "`❌|` Canal ya excluido."
@@ -45,22 +45,22 @@
         "modo": "Modo:",
         "multi": "múltiple",
         "multiple": "Múltiple",
-        "ninguno": "Estandar",
-        "noMaximo": "`❌|` No colocaste un número máximo de roles múltiples o es inválido.",
+        "ninguno": "Estándar",
+        "noMaximo": "`❌|` No pusiste un número máximo de roles múltiples o es inválido.",
         "noModo": "`❌|` Ese modo no existe, solamente **solo** y **múltiple**.",
         "nombre": "Nombre:",
         "solo": "solo",
         "title": "✅ Grupo de roles creados."
     },
     "addreactionrole": {
-        "completed": "`✅ |` **Instalación de roles por reacción completa ({{count}}/{{total}}**\nYa puedes eliminar este mensaje",
+        "completed": "`✅ |` **Instalación de roles por reacción completa ({{count}}/{{total}}**\nYa podés borrar este mensaje",
         "config": "Configurando...",
-        "hasConfig": "`⛔|` Este grupo ya está configurado, elimínelo para continuar",
+        "hasConfig": "`⛔|` Este grupo ya está configurado, borralo para seguir",
         "noConfig": "`❌ |` No hay roles autoasignables configurados.",
         "noEmoji": "`⛔|` No tengo acceso a este emoji",
-        "noGetRole": "`⛔|` No se pudo obtener el primer rol del grupo.",
+        "noGetRole": "`⛔|` No se pudo encontrar el primer rol del grupo.",
         "noGroup": "`❌|` Grupo no encontrado",
-        "noPremium": "`⛔ |` Has alcanzado el límite del tier gratuito. *(4)*",
+        "noPremium": "`⛔ |` Alcanzaste el límite del tier gratuito. *(4)*",
         "noRole": "`❌|` No se pudo obtener el rol.",
         "setup": "**Instalación de roles por reacción**\nReacciona a este mensaje con el emoji que deseas para:\n\n({{count}}/{{total}} `{{role}}`",
         "setupReaction": "**{{group}}**\nReacciona al emoji correspondiente:"
@@ -334,16 +334,16 @@
             "help": "Usa `{{prefix}}delete <nombre del grupo> <@rol>`.",
             "noGrupo": "`❌|` Grupo no encontrado.",
             "noRol": "`❌|` Rol no encontrado.",
-            "rol": "Rol quitado:",
-            "title": "Autorol eliminado del grupo."
+            "rol": "Rol sacado:",
+            "title": "Autorol borrado del grupo."
         },
         "count": {
             "count": "contador",
-            "title": "Canal de conteo quitado."
+            "title": "Canal de conteo sacado."
         },
         "e": {
             "exclude": "excluir",
-            "title": "Canal excluido quitado."
+            "title": "Canal excluido borrado."
         },
         "econ": {
             "econ": "economía",
@@ -351,72 +351,72 @@
         },
         "el": {
             "excludeLogs": "excluirlogs",
-            "title": "Canal de registros excluidos quitado."
+            "title": "Canal de registros excluidos borrado."
         },
         "group": {
             "group": "grupo",
-            "help": "Usa `{{prefix}}delete grupo <Nombre>`.",
+            "help": "Usá `{{prefix}}delete grupo <Nombre>`.",
             "noGrupo": "`❌|` Grupo no encontrado.",
             "nombre": "Nombre:",
-            "roles": "Cantidad de roles que contenía:",
-            "title": "Grupo de autoroles eliminado."
+            "roles": "Cantidad de roles que tenía:",
+            "title": "Grupo de autoroles borrado."
         },
         "il": {
             "imgdespedida": "imgdespedida",
-            "noConfig": "No tienes configurado ningún canal para mandar la imagen de despedida.",
-            "title": "Canal de despedida con imagen quitado."
+            "noConfig": "No tenés configurado ningún canal para mandar la imagen de despedida.",
+            "title": "Canal de despedida con imagen borrado."
         },
         "iw": {
             "imgWelcome": "imgbienvenida",
-            "noConfig": "No tienes configurado ningún canal para mandar la imagen de bienvenida.",
-            "title": "Canal de bienvenida con imagen quitado."
+            "noConfig": "No tenés configurado ningún canal para mandar la imagen de bienvenida.",
+            "title": "Canal de bienvenida con imagen borrado."
         },
         "leave": {
             "leave": "salida",
-            "noConfig": "No tienes configurado ningún canal para mandar la despedida.",
-            "title": "Canal de despedida quitado."
+            "noConfig": "No tenés configurado ningún canal para mandar la despedida.",
+            "title": "Canal de despedida borrado."
         },
         "logs": {
             "logs": "registros",
             "noCanal": "Canal desconocido:",
-            "title": "Canal de registros quitado."
+            "title": "Canal de registros borrado."
         },
         "lw": {
             "rwelcome": "registroentrada",
-            "title": "Canal de registros de entrada quitado."
+            "title": "Canal de registros de entrada borrado."
         },
         "mc": {
-            "c": "Canales eliminados.",
-            "descripcion": "*Se eliminarán los canales correspondientes.*",
-            "e": "Canal eliminado.",
+            "c": "Canales borrados.",
+            "descripcion": "*Se van a borrar los canales correspondientes.*",
+            "e": "Canal borrado.",
             "mc": "contadormiembros",
-            "noCanal": "No pude eliminar el canal.",
-            "title": "Contador de miembros quitado."
+            "noCanal": "No pude borrar el canal.",
+            "title": "Contador de miembros borrado."
         },
         "ml": {
             "modlogs": "registrosmod",
             "noCanal": "Canal desconocido:",
-            "title": "Canal de registros de moderación quitado."
+            "title": "Canal de registros de moderación borrado."
         },
         "money": {
             "all": "todo",
             "banco": "banco",
-            "error": "`❌|`Ocurrió un error inesperado, repórtalo para que se pueda resolver lo más pronto posible.",
-            "money": "dinero",
-            "noNumber": "No colocaste un número de dinero válido.",
-            "true": "Dinero eliminado correctamente de:"
+            "error": "`❌|` Hubo un error inesperado, reportalo para que se pueda arreglar lo antes posible.",
+            "money": "plata",
+            "noNumber": "No pusiste un número de plata válido.",
+            "true": "Plata borrada correctamente de:"
         },
         "nick": {
             "nick": "apodo",
             "title": "Autoapodo desactivado."
         },
-        "noConfig": "`❌|` No tienes configurado este modo.",
-        "noConfigAll": "`❌|` No tienes ninguna configuraión en este servidor.",
+        "noConfig": "`❌|` No tenés configurado este modo.",
+        "noConfigAll": "`❌|` No tenés ninguna configuraión en este servidor.",
         "noModo": "`❌|` Ese modo no existe.",
-        "quitado": "Quitado:",
+        "quitado": "Borrado:",
         "report": {
             "report": "reporte",
-            "title": "Canal de reportes quitado."
+            "title": "Canal de reportes borrado."
         },
         "rol": {
             "help": "Usa `{{prefix}}delete rolwelcome <rol>`.",
@@ -490,8 +490,8 @@
         "default": "Por defecto.",
         "imageMessage": "Con el mensaje de imagen:",
         "message": "Con el mensaje:",
-        "noChannel": "`❌|` Canal no válido, revisa que sea un canal del servidor.",
-        "noMessage": "`❌|` No has colocado un mensaje.",
+        "noChannel": "`❌|` Canal no válido, revisá que sea un canal del servidor.",
+        "noMessage": "`❌|` No pusiste un mensaje.",
         "noMessageSelect": "Sin mensaje.",
         "noPermission": "`⛔|` No tengo permisos para escribir en ese canal.",
         "title": "Canal de imagen de despedida asignado."
@@ -506,9 +506,9 @@
         "default": "Por defecto.",
         "imageMessage": "Con el mensaje de imagen:",
         "message": "Con el mensaje:",
-        "noCanal": "`❌|` Canal no válido, revisa que sea un canal del servidor.",
-        "noImage": "`❌|` La url ingresada no fue valida, intentalo denuevo.",
-        "noMessage": "`❌|` No has colocado un mensaje.",
+        "noCanal": "`❌|` Canal no válido, revisá que sea un canal del servidor.",
+        "noImage": "`❌|` La URL que pusiste no es válida, intentá de nuevo.",
+        "noMessage": "`❌|` No pusiste un mensaje.",
         "noMessageSelect": "Sin mensaje.",
         "noPermission": "`⛔|` No tengo permisos para escribir en ese canal.",
         "title": "Canal de imagen de bienvenida asignado."
@@ -516,23 +516,23 @@
     "setleave": {
         "channel": "Canal:",
         "message": "Con el mensaje.",
-        "noChannel": "`❌|` Canal no válido, revisa que sea un canal de texto.",
+        "noChannel": "`❌|` Canal no válido, revisá que sea un canal de texto.",
         "noMessageSelect": "Sin mensaje.",
         "title": "Canal de despedida asignado."
     },
     "setlogs": {
         "channel": "Canal:",
-        "noChannel": "`❌|` Canal no válido, revisa que sea un canal de texto.",
+        "noChannel": "`❌|` Canal no válido, revisá que sea un canal de texto.",
         "title": "Canal de registros asignado."
     },
     "setlogsentry": {
         "channel": "Canal:",
-        "noChannel": "`❌|` Canal no válido, revisa que sea un canal de texto.",
+        "noChannel": "`❌|` Canal no válido, revisá que sea un canal de texto.",
         "title": "Canal de registros de entradas asignado."
     },
     "setlogsmod": {
         "channel": "Canal:",
-        "noChannel": "`❌|` Canal no válido, revisa que sea un canal de texto.",
+        "noChannel": "`❌|` Canal no válido, revisá que sea un canal de texto.",
         "title": "Canal de registros de moderación asignado."
     },
     "setmembercount": {
@@ -542,11 +542,11 @@
         "category": "─── [Estadísticas] ───",
         "channels": "Canales",
         "channelsStr": "canales",
-        "descripcion": "Todos los canales serán creados:",
+        "descripcion": "Todos los canales van a ser creados:",
         "eDescripcion": "Creando canal.",
         "embed": "embed",
         "help": "ayuda",
-        "helpC": "Usa `{{prefix}}setmc canales [canal Total], [canal miembros], [canal bots], [canal roles], [canal canales]`\n\nPara que un canal no esté activo coloque en su lugar del nombre **false**.",
+        "helpC": "Usá `{{prefix}}setmc canales [canal Total], [canal miembros], [canal bots], [canal roles], [canal canales]`\n\nPara que un canal no esté activo, poné en su lugar del nombre **false**.",
         "miembros": "Miembros",
         "noActive": "Desactivado.",
         "noMode": "`❌|` Modo no encontrado, solamente **canales** o **embed**.",
