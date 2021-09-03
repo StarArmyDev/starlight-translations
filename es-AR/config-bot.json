@@ -28,13 +28,13 @@
     },
     "config": {
         "canal": "Canal:",
-        "canalEliminado": "*Canal eliminado o no disponible.*",
+        "canalEliminado": "*Canal borrado o no disponible.*",
         "cooldown": "XP Cooldown:",
         "default": "*Por defecto:*",
         "embed": {
             "author": "Configuración | {{guild_name}}.",
             "bienvenida": "Bienvenida:",
-            "blacklist": "BlackList:",
+            "blacklist": "Blacklist:",
             "count": "Contador:",
             "despedida": "Despedida:",
             "excludeLogs": "Canales excluidos de los registros:",
@@ -55,7 +55,7 @@
             "title2": "Registros",
             "title3": "Bot",
             "title4": "Utilidades",
-            "whitelist": "WhiteList:",
+            "whitelist": "Whitelist:",
             "xp": "Experiencia:"
         },
         "max": "Máx.:",
@@ -63,7 +63,7 @@
         "min": "Mín.:",
         "noCanal": "*⚠ Canal no disponible.*",
         "noConfig": "*No configurado.*",
-        "noConfigAll": "`⛔|` No tienes minguna configuración en este servidor.",
+        "noConfigAll": "`⛔|` No tenés ninguna configuración en este servidor.",
         "noRol": "`❌|` Rol no encontrado.",
         "roles": "Rol/es:",
         "unknown": "Desconocido ID:",
@@ -72,24 +72,24 @@
     "deleteblacklist": {
         "all": "todo",
         "commandImport": "⚠| Este comando pertenece a una categoría importante.",
-        "fieldAll": "Cantidad de comandos eliminados:",
+        "fieldAll": "Cantidad de comandos borrados:",
         "fieldCom": "Comando:",
         "for": "Para:",
         "noCommand": "`❌|` Comando no encontrado, solo se acepta el nombre del comando, no sus alias.",
         "noConfig": "`⛔|` *No configurado.*",
-        "noList": "`❌|` Este comando no se encuentra en la lista.",
+        "noList": "`❌|` Este comando no está en la lista.",
         "noUser": "`❌|` No se encontró al usuario, rol o canal.",
-        "title": "✅| Comando quitado de la lista en este servidor."
+        "title": "✅| Comando borrado de la lista en este servidor."
     },
     "deletelanguage": {
         "noChannel": "Parece que este canal no está configurado.",
-        "noConfig": "`⛔|` *No tienes configurado idioma en este servidor.*",
-        "remove": "Quitado",
-        "title": "✅| Idioma del servidor eliminado.",
-        "titleC": "✅| Idioma del canal eliminado."
+        "noConfig": "`⛔|` *No tenés configurado el idioma en este servidor.*",
+        "remove": "Borrado",
+        "title": "✅| Idioma del servidor borrado.",
+        "titleC": "✅| Idioma del canal borrado."
     },
     "deleteprefix": {
-        "noConfig": "`⛔|` *No tienes configurado ningún prefijo.*",
+        "noConfig": "`⛔|` *No tenés configurado ningún prefijo.*",
         "remove": "Quitado",
         "title": "Prefijo personalizado quitado."
     },
