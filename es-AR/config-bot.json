@@ -90,26 +90,26 @@
     },
     "deleteprefix": {
         "noConfig": "`⛔|` *No tenés configurado ningún prefijo.*",
-        "remove": "Quitado",
-        "title": "Prefijo personalizado quitado."
+        "remove": "Borrado",
+        "title": "Prefijo personalizado borrado."
     },
     "deleteredirect": {
         "noConfig": "`⛔|` *No configurado.*",
-        "remove": "Quitado",
-        "title": "Redirección de subida de nivel quitado."
+        "remove": "Borrado",
+        "title": "Redirección de subida de nivel borrado."
     },
     "deletewhitelist": {
         "all": "todo",
         "commandImport": "⚠| Este comando pertenece a una categoría importante.",
-        "fieldAll": "Cantidad de comandos eliminados:",
+        "fieldAll": "Cantidad de comandos borrados:",
         "fieldCom": "Comando:",
         "for": "Para:",
         "noCommand": "`❌|` Comando no encontrado, solo se acepta el nombre del comando, no sus alias.",
         "noConfig": "`⛔|` *No configurado.*",
         "noDataList": "`❌|` No hay ningún comando o categoría en la lista blanca.",
-        "noList": "`❌|` Este comando no se encuentra en la lista.",
+        "noList": "`❌|` Este comando no se encontró en la lista.",
         "noUser": "`❌|` No se encontró al usuario, rol o canal.",
-        "title": "✅| Comando quitado de la lista en este servidor."
+        "title": "✅| Comando borrado de la lista en este servidor."
     },
     "setcolor": {
         "change": "Cambiado a:",
@@ -121,13 +121,13 @@
         "langENUS": "Inglés: Estados Unidos (English)",
         "langESES": "Español: España",
         "langESMX": "Español: México",
-        "langPTBR": "Portugues: Brasil (Português)",
-        "noChannel": "`❌|` No colocaste un canal válido o no tengo acceso a él.",
-        "selectLanguage": "Selecciona un idioma",
+        "langPTBR": "Portugués: Brasil (Português)",
+        "noChannel": "`❌|` No pusiste un canal válido o no tengo acceso a él.",
+        "selectLanguage": "Seleccioná un idioma",
         "server": "todo el servidor",
         "title": "✅| Idioma del servidor asignado.",
         "titleC": "✅| Idioma del canal asignado.",
-        "titleSelect": "Cambia el idioma de {{channel}} por:"
+        "titleSelect": "Cambiá el idioma de {{channel}} por:"
     },
     "setprefix": {
         "change": "Cambiado a:",
@@ -136,7 +136,7 @@
     "setredirect": {
         "channel": "Canal:",
         "message": "Mensaje:",
-        "messageDefault": "**Has subido de nivel, *{{user_name}}***",
+        "messageDefault": "**Subiste de nivel, *{{user_name}}***",
         "noChannel": "`❌|` No se encontró el canal.",
         "title": "✅| Canal de mensaje por subir de nivel asignado."
     }
