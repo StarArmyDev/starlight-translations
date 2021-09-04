@@ -1,6 +1,6 @@
 {
     "activexp": {
-        "conservar": "Mantener roles",
+        "conservar": "Conservar roles",
         "cooldown": "XP Cooldown:",
         "lvl": "XP Lvl:",
         "mode": "Modo:",
@@ -62,8 +62,8 @@
         "noGroup": "`❌|` Grupo no encontrado",
         "noPremium": "`⛔ |` Alcanzaste el límite del tier gratuito. *(4)*",
         "noRole": "`❌|` No se pudo obtener el rol.",
-        "setup": "**Instalación de roles por reacción**\nReacciona a este mensaje con el emoji que deseas para:\n\n({{count}}/{{total}} `{{role}}`",
-        "setupReaction": "**{{group}}**\nReacciona al emoji correspondiente:"
+        "setup": "**Instalación de roles por reacción**\nReaccioná a este mensaje con el emoji que deseás para:\n\n({{count}}/{{total}} `{{role}}`",
+        "setupReaction": "**{{group}}**\nReaccioná al emoji correspondiente:"
     },
     "addrollevelup": {
         "embed": {
@@ -71,36 +71,36 @@
                 "descripcion": "[{{rolid}}] Nivel: {{lvl}}\nMensaje: {{rolmensaje}}",
                 "title": "Rol"
             },
-            "footer": "Recuerda activar el XP del servidor con `{{prefix}}activexp` | {{guild_name}}.",
-            "title": "✅ | Rol por nivel añadido."
+            "footer": "Acordate de activar el XP del servidor con `{{prefix}}activexp` | {{guild_name}}.",
+            "title": "✅ | Rol por nivel agregado."
         },
-        "higherThanMe": "`⛔|` Rol no válido. Este rol está mas arriba que mi rol actual.",
+        "higherThanMe": "`⛔|` Rol no válido. Este rol está más arriba que mi rol actual.",
         "nivelTrue": "`❌|` Nivel ya asignado.",
-        "noBot": "`❌|` No tengo permisos para gestionar roles en este servidor.",
-        "noNumber": "`❌|` No colocaste un número de nivel válido.",
-        "noRol": "`❌|` Rol no encontrado o no existe, por favor, verifícalo.",
-        "rolMensaje": "¡Has subido de nivel y tienes un rol para presumir!",
+        "noBot": "`❌|` No tengo permiso para gestionar roles en este servidor.",
+        "noNumber": "`❌|` No pusiste un número de nivel válido.",
+        "noRol": "`❌|` Rol no encontrado o no existe, por favor, verificalo.",
+        "rolMensaje": "¡Subiste de nivel y tenés un rol para presumir!",
         "rolTrue": "`❌|` Rol ya asignado."
     },
     "addselfrole": {
-        "existe": "`❌|` Este rol ya se encuentra en el grupo.",
+        "existe": "`❌|` Este rol ya está en el grupo.",
         "grupo": "Grupo al que pertenece:",
-        "noGrupo": "`❌|` Grupo no encontrado, primero debes de usar el comando `{{prefix}}addgrupo` para crearlo.",
-        "noRol": "Rol no encontrado o rol no válido, por favor, verifica que exista y que esté por debajo de mi rol más alto.",
+        "noGrupo": "`❌|` Grupo no encontrado, primero debés usar el comando `{{prefix}}addgrupo` para crearlo.",
+        "noRol": "Rol no encontrado o rol no válido, por favor, verificá que exista y que esté por debajo de mi rol más alto.",
         "rol": "Rol:",
         "title": "✅ Rol agregado."
     },
     "addxp": {
-        "correcto": "✅ | {{cantidad}}XP correctamente añadida a {{miembro}}.",
-        "noCantidad": "`❌|` No colocaste un número de XP válido.",
-        "noMember": "`❌|` Usuario no encontrado, verifícalo."
+        "correcto": "✅ | {{cantidad}}XP correctamente agregada a {{miembro}}.",
+        "noCantidad": "`❌|` No pusiste un número de XP válido.",
+        "noMember": "`❌|` Usuario no encontrado, verificalo."
     },
     "configxp": {
         "cooldown": "tiempo",
-        "max": "maximo",
+        "max": "máximo",
         "message": "✅ | Propiedad `{{property}}` cambiada a `{{value}}` correctamente.",
-        "min": "minimo",
-        "noConfig": "`❌|` Parece que la experiencia no está activada. Primero usa el comando `activexp`",
+        "min": "mínimo",
+        "noConfig": "`❌|` Parece que la experiencia no está activada. Primero usá el comando `activexp`",
         "noMode": "`❌|` Modo no válido. Solamente `remove` y `keep`",
         "noNumber": "`❌|` Número inválido.",
         "noProperty": "`❌|` Propiedad inválida.",
@@ -111,11 +111,11 @@
         "asignado": "✅ Roles asignados correctamente.",
         "asignar": "asignar",
         "creando": "Creando",
-        "detectado": "Se ha detectado que existen roles de color que no están en la base de datos. Coloca `asignar` para agregarlos al comando *selfrole*.\n",
+        "detectado": "Se detectó que existen roles de color que no están en la base de datos. Poné `asignar` para agregarlos al comando *selfrole*.\n",
         "error": "`❌|`Perdón, parece que hubo un error. Estamos trabajando en repararlo.",
-        "mensaje": "✅ Roles de colores creados:`{{creados}}` exitosamente. *Si los roles se crearon pero no están disponibles en el comando* `selfrole` *, usa nuevamente este comando y sigue la indicaciones*",
-        "mensajeDelete": "✅ Roles de colores eliminados:`{{contador}}` exitosamente.",
-        "modos": "Está a punto de crear {{roles}} roles de colores. Coloca `Si` para continuar, `Eliminar` para quitarlos o `Cancelar` para cancelar la operación.\n\n**Puedes colocar mi rol más alto desde donde quieres que empiece a crear los roles hacia abajo.**",
+        "mensaje": "✅ Roles de colores creados:`{{creados}}` exitosamente. *Si los roles se crearon pero no están disponibles en el comando* `selfrole` *, usá nuevamente este comando y seguí las indicaciones*",
+        "mensajeDelete": "✅ Roles de colores borrados:`{{contador}}` exitosamente.",
+        "modos": "Estás a punto de crear {{roles}} roles de colores. Poné `Si` para seguir, `Eliminar` para borrarlos o `Cancelar` para cancelar la operación.\n\n**Podés poner mi rol más alto desde donde querés que empiece a crear los roles hacia abajo.**",
         "no": "eliminar",
         "noBot": "`❌|`No tengo permiso de crear roles en este servidor.",
         "rolesN": [
@@ -321,17 +321,17 @@
             }
         ],
         "si": "si",
-        "tiempoExpirado": "Tiempo de espera acabado."
+        "tiempoExpirado": "Tiempo de espera terminado."
     },
     "deactivatexp": {
-        "description": "Puntos: Min `{{min}}` Max `{{max}}`\nXP para Siguente Nivel: `{{nexlvl}}`",
-        "noConfig": "`❌|` No tienes configurado el sistema de niveles/XP del servidor.",
-        "title": "✅| Sistema de XP del servidor eliminado."
+        "description": "Puntos: Min `{{min}}` Max `{{max}}`\nXP para Próximo Nivel: `{{nexlvl}}`",
+        "noConfig": "`❌|` No tenés configurado el sistema de niveles/XP del servidor.",
+        "title": "✅| Sistema de XP del servidor borrado."
     },
     "delete": {
         "autorole": {
             "autorole": "autorol",
-            "help": "Usa `{{prefix}}delete <nombre del grupo> <@rol>`.",
+            "help": "Usá `{{prefix}}delete <nombre del grupo> <@rol>`.",
             "noGrupo": "`❌|` Grupo no encontrado.",
             "noRol": "`❌|` Rol no encontrado.",
             "rol": "Rol sacado:",
@@ -419,54 +419,54 @@
             "title": "Canal de reportes borrado."
         },
         "rol": {
-            "help": "Usa `{{prefix}}delete rolwelcome <rol>`.",
+            "help": "Usá `{{prefix}}delete rolwelcome <rol>`.",
             "noConfig": "No existen roles configurados en este servidor.",
             "noRoles": "Parece que no existe ese rol en la base de datos.",
             "rol": "rol",
-            "true": "✅ Rol removido con éxito."
+            "true": "✅ Rol borrado con éxito."
         },
         "sug": {
             "sug": "sugerencia",
-            "title": "Canal de sugerencias quitado."
+            "title": "Canal de sugerencias borrado."
         },
         "welcome": {
-            "noConfig": "No tienes configurado ningún canal.",
-            "title": "Canal de bienvenida quitado.",
+            "noConfig": "No tenés configurado ningún canal.",
+            "title": "Canal de bienvenida borrado.",
             "welcome": "bienvenida"
         }
     },
     "deleteexcludexp": {
-        "noCanal": "`❌|` Canal no válido, revisa que sea un canal de texto o de categoría.",
+        "noCanal": "`❌|` Canal no válido, revisá que sea un canal de texto o de categoría.",
         "noConfig": "*No configurado.*",
-        "quitado": "Quitado.",
-        "title": "✅ | Canal excluido de experiencia quitado"
+        "quitado": "Borrado.",
+        "title": "✅ | Canal excluido de experiencia borrado"
     },
     "deleterolelevelup": {
         "noConfig": "`❌|` No existen roles configurados en este servidor.",
         "noRol": "`❌|` Parece que no existe ese rol en la base de datos.",
-        "true": "✅ Rol removido con éxito."
+        "true": "✅ Rol borrado con éxito."
     },
     "deletexp": {
         "all": "todo",
-        "noMember": "`❌|` Usuario no encontrado, verifícalo.",
-        "noNumber": "`❌|` No colocaste un número de XP válido.",
+        "noMember": "`❌|` Usuario no encontrado, verificalo.",
+        "noNumber": "`❌|` No pusiste un número de XP válido.",
         "noUser": "`❌|` El usuario no está en la base de datos.",
-        "true": "✅ | {{cantidad}}XP correctamente eliminada a {{miembro}}"
+        "true": "✅ | {{cantidad}}XP correctamente quitada a {{miembro}}"
     },
     "resetxp": {
-        "mensajeMiembro": "Está a punto de resetear la experiencia de {{member}} ¿Realmente desea continuar? Escribe `si`. *Tienes 60 segundos para contestar.*",
-        "mensajeServidor": "Está a punto de resetear la experiencia de todo el servidor  ¿Realmente desea continuar? Escribe `si`. *Tienes 60 segundos para contestar.*",
-        "noMember": "`❌|` Usuario no encontrado, verifícalo.",
-        "noMemberDB": "`❌|` Este usuario no tiene experiencial.",
+        "mensajeMiembro": "Estás a punto de resetear la experiencia de {{member}} ¿Realmente deseás seguir? Escribí `si`.* Tenés 60 segundos para contestar.*",
+        "mensajeServidor": "Estás a punto de resetear la experiencia de todo el servidor ¿Realmente deseás seguir? Escribí `si`.* Tenés 60 segundos para contestar.*",
+        "noMember": "`❌|` Usuario no encontrado, verificalo.",
+        "noMemberDB": "`❌|` Este usuario no tiene experiencia.",
         "ok": "✅ | Experiencia de {{sujeto}} reiniciada.",
         "server": "todo el servidor",
         "si": "si",
-        "tiempo": "`❌|` El tiempo para contestar se acabó. Si creés que es un error, favor de reportarlo."
+        "tiempo": "`❌|` El tiempo para contestar se terminó. Si creés que es un error, por favor, reportalo."
     },
     "setbirthday": {
         "message": "Mensaje",
         "noChannel": "`❌|` Canal no enontrado o no válido.",
-        "noMessage": "`❌|` No has colocado ningún mensaje.",
+        "noMessage": "`❌|` No pusiste ningún mensaje.",
         "noPremium": "*Esta es una función premium*",
         "role": "Rol",
         "title": "✅ Mensaje de Cumpleaños establecido"
@@ -475,8 +475,8 @@
         "channel": "Canal:",
         "desde": "Desde el número:",
         "empezar": "¡Ya pueden empezar a contar desde el número 1!",
-        "noChannel": "`❌|` Canal no válido, revisa que sea un canal de texto.",
-        "noPermission": "`⛔|` No tengo permisos para escribir en ese canal.",
+        "noChannel": "`❌|` Canal no válido, revisá que sea un canal de texto.",
+        "noPermission": "`⛔|` No tengo permiso para escribir en ese canal.",
         "sigan": "¡Sigan contando desde el número",
         "title": "✅ Canal para contar asignado."
     },
@@ -560,17 +560,17 @@
     },
     "setreports": {
         "channel": "Canal:",
-        "noChannel": "`❌|` Canal no válido, revisa que sea un canal de texto.",
+        "noChannel": "`❌|` Canal no válido, revisá que sea un canal de texto.",
         "title": "Canal de reportes asignado."
     },
     "setsuggestions": {
         "approve": "aprobar",
         "channelApprove": "Sugerencias Aprobadas",
-        "channelDeny": "Sugerencias Recahzadas",
+        "channelDeny": "Sugerencias Rechazadas",
         "channelPotential": "Sugerencias en Potencial",
         "channels": "Canal de Sugerencias",
         "deny": "denegar",
-        "noChannel": "`❌|` Canal no válido, revisa que sea un canal de texto.",
+        "noChannel": "`❌|` Canal no válido, revisá que sea un canal de texto.",
         "noConfig": "*No Configurado*",
         "potential": "potencial",
         "title": "Canal de sugerencias asignado."
@@ -580,7 +580,7 @@
         "message": "Con el mensaje.",
         "messageE": "Mensaje del embed.",
         "messageEmbed": "Hola, bienvenid@.",
-        "noChannel": "`❌|` Canal no válido, revisa que sea un canal de texto.",
+        "noChannel": "`❌|` Canal no válido, revisá que sea un canal de texto.",
         "noMessageSelect": "Sin mensaje.",
         "title": "Canal de bienvenida asignado."
     }
