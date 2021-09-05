@@ -19,7 +19,7 @@
     "crime": {
         "bloqueado": "O seu sistema econômico está bloqueado. [Contate-nos em nosso servidor de suporte](https://discord.gg/MZN8Yf6).",
         "crime": "Você recebeu {{money}} por roubar o proprietário, corra!",
-        "error": "❌ Um erro inesperado ocorreu. Deixe-nos saber com `bugreport` para que possamos corrigi-lo.",
+        "error": "❌ Ocorreu um erro inesperado. Informe-nos com o comando `bugreport` para que possamos corrigi-lo.",
         "noCrime": "❌ Parece que você não sabe entrar silenciosamente aos lugares e lhe tiraram {{money}} starcoins.",
         "title": "🕵️‍♂️ Crime"
     },
@@ -73,18 +73,18 @@
     },
     "sell": {
         "bloqueado": "O seu sistema econômico está bloqueado. [Contate-nos em nosso servidor de suporte](https://discord.gg/MZN8Yf6).",
-        "descripcion": "Has vendido `{{cantidad}}` de {{emoji}} {{nombre}} por `{{costo}}` starcoins.",
-        "noCantidad": "No cuentas con los items suficientes para vender, solamente cuentas con`{{cantidad}}`.",
-        "noItemInv": "No cuentas con el ítem: `{{item}}`.",
-        "noItemShop": "Este objeto no se puede vender, puede que sea de colección.",
-        "title": "Venta de Objetos de {{tienda}}."
+        "descripcion": "Você vendeu `{{cantidad}}` de {{emoji}} {{nombre}} por `{{costo}}` starcoins.",
+        "noCantidad": "Você não tem itens suficientes para vender, somente contas com `{{cantidad}}`.",
+        "noItemInv": "Voçe não conta com o item `{{item}}`.",
+        "noItemShop": "Este item é de coleção, não pode ser vendido.",
+        "title": "Venda de itens do {{tienda}}."
     },
     "shop": {
         "backgrounds": {
-            "backgrounds": "Fondos",
-            "description": "Para comprar ítems tienes que usar `{{prefix}}buy <nombre>`.\nSimbología: 📥Compra",
+            "backgrounds": "Fundos",
+            "description": "Para comprar itens você precisa usar `{{prefix}}buy <nome>`.\nSimbologia: 📥Compra",
             "main": "🖼 Fundo principal:",
-            "num": "Número de fodos:",
+            "num": "Número de fundos:",
             "secon": "🖼 Fundo secundário:"
         },
         "description": "Para comprar ítems tienes que usar `{{prefix}}buy <nombre> [cantidad]`. Para vender ítems usa `{{prefix}}sell <ítem> [cantidad]`\nSimbología:\n📥Compra\n📤Venta",
