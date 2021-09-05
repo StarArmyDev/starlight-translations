@@ -1,20 +1,20 @@
 {
     "bal": {
         "banco": "🏦 Banco",
-        "bloqueado": "Lo siento, tienes la economía bloqueada por alguna razón.",
+        "bloqueado": "Perdón, tenés la economía bloqueada por alguna razón.",
         "bolcillo": "🌟 Bolsillo",
         "money": "Economía",
         "mult": "Multiplicador",
         "total": "💰 Total"
     },
     "buy": {
-        "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",
-        "descripcion": "Has comprado `{{cantidad}}` de {{emoji}} {{nombre}} por `{{costo}}` starcoins.",
-        "noItem": "Ítem `{{item}}` no existe. Verifica el nombre.",
-        "noItemShop": "Este objeto no se puede comprar, puede que sea de colección.",
-        "noMoney": "No cuentas con el dinero suficiente, te falta `{{faltante}}` starcoins para poder comprar `{{cantidad}}` de {{item}}.",
+        "bloqueado": "Tenés la economía bloqueada. Contactate con el servidor de soporte para apelar.",
+        "descripcion": "Compraste `{{cantidad}}` de {{emoji}} {{nombre}} por `{{costo}}` starcoins.",
+        "noItem": "Ítem `{{item}}` no existe. Verificá el nombre.",
+        "noItemShop": "Este objeto no se puede comprar, capaz que es de colección.",
+        "noMoney": "No tenés la plata suficiente, te falta `{{faltante}}` starcoins para poder comprar `{{cantidad}}` de {{item}}.",
         "title": "Compra de objetos de {{tienda}}",
-        "yaFondo": "Ya tienes este fondo."
+        "yaFondo": "Ya tenés este fondo."
     },
     "crime": {
         "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",
