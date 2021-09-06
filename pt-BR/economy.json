@@ -19,7 +19,7 @@
     "crime": {
         "bloqueado": "O seu sistema econômico está bloqueado. [Contate-nos em nosso servidor de suporte](https://discord.gg/MZN8Yf6).",
         "crime": "Você recebeu {{money}} por roubar o proprietário, corra!",
-        "error": "❌ Um erro inesperado ocorreu. Deixe-nos saber com `bugreport` para que possamos corrigi-lo.",
+        "error": "❌ Ocorreu um erro inesperado. Informe-nos com o comando `bugreport` para que possamos corrigi-lo.",
         "noCrime": "❌ Parece que você não sabe entrar silenciosamente aos lugares e lhe tiraram {{money}} starcoins.",
         "title": "🕵️‍♂️ Crime"
     },
@@ -73,30 +73,30 @@
     },
     "sell": {
         "bloqueado": "O seu sistema econômico está bloqueado. [Contate-nos em nosso servidor de suporte](https://discord.gg/MZN8Yf6).",
-        "descripcion": "Has vendido `{{cantidad}}` de {{emoji}} {{nombre}} por `{{costo}}` starcoins.",
-        "noCantidad": "No cuentas con los items suficientes para vender, solamente cuentas con`{{cantidad}}`.",
-        "noItemInv": "No cuentas con el ítem: `{{item}}`.",
-        "noItemShop": "Este objeto no se puede vender, puede que sea de colección.",
-        "title": "Venta de Objetos de {{tienda}}."
+        "descripcion": "Você vendeu `{{cantidad}}` de {{emoji}} {{nombre}} por `{{costo}}` starcoins.",
+        "noCantidad": "Você não tem itens suficientes para vender, somente contas com `{{cantidad}}`.",
+        "noItemInv": "Você não conta com o item `{{item}}`.",
+        "noItemShop": "Este item é de coleção, não pode ser vendido.",
+        "title": "Venda de itens do {{tienda}}."
     },
     "shop": {
         "backgrounds": {
-            "backgrounds": "Fondos",
-            "description": "Para comprar ítems tienes que usar `{{prefix}}buy <nombre>`.\nSimbología: 📥Compra",
+            "backgrounds": "Fundos",
+            "description": "Para comprar itens você precisa usar `{{prefix}}buy <nome>`.\nSimbologia: 📥Compra",
             "main": "🖼 Fundo principal:",
-            "num": "Número de fodos:",
+            "num": "Número de fundos:",
             "secon": "🖼 Fundo secundário:"
         },
-        "description": "Para comprar ítems tienes que usar `{{prefix}}buy <nombre> [cantidad]`. Para vender ítems usa `{{prefix}}sell <ítem> [cantidad]`\nSimbología:\n📥Compra\n📤Venta",
+        "description": "Para comprar itens você tem que usar `{{prefix}}buy <nome> [quantidade]`. Para vender itens usa `{{prefix}}sell <nome> [quantidade]`.\nSimbologia:\n📥Compra\n📤Venta",
         "items": "Itens",
         "main": "Principais",
         "name": "Nome:",
-        "noInteraction": "`⛔|` No puedes interactuar con este mensaje. No eres quien usó el comando.",
+        "noInteraction": "`⛔|` Você não é o autor desta interação.",
         "of": "de",
         "rareness": {
             "1": "Comum",
             "2": "Incomum",
-            "3": "Estranho",
+            "3": "Raro",
             "4": "Ultra-raro",
             "5": "Mítico",
             "6": "Lendário",
@@ -104,8 +104,8 @@
         },
         "rarity": "Raridade:",
         "secondary": "Secundários",
-        "selectCategory": "`🔢|` Selecciona la categoría a mostrar",
-        "selectMode": "`🔢|` Selecciona el modo a mostrar",
+        "selectCategory": "`🔢|` Selecione a categoria a mostrar",
+        "selectMode": "`🔢|` Selecione o modo a mostrar",
         "theme": {
             "main": "🎨 Tema principal",
             "secon": "🎨 Tema secundário",
@@ -114,39 +114,39 @@
         "title": "Loja do {{tienda}}"
     },
     "trade": {
-        "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",
-        "cooldown": "🛑 | ¡Alto! Espere `{{time}}` para hacer trabajos indecentes nuevamente.",
-        "error": "❌ Um erro inesperado ocorreu. Deixe-nos saber com `bugreport` para que possamos corrigi-lo.",
-        "mensaje": "✅ Has recibido {{money}} por hacer comercios peligrosos.",
-        "noMensaje": "❌ Parece que la policía te vio y te quitaron {{money}}.",
+        "bloqueado": "O seu sistema econômico está bloqueado. [Contate-nos em nosso servidor de suporte](https://discord.gg/MZN8Yf6).",
+        "cooldown": "🛑 | Pare! Espere `{{time}}` para fazer trabalhos indecentes novamente.",
+        "error": "❌ Ocorreu um erro inesperado. Informe-nos com o comando `bugreport` para que possamos corrigi-lo.",
+        "mensaje": "✅ Você recebeu {{money}} por fazer comércios perigosos.",
+        "noMensaje": "❌ Parece que a polícia te viu e tirou {{money}}.",
         "title": "💎🏬 Trocar"
     },
     "trans": {
-        "automencion": "✅ `{{money}}` starcoins transferidos correctamente al banco nacional de StarBot. Gracias por preferirnos.",
-        "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",
-        "cancel": "✅ Transferencia cancelada.",
-        "error": "❌ Um erro inesperado ocorreu. Deixe-nos saber com `bugreport` para que possamos corrigi-lo.",
-        "falta": "Usted no tiene monedas suficientes.",
-        "mensaje": "✅ Transferencia exitosa. Se dio a {{miembro}} la cantidad de `{{cantidad}}` starcoins.",
-        "noSumar": "Parece ser que {{miembro}} no tiene perfil. **Tiene que hablar para que se cree.**\n*Si consideras que esto es un error, puedes reportarlo con `bugreport`.",
-        "noTiempo": "⏳ Tiempo expirado ❌",
-        "noValido": "Número de verificación no válido.",
-        "title": "💱 Transferencia"
+        "automencion": "✅ `{{money}}` starcoins transferidos corretamente ao banco nacional de StarBot. Obrigado por nos preferir.",
+        "bloqueado": "O seu sistema econômico está bloqueado. [Contate-nos em nosso servidor de suporte](https://discord.gg/MZN8Yf6).",
+        "cancel": "✅ Transferência foi cancelada.",
+        "error": "❌ Ocorreu um erro inesperado. Informe-nos com o comando `bugreport` para que possamos corrigi-lo.",
+        "falta": "Você não tem starcoins suficientes.",
+        "mensaje": "✅ Transferência bem sucedida. Foi dado a {{miembro}} o montante de `{{cantidad}}` starcoins.",
+        "noSumar": "Parece que {{miembro}} não tem perfil (para ser criado, tem que enviar uma mensagem).\n*Se você considerar isso um erro, você pode nos informar usando o comando `bugreport`*.\n",
+        "noTiempo": "⏳ Tempo expirado ❌",
+        "noValido": "Número de verificação inválido.",
+        "title": "💱 Transferência"
     },
     "withdraw": {
-        "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",
-        "error": "❌ Um erro inesperado ocorreu. Deixe-nos saber com `bugreport` para que possamos corrigi-lo.",
-        "falta": "Usted no tiene monedas suficientes.",
-        "mensaje": "✅ Retiró `{{cantidad}}` con éxito, dejando tu banco con `{{banco}}`.",
-        "noCantidad": "Cantidad no válida.",
-        "noMoney": "Parece que no tienes nada que retirar.",
-        "title": "💸 Retiro"
+        "bloqueado": "O seu sistema econômico está bloqueado. [Contate-nos em nosso servidor de suporte](https://discord.gg/MZN8Yf6).",
+        "error": "❌ Ocorreu um erro inesperado. Informe-nos com o comando `bugreport` para que possamos corrigi-lo.",
+        "falta": "Você não tem starcoins suficientes.",
+        "mensaje": "Você retirou `{{cantidad}}` com sucesso, deixando seu banco com `{{banco}}`.",
+        "noCantidad": "Quantidade não válida.",
+        "noMoney": "Não tens nada para depositar.",
+        "title": "💸 Levantamento"
     },
     "work": {
-        "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",
-        "error": "❌ Um erro inesperado ocorreu. Deixe-nos saber com `bugreport` para que possamos corrigi-lo.",
-        "mensaje": "✅ ¡Acabas de recibir {{money}} monedas!",
-        "mensajeDar": "✅ ¡Acabas de dar {{money}} monedas a {{miembro}}!",
-        "title": "👷 ‍Trabajo"
+        "bloqueado": "O seu sistema econômico está bloqueado. [Contate-nos em nosso servidor de suporte](https://discord.gg/MZN8Yf6).",
+        "error": "❌ Ocorreu um erro inesperado. Informe-nos com o comando `bugreport` para que possamos corrigi-lo.",
+        "mensaje": "✅ Você acabou de receber {{money}} starcoins!",
+        "mensajeDar": "✅ Você acabou de dar {{money}} starcoins para {{miembro}}!",
+        "title": "👷 ‍Trabalho"
     }
 }

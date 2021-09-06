@@ -1,8 +1,8 @@
 {
-    "botFuera": "Un bot fue expulsado:",
-    "fuera": "Se fue",
+    "botFuera": "Um bot foi expulso:",
+    "fuera": "Se foi",
     "id": "ID:",
-    "creado": "⏳ Bot creado desde hace:",
-    "messageDefault": "Espero que te volvamos a ver.",
-    "leaveImg": "Adiós..."
+    "creado": "⏳ Bot criado de há:",
+    "messageDefault": "Espero que voltemos a ver-te.",
+    "leaveImg": "Tchau..."
 }

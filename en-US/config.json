@@ -566,7 +566,7 @@
     "setsuggestions": {
         "approve": "aprobar",
         "channelApprove": "Sugerencias Aprobadas",
-        "channelDeny": "Sugerencias Recahzadas",
+        "channelDeny": "Sugerencias Rechazadas",
         "channelPotential": "Sugerencias en Potencial",
         "channels": "Canal de Sugerencias",
         "deny": "denegar",

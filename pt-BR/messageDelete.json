@@ -1,9 +1,9 @@
 {
-    "embed": "Embed eliminado:",
-    "title": "Mensaje eliminado",
-    "elimino": "**eliminó un mensaje**",
-    "de": "**de:**",
-    "decia": "Decía:",
-    "continua": "Continuación (mensaje largo)",
-    "canal": "Canal origen:"
+    "embed": "Inserção excluída:",
+    "title": "Mensagem excluída",
+    "elimino": "**excluiu uma mensagem**",
+    "de": "**do:**",
+    "decia": "Dizia:",
+    "continua": "Continuação (mensagem longa)",
+    "canal": "Canal de origem:"
 }
