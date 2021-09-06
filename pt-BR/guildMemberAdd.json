@@ -1,7 +1,7 @@
 {
-    "autoRolesRazon": "Autoroles bienvenida.",
+    "autoRolesRazon": "Auto-cargos de boas-vindas.",
     "embed": {
-        "mensaje": "¡Nuevo miembro!",
+        "mensaje": "Novo membro!",
         "mensajeEmbed": "Hola, bienvenid@.",
         "si": "Sim.",
         "no": "Näo.",
