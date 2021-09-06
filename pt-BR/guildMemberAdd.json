@@ -20,10 +20,10 @@
     "imgWelcomeMan": "Bem-vindo ao",
     "imgWelcomeDefault": "Bem-vindo(a) ao",
     "reTitle": "Verificação de segurança",
-    "rePrecaucion": "⚠*PRECAUÇÃO**⚠\nConta recém-criada:",
+    "rePrecaucion": "⚠**PRECAUÇÃO**⚠\nConta recém-criada:",
     "reCreado": "⏳ Criou a sua conta há:",
     "reInvite": "Convite: {{code}}",
     "reNoPerms": "`⛔|` Não posso obter os convites do servidor, verifique se eu tenho as permissões corretas.",
     "unknown": "Desconhecido",
-    "terminamute": "**{{usuario}} terminou o seu tempo silenciado. **"
+    "terminamute": "**{{usuario}} terminou o seu tempo silenciado.**"
 }
