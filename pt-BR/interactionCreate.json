@@ -7,10 +7,10 @@
         "messageAdd_plural": "`✅|` Cargos colocados corretamente",
         "messageDelete": "`✅|` Cargo removido corretamente",
         "messageDelete_plural": "`✅|` Cargos removidos corretamente",
-        "messageFailt": "`⛔|` No se actualizó tus roles por limitaciones del grupo.\nModo del grupo: `{{mode}}` ",
-        "multiSelect": "Selecciona más de uno",
-        "noConfig": "`❌ |` No hay roles autoasignables configurados.",
-        "noUser": "Solo quien uso el comando puede escojer sus roles",
-        "singleSelect": "Selecciona un rol"
+        "messageFailt": "`⛔|` Seus cargos não foram atualizados por limitações do grupo.\nModo do grupo: `{{mode}}` ",
+        "multiSelect": "Selecione mais de um",
+        "noConfig": "`❌ |` Não existem cargos autoatribuíveis configurados.",
+        "noUser": "Só quem usou o comando pode escolher os seus cargos",
+        "singleSelect": "Selecione um cargo"
     }
 }
