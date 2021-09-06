@@ -73,7 +73,7 @@
     "ping": {
         "description": "Pong!\n📡 API: {{ping}}.\n🗃 Base de datos: {{db}}.",
         "descriptionGateway": "¡Pong!\n📡 API: {{ping}}.\n🗃 Base de datos: {{db}}.\n⏳ Puerta de Enlace: {{gateway}}.",
-        "footer": "Virtual Private Machine"
+        "footer": "Máquina Virtual Privada"
     },
     "premium": {
         "add": {
