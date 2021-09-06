@@ -1,6 +1,6 @@
 {
     "8ball": {
-        "descripcion": "Ao qual eu respondo: {{respuesta}}",
+        "descripcion": "À qual respondo {{respuesta}}",
         "rpts": [
             "Sim",
             "Não",
@@ -8,35 +8,35 @@
             "Talvez não",
             "Claro!",
             "Claro que não",
-            "Tenho certeza que sim",
-            "Tenho certeza que não",
-            "Claro",
+            "Tenho a certeza que sim",
+            "Tenho a certeza que não",
+            "Evidentemente",
             "Pode ser",
             "Infelizmente não",
             "Infelizmente sim",
             "Desafortunadamente sim",
             "Desafortunadamente não",
-            "Não conheço Rick"
+            "Não sei Rick"
         ],
         "title": "🎱 Questão\n{{pregunta}}"
     },
     "achievement": {
-        "error": "❌ | Um erro inesperado ocorreu. Deixe-nos saber com `bugreport` para que possamos corrigi-lo.",
-        "text": "Conquista desbloqueada"
+        "error": "❌ | Ocorreu um erro inesperado. Informe-nos com o comando `bugreport` para que possamos corrigi-lo.",
+        "text": "Realização desbloqueada"
     },
     "cat": {
         "title": "Gato aleatório 🐱"
     },
     "cookie": {
-        "cookie": "**{{user}},** você tem um {{cookie}} de **{{author}}**\n\n**Razão:** {{reason}}\n(づ ｡◕‿‿◕｡) づ: ･ ﾟ ✧ {{cookie}}",
-        "noRazon": "Nenhum",
+        "cookie": "**{{user}},** tem uma {{cookie}} de **{{author}}**\n\n**Razão:** {{razon}}\n(づ｡◕‿‿◕｡)づ:･ﾟ✧ {{cookie}}",
+        "noRazon": "Nenhuma",
         "noUser": "Mencione um usuário."
     },
     "dog": {
-        "title": "Cachorro aleatório 🐶"
+        "title": "Cão aleatório 🐶"
     },
     "love": {
-        "author": "A porcentagem de amor entre {{user1}} e {{user2}} é:",
+        "author": "A percentagem de amor entre {{user1}} e {{user2}} é de:",
         "noMencion": "Mencione dois usuários para calcular",
         "rand100": "Não há dúvida de que existe amor aqui, não sei o que você espera! <3",
         "rand20": "Uff, parece que não há possibilidade de amigos. Sinto muito ;-;",
