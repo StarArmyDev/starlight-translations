@@ -84,7 +84,7 @@
             "backgrounds": "Fondos",
             "description": "Para comprar ítems tienes que usar `{{prefix}}buy <nombre>`.\nSimbología: 📥Compra",
             "main": "🖼 Fondo Principal:",
-            "num": "Número de fodos:",
+            "num": "Número de fondos:",
             "secon": "🖼 Fondo Secundario:"
         },
         "description": "Para comprar ítems tienes que usar `{{prefix}}buy <nombre> [cantidad]`. Para vender ítems usa `{{prefix}}sell <ítem> [cantidad]`\nSimbología:\n📥Compra\n📤Venta",
