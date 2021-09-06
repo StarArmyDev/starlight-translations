@@ -37,21 +37,21 @@
     },
     "love": {
         "author": "A percentagem de amor entre {{user1}} e {{user2}} é de:",
-        "noMencion": "Mencione dois usuários para calcular",
-        "rand100": "Não há dúvida de que existe amor aqui, não sei o que você espera! <3",
-        "rand20": "Uff, parece que não há possibilidade de amigos. Sinto muito ;-;",
-        "rand50": "Parece que não há muito amor, mas podem ser bons amigos c:",
-        "rand80": "Isso tem uma possibilidade, é muito provável que acabem sendo namorados: 3",
-        "randInf": "O amor que você deve ter deve ser o maior de todos, aprecie-o como o maior dos tesouros."
+        "noMencion": "Menciona dois usuários para calcular.",
+        "rand100": "Não há dúvida de que aqui há amor cx, não sei o que esperam! <3",
+        "rand20": "Uff, parece que não existe a possibilidade de amigos. Sinto muito ;-;",
+        "rand50": "Parece que não existe muito amor, mas vocês podem ser bons amigos c:",
+        "rand80": "Isto tem possibilidade, muito provável que acabem noivos :3",
+        "randInf": "O amor que devem ter será o maior de todos, encarem-no como o maior dos tesouros."
     },
     "meme": {
-        "creditos": "Pela comunidade MegaBot",
-        "title": "Tenha seu meme"
+        "creditos": "Pela comunidade do MegaBot",
+        "title": "Tenha o seu meme"
     },
     "waifu": {
-        "confirmacion": "✅ Eu voto {{vote}} para {{waifu}} corretamente.",
+        "confirmacion": "✅ Voto {{vote}} para {{waifu}} corretamente.",
         "descripcion": "Descrição:",
-        "footer": "Você pode votar a cada 24 horas.",
+        "footer": "Pode votar a cada 24 horas.",
         "negativo": "negativo",
         "popular": "Popularidade",
         "positivo": "positivo",
