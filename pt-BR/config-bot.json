@@ -63,7 +63,7 @@
         "min": "Mín.:",
         "noCanal": "*⚠ Canal no disponible.*",
         "noConfig": "*Não configurado.*",
-        "noConfigAll": "`⛔|` No tienes minguna configuración en este servidor.",
+        "noConfigAll": "`⛔|` No tienes ninguna configuración en este servidor.",
         "noRol": "`❌|` Rol no encontrado.",
         "roles": "Rol/es:",
         "unknown": "Desconocido ID:",
