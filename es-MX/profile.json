@@ -19,7 +19,7 @@
     "divorce": {
         "divorce": "Ahora quedan separados, sin compromisos... sin amor </3",
         "divorceForce": "Ahora quedas separado sin compromisos y... sin amor </3",
-        "message": "{{miembro}}, ¿aceptas separarte por siempre de {{author}} y destruir lo que desde hace `{{fecha}}` fue declarado ante todos su amor incondicional?\n__*Tienes 60 segundos para responder \"sí\" o \"no\".*__",
+        "message": "{{miembro}}, ¿aceptas separarte por siempre de {{author}} y destruir lo que desde hace `{{fecha}}` fue declarado ante todos su amor incondicional?\n__*Tienes 2 minutos para responder \"sí\" o \"no\".*__",
         "messageForce": "{{author}}, ¿aceptas forzar la separación por siempre de ({{miembro}})?\n__*Tienes 60 segundos para responder \"sí\" o \"no\".*__",
         "no": "no",
         "noDivorce": "Lamentablemente *(o afortunadamente)*, {{miembro}} no acepta esta decisión. Deberías hablarle primero y hacer que esto funcione. :3",
@@ -106,7 +106,7 @@
             "theme": "tema",
             "themeOk": "`⛔|` Este tema ya está establecido.",
             "title": "Escoge tu tema de perfil ",
-            "titleDeletedServer":"`✅|` Se eliminó el tema personalizado de este servidor.",
+            "titleDeletedServer": "`✅|` Se eliminó el tema personalizado de este servidor.",
             "titleN": "Escoge tu tema de nivel.",
             "titleSelec": "`✅|` Tema establecido correctamente."
         },
@@ -130,7 +130,7 @@
         "hombre": "legítimo esposo",
         "isBot": "`❌|` La sociedad no puede permitir relaciones con máquinas... además de que no te puede contestar que sí.",
         "maridos": "Los declaro marido y mujer. <3",
-        "message": "{{miembro}}, ¿aceptas a {{author}} como tu {{genero}} en la salud y en la enfermedad, en la riqueza y en la pobreza, con internet y sin internet hasta que el Wi-Fi los separe?\n__*Tiene 60 segundos para responder \"sí\" o \"no\".*__",
+        "message": "{{miembro}}, ¿aceptas a {{author}} como tu {{genero}} en la salud y en la enfermedad, en la riqueza y en la pobreza, con internet y sin internet hasta que el Wi-Fi los separe?\n__*Tiene 2 minutos para responder \"sí\" o \"no\".*__",
         "mujer": "legítima esposa",
         "no": "no",
         "noMarrieds": "`❌|` Lamentablemente, {{miembro}} ha rechazado la propuesta de matrimonio y ha huido del servidor.",

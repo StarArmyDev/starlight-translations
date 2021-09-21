@@ -19,7 +19,7 @@
     "divorce": {
         "divorce": "Now they are separated, without compromises ... without love </3",
         "divorceForce": "Now you are separated, without compromises ... without love </3",
-        "message": "{{miembro}} you agree to separate forever from {{author}} and destroy what since `{{fecha}}` was his unconditional love declared to all?\n__*You have 60 seconds to answer yes or no*__",
+        "message": "{{miembro}} you agree to separate forever from {{author}} and destroy what since `{{fecha}}` was his unconditional love declared to all?\n__*You have 2 minutes to answer yes or no*__",
         "messageForce": "{{author}} you agree to force separation forever from ({{miembro}})?\n__*You have 60 seconds to answer yes or no*__",
         "no": "not",
         "noDivorce": "Regrettably *(or fortunately)* {{miembro}} Don't accept this decision, you should talk to him first and make this work :3",
@@ -130,7 +130,7 @@
         "hombre": "legitimate husband",
         "isBot": "`❌|` Society cannot allow relationships with machines...",
         "maridos": "I declare them. Husband and wife <3",
-        "message": "¿{{miembro}} you accept {{author}} like you {{genero}} in health and disease, in wealth and poverty, with internet and without internet until the wifi separates them?\n__*You have 60 seconds to answer yes or no*__",
+        "message": "¿{{miembro}} you accept {{author}} like you {{genero}} in health and disease, in wealth and poverty, with internet and without internet until the wifi separates them?\n__*You have 2 minutes to answer yes or no*__",
         "mujer": "legitimate wife",
         "no": "not",
         "noMarrieds": "`❌|` Unfortunately, the {{miembro}} marriage has declined and has run away from the server.",
