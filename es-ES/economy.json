@@ -1,5 +1,5 @@
 {
-    "bal": {
+    "balance": {
         "banco": "🏦 Banco",
         "bloqueado": "Lo siento, tienes la economía bloqueada por alguna razón.",
         "bolcillo": "👛 Cartera",
@@ -19,22 +19,19 @@
     "crime": {
         "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",
         "crime": "Has recibido {{money}} por robarle al owner, ¡correeee!",
-        "error": "❌ Ocurrió un error inesperado. Avísanos con `bugreport` para poderlo solucionar.",
-        "noCrime": "❌ Parece que no sabes entrar silenciosamente a los lugares y te quitaron {{money}} starcoins.",
+        "noCrime": "Parece que no sabes entrar silenciosamente a los lugares y te quitaron {{money}} starcoins.",
         "title": "🕵️‍♂️ Crimen"
     },
     "daily": {
         "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",
         "dly": "¡Acabas de recibir {{money}} starcoins! Vuelve en 12 horas por tu dinero diario.",
         "dlyUser": "¡Acabas de dar {{money}} starcoins a {{miembro}}! Vuelve en 12 horas por tu dinero diario.",
-        "error": "❌ Ocurrió un error inesperado. Avísanos con `bugreport` para poderlo solucionar.",
         "title": "☀ Dinero Diario"
     },
     "deposite": {
         "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",
-        "error": "❌ Ocurrió un error inesperado. Avísanos con `bugreport` para poderlo solucionar.",
         "falta": "No tienes el dinero suficiente.",
-        "mensaje": "✅ Depositado `{{cantidad}}` en tu banco con éxito.",
+        "mensaje": "Depositado `{{cantidad}}` en tu banco con éxito.",
         "noCantidad": "Cantidad no válida.",
         "noMoney": "Si no tienes dinero en la cartera, no puedes ingresar dinero en el banco.",
         "title": "🏛 Ingresar"
@@ -48,9 +45,8 @@
     },
     "dirty": {
         "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",
-        "error": "❌ Ocurrió un error inesperado. Avísanos con `bugreport` para poderlo solucionar.",
-        "mensaje": "✅ Has recibido `{{money}}` starcoins por hacer trabajos poco comunes",
-        "noMensaje": "❌ Parece que el cliente huyó y perdiste `{{money}}` starcoins.",
+        "mensaje": "Has recibido `{{money}}` starcoins por hacer trabajos poco comunes",
+        "noMensaje": "Parece que el cliente huyó y perdiste `{{money}}` starcoins.",
         "title": "👱‍️ Trabajo poco común"
     },
     "flipcoin": {
@@ -64,7 +60,6 @@
     },
     "rob": {
         "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",
-        "error": "❌ Ocurrió un error inesperado. Avísanos con `bugreport` para poderlo solucionar.",
         "mensaje": "✅ Le has robado a {{miembro}} el total de {{robado}} starcoins, ¡ahora huye mientras puedas!",
         "noMensaje": "❌ La policía te ha visto intentando robar a {{miembro}} y has tenido que pagar una multa de {{money}}, además le dieron la mitad a {{miembro}} por el incidente.",
         "noRobMoney": "El usuario no tiene dinero, ¿cómo le quieres robar?",
@@ -115,38 +110,33 @@
     },
     "trade": {
         "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",
-        "cooldown": "🛑 | ¡Alto! Espere `{{time}}` para hacer trabajos peligroso nuevamente.",
-        "error": "❌ Ocurrió un error inesperado. Avísanos con `bugreport` para poderlo solucionar.",
-        "mensaje": "✅ Has recibido {{money}} por hacer comercios peligrosos.",
-        "noMensaje": "❌ La policía pilló haciendo comercios peligrosos y has tenido que pagar una multa de {{money}}.",
+        "mensaje": "Has recibido {{money}} por hacer comercios peligrosos.",
+        "noMensaje": "La policía pilló haciendo comercios peligrosos y has tenido que pagar una multa de {{money}}.",
         "title": "💎🏬 Comerciar"
     },
     "trans": {
-        "automencion": "✅ `{{money}}` starcoins transferidos correctamente al banco nacional de StarBot. Gracias por preferirnos.",
+        "automencion": "`{{money}}` starcoins transferidos correctamente al banco nacional de StarLight. Gracias por preferirnos.",
+        "awaitMessage": "Verifica y acepta colocando `{{numero}}` para transferir `{{dinero}}` starcoins.\n*Tiene un 15% de comisión por la transferencia.*",
         "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",
-        "cancel": "✅ Transferencia cancelada.",
-        "error": "❌ Ocurrió un error inesperado. Avísanos con `bugreport` para poderlo solucionar.",
         "falta": "No tienes dinero suficiente.",
-        "mensaje": "✅ Transferencia exitosa. Se dio a {{miembro}} la cantidad de `{{cantidad}}` starcoins.",
-        "noSumar": "Parece ser que {{miembro}} no tiene perfil. **Tiene que hablar para que se cree.**\n*Si consideras que esto es un error, puedes reportarlo con `bugreport`.",
+        "mensaje": "Transferencia exitosa. Se dio a {{miembro}} la cantidad de `{{cantidad}}` starcoins.",
+        "noMoney": "Parece que no tienes dinero para transferir.",
+        "noQuantity": "Cantidad no válida.",
         "noTiempo": "⏳ Tiempo expirado ❌",
-        "noValido": "Número de verificación no válido.",
         "title": "💱 Transferencia"
     },
     "withdraw": {
         "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",
-        "error": "❌ Ocurrió un error inesperado. Avísanos con `bugreport` para poderlo solucionar.",
         "falta": "No tienes suficiente en el banco.",
-        "mensaje": "✅ Retiró `{{cantidad}}` con éxito, dejando tu banco con `{{banco}}`.",
+        "mensaje": "Retiró `{{cantidad}}` con éxito, dejando tu banco con `{{banco}}`.",
         "noCantidad": "Cantidad no válida.",
         "noMoney": "Parece que no tienes dinero en el banco.",
         "title": "💸 Retirada"
     },
     "work": {
         "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",
-        "error": "❌ Ocurrió un error inesperado. Avísanos con `bugreport` para poderlo solucionar.",
-        "mensaje": "✅ ¡Recibes {{money}} por trabajar!",
-        "mensajeDar": "✅ ¡Acabas de dar {{money}} monedas a {{miembro}}!",
+        "mensaje": "¡Recibes {{money}} por trabajar!",
+        "mensajeDar": "¡Acabas de dar {{money}} monedas a {{miembro}}!",
         "title": "👷 ‍Trabajo"
     }
 }

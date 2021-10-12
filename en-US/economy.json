@@ -1,5 +1,5 @@
 {
-    "bal": {
+    "balance": {
         "banco": "🏦 Bank",
         "bloqueado": "Sorry, You Have The Economy Locked for some reason.",
         "bolcillo": "🌟 Pocket",
@@ -19,22 +19,19 @@
     "crime": {
         "bloqueado": "You have the Economy Locked. Contact the support server to appeal.",
         "crime": "You have received {{money}} for stealing from the owner, correeee",
-        "error": "❌ Sorry, it seems that there was an error adding the money. We are working to repair it.",
-        "noCrime": "❌ It seems you don't know how to quietly enter the places and they took you away {{money}} starcoins.",
+        "noCrime": "It seems you don't know how to quietly enter the places and they took you away {{money}} starcoins.",
         "title": "🕵️‍♂️ Crime"
     },
     "daily": {
         "bloqueado": "You have the Economy Locked. Contact the support guild to appeal.",
         "dly": "You just received {{money}} starcoins! Come back in 12 hrs for your daily money.",
         "dlyUser": "You just gave {{money}} starcoins to user {{miembro}}! Come back in 12 hrs for your daily money.",
-        "error": "❌ Sorry, it seems that there was an error adding the money. We are working to repair it.",
         "title": "☀ Daily Money"
     },
     "deposite": {
         "bloqueado": "You have the Economy Locked. Contact the support guild to appeal.",
-        "error": "❌ Sorry, it seems there was an error. We are working to repair it.",
         "falta": "You do not have enough coins.",
-        "mensaje": "✅ Successfully deposited `{{cantidad}}` in your bank",
+        "mensaje": "Successfully deposited `{{cantidad}}` in your bank",
         "noCantidad": "Invalid amount.",
         "noMoney": "It seems you have nothing to deposit.",
         "title": "🏛 To deposit"
@@ -48,9 +45,8 @@
     },
     "dirty": {
         "bloqueado": "You have the Economy Locked. Contact the support guild to appeal.",
-        "error": "❌ An unexpected error occurred. Report it with `bugreport` to fix it quickly.",
-        "mensaje": "✅ You have received `{{money}}` starcoins for doing odd jobs",
-        "noMensaje": "❌ It seems that the client ran away and you lost `{{money}}` starcoins.",
+        "mensaje": "You have received `{{money}}` starcoins for doing odd jobs",
+        "noMensaje": "It seems that the client ran away and you lost `{{money}}` starcoins.",
         "title": "👱‍️ Indecent Work"
     },
     "flipcoin": {
@@ -64,7 +60,6 @@
     },
     "rob": {
         "bloqueado": "You have the Economy Locked. Contact the support guild to appeal.",
-        "error": "❌ Sorry, it seems there was an error. We are working to repair it.",
         "mensaje": "✅ Successful theft You have stolen {{miembro}} the total of {{robado}} starcoins. Now run away while you can.",
         "noMensaje": "❌ The law struck you by surprise and took you away {{money}}, besides they gave half of that to {{miembro}} for the incident.",
         "noRobMoney": "How do you want to steal it if it has nothing?",
@@ -115,38 +110,33 @@
     },
     "trade": {
         "bloqueado": "You have the Economy Locked. Contact the support guild to appeal.",
-        "cooldown": "🛑 | High! Wait `{{time}}` to do indecent work again.",
-        "error": "❌ An unexpected error occurred. Report it with `bugreport` to fix it quickly.",
-        "mensaje": "✅ You have received {{money}} for doing dangerous trades",
-        "noMensaje": "❌ It looks like the police saw you and took you away {{money}}.",
+        "mensaje": "You have received {{money}} for doing dangerous trades",
+        "noMensaje": "It looks like the police saw you and took you away {{money}}.",
         "title": "💎🏬 Trade"
     },
     "trans": {
-        "automencion": "✅ `{{money}}` starcoins successfully transferred to the national bank of StarLight. Thanks for your preference.",
+        "automencion": "`{{money}}` starcoins successfully transferred to StarLight's national bank. \nThanks for choosing us.",
+        "awaitMessage": "Verify and accept by placing `{{numero}}` to transfer `{{dinero}}` starcoins.\n\n*It has a 15% commission for the transfer.*",
         "bloqueado": "You have the Economy Locked. Contact the support guild to appeal.",
-        "cancel": "Transfer Canceled",
-        "error": "❌ Sorry, it seems there was an error. We are working to repair it.",
         "falta": "You do not have enough coins.",
-        "mensaje": "✅ Successful transfer It was given to {{miembro}} the amount of `{{cantidad}}` starcoins.",
-        "noSumar": "It seems that {{miembro}} It has no profile. **He has to talk to be believed**\n*If you think this is a mistake, you can report it with* `bugreport`",
+        "mensaje": "Successful transfer It was given to {{miembro}} the amount of `{{cantidad}}` starcoins.",
+        "noMoney": "It seems that you have no money to transfer.",
+        "noQuantity": "Invalid quantity.",
         "noTiempo": "⏳ Expired Time ❌",
-        "noValido": "Invalid Verification Number.",
         "title": "💱 Transfer"
     },
     "withdraw": {
         "bloqueado": "You have the Economy Locked. Contact the support guild to appeal.",
-        "error": "❌ Sorry, it seems there was an error. We are working to repair it.",
         "falta": "You do not have enough coins.",
-        "mensaje": "✅ Successful withdrawal `{{cantidad}}` in your pocket, leaving in your bank `{{banco}}`",
+        "mensaje": "Successful withdrawal `{{cantidad}}` in your pocket, leaving in your bank `{{banco}}`",
         "noCantidad": "Invalid amount.",
         "noMoney": "It seems you have nothing to withdraw.",
         "title": "💸 Retirement"
     },
     "work": {
         "bloqueado": "You have the Economy Locked. Contact the support guild to appeal.",
-        "error": "❌ Sorry, it seems there was an error. We are working to repair it.",
-        "mensaje": "✅ You just received {{money}} coins!",
-        "mensajeDar": "✅ You just gave {{money}} user coins {{miembro}}!",
+        "mensaje": "You just received {{money}} coins!",
+        "mensajeDar": "You just gave {{money}} user coins {{miembro}}!",
         "title": "👷 ‍Work"
     }
 }

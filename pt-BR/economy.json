@@ -1,5 +1,5 @@
 {
-    "bal": {
+    "balance": {
         "banco": "🏦 Banco",
         "bloqueado": "O seu sistema econômico está bloqueado. [Contate-nos em nosso servidor de suporte](https://discord.gg/MZN8Yf6).",
         "bolcillo": "🌟 Bolso",
@@ -19,22 +19,19 @@
     "crime": {
         "bloqueado": "O seu sistema econômico está bloqueado. [Contate-nos em nosso servidor de suporte](https://discord.gg/MZN8Yf6).",
         "crime": "Você recebeu {{money}} por roubar o proprietário, corra!",
-        "error": "❌ Ocorreu um erro inesperado. Informe-nos com o comando `bugreport` para que possamos corrigi-lo.",
-        "noCrime": "❌ Parece que você não sabe entrar silenciosamente aos lugares e lhe tiraram {{money}} starcoins.",
+        "noCrime": "Parece que você não sabe entrar silenciosamente aos lugares e lhe tiraram {{money}} starcoins.",
         "title": "🕵️‍♂️ Crime"
     },
     "daily": {
         "bloqueado": "O seu sistema econômico está bloqueado. [Contate-nos em nosso servidor de suporte](https://discord.gg/MZN8Yf6).",
         "dly": "Você acabou de receber {{money}} starcoins! Volte em 12 horas para seus starcoins diários.",
         "dlyUser": "Você acabou de dar {{money}} starcoins a {{miembro}}! Volte em 12 horas para seus starcoins diários.",
-        "error": "❌ Ocorreu um erro inesperado. Informe-nos com o comando `bugreport` para que possamos corrigi-lo.",
         "title": "☀ Starcoins diarios"
     },
     "deposite": {
         "bloqueado": "O seu sistema econômico está bloqueado. [Contate-nos em nosso servidor de suporte](https://discord.gg/MZN8Yf6).",
-        "error": "❌ Ocorreu um erro inesperado. Informe-nos com o comando `bugreport` para que possamos corrigi-lo.",
         "falta": "Você não tem starcoins suficientes.",
-        "mensaje": "✅ Depositado `{{cantidad}}` em seu banco com sucesso.",
+        "mensaje": "Depositado `{{cantidad}}` em seu banco com sucesso.",
         "noCantidad": "Quantidade não válida.",
         "noMoney": "Não tens nada para depositar.",
         "title": "🏛 Depositar"
@@ -48,7 +45,6 @@
     },
     "dirty": {
         "bloqueado": "O seu sistema econômico está bloqueado. [Contate-nos em nosso servidor de suporte](https://discord.gg/MZN8Yf6).",
-        "error": "❌ Ocorreu um erro inesperado. Informe-nos com o comando `bugreport` para que possamos corrigi-lo.",
         "mensaje": "Você recebeu `{{money}}` starcoins por fazer trabalhos incomuns.",
         "noMensaje": "Parece que o cliente fugiu e você perdeu `{{money}}` starcoins.",
         "title": "👱‍️ Trabalho indecente"
@@ -64,7 +60,6 @@
     },
     "rob": {
         "bloqueado": "O seu sistema econômico está bloqueado. [Contate-nos em nosso servidor de suporte](https://discord.gg/MZN8Yf6).",
-        "error": "❌ Ocorreu um erro inesperado. Informe-nos com o comando `bugreport` para que possamos corrigi-lo.",
         "mensaje": "✅ Você roubou a {{miembro}} o total de {{robado}} starcoins, agora fuja enquanto puder!",
         "noMensaje": "A lei caiu-lhe de surpresa e tirou-lhe {{money}}, além de que lhe deram metade disso a {{miembro}} pelo incidente.",
         "noRobMoney": "Como queres roubá-lo se ele não tem nada?",
@@ -115,27 +110,23 @@
     },
     "trade": {
         "bloqueado": "O seu sistema econômico está bloqueado. [Contate-nos em nosso servidor de suporte](https://discord.gg/MZN8Yf6).",
-        "cooldown": "🛑 | Pare! Espere `{{time}}` para fazer trabalhos indecentes novamente.",
-        "error": "❌ Ocorreu um erro inesperado. Informe-nos com o comando `bugreport` para que possamos corrigi-lo.",
-        "mensaje": "✅ Você recebeu {{money}} por fazer comércios perigosos.",
-        "noMensaje": "❌ Parece que a polícia te viu e tirou {{money}}.",
+        "mensaje": "Você recebeu {{money}} por fazer comércios perigosos.",
+        "noMensaje": "Parece que a polícia te viu e tirou {{money}}.",
         "title": "💎🏬 Trocar"
     },
     "trans": {
-        "automencion": "✅ `{{money}}` starcoins transferidos corretamente ao banco nacional de StarBot. Obrigado por nos preferir.",
-        "bloqueado": "O seu sistema econômico está bloqueado. [Contate-nos em nosso servidor de suporte](https://discord.gg/MZN8Yf6).",
-        "cancel": "✅ Transferência foi cancelada.",
-        "error": "❌ Ocorreu um erro inesperado. Informe-nos com o comando `bugreport` para que possamos corrigi-lo.",
+        "automencion": "`{{money}}` starcoins transferidos com sucesso para o banco nacional da StarLight. \nObrigado por escolher-nos.",
+        "awaitMessage": "Verifique e aceite colocando `{{numero}}` para transferir `{{dinero}}` starcoins.\n\n*Tem uma comissão de 15% pela transferência.*",
+        "bloqueado": "O seu sistema econômico está bloqueado. Contate-nos em nosso servidor de suporte.",
         "falta": "Você não tem starcoins suficientes.",
-        "mensaje": "✅ Transferência bem sucedida. Foi dado a {{miembro}} o montante de `{{cantidad}}` starcoins.",
-        "noSumar": "Parece que {{miembro}} não tem perfil (para ser criado, tem que enviar uma mensagem).\n*Se você considerar isso um erro, você pode nos informar usando o comando `bugreport`*.\n",
+        "mensaje": "Transferência bem sucedida. Foi dado a {{miembro}} o montante de `{{cantidad}}` starcoins.",
+        "noMoney": "Parece que você não tem dinheiro para transferir.",
+        "noQuantity": "Quantidade inválida.",
         "noTiempo": "⏳ Tempo expirado ❌",
-        "noValido": "Número de verificação inválido.",
         "title": "💱 Transferência"
     },
     "withdraw": {
         "bloqueado": "O seu sistema econômico está bloqueado. [Contate-nos em nosso servidor de suporte](https://discord.gg/MZN8Yf6).",
-        "error": "❌ Ocorreu um erro inesperado. Informe-nos com o comando `bugreport` para que possamos corrigi-lo.",
         "falta": "Você não tem starcoins suficientes.",
         "mensaje": "Você retirou `{{cantidad}}` com sucesso, deixando seu banco com `{{banco}}`.",
         "noCantidad": "Quantidade não válida.",
@@ -144,9 +135,8 @@
     },
     "work": {
         "bloqueado": "O seu sistema econômico está bloqueado. [Contate-nos em nosso servidor de suporte](https://discord.gg/MZN8Yf6).",
-        "error": "❌ Ocorreu um erro inesperado. Informe-nos com o comando `bugreport` para que possamos corrigi-lo.",
-        "mensaje": "✅ Você acabou de receber {{money}} starcoins!",
-        "mensajeDar": "✅ Você acabou de dar {{money}} starcoins para {{miembro}}!",
+        "mensaje": "Você acabou de receber {{money}} starcoins!",
+        "mensajeDar": "Você acabou de dar {{money}} starcoins para {{miembro}}!",
         "title": "👷 ‍Trabalho"
     }
 }
