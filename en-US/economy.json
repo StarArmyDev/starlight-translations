@@ -1,10 +1,10 @@
 {
     "balance": {
-        "banco": "🏦 Bank",
-        "bloqueado": "Sorry, You Have The Economy Locked for some reason.",
-        "bolcillo": "🌟 Pocket",
-        "money": "Economy",
-        "mult": "Multiplier",
+        "banco": "🏦 Banco",
+        "bloqueado": "Lo siento, tienes la economía bloqueada por alguna razón.",
+        "bolcillo": "🌟 Bolsillo",
+        "money": "Economía",
+        "mult": "Multiplicador",
         "total": "💰 Total"
     },
     "buy": {
@@ -19,7 +19,7 @@
     "crime": {
         "bloqueado": "You have the Economy Locked. Contact the support server to appeal.",
         "crime": "You have received {{money}} for stealing from the owner, correeee",
-        "noCrime": "It seems you don't know how to quietly enter the places and they took you away {{money}} starcoins.",
+        "noCrime": "Parece que no sabes entrar silenciosamente a los lugares y te quitaron {{money}} starcoins.",
         "title": "🕵️‍♂️ Crime"
     },
     "daily": {
@@ -31,7 +31,7 @@
     "deposite": {
         "bloqueado": "You have the Economy Locked. Contact the support guild to appeal.",
         "falta": "You do not have enough coins.",
-        "mensaje": "Successfully deposited `{{cantidad}}` in your bank",
+        "mensaje": "Depositado `{{cantidad}}` en tu banco con éxito.",
         "noCantidad": "Invalid amount.",
         "noMoney": "It seems you have nothing to deposit.",
         "title": "🏛 To deposit"
@@ -45,8 +45,8 @@
     },
     "dirty": {
         "bloqueado": "You have the Economy Locked. Contact the support guild to appeal.",
-        "mensaje": "You have received `{{money}}` starcoins for doing odd jobs",
-        "noMensaje": "It seems that the client ran away and you lost `{{money}}` starcoins.",
+        "mensaje": "Has recibido `{{money}}` starcoins por hacer trabajos poco comunes",
+        "noMensaje": "Parece que el cliente huyó y perdiste `{{money}}` starcoins.",
         "title": "👱‍️ Indecent Work"
     },
     "flipcoin": {
@@ -79,7 +79,7 @@
             "backgrounds": "Backgrounds",
             "description": "To buy background you have to use `{{prefix}}buy <name>`.\nSymbology: 📥Purchase",
             "main": "🖼 Main Background:",
-            "num": "Number of backgrounds:",
+            "num": "Número de fodos:",
             "secon": "🖼 Secondary Background:"
         },
         "description": "To buy items you have to use `{{prefix}}buy <name> [quantity]`. To sell items use `{{prefix}}sell <item> [quantity]`\nSymbology:\n📥Purchase\n📤Sale",
@@ -110,33 +110,33 @@
     },
     "trade": {
         "bloqueado": "You have the Economy Locked. Contact the support guild to appeal.",
-        "mensaje": "You have received {{money}} for doing dangerous trades",
-        "noMensaje": "It looks like the police saw you and took you away {{money}}.",
+        "mensaje": "Has recibido {{money}} por hacer comercios peligrosos.",
+        "noMensaje": "Parece que la policía te vio y te quitaron {{money}}.",
         "title": "💎🏬 Trade"
     },
     "trans": {
-        "automencion": "`{{money}}` starcoins successfully transferred to StarLight's national bank. \nThanks for choosing us.",
-        "awaitMessage": "Verify and accept by placing `{{numero}}` to transfer `{{dinero}}` starcoins.\n\n*It has a 15% commission for the transfer.*",
+        "automencion": "`{{money}}` starcoins transferidos correctamente al banco nacional de StarLight. Gracias por preferirnos.",
+        "awaitMessage": "Verifica y acepta colocando `{{numero}}` para transferir `{{dinero}}` starcoins.\n*Tiene un 15% de comisión por la transferencia.*",
         "bloqueado": "You have the Economy Locked. Contact the support guild to appeal.",
         "falta": "You do not have enough coins.",
-        "mensaje": "Successful transfer It was given to {{miembro}} the amount of `{{cantidad}}` starcoins.",
-        "noMoney": "It seems that you have no money to transfer.",
-        "noQuantity": "Invalid quantity.",
+        "mensaje": "Transferencia exitosa. Se dio a {{miembro}} la cantidad de `{{cantidad}}` starcoins.",
+        "noMoney": "Parece que no tienes dinero para transferir.",
+        "noQuantity": "Cantidad no válida.",
         "noTiempo": "⏳ Expired Time ❌",
         "title": "💱 Transfer"
     },
     "withdraw": {
         "bloqueado": "You have the Economy Locked. Contact the support guild to appeal.",
         "falta": "You do not have enough coins.",
-        "mensaje": "Successful withdrawal `{{cantidad}}` in your pocket, leaving in your bank `{{banco}}`",
+        "mensaje": "Retiró `{{cantidad}}` con éxito, dejando tu banco con `{{banco}}`.",
         "noCantidad": "Invalid amount.",
         "noMoney": "It seems you have nothing to withdraw.",
         "title": "💸 Retirement"
     },
     "work": {
         "bloqueado": "You have the Economy Locked. Contact the support guild to appeal.",
-        "mensaje": "You just received {{money}} coins!",
-        "mensajeDar": "You just gave {{money}} user coins {{miembro}}!",
+        "mensaje": "¡Acabas de recibir {{money}} monedas!",
+        "mensajeDar": "¡Acabas de dar {{money}} monedas a {{miembro}}!",
         "title": "👷 ‍Work"
     }
 }
