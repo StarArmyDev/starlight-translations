@@ -3,8 +3,8 @@
         "ok": "✅ Sugerencia mandada al servidor de soporte.\n*Cualquier abuso de este u otro comando va a ser sancionado.*"
     },
     "bugreport": {
-        "correcto": "**Tu error fue reportado correctamente.**\nVa a ser revisado, así que, por favor, sé paciente.\n*Para mayor asistencia o ayuda, podés entrar al servidor de soporte o escribirle al MD al creador.*",
-        "error": "Hubo un problema al mandar el mensaje. Podés mandarme un mensaje al privado como alternativa."
+        "correcto": "**Tu error fue reportado correctamente.**\nVa a ser revisado, así que, por favor, sé paciente.\n*Para mayor asistencia o ayuda, podés entrar al servidor de soporte*",
+        "error": "Hubo un problema al mandar el mensaje."
     },
     "davichostar": {
         "description": "Soy el creador de este bot y vengo a presentarme.\n\nSoy un desarrollador mexicano con experiencia en TypeScript (TS) y NodeJS principalmente, pero también conozco Java, Python, C#, C++ con menor habilidad y estoy aprendiendo tecnologías como ReactJS, VueJS y Flutter.\n\nSé de diseño gráfico pero me apasioné por la computación y el conjunto de estas pequeñas habilidades me permitieron crear bots, con sus diseños y banners, sus páginas web y su servidor de soporte.\n\nCorreo Electrónico: *davichostar@protonmail.com*",
@@ -71,8 +71,8 @@
         "webTitle": "🖥 Página Web"
     },
     "ping": {
-        "description": "Pong!\n📡 API: {{ping}}.\n🗃 Base de datos: {{db}}.",
-        "descriptionGateway": "¡Pong!\n📡 API: {{ping}}.\n🗃 Base de datos: {{db}}.\n⏳ Puerta de Enlace: {{gateway}}.",
+        "description": "**Tiempo de respuesta**\n📡 API: {{ping}}.\n🗃 Base de datos: {{db}}.",
+        "descriptionGateway": "**Tiempo de respuesta**\n📡 API: {{ping}}.\n🗃 Base de datos: {{db}}.\n⏳ Puerta de Enlace: {{gateway}}.",
         "footer": "Máquina Virtual Privada"
     },
     "premium": {
