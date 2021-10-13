@@ -1,7 +1,7 @@
 {
     "balance": {
         "banco": "🏦 Banco",
-        "bloqueado": "Perdón, tenés la economía bloqueada por alguna razón.",
+        "bloqueado": "Lo siento, tienes la economía bloqueada por alguna razón.",
         "bolcillo": "🌟 Bolsillo",
         "money": "Economía",
         "mult": "Multiplicador",
@@ -79,7 +79,7 @@
             "backgrounds": "Fondos",
             "description": "Para comprar ítems tienes que usar `{{prefix}}buy <nombre>`.\nSimbología: 📥Compra",
             "main": "🖼 Fondo Principal:",
-            "num": "Número de fondos:",
+            "num": "Número de fodos:",
             "secon": "🖼 Fondo Secundario:"
         },
         "description": "Para comprar ítems tienes que usar `{{prefix}}buy <nombre> [cantidad]`. Para vender ítems usa `{{prefix}}sell <ítem> [cantidad]`\nSimbología:\n📥Compra\n📤Venta",
