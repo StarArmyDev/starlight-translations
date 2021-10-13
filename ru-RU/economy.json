@@ -79,7 +79,7 @@
             "backgrounds": "Fondos",
             "description": "Para comprar ítems tienes que usar `{{prefix}}buy <nombre>`.\nSimbología: 📥Compra",
             "main": "🖼 Fondo Principal:",
-            "num": "Número de fondos:",
+            "num": "Número de fodos:",
             "secon": "🖼 Fondo Secundario:"
         },
         "description": "Para comprar ítems tienes que usar `{{prefix}}buy <nombre> [cantidad]`. Para vender ítems usa `{{prefix}}sell <ítem> [cantidad]`\nSimbología:\n📥Compra\n📤Venta",
@@ -115,13 +115,13 @@
         "title": "💎🏬 Comerciar"
     },
     "trans": {
-        "automencion": "Старкоины `{{money}}` успешно переведены в национальный банк StarLight. \nСпасибо, что выбрали нас.",
-        "awaitMessage": "Подтвердите и примите, разместив \"{{numero}}\" для перевода старкоинов {{dinero}}.\n\n*Комиссия за перевод составляет 15%.*",
+        "automencion": "`{{money}}` starcoins transferidos correctamente al banco nacional de StarLight. Gracias por preferirnos.",
+        "awaitMessage": "Verifica y acepta colocando `{{numero}}` para transferir `{{dinero}}` starcoins.\n*Tiene un 15% de comisión por la transferencia.*",
         "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",
         "falta": "Usted no tiene monedas suficientes.",
         "mensaje": "Transferencia exitosa. Se dio a {{miembro}} la cantidad de `{{cantidad}}` starcoins.",
-        "noMoney": "Похоже, у вас нет денег для перевода.",
-        "noQuantity": "Неверное количество.",
+        "noMoney": "Parece que no tienes dinero para transferir.",
+        "noQuantity": "Cantidad no válida.",
         "noTiempo": "⏳ Tiempo expirado ❌",
         "title": "💱 Transferencia"
     },
