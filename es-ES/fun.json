@@ -38,7 +38,7 @@
     "love": {
         "author": "El porcentaje de amor entre {{user1}} y {{user2}} es de:",
         "noMencion": "Menciona a dos usuarios para calcular.",
-        "rand100": "No hay duda de que aquí hay amor cx, ¡no sé qué esperan! <3",
+        "rand100": "No hay duda de que aquí hay amor, ¡No sé qué esperan! <3",
         "rand20": "Uff, parece que no existe la posibilidad de amigos. Lo siento ;-;",
         "rand50": "Parece que no existe mucho amor, pero pueden ser buenos amigos c:",
         "rand80": "Esto tiene posibilidad, muy probable que terminen siendo novios :3",

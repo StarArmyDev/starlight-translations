@@ -130,7 +130,7 @@
     "scared": {},
     "slap": {
         "all": "{{author}} se puso a golpear a todos, cuidado.",
-        "author": "{{author}}, ¿por qué quieres golpearte a tí mismo? Eso no es bueno amigo, ¡para!",
+        "author": "{{author}}, ¿por qué quieres golpearte a ti mismo? Eso no es bueno amigo, ¡para!",
         "bot": "No... no me quiero golpear, ¿por qué no me quieres, {{author}}? :'c",
         "error": "❌ Parece que hubo un error, verifica la mención.",
         "user": "{{author}} golpeó a {{user}} o\\_o\\r",
@@ -142,7 +142,7 @@
         "bot": "Buenas noches, que descanses, {{author}} cx",
         "error": "❌ Parece que hubo un error, verifica la mención.",
         "user": "{{author}} se quedó dormido con {{user}} :3, ¿o lo durmió? :0",
-        "users": "{{author}} tiene una fista de pijamas con {{users}}, yeiiii."
+        "users": "{{author}} tiene una fista de pijamas con {{users}}, Siii."
     },
     "splash": {},
     "spray": {},
