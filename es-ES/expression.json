@@ -75,7 +75,7 @@
     },
     "like": {},
     "nope": {
-        "bot": "{{author}}, tú NO.",
+        "bot": "{{author}} Tú no.",
         "author": "{{author}} niega rotundamente.",
         "users": "{{author}} les dice que NO, {{users}}.",
         "user": "{{author}} le dice que NO a {{user}}.",
