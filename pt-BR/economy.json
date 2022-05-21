@@ -116,14 +116,15 @@
     },
     "trans": {
         "automencion": "`{{money}}` starcoins transferidos correctamente al banco nacional de StarLight. Gracias por preferirnos.",
-        "awaitMessage": "Verifica y acepta colocando `{{numero}}` para transferir `{{dinero}}` starcoins.\n*Tiene un 15% de comisión por la transferencia.*",
+        "awaitMessage": "Selecciona `{{id}}` para transferir `{{money}}` starcoins.\n*15% de comisión en cada transferencia*",
         "bloqueado": "O seu sistema econômico está bloqueado. [Contate-nos em nosso servidor de suporte](https://discord.gg/MZN8Yf6).",
         "falta": "Você não tem starcoins suficientes.",
-        "mensaje": "Transferencia exitosa. Se dio a {{miembro}} la cantidad de `{{cantidad}}` starcoins.",
+        "mensaje": "Transferencia exitosa. Se dio a {{money}} la cantidad de `{{money}}` starcoins.",
         "noMoney": "Parece que no tienes dinero para transferir.",
         "noQuantity": "Cantidad no válida.",
         "noTiempo": "⏳ Tempo expirado ❌",
-        "title": "💱 Transferência"
+        "title": "💱 Transferência",
+        "wrongSelection": "❌ | Opción Incorrecta.\nRevisa el código nuevamente."
     },
     "withdraw": {
         "bloqueado": "O seu sistema econômico está bloqueado. [Contate-nos em nosso servidor de suporte](https://discord.gg/MZN8Yf6).",
