@@ -19,9 +19,9 @@
         "noEnviar": "No puedes escribir en el canal mencionado."
     },
     "ban": {
-        "autoMencion": "¡¿Por qué quieres banearte?!",
+        "autoMencion": "¡¿Por qué quieres bloquearte?!",
         "mod": "👮‍♂️ Moderador",
-        "noBan": "No puedo banear al usuario. Es probable que tenga un rol mayor que el mío.",
+        "noBan": "No puedo bloquear al usuario. Es probable que tenga un rol mayor que el mío.",
         "noBot": "`❌|`No tengo permisos de banear en este servidor.",
         "noPrivado": "No puedo enviar mensajes privados al usuario.",
         "noRazon": "Ninguna.",
@@ -70,7 +70,7 @@
         "noValidName": "`❌|` Nombre muy largo",
         "process": "⏳ Creando rol... espere un momento.",
         "reason": "Comando CreateMute",
-        "rolemute": "Muteado",
+        "rolemute": "Silenciado",
         "title": "✅ Rol Creado"
     },
     "deny": {
@@ -129,7 +129,7 @@
         "noUser": "No pude encontrar al usuario.",
         "noUserRol": "No se pudo asignar el rol al usuario.",
         "razon": "📄 Razón",
-        "razonRol": "Autocreación de rol para mutear usuarios.",
+        "razonRol": "Auto-creación de rol para silenciar usuarios.",
         "rolMute": "Muteado",
         "tiempo": "Tiempo",
         "title": "🔇 Muteado",
