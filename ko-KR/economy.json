@@ -116,14 +116,15 @@
     },
     "trans": {
         "automencion": "`{{money}}` 스타코인이 StarLight의 국립 은행으로 성공적으로 이체되었습니다. \n저희를 선택해 주셔서 감사합니다.",
-        "awaitMessage": "`{{numero}}`를 배치하여 `{{dinero}}` 스타코인을 전송하여 확인하고 수락합니다.\n\n*송금 수수료는 15%입니다.*",
+        "awaitMessage": "`{{id}}`를 선택하여 `{{money}}` 스타코인을 이체하세요.\n*각 이체에 대해 15% 수수료*",
         "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",
         "falta": "Usted no tiene monedas suficientes.",
-        "mensaje": "Transferencia exitosa. Se dio a {{miembro}} la cantidad de `{{cantidad}}` starcoins.",
+        "mensaje": "Transferencia exitosa. Se dio a {{money}} la cantidad de `{{money}}` starcoins.",
         "noMoney": "송금할 돈이 없는 것 같습니다.",
         "noQuantity": "잘못된 수량입니다.",
         "noTiempo": "⏳ Tiempo expirado ❌",
-        "title": "💱 Transferencia"
+        "title": "💱 Transferencia",
+        "wrongSelection": "❌ | 틀린 선택.\n코드를 다시 확인하십시오."
     },
     "withdraw": {
         "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",

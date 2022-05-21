@@ -116,14 +116,15 @@
     },
     "trans": {
         "automencion": "`{{money}}` スターコインはStarLightの国立銀行に正常に送金されました。\n私たちを選んでくれてありがとう。",
-        "awaitMessage": "`{{numero}}`を配置して `{{dinero}}`スターコインを転送することにより、確認して承認します。\n\n*転送には15％の手数料がかかります*",
+        "awaitMessage": "`{{id}}`を選択して、`{{money}}`スターコインを転送します。\n*転送ごとに15％の手数料*",
         "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",
         "falta": "Usted no tiene monedas suficientes.",
-        "mensaje": "Transferencia exitosa. Se dio a {{miembro}} la cantidad de `{{cantidad}}` starcoins.",
+        "mensaje": "Transferencia exitosa. Se dio a {{money}} la cantidad de `{{money}}` starcoins.",
         "noMoney": "送金するお金がないようです。",
         "noQuantity": "数量が無効です。",
         "noTiempo": "⏳ Tiempo expirado ❌",
-        "title": "💱 Transferencia"
+        "title": "💱 Transferencia",
+        "wrongSelection": "❌|間違った選択。\nコードをもう一度確認してください。"
     },
     "withdraw": {
         "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",

@@ -116,14 +116,15 @@
     },
     "trans": {
         "automencion": "`{{money}}` starcoins successfully transferred to StarLight's national bank. \nThanks for choosing us.",
-        "awaitMessage": "Verify and accept by placing `{{numero}}` to transfer `{{dinero}}` starcoins.\n\n*It has a 15% commission for the transfer.*",
+        "awaitMessage": "Select `{{id}}` to transfer `{{money}}` starcoins.\n*15% commission on each transfer*",
         "bloqueado": "You have the Economy Locked. Contact the support guild to appeal.",
         "falta": "You do not have enough coins.",
-        "mensaje": "Successful transfer It was given to {{miembro}} the amount of `{{cantidad}}` starcoins.",
+        "mensaje": "Successful transfer It was given to {{money}} the amount of `{{money}}` starcoins.",
         "noMoney": "It seems that you have no money to transfer.",
         "noQuantity": "Invalid quantity.",
         "noTiempo": "⏳ Expired Time ❌",
-        "title": "💱 Transfer"
+        "title": "💱 Transfer",
+        "wrongSelection": "❌ | Wrong Choice. \nCheck the code again."
     },
     "withdraw": {
         "bloqueado": "You have the Economy Locked. Contact the support guild to appeal.",

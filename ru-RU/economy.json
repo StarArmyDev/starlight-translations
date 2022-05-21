@@ -116,14 +116,15 @@
     },
     "trans": {
         "automencion": "Старкоины `{{money}}` успешно переведены в национальный банк StarLight. \nСпасибо, что выбрали нас.",
-        "awaitMessage": "Подтвердите и примите, разместив \"{{numero}}\" для перевода старкоинов {{dinero}}.\n\n*Комиссия за перевод составляет 15%.*",
+        "awaitMessage": "Выберите `{{id}}`, чтобы перевести `{{money}}` starcoins.\n*15% комиссия за каждый перевод*",
         "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",
         "falta": "Usted no tiene monedas suficientes.",
-        "mensaje": "Transferencia exitosa. Se dio a {{miembro}} la cantidad de `{{cantidad}}` starcoins.",
+        "mensaje": "Transferencia exitosa. Se dio a {{money}} la cantidad de `{{money}}` starcoins.",
         "noMoney": "Похоже, у вас нет денег для перевода.",
         "noQuantity": "Неверное количество.",
         "noTiempo": "⏳ Tiempo expirado ❌",
-        "title": "💱 Transferencia"
+        "title": "💱 Transferencia",
+        "wrongSelection": "❌ | Неправильный выбор.\nПроверьте код еще раз."
     },
     "withdraw": {
         "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",
