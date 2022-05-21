@@ -1,9 +1,9 @@
 {
     "balance": {
         "banco": "🏦 Banco",
-        "bloqueado": "O seu sistema econômico está bloqueado. [Contate-nos em nosso servidor de suporte](https://discord.gg/MZN8Yf6).",
-        "bolcillo": "🌟 Bolso",
-        "money": "Economia",
+        "bloqueado": "Lo siento, tienes la economía bloqueada por alguna razón.",
+        "bolcillo": "🌟 Bolsillo",
+        "money": "Economía",
         "mult": "Multiplicador",
         "total": "💰 Total"
     },
@@ -19,7 +19,7 @@
     "crime": {
         "bloqueado": "O seu sistema econômico está bloqueado. [Contate-nos em nosso servidor de suporte](https://discord.gg/MZN8Yf6).",
         "crime": "Você recebeu {{money}} por roubar o proprietário, corra!",
-        "noCrime": "Parece que você não sabe entrar silenciosamente aos lugares e lhe tiraram {{money}} starcoins.",
+        "noCrime": "Parece que no sabes entrar silenciosamente a los lugares y te quitaron {{money}} starcoins.",
         "title": "🕵️‍♂️ Crime"
     },
     "daily": {
@@ -31,7 +31,7 @@
     "deposite": {
         "bloqueado": "O seu sistema econômico está bloqueado. [Contate-nos em nosso servidor de suporte](https://discord.gg/MZN8Yf6).",
         "falta": "Você não tem starcoins suficientes.",
-        "mensaje": "Depositado `{{cantidad}}` em seu banco com sucesso.",
+        "mensaje": "Depositado `{{cantidad}}` en tu banco con éxito.",
         "noCantidad": "Quantidade não válida.",
         "noMoney": "Não tens nada para depositar.",
         "title": "🏛 Depositar"
@@ -45,8 +45,8 @@
     },
     "dirty": {
         "bloqueado": "O seu sistema econômico está bloqueado. [Contate-nos em nosso servidor de suporte](https://discord.gg/MZN8Yf6).",
-        "mensaje": "Você recebeu `{{money}}` starcoins por fazer trabalhos incomuns.",
-        "noMensaje": "Parece que o cliente fugiu e você perdeu `{{money}}` starcoins.",
+        "mensaje": "Has recibido `{{money}}` starcoins por hacer trabajos poco comunes",
+        "noMensaje": "Parece que el cliente huyó y perdiste `{{money}}` starcoins.",
         "title": "👱‍️ Trabalho indecente"
     },
     "flipcoin": {
@@ -79,7 +79,7 @@
             "backgrounds": "Fundos",
             "description": "Para comprar itens você precisa usar `{{prefix}}buy <nome>`.\nSimbologia: 📥Compra",
             "main": "🖼 Fundo principal:",
-            "num": "Número de fundos:",
+            "num": "Número de fodos:",
             "secon": "🖼 Fundo secundário:"
         },
         "description": "Para comprar itens você tem que usar `{{prefix}}buy <nome> [quantidade]`. Para vender itens usa `{{prefix}}sell <nome> [quantidade]`.\nSimbologia:\n📥Compra\n📤Venta",
@@ -110,8 +110,8 @@
     },
     "trade": {
         "bloqueado": "O seu sistema econômico está bloqueado. [Contate-nos em nosso servidor de suporte](https://discord.gg/MZN8Yf6).",
-        "mensaje": "Você recebeu {{money}} por fazer comércios perigosos.",
-        "noMensaje": "Parece que a polícia te viu e tirou {{money}}.",
+        "mensaje": "Has recibido {{money}} por hacer comercios peligrosos.",
+        "noMensaje": "Parece que la policía te vio y te quitaron {{money}}.",
         "title": "💎🏬 Trocar"
     },
     "trans": {
@@ -119,7 +119,7 @@
         "awaitMessage": "Selecione `{{id}}` para transferir `{{money}}` starcoins.\n*Comissão de 15% em cada transferência*",
         "bloqueado": "O seu sistema econômico está bloqueado. Contate-nos em nosso servidor de suporte.",
         "falta": "Você não tem starcoins suficientes.",
-        "mensaje": "Transferência bem sucedida. Foi dado a {{money}} o montante de `{{money}}` starcoins.",
+        "mensaje": "Transferência bem sucedida. Foi dado a {{member}} o montante de `{{money}}` starcoins.",
         "noMoney": "Parece que você não tem dinheiro para transferir.",
         "noQuantity": "Quantidade inválida.",
         "noTiempo": "⏳ Tempo expirado ❌",
@@ -129,15 +129,15 @@
     "withdraw": {
         "bloqueado": "O seu sistema econômico está bloqueado. [Contate-nos em nosso servidor de suporte](https://discord.gg/MZN8Yf6).",
         "falta": "Você não tem starcoins suficientes.",
-        "mensaje": "Você retirou `{{cantidad}}` com sucesso, deixando seu banco com `{{banco}}`.",
+        "mensaje": "Retiró `{{cantidad}}` con éxito, dejando tu banco con `{{banco}}`.",
         "noCantidad": "Quantidade não válida.",
         "noMoney": "Não tens nada para depositar.",
         "title": "💸 Levantamento"
     },
     "work": {
         "bloqueado": "O seu sistema econômico está bloqueado. [Contate-nos em nosso servidor de suporte](https://discord.gg/MZN8Yf6).",
-        "mensaje": "Você acabou de receber {{money}} starcoins!",
-        "mensajeDar": "Você acabou de dar {{money}} starcoins para {{miembro}}!",
+        "mensaje": "¡Acabas de recibir {{money}} monedas!",
+        "mensajeDar": "¡Acabas de dar {{money}} monedas a {{miembro}}!",
         "title": "👷 ‍Trabalho"
     }
 }

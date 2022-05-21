@@ -1,6 +1,6 @@
 {
     "trans": {
-        "mensaje": "Transferencia exitosa. Se dio a {{money}} la cantidad de `{{money}}` starcoins.",
+        "mensaje": "Transferencia exitosa. Se dio a {{member}} la cantidad de `{{money}}` starcoins.",
         "wrongSelection": "❌ | Opción Incorrecta.\nRevisa el código nuevamente."
     }
 }

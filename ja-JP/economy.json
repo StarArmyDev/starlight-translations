@@ -79,7 +79,7 @@
             "backgrounds": "Fondos",
             "description": "Para comprar ítems tienes que usar `{{prefix}}buy <nombre>`.\nSimbología: 📥Compra",
             "main": "🖼 Fondo Principal:",
-            "num": "Número de fondos:",
+            "num": "Número de fodos:",
             "secon": "🖼 Fondo Secundario:"
         },
         "description": "Para comprar ítems tienes que usar `{{prefix}}buy <nombre> [cantidad]`. Para vender ítems usa `{{prefix}}sell <ítem> [cantidad]`\nSimbología:\n📥Compra\n📤Venta",
@@ -119,7 +119,7 @@
         "awaitMessage": "`{{id}}`を選択して、`{{money}}`スターコインを転送します。\n*転送ごとに15％の手数料*",
         "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",
         "falta": "Usted no tiene monedas suficientes.",
-        "mensaje": "Transferencia exitosa. Se dio a {{money}} la cantidad de `{{money}}` starcoins.",
+        "mensaje": "Transferencia exitosa. Se dio a {{member}} la cantidad de `{{money}}` starcoins.",
         "noMoney": "送金するお金がないようです。",
         "noQuantity": "数量が無効です。",
         "noTiempo": "⏳ Tiempo expirado ❌",

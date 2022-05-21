@@ -79,7 +79,7 @@
             "backgrounds": "Fondos",
             "description": "Para comprar ítems tienes que usar `{{prefix}}buy <nombre>`.\nSimbología: 📥Compra",
             "main": "🖼 Fondo Principal:",
-            "num": "Número de fondos:",
+            "num": "Número de fodos:",
             "secon": "🖼 Fondo Secundario:"
         },
         "description": "Para comprar ítems tienes que usar `{{prefix}}buy <nombre> [cantidad]`. Para vender ítems usa `{{prefix}}sell <ítem> [cantidad]`\nSimbología:\n📥Compra\n📤Venta",
@@ -119,7 +119,7 @@
         "awaitMessage": "Sélectionnez `{{id}}` pour transférer `{{money}}` starcoins.\n*15 % de commission sur chaque transfert*",
         "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",
         "falta": "Usted no tiene monedas suficientes.",
-        "mensaje": "Transferencia exitosa. Se dio a {{money}} la cantidad de `{{money}}` starcoins.",
+        "mensaje": "Transferencia exitosa. Se dio a {{member}} la cantidad de `{{money}}` starcoins.",
         "noMoney": "Il semble que vous n'ayez pas d'argent à transférer.",
         "noQuantity": "Quantité invalide.",
         "noTiempo": "⏳ Tiempo expirado ❌",

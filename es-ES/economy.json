@@ -2,7 +2,7 @@
     "balance": {
         "banco": "🏦 Banco",
         "bloqueado": "Lo siento, tienes la economía bloqueada por alguna razón.",
-        "bolcillo": "👛 Cartera",
+        "bolcillo": "🌟 Bolsillo",
         "money": "Economía",
         "mult": "Multiplicador",
         "total": "💰 Total"
@@ -79,7 +79,7 @@
             "backgrounds": "Fondos",
             "description": "Para comprar ítems tienes que usar `{{prefix}}buy <nombre>`.\nSimbología: 📥Compra",
             "main": "🖼 Fondo Principal:",
-            "num": "Número de fondos:",
+            "num": "Número de fodos:",
             "secon": "🖼 Fondo Secundario:"
         },
         "description": "Para comprar ítems tienes que usar `{{prefix}}buy <nombre> [cantidad]`. Para vender ítems usa `{{prefix}}sell <ítem> [cantidad]`\nSimbología:\n📥Compra\n📤Venta",
@@ -111,7 +111,7 @@
     "trade": {
         "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",
         "mensaje": "Has recibido {{money}} por hacer comercios peligrosos.",
-        "noMensaje": "La policía pilló haciendo comercios peligrosos y has tenido que pagar una multa de {{money}}.",
+        "noMensaje": "Parece que la policía te vio y te quitaron {{money}}.",
         "title": "💎🏬 Comerciar"
     },
     "trans": {
@@ -136,7 +136,7 @@
     },
     "work": {
         "bloqueado": "Tienes la economía bloqueada. Contacta con el servidor de soporte para apelar.",
-        "mensaje": "¡Recibes {{money}} por trabajar!",
+        "mensaje": "¡Acabas de recibir {{money}} monedas!",
         "mensajeDar": "¡Acabas de dar {{money}} monedas a {{miembro}}!",
         "title": "👷 ‍Trabajo"
     }
